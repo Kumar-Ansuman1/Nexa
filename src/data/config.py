@@ -97,3 +97,33 @@ ACQUISITION_CHANNEL_WEIGHTS = {
     "Partner": 10,
     "Sales": 15,
 }
+
+# Baseline monthly activity event ranges by plan
+PLAN_ACTIVITY_RANGES = {
+    "Free": (20, 60),
+    "Starter": (50, 120),
+    "Business": (100, 250),
+}
+
+# Relative frequency of product events
+EVENT_WEIGHTS = {
+    "login": 30,
+    "feature_used": 25,
+    "report_created": 10,
+    "integration_connected": 8,
+    "integration_failed": 2,
+    "team_member_invited": 5,
+    "dashboard_viewed": 20,
+}
+
+# Monthly activity multipliers for customers affected by the
+# simulated integration problem
+AFFECTED_ACTIVITY_MULTIPLIERS = {
+    1: 1.00,  # January
+    2: 0.95,  # February
+    3: 0.75,  # March
+    4: 0.65,  # April
+}
+
+# Base probability of being affected by the simulated integration problem
+AFFECTED_BASE_PROBABILITY = 0.20

@@ -1,0 +1,9 @@
+Flowdesk Support Knowledge Base
+
+Common support categories include billing, integrations, account access, bugs, performance issues, and feature requests.
+
+For integration problems, support should verify the connection status, authentication credentials, permissions, and recent synchronization errors.
+
+For performance issues, support should collect information about the affected feature, approximate time of occurrence, and frequency of the problem.
+
+Support tickets should include enough information for the technical team to reproduce or investigate the reported issue.

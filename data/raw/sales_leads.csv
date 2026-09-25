@@ -1,0 +1,2001 @@
+lead_id,company_size,industry,source,plan_interest,sales_stage,deal_value,outcome,converted_customer_id
+L000001,945,E-commerce,Referral,Business,Qualified,14597,In Progress,
+L000002,110,E-commerce,Paid Ads,Starter,Proposal,12972,Lost,
+L000003,450,E-commerce,Paid Ads,Starter,Qualified,656,Lost,
+L000004,833,Marketing,Partner,Business,Proposal,19936,Lost,
+L000005,639,Professional Services,Referral,Business,Qualified,8200,Converted,C0596
+L000006,302,E-commerce,Outbound,Business,Proposal,12142,In Progress,
+L000007,631,IT Services,Outbound,Business,Negotiation,1550,In Progress,
+L000008,395,Education,Partner,Business,New,18897,Lost,
+L000009,421,Professional Services,Paid Ads,Business,New,10635,Lost,
+L000010,552,Healthcare,Website,Starter,Proposal,4247,Converted,C0041
+L000011,5,Professional Services,Partner,Starter,Demo,16724,Lost,
+L000012,117,FinTech,Partner,Starter,Proposal,8132,In Progress,
+L000013,394,FinTech,Outbound,Business,Proposal,17253,Lost,
+L000014,438,Marketing,Partner,Business,Negotiation,7766,Converted,C0069
+L000015,24,E-commerce,Partner,Free,Negotiation,4234,Lost,
+L000016,639,IT Services,Referral,Business,New,7679,Converted,C0328
+L000017,160,IT Services,Outbound,Starter,Qualified,19847,Lost,
+L000018,729,IT Services,Website,Starter,New,19483,Converted,C0493
+L000019,897,Marketing,Partner,Business,Negotiation,6119,Converted,C0130
+L000020,596,IT Services,Partner,Business,Proposal,13778,In Progress,
+L000021,436,Education,Referral,Business,Demo,6591,Lost,
+L000022,485,Professional Services,Outbound,Starter,Qualified,15382,Converted,C0040
+L000023,824,Education,Website,Starter,Negotiation,6377,Converted,C0304
+L000024,646,SaaS,Partner,Business,New,19020,Lost,
+L000025,798,Healthcare,Outbound,Business,New,847,Converted,C0684
+L000026,25,Healthcare,Referral,Free,Negotiation,1148,In Progress,
+L000027,194,Healthcare,Outbound,Business,New,15550,Converted,C0700
+L000028,166,E-commerce,Paid Ads,Starter,Demo,10582,In Progress,
+L000029,782,Marketing,Referral,Business,Demo,11744,Converted,C0350
+L000030,942,FinTech,Partner,Business,Demo,10354,Lost,
+L000031,698,SaaS,Website,Business,Demo,16575,Converted,C0225
+L000032,547,FinTech,Website,Business,Proposal,2948,Converted,C0614
+L000033,672,Healthcare,Paid Ads,Starter,New,18261,In Progress,
+L000034,73,FinTech,Website,Business,Negotiation,3235,Converted,C0714
+L000035,644,IT Services,Paid Ads,Business,New,19529,Lost,
+L000036,760,Healthcare,Website,Business,Demo,13900,In Progress,
+L000037,374,SaaS,Partner,Business,Negotiation,7406,Converted,C0724
+L000038,502,Education,Referral,Business,Negotiation,4818,In Progress,
+L000039,868,IT Services,Website,Starter,Negotiation,12079,Lost,
+L000040,679,FinTech,Paid Ads,Starter,Demo,14370,In Progress,
+L000041,292,Marketing,Partner,Business,Demo,4293,In Progress,
+L000042,102,Professional Services,Paid Ads,Starter,Qualified,11860,Converted,C0724
+L000043,253,Education,Website,Business,Demo,4721,Converted,C0962
+L000044,535,E-commerce,Partner,Business,Proposal,14349,Converted,C0508
+L000045,29,Professional Services,Partner,Starter,Qualified,3456,Converted,C0299
+L000046,250,SaaS,Paid Ads,Business,New,15512,In Progress,
+L000047,123,IT Services,Outbound,Starter,New,13993,In Progress,
+L000048,94,E-commerce,Website,Starter,Negotiation,2592,In Progress,
+L000049,48,Professional Services,Website,Free,Negotiation,17302,In Progress,
+L000050,643,Healthcare,Paid Ads,Starter,New,16183,In Progress,
+L000051,158,Marketing,Website,Starter,Negotiation,15246,Lost,
+L000052,45,SaaS,Paid Ads,Free,New,15968,Converted,C0064
+L000053,730,IT Services,Outbound,Business,Negotiation,14963,Converted,C0988
+L000054,638,SaaS,Paid Ads,Starter,Demo,10436,In Progress,
+L000055,552,FinTech,Website,Business,Demo,12721,Converted,C0082
+L000056,230,IT Services,Partner,Business,Qualified,6991,Converted,C0396
+L000057,396,Healthcare,Outbound,Business,Qualified,2672,Converted,C0681
+L000058,122,IT Services,Referral,Starter,Negotiation,14475,In Progress,
+L000059,786,FinTech,Paid Ads,Business,Negotiation,15314,In Progress,
+L000060,991,E-commerce,Website,Business,Qualified,3158,Lost,
+L000061,733,SaaS,Outbound,Business,New,575,In Progress,
+L000062,601,E-commerce,Referral,Starter,Proposal,3832,Lost,
+L000063,881,E-commerce,Website,Business,Qualified,19928,In Progress,
+L000064,147,FinTech,Partner,Starter,Demo,1430,Converted,C0842
+L000065,762,Professional Services,Referral,Business,Negotiation,4555,In Progress,
+L000066,689,FinTech,Paid Ads,Business,Negotiation,12347,Lost,
+L000067,511,IT Services,Paid Ads,Business,Proposal,7451,Lost,
+L000068,736,IT Services,Outbound,Business,Qualified,4328,Lost,
+L000069,700,Education,Referral,Business,New,7035,In Progress,
+L000070,60,Education,Referral,Starter,Negotiation,2542,In Progress,
+L000071,858,SaaS,Partner,Starter,Proposal,11357,Lost,
+L000072,381,Healthcare,Paid Ads,Business,Proposal,14694,In Progress,
+L000073,113,Marketing,Paid Ads,Starter,Demo,10739,Converted,C0948
+L000074,511,Professional Services,Outbound,Business,Demo,6019,Lost,
+L000075,649,IT Services,Paid Ads,Business,New,11163,Converted,C0396
+L000076,172,Healthcare,Website,Business,Negotiation,5313,In Progress,
+L000077,79,IT Services,Website,Business,Qualified,3502,Lost,
+L000078,756,Professional Services,Partner,Business,Proposal,8146,In Progress,
+L000079,809,Healthcare,Partner,Starter,Qualified,15905,In Progress,
+L000080,526,Healthcare,Paid Ads,Starter,Demo,3974,Lost,
+L000081,784,Healthcare,Website,Business,Demo,8622,Lost,
+L000082,228,IT Services,Outbound,Starter,Demo,5588,In Progress,
+L000083,444,Marketing,Referral,Business,Qualified,4769,Converted,C0705
+L000084,947,Healthcare,Paid Ads,Business,Qualified,1049,Lost,
+L000085,101,Marketing,Referral,Business,Demo,18060,Lost,
+L000086,943,Healthcare,Outbound,Business,Qualified,15404,Lost,
+L000087,280,Healthcare,Website,Business,New,5653,In Progress,
+L000088,493,SaaS,Outbound,Starter,Proposal,2397,In Progress,
+L000089,239,Healthcare,Paid Ads,Starter,Demo,10401,Lost,
+L000090,484,Healthcare,Partner,Starter,Proposal,11628,Lost,
+L000091,819,E-commerce,Paid Ads,Business,Negotiation,9360,In Progress,
+L000092,199,E-commerce,Partner,Business,New,4644,Converted,C0676
+L000093,812,Marketing,Referral,Business,Negotiation,3503,In Progress,
+L000094,469,IT Services,Outbound,Business,Demo,12827,In Progress,
+L000095,874,E-commerce,Website,Business,Negotiation,14814,Lost,
+L000096,995,Education,Referral,Starter,Negotiation,16201,Converted,C0978
+L000097,186,FinTech,Partner,Starter,Negotiation,15676,Lost,
+L000098,536,E-commerce,Outbound,Business,New,18268,Converted,C0317
+L000099,274,Education,Referral,Business,Negotiation,9599,Converted,C0526
+L000100,209,Marketing,Website,Business,Negotiation,9598,Converted,C0588
+L000101,895,Education,Referral,Business,Proposal,12035,Lost,
+L000102,932,Healthcare,Paid Ads,Business,Demo,9660,Lost,
+L000103,68,Marketing,Paid Ads,Starter,Demo,11741,Lost,
+L000104,960,SaaS,Outbound,Starter,Negotiation,12365,Lost,
+L000105,688,FinTech,Referral,Business,New,14694,Lost,
+L000106,257,Education,Paid Ads,Starter,Qualified,9631,Lost,
+L000107,887,IT Services,Outbound,Starter,Demo,13032,Lost,
+L000108,467,E-commerce,Referral,Starter,Negotiation,1541,In Progress,
+L000109,631,E-commerce,Referral,Business,Proposal,6680,Lost,
+L000110,826,SaaS,Website,Business,Demo,10531,In Progress,
+L000111,293,Marketing,Paid Ads,Business,Demo,6080,In Progress,
+L000112,557,Marketing,Paid Ads,Business,Qualified,3329,In Progress,
+L000113,899,IT Services,Referral,Business,Demo,17748,Lost,
+L000114,666,FinTech,Website,Business,Negotiation,8072,Lost,
+L000115,85,E-commerce,Website,Starter,New,999,In Progress,
+L000116,535,FinTech,Outbound,Business,Negotiation,11277,Converted,C0950
+L000117,229,Healthcare,Partner,Starter,Negotiation,6496,Lost,
+L000118,79,Healthcare,Website,Starter,Proposal,8196,Lost,
+L000119,65,FinTech,Partner,Business,Negotiation,6612,Lost,
+L000120,103,E-commerce,Website,Business,New,19530,Converted,C0440
+L000121,58,Healthcare,Partner,Business,Negotiation,7267,Lost,
+L000122,214,Education,Referral,Business,Qualified,18222,Lost,
+L000123,692,Education,Partner,Business,Qualified,4266,In Progress,
+L000124,167,FinTech,Outbound,Business,Qualified,14564,Converted,C0160
+L000125,424,E-commerce,Partner,Business,Proposal,1477,Converted,C0693
+L000126,892,E-commerce,Website,Starter,Negotiation,13073,Lost,
+L000127,420,FinTech,Outbound,Starter,New,2410,In Progress,
+L000128,525,IT Services,Partner,Business,Negotiation,15713,Lost,
+L000129,196,IT Services,Paid Ads,Business,New,5559,Converted,C0517
+L000130,159,SaaS,Website,Starter,Qualified,11699,In Progress,
+L000131,295,E-commerce,Website,Starter,Qualified,19451,Lost,
+L000132,923,Education,Website,Business,Demo,2304,Converted,C0466
+L000133,339,Professional Services,Outbound,Business,Qualified,15733,Converted,C0628
+L000134,810,E-commerce,Website,Business,New,4795,In Progress,
+L000135,958,IT Services,Referral,Starter,Demo,3965,Converted,C0331
+L000136,575,Marketing,Paid Ads,Business,Proposal,18353,Converted,C0129
+L000137,146,Marketing,Paid Ads,Starter,Negotiation,14784,Converted,C0839
+L000138,616,IT Services,Partner,Business,Qualified,14222,In Progress,
+L000139,301,Professional Services,Website,Business,New,16089,Converted,C0697
+L000140,724,SaaS,Referral,Business,Negotiation,14830,Lost,
+L000141,397,Marketing,Referral,Business,Proposal,1571,Converted,C0903
+L000142,454,Marketing,Paid Ads,Business,Proposal,19406,Converted,C0860
+L000143,732,SaaS,Partner,Business,Negotiation,13291,In Progress,
+L000144,449,Healthcare,Website,Business,Demo,6838,Converted,C0640
+L000145,462,Marketing,Referral,Starter,Demo,2125,Converted,C0610
+L000146,288,IT Services,Website,Starter,Negotiation,15064,In Progress,
+L000147,231,SaaS,Website,Business,Demo,9584,Converted,C0728
+L000148,509,FinTech,Website,Business,Demo,12575,Lost,
+L000149,506,E-commerce,Paid Ads,Starter,New,5199,In Progress,
+L000150,366,Professional Services,Outbound,Business,Demo,14551,Converted,C0591
+L000151,14,FinTech,Partner,Starter,Negotiation,16144,Converted,C0554
+L000152,711,E-commerce,Outbound,Business,Demo,4872,Converted,C0247
+L000153,764,Healthcare,Paid Ads,Starter,Qualified,5624,Converted,C0490
+L000154,56,Healthcare,Partner,Business,Negotiation,19238,Converted,C0773
+L000155,333,Healthcare,Partner,Starter,Qualified,11437,Converted,C0440
+L000156,189,SaaS,Website,Business,Demo,15748,In Progress,
+L000157,445,SaaS,Outbound,Business,Negotiation,18667,Lost,
+L000158,481,FinTech,Website,Starter,Proposal,18544,Lost,
+L000159,468,Marketing,Referral,Business,Demo,2810,Converted,C0595
+L000160,592,SaaS,Website,Business,Qualified,7904,Lost,
+L000161,47,Healthcare,Website,Free,Demo,14513,In Progress,
+L000162,469,Healthcare,Partner,Business,Qualified,13432,In Progress,
+L000163,971,SaaS,Partner,Business,New,17013,In Progress,
+L000164,216,Education,Partner,Business,Proposal,11254,Converted,C0723
+L000165,981,Marketing,Referral,Business,Demo,2221,Converted,C0731
+L000166,703,Education,Paid Ads,Business,New,18169,In Progress,
+L000167,327,IT Services,Website,Starter,Proposal,19247,In Progress,
+L000168,830,SaaS,Outbound,Business,Demo,16679,Converted,C0222
+L000169,900,Marketing,Paid Ads,Business,New,18284,Lost,
+L000170,433,E-commerce,Outbound,Business,Negotiation,4983,In Progress,
+L000171,564,Professional Services,Paid Ads,Business,Proposal,9720,In Progress,
+L000172,819,E-commerce,Outbound,Business,Demo,7829,Converted,C0219
+L000173,462,E-commerce,Partner,Business,Demo,19278,Converted,C0362
+L000174,766,Education,Referral,Business,New,12313,In Progress,
+L000175,87,Marketing,Partner,Business,Negotiation,8781,Converted,C0755
+L000176,443,SaaS,Referral,Business,Qualified,1146,In Progress,
+L000177,29,IT Services,Paid Ads,Free,Negotiation,11948,Lost,
+L000178,930,E-commerce,Paid Ads,Starter,New,11287,In Progress,
+L000179,608,IT Services,Outbound,Business,Demo,19210,In Progress,
+L000180,752,Professional Services,Referral,Starter,Negotiation,7531,In Progress,
+L000181,135,Healthcare,Partner,Business,Proposal,14709,Lost,
+L000182,671,Healthcare,Outbound,Business,Proposal,17499,In Progress,
+L000183,208,SaaS,Paid Ads,Business,Proposal,7371,In Progress,
+L000184,456,E-commerce,Partner,Business,Demo,15413,In Progress,
+L000185,665,Education,Partner,Business,Demo,19304,Converted,C0747
+L000186,835,Healthcare,Paid Ads,Business,Proposal,4986,Converted,C0478
+L000187,764,IT Services,Partner,Business,New,17742,Lost,
+L000188,630,Healthcare,Website,Starter,Qualified,12774,Lost,
+L000189,570,Marketing,Partner,Business,Demo,19653,In Progress,
+L000190,728,SaaS,Paid Ads,Business,Demo,14508,Lost,
+L000191,626,Healthcare,Partner,Business,Proposal,16042,Converted,C0597
+L000192,442,Professional Services,Paid Ads,Starter,Qualified,8093,Lost,
+L000193,337,SaaS,Website,Business,Qualified,8836,Converted,C0733
+L000194,469,E-commerce,Referral,Business,Proposal,3356,Converted,C0403
+L000195,527,Education,Paid Ads,Starter,Qualified,4495,Lost,
+L000196,839,Education,Outbound,Business,Demo,10694,In Progress,
+L000197,731,FinTech,Outbound,Business,Demo,14281,Lost,
+L000198,986,IT Services,Paid Ads,Business,Demo,1979,Lost,
+L000199,364,Education,Website,Business,New,19288,Converted,C0085
+L000200,996,Professional Services,Partner,Starter,Qualified,13155,Converted,C0642
+L000201,583,Education,Partner,Business,Proposal,13884,Converted,C0253
+L000202,202,IT Services,Partner,Starter,Demo,3943,Lost,
+L000203,284,E-commerce,Website,Business,Demo,11069,Converted,C0870
+L000204,199,E-commerce,Referral,Starter,Demo,19652,Lost,
+L000205,830,SaaS,Paid Ads,Business,Proposal,19037,Converted,C0411
+L000206,739,IT Services,Referral,Business,Negotiation,4248,Lost,
+L000207,157,E-commerce,Outbound,Starter,Demo,2521,In Progress,
+L000208,876,SaaS,Partner,Starter,New,3322,In Progress,
+L000209,239,IT Services,Referral,Business,Negotiation,13728,Converted,C0203
+L000210,299,SaaS,Paid Ads,Business,Demo,9108,In Progress,
+L000211,187,Healthcare,Referral,Starter,Qualified,12790,In Progress,
+L000212,279,E-commerce,Referral,Starter,Negotiation,8894,In Progress,
+L000213,631,Professional Services,Referral,Business,Qualified,12730,Lost,
+L000214,729,Professional Services,Paid Ads,Business,Demo,2751,Converted,C0631
+L000215,422,E-commerce,Website,Business,Proposal,8021,Lost,
+L000216,445,E-commerce,Outbound,Business,Demo,11881,In Progress,
+L000217,566,E-commerce,Referral,Starter,Negotiation,10210,Lost,
+L000218,90,FinTech,Website,Business,Proposal,1569,In Progress,
+L000219,630,E-commerce,Paid Ads,Business,Qualified,16336,In Progress,
+L000220,329,FinTech,Referral,Starter,New,17948,Converted,C0889
+L000221,372,Professional Services,Partner,Starter,Negotiation,9046,Converted,C0506
+L000222,846,FinTech,Paid Ads,Starter,Negotiation,2207,In Progress,
+L000223,631,IT Services,Partner,Starter,Qualified,19022,In Progress,
+L000224,554,Education,Website,Business,Qualified,5296,In Progress,
+L000225,249,E-commerce,Referral,Starter,Proposal,4775,Lost,
+L000226,779,E-commerce,Partner,Business,Demo,4466,Lost,
+L000227,448,FinTech,Referral,Business,New,19227,In Progress,
+L000228,162,E-commerce,Outbound,Starter,Qualified,6403,Lost,
+L000229,416,E-commerce,Referral,Business,Proposal,17714,In Progress,
+L000230,542,Education,Referral,Starter,Qualified,19491,In Progress,
+L000231,232,Healthcare,Partner,Business,Qualified,3248,Lost,
+L000232,410,SaaS,Website,Business,Qualified,15482,Converted,C0320
+L000233,484,E-commerce,Partner,Business,Qualified,7509,Lost,
+L000234,562,Healthcare,Paid Ads,Starter,Negotiation,1840,Lost,
+L000235,419,Healthcare,Partner,Starter,New,19876,In Progress,
+L000236,84,SaaS,Partner,Business,Qualified,4323,In Progress,
+L000237,317,SaaS,Referral,Business,Negotiation,5771,Converted,C0820
+L000238,653,Education,Paid Ads,Business,New,1503,Converted,C0451
+L000239,643,SaaS,Website,Business,Demo,6178,In Progress,
+L000240,789,Healthcare,Paid Ads,Business,Proposal,13233,Lost,
+L000241,964,Education,Website,Business,Demo,9146,Converted,C0977
+L000242,530,Marketing,Partner,Business,Qualified,2906,In Progress,
+L000243,396,Marketing,Outbound,Business,Proposal,11024,Converted,C0470
+L000244,432,Professional Services,Outbound,Business,Qualified,4535,Lost,
+L000245,774,Education,Website,Starter,Negotiation,3201,In Progress,
+L000246,822,IT Services,Referral,Business,Proposal,12190,Lost,
+L000247,853,E-commerce,Partner,Business,New,18148,Converted,C0141
+L000248,89,SaaS,Partner,Starter,Negotiation,15664,Lost,
+L000249,136,Healthcare,Website,Business,New,16940,In Progress,
+L000250,94,Healthcare,Referral,Business,Proposal,6207,Converted,C0882
+L000251,678,Healthcare,Partner,Business,Qualified,1073,Lost,
+L000252,179,FinTech,Website,Business,Qualified,13893,Lost,
+L000253,452,SaaS,Partner,Business,Negotiation,1487,In Progress,
+L000254,684,SaaS,Website,Business,Qualified,11693,Converted,C0905
+L000255,646,Professional Services,Website,Business,Demo,1110,Lost,
+L000256,720,SaaS,Outbound,Business,New,19765,Lost,
+L000257,395,FinTech,Website,Business,Qualified,2715,Lost,
+L000258,700,SaaS,Paid Ads,Starter,Demo,1454,In Progress,
+L000259,74,FinTech,Paid Ads,Starter,Proposal,2579,Converted,C0572
+L000260,56,FinTech,Partner,Business,New,18035,Converted,C0711
+L000261,382,Professional Services,Paid Ads,Business,Proposal,10205,Converted,C0735
+L000262,805,Healthcare,Referral,Business,Demo,8273,Converted,C0600
+L000263,599,Marketing,Referral,Business,New,13206,Lost,
+L000264,199,Healthcare,Partner,Starter,Proposal,1440,Converted,C0178
+L000265,181,Healthcare,Website,Business,Proposal,17996,Converted,C0412
+L000266,99,E-commerce,Outbound,Starter,Demo,7685,In Progress,
+L000267,115,SaaS,Paid Ads,Business,Qualified,14882,In Progress,
+L000268,362,SaaS,Website,Business,Negotiation,12881,Lost,
+L000269,873,Marketing,Outbound,Business,New,12934,Converted,C0479
+L000270,66,E-commerce,Partner,Business,Qualified,11551,In Progress,
+L000271,711,E-commerce,Outbound,Starter,New,17624,In Progress,
+L000272,428,FinTech,Partner,Starter,Demo,16330,In Progress,
+L000273,459,E-commerce,Paid Ads,Business,Demo,8817,In Progress,
+L000274,231,Education,Referral,Business,Proposal,6136,Converted,C0350
+L000275,135,IT Services,Website,Starter,New,12538,Lost,
+L000276,178,E-commerce,Website,Business,New,6873,In Progress,
+L000277,511,SaaS,Outbound,Business,Negotiation,7308,In Progress,
+L000278,301,IT Services,Referral,Business,New,9822,Converted,C0089
+L000279,890,Marketing,Outbound,Business,Demo,10947,Converted,C0278
+L000280,865,E-commerce,Paid Ads,Business,Qualified,19029,In Progress,
+L000281,378,Education,Website,Business,New,10365,Converted,C0518
+L000282,723,Healthcare,Outbound,Starter,Negotiation,4291,Lost,
+L000283,235,Education,Partner,Business,Demo,15245,Lost,
+L000284,882,Healthcare,Website,Business,New,15073,Converted,C0175
+L000285,858,Professional Services,Outbound,Business,Proposal,15312,In Progress,
+L000286,577,Professional Services,Paid Ads,Starter,Negotiation,19443,Lost,
+L000287,63,Healthcare,Referral,Starter,Demo,12984,Lost,
+L000288,390,IT Services,Partner,Business,Negotiation,9067,In Progress,
+L000289,92,Healthcare,Paid Ads,Business,Negotiation,17888,In Progress,
+L000290,401,E-commerce,Paid Ads,Business,Negotiation,18708,Lost,
+L000291,153,FinTech,Paid Ads,Starter,Demo,13763,Converted,C0991
+L000292,934,Marketing,Partner,Business,Negotiation,16800,Lost,
+L000293,573,IT Services,Website,Business,Proposal,8235,Lost,
+L000294,276,FinTech,Outbound,Starter,Demo,15491,Lost,
+L000295,796,E-commerce,Referral,Business,New,758,In Progress,
+L000296,985,SaaS,Website,Business,New,1869,Lost,
+L000297,9,SaaS,Partner,Starter,Qualified,10528,Lost,
+L000298,622,Healthcare,Website,Starter,Proposal,14235,Lost,
+L000299,992,Marketing,Referral,Business,Qualified,1062,In Progress,
+L000300,888,IT Services,Website,Starter,Negotiation,14300,In Progress,
+L000301,422,IT Services,Referral,Business,Qualified,14518,Lost,
+L000302,612,Healthcare,Website,Starter,Negotiation,1657,Converted,C0378
+L000303,533,Marketing,Referral,Business,Qualified,1890,Converted,C0295
+L000304,361,E-commerce,Partner,Business,Negotiation,1533,In Progress,
+L000305,842,Education,Paid Ads,Business,Negotiation,1106,In Progress,
+L000306,935,FinTech,Website,Business,Negotiation,1264,In Progress,
+L000307,451,Healthcare,Referral,Business,Proposal,7724,Converted,C0582
+L000308,371,Healthcare,Partner,Business,Demo,19556,Lost,
+L000309,692,E-commerce,Outbound,Business,Negotiation,5871,Lost,
+L000310,387,E-commerce,Outbound,Business,Demo,8635,In Progress,
+L000311,756,Professional Services,Outbound,Business,Demo,4134,Converted,C0976
+L000312,43,Professional Services,Referral,Starter,Proposal,14570,In Progress,
+L000313,142,IT Services,Referral,Starter,Proposal,2205,Converted,C0074
+L000314,586,SaaS,Partner,Starter,Negotiation,6299,Lost,
+L000315,730,Marketing,Partner,Business,Proposal,6427,Lost,
+L000316,76,SaaS,Website,Business,New,17696,In Progress,
+L000317,982,FinTech,Referral,Starter,Negotiation,1542,Converted,C0946
+L000318,418,E-commerce,Paid Ads,Business,Proposal,3730,Converted,C0197
+L000319,7,IT Services,Referral,Free,Proposal,12442,In Progress,
+L000320,400,Education,Paid Ads,Business,Qualified,10198,Lost,
+L000321,901,Healthcare,Outbound,Business,Demo,2198,Converted,C0363
+L000322,42,SaaS,Referral,Starter,Qualified,16295,In Progress,
+L000323,642,SaaS,Outbound,Business,Qualified,10596,In Progress,
+L000324,970,Education,Paid Ads,Business,Demo,4182,In Progress,
+L000325,114,Education,Partner,Business,Proposal,6017,Lost,
+L000326,52,IT Services,Paid Ads,Business,Demo,14017,In Progress,
+L000327,137,Education,Referral,Starter,Proposal,1796,Converted,C0142
+L000328,50,E-commerce,Partner,Free,Demo,2579,Converted,C0488
+L000329,69,Professional Services,Partner,Starter,Proposal,16178,Converted,C0385
+L000330,903,Marketing,Referral,Business,Proposal,6226,Lost,
+L000331,508,Education,Paid Ads,Starter,Proposal,18826,Converted,C0994
+L000332,120,IT Services,Referral,Starter,Qualified,8890,Converted,C0036
+L000333,240,FinTech,Partner,Starter,New,10372,Converted,C0186
+L000334,456,Healthcare,Website,Business,New,12218,Lost,
+L000335,966,SaaS,Website,Business,Negotiation,19248,Converted,C0454
+L000336,141,IT Services,Referral,Starter,Demo,6782,Converted,C0868
+L000337,195,Healthcare,Partner,Starter,Negotiation,18460,Lost,
+L000338,525,Healthcare,Referral,Business,New,13274,In Progress,
+L000339,633,Professional Services,Outbound,Business,Negotiation,14261,In Progress,
+L000340,921,SaaS,Outbound,Business,Qualified,7905,Lost,
+L000341,259,E-commerce,Paid Ads,Starter,New,7560,In Progress,
+L000342,748,FinTech,Website,Starter,Negotiation,8889,Lost,
+L000343,102,FinTech,Paid Ads,Starter,Qualified,8746,Lost,
+L000344,886,Marketing,Paid Ads,Starter,Proposal,6517,Converted,C0771
+L000345,493,Marketing,Referral,Starter,New,5912,Lost,
+L000346,459,SaaS,Paid Ads,Business,New,13183,Lost,
+L000347,15,FinTech,Paid Ads,Free,New,10680,In Progress,
+L000348,773,IT Services,Outbound,Business,Demo,15515,In Progress,
+L000349,416,IT Services,Website,Business,Proposal,10450,Lost,
+L000350,130,Healthcare,Paid Ads,Starter,Demo,6545,In Progress,
+L000351,525,Marketing,Outbound,Business,Negotiation,4472,In Progress,
+L000352,711,IT Services,Website,Business,Negotiation,514,Lost,
+L000353,624,E-commerce,Partner,Business,Proposal,7910,Converted,C0188
+L000354,945,IT Services,Partner,Business,Qualified,16070,Lost,
+L000355,922,Professional Services,Website,Business,Proposal,16297,Converted,C0400
+L000356,877,Healthcare,Referral,Business,Demo,13359,Lost,
+L000357,570,Education,Paid Ads,Business,New,10238,Lost,
+L000358,704,Professional Services,Paid Ads,Business,Proposal,13408,In Progress,
+L000359,663,Marketing,Website,Starter,Proposal,16109,Converted,C0200
+L000360,957,FinTech,Paid Ads,Business,Proposal,7620,Converted,C0229
+L000361,298,Professional Services,Partner,Business,Qualified,7532,Lost,
+L000362,891,FinTech,Outbound,Starter,Proposal,5117,Converted,C0765
+L000363,574,Professional Services,Referral,Business,Demo,14594,In Progress,
+L000364,981,IT Services,Referral,Business,Qualified,5067,Lost,
+L000365,987,Education,Referral,Business,New,15030,Lost,
+L000366,88,FinTech,Partner,Business,Demo,10665,Lost,
+L000367,751,E-commerce,Partner,Business,Negotiation,5777,In Progress,
+L000368,281,Education,Partner,Starter,Negotiation,16333,Converted,C0392
+L000369,95,SaaS,Outbound,Starter,Demo,5832,Lost,
+L000370,531,Marketing,Referral,Business,New,2484,Lost,
+L000371,301,Marketing,Website,Business,Proposal,7967,Lost,
+L000372,216,Healthcare,Paid Ads,Business,Negotiation,16129,Lost,
+L000373,793,Professional Services,Referral,Business,Qualified,8193,In Progress,
+L000374,159,Professional Services,Outbound,Starter,Proposal,18465,Lost,
+L000375,148,SaaS,Website,Starter,Demo,8677,In Progress,
+L000376,384,E-commerce,Website,Business,Proposal,10635,In Progress,
+L000377,476,Professional Services,Website,Business,Negotiation,702,Lost,
+L000378,222,FinTech,Outbound,Starter,Demo,4678,Converted,C0694
+L000379,940,SaaS,Referral,Business,New,5310,Converted,C0455
+L000380,507,SaaS,Referral,Business,New,10495,In Progress,
+L000381,34,Education,Paid Ads,Starter,New,1182,In Progress,
+L000382,774,SaaS,Partner,Business,Qualified,16897,Converted,C0082
+L000383,750,Marketing,Outbound,Starter,Proposal,2842,Converted,C0687
+L000384,556,Education,Website,Business,Negotiation,17932,Lost,
+L000385,636,FinTech,Outbound,Business,Demo,15096,Converted,C0331
+L000386,387,Education,Website,Starter,Demo,16190,Converted,C0248
+L000387,449,Professional Services,Outbound,Business,Demo,5141,Lost,
+L000388,199,FinTech,Paid Ads,Starter,New,9952,Lost,
+L000389,559,Professional Services,Outbound,Starter,Qualified,11366,In Progress,
+L000390,744,Professional Services,Paid Ads,Business,Negotiation,6031,Converted,C0111
+L000391,663,Professional Services,Outbound,Starter,New,17384,Lost,
+L000392,737,SaaS,Partner,Business,Negotiation,8681,Converted,C0695
+L000393,209,SaaS,Website,Business,Negotiation,4605,Lost,
+L000394,266,Marketing,Paid Ads,Starter,New,16001,Converted,C0042
+L000395,187,Education,Outbound,Business,Demo,4844,In Progress,
+L000396,702,E-commerce,Referral,Business,Demo,9489,Lost,
+L000397,684,Healthcare,Website,Business,Qualified,2511,Lost,
+L000398,68,Education,Website,Business,Demo,19513,Lost,
+L000399,85,IT Services,Referral,Starter,Demo,12865,Lost,
+L000400,778,SaaS,Paid Ads,Business,Negotiation,10540,In Progress,
+L000401,753,E-commerce,Partner,Starter,Proposal,19637,Converted,C0702
+L000402,813,IT Services,Referral,Starter,New,13753,Lost,
+L000403,943,E-commerce,Partner,Business,New,4990,Lost,
+L000404,517,Professional Services,Paid Ads,Starter,New,18726,Converted,C0135
+L000405,650,SaaS,Partner,Business,Qualified,15295,In Progress,
+L000406,402,Marketing,Website,Starter,Qualified,3259,Converted,C0882
+L000407,326,Healthcare,Outbound,Starter,Negotiation,15260,Converted,C0506
+L000408,140,FinTech,Paid Ads,Starter,New,9441,Converted,C0043
+L000409,37,FinTech,Partner,Starter,Demo,10044,Lost,
+L000410,756,Professional Services,Website,Business,Demo,2608,Lost,
+L000411,857,SaaS,Partner,Starter,New,8024,In Progress,
+L000412,324,FinTech,Outbound,Starter,New,7846,Lost,
+L000413,50,E-commerce,Outbound,Free,Qualified,19075,In Progress,
+L000414,211,IT Services,Website,Business,Demo,15298,Lost,
+L000415,59,SaaS,Partner,Business,Negotiation,7943,Converted,C0939
+L000416,499,Marketing,Paid Ads,Starter,New,10407,Converted,C0816
+L000417,644,Marketing,Referral,Business,Qualified,4342,Converted,C0579
+L000418,441,FinTech,Partner,Business,Demo,17358,In Progress,
+L000419,192,Marketing,Referral,Business,Proposal,5862,In Progress,
+L000420,232,Education,Referral,Business,Demo,16124,In Progress,
+L000421,67,SaaS,Paid Ads,Business,Proposal,7899,Converted,C0056
+L000422,766,Marketing,Partner,Business,Qualified,9794,Converted,C0531
+L000423,811,Education,Partner,Starter,Proposal,6292,Converted,C0846
+L000424,751,FinTech,Outbound,Starter,Negotiation,7379,In Progress,
+L000425,869,Education,Outbound,Business,Demo,16915,Lost,
+L000426,499,E-commerce,Outbound,Business,Demo,18102,Lost,
+L000427,116,IT Services,Referral,Starter,New,8147,Converted,C0718
+L000428,482,Professional Services,Outbound,Starter,New,4731,In Progress,
+L000429,8,Professional Services,Partner,Free,Negotiation,2194,Converted,C0980
+L000430,281,Professional Services,Partner,Business,Qualified,19304,Lost,
+L000431,372,Education,Website,Business,Proposal,3776,In Progress,
+L000432,256,Professional Services,Paid Ads,Business,Qualified,15320,Converted,C0515
+L000433,982,FinTech,Partner,Business,New,14108,Lost,
+L000434,270,SaaS,Paid Ads,Business,Qualified,10272,Converted,C0941
+L000435,63,Healthcare,Paid Ads,Starter,Negotiation,7514,Converted,C0222
+L000436,324,Healthcare,Paid Ads,Starter,New,6488,Converted,C0306
+L000437,944,SaaS,Website,Business,Proposal,15925,Lost,
+L000438,621,FinTech,Paid Ads,Starter,Demo,8380,In Progress,
+L000439,564,IT Services,Referral,Business,Qualified,18188,In Progress,
+L000440,838,Healthcare,Paid Ads,Business,Qualified,15810,Lost,
+L000441,599,Education,Outbound,Business,Proposal,16616,Converted,C0714
+L000442,539,FinTech,Paid Ads,Starter,Qualified,4079,Lost,
+L000443,586,E-commerce,Paid Ads,Business,Negotiation,6884,In Progress,
+L000444,957,Professional Services,Outbound,Business,Demo,9794,Converted,C0471
+L000445,486,E-commerce,Outbound,Business,Proposal,13894,Lost,
+L000446,933,Professional Services,Paid Ads,Business,Negotiation,15289,Lost,
+L000447,706,Healthcare,Partner,Starter,New,4675,In Progress,
+L000448,597,Professional Services,Website,Business,Demo,7223,In Progress,
+L000449,107,Professional Services,Paid Ads,Business,Qualified,16929,Lost,
+L000450,880,E-commerce,Website,Business,Qualified,19856,Lost,
+L000451,894,Marketing,Paid Ads,Business,Demo,2416,Converted,C0898
+L000452,700,IT Services,Referral,Starter,New,8967,Lost,
+L000453,936,Healthcare,Referral,Starter,New,7514,Converted,C0023
+L000454,314,Professional Services,Outbound,Starter,Negotiation,1215,Converted,C0836
+L000455,521,SaaS,Partner,Business,Demo,18568,In Progress,
+L000456,930,Education,Partner,Business,Qualified,2302,In Progress,
+L000457,981,Marketing,Outbound,Starter,Demo,7928,Lost,
+L000458,477,Professional Services,Referral,Business,Proposal,3471,Converted,C0884
+L000459,677,FinTech,Paid Ads,Business,New,10472,Lost,
+L000460,929,FinTech,Partner,Business,Proposal,17629,In Progress,
+L000461,671,E-commerce,Website,Business,Proposal,16247,Converted,C0851
+L000462,926,E-commerce,Referral,Business,Qualified,13045,Converted,C0413
+L000463,730,Marketing,Partner,Business,New,14588,Converted,C0756
+L000464,549,Marketing,Paid Ads,Business,Proposal,16448,Lost,
+L000465,160,Healthcare,Paid Ads,Starter,Qualified,18852,Converted,C0076
+L000466,210,SaaS,Partner,Business,Qualified,17525,Converted,C0825
+L000467,993,Education,Paid Ads,Starter,Proposal,13825,In Progress,
+L000468,903,FinTech,Website,Starter,Qualified,6364,Lost,
+L000469,941,FinTech,Website,Business,Demo,5568,Lost,
+L000470,365,FinTech,Outbound,Business,Qualified,12486,In Progress,
+L000471,639,Professional Services,Paid Ads,Starter,Demo,16715,Lost,
+L000472,221,Professional Services,Outbound,Starter,Demo,8678,Lost,
+L000473,871,Professional Services,Paid Ads,Business,Qualified,13040,Lost,
+L000474,1000,SaaS,Website,Business,Qualified,11106,In Progress,
+L000475,760,Education,Partner,Starter,Qualified,13944,In Progress,
+L000476,99,FinTech,Referral,Starter,Proposal,10359,Lost,
+L000477,811,E-commerce,Referral,Business,Proposal,12623,Lost,
+L000478,828,IT Services,Paid Ads,Business,New,12043,Converted,C0687
+L000479,449,Marketing,Outbound,Business,Proposal,10121,Lost,
+L000480,619,SaaS,Referral,Starter,Demo,10140,Lost,
+L000481,839,Professional Services,Partner,Business,Proposal,7009,Converted,C0717
+L000482,481,SaaS,Website,Business,Negotiation,9623,Lost,
+L000483,876,IT Services,Website,Business,New,9492,In Progress,
+L000484,467,SaaS,Website,Starter,Negotiation,19592,Lost,
+L000485,883,IT Services,Referral,Business,Proposal,7869,Converted,C0694
+L000486,366,Marketing,Paid Ads,Business,New,10896,Converted,C0647
+L000487,141,E-commerce,Referral,Starter,Qualified,14021,In Progress,
+L000488,591,Education,Outbound,Business,Qualified,13685,In Progress,
+L000489,588,Marketing,Referral,Business,Proposal,1957,In Progress,
+L000490,521,FinTech,Paid Ads,Starter,Proposal,17474,Lost,
+L000491,586,IT Services,Outbound,Starter,Negotiation,10493,Lost,
+L000492,594,Education,Website,Starter,Demo,11675,Converted,C0054
+L000493,382,Marketing,Website,Business,Qualified,9099,Converted,C0251
+L000494,281,IT Services,Referral,Business,Qualified,7358,Converted,C0632
+L000495,855,E-commerce,Paid Ads,Business,Proposal,11975,In Progress,
+L000496,276,FinTech,Outbound,Business,Negotiation,16493,Lost,
+L000497,630,IT Services,Referral,Business,Proposal,1870,Lost,
+L000498,717,Healthcare,Outbound,Starter,Proposal,9531,Lost,
+L000499,208,SaaS,Website,Business,Qualified,12085,Lost,
+L000500,841,Education,Partner,Business,Negotiation,19762,Lost,
+L000501,924,E-commerce,Outbound,Starter,Qualified,12753,In Progress,
+L000502,178,Healthcare,Referral,Starter,Proposal,12141,In Progress,
+L000503,375,Healthcare,Partner,Business,Qualified,15485,Converted,C0210
+L000504,460,FinTech,Outbound,Business,Negotiation,3668,In Progress,
+L000505,374,Healthcare,Referral,Business,Negotiation,17345,In Progress,
+L000506,406,IT Services,Website,Business,New,8794,Lost,
+L000507,804,SaaS,Paid Ads,Business,Proposal,7027,In Progress,
+L000508,627,Healthcare,Outbound,Business,Proposal,14586,Lost,
+L000509,591,FinTech,Partner,Starter,Proposal,7626,In Progress,
+L000510,717,Professional Services,Referral,Business,Negotiation,3262,In Progress,
+L000511,229,FinTech,Outbound,Starter,Proposal,5377,Converted,C0733
+L000512,176,Healthcare,Referral,Starter,Demo,18836,Lost,
+L000513,678,Education,Paid Ads,Business,Demo,4930,In Progress,
+L000514,308,FinTech,Referral,Business,Demo,17277,In Progress,
+L000515,516,Education,Referral,Business,Proposal,18882,Converted,C0367
+L000516,772,IT Services,Paid Ads,Business,Qualified,7506,Lost,
+L000517,357,Education,Partner,Business,Proposal,17574,In Progress,
+L000518,682,SaaS,Paid Ads,Starter,Negotiation,12934,Lost,
+L000519,942,Professional Services,Outbound,Business,Demo,18153,In Progress,
+L000520,286,IT Services,Outbound,Business,New,9502,Lost,
+L000521,721,Healthcare,Partner,Starter,Demo,15520,Lost,
+L000522,315,SaaS,Website,Business,Negotiation,6396,In Progress,
+L000523,507,SaaS,Partner,Business,New,14208,Lost,
+L000524,33,Healthcare,Referral,Free,Demo,12010,In Progress,
+L000525,658,IT Services,Paid Ads,Business,Negotiation,2034,Lost,
+L000526,735,Healthcare,Outbound,Business,Negotiation,969,Lost,
+L000527,448,E-commerce,Paid Ads,Business,Demo,6759,Converted,C0338
+L000528,64,E-commerce,Outbound,Starter,Negotiation,8053,In Progress,
+L000529,103,IT Services,Partner,Business,New,19701,Lost,
+L000530,552,Healthcare,Outbound,Business,Qualified,10090,In Progress,
+L000531,141,E-commerce,Partner,Business,Negotiation,8597,In Progress,
+L000532,981,IT Services,Website,Starter,Demo,17376,Lost,
+L000533,474,IT Services,Paid Ads,Starter,Proposal,9068,In Progress,
+L000534,448,IT Services,Paid Ads,Business,Demo,8199,Lost,
+L000535,684,Healthcare,Outbound,Business,Negotiation,4803,Lost,
+L000536,814,Education,Website,Business,Qualified,9084,Converted,C0872
+L000537,137,E-commerce,Referral,Business,New,15871,Converted,C0517
+L000538,678,IT Services,Referral,Starter,Demo,6787,Converted,C0535
+L000539,90,E-commerce,Paid Ads,Business,Negotiation,583,In Progress,
+L000540,539,Marketing,Website,Business,Qualified,2130,Lost,
+L000541,965,Healthcare,Referral,Starter,Qualified,12526,Lost,
+L000542,910,E-commerce,Partner,Business,New,2730,Converted,C0672
+L000543,740,Healthcare,Website,Business,New,671,In Progress,
+L000544,82,Professional Services,Paid Ads,Business,Negotiation,9484,Converted,C0367
+L000545,656,Healthcare,Paid Ads,Business,Qualified,4784,Converted,C1000
+L000546,248,Education,Website,Business,Qualified,18977,Converted,C0869
+L000547,718,IT Services,Referral,Business,Proposal,2364,In Progress,
+L000548,794,IT Services,Partner,Starter,Proposal,3682,Converted,C0032
+L000549,195,SaaS,Outbound,Business,Proposal,955,In Progress,
+L000550,956,SaaS,Paid Ads,Business,New,8187,Lost,
+L000551,618,SaaS,Outbound,Business,Demo,14928,Lost,
+L000552,455,Education,Website,Business,Qualified,5549,Converted,C0938
+L000553,175,IT Services,Outbound,Starter,Proposal,9121,In Progress,
+L000554,240,Healthcare,Website,Starter,Demo,12582,Converted,C0977
+L000555,128,Education,Website,Business,New,7102,Lost,
+L000556,278,FinTech,Website,Business,Negotiation,14704,In Progress,
+L000557,420,SaaS,Partner,Business,Demo,9185,Converted,C0512
+L000558,683,SaaS,Referral,Business,Qualified,11646,Lost,
+L000559,548,Education,Partner,Business,Proposal,15991,Converted,C0359
+L000560,110,Education,Paid Ads,Starter,Proposal,19566,In Progress,
+L000561,121,Professional Services,Paid Ads,Starter,Qualified,16351,Converted,C0616
+L000562,910,SaaS,Outbound,Business,Negotiation,13773,Lost,
+L000563,60,E-commerce,Referral,Business,Qualified,792,In Progress,
+L000564,54,E-commerce,Partner,Starter,Negotiation,17746,Converted,C0809
+L000565,288,Education,Partner,Business,Negotiation,10709,In Progress,
+L000566,472,SaaS,Partner,Business,Qualified,15149,Converted,C0218
+L000567,303,SaaS,Referral,Business,Demo,1392,Converted,C0335
+L000568,213,Education,Partner,Business,Demo,9884,Converted,C0227
+L000569,487,FinTech,Outbound,Starter,Negotiation,8053,Lost,
+L000570,527,FinTech,Outbound,Business,New,1028,Lost,
+L000571,959,FinTech,Paid Ads,Starter,Proposal,19863,Lost,
+L000572,687,Professional Services,Outbound,Business,Proposal,18652,Converted,C0539
+L000573,792,Education,Referral,Business,New,16460,In Progress,
+L000574,189,FinTech,Paid Ads,Business,Qualified,9368,In Progress,
+L000575,15,SaaS,Paid Ads,Starter,Qualified,8700,Lost,
+L000576,26,Professional Services,Paid Ads,Free,Demo,17646,Converted,C0021
+L000577,126,E-commerce,Referral,Business,Demo,14970,Lost,
+L000578,611,E-commerce,Referral,Business,Proposal,17076,In Progress,
+L000579,150,Education,Outbound,Starter,Negotiation,13369,Converted,C0940
+L000580,407,SaaS,Referral,Business,Proposal,16761,Lost,
+L000581,146,SaaS,Referral,Starter,Proposal,4873,In Progress,
+L000582,762,IT Services,Website,Starter,New,14870,Lost,
+L000583,749,Professional Services,Outbound,Business,Negotiation,2615,Lost,
+L000584,579,Education,Partner,Business,Proposal,1228,Lost,
+L000585,603,Marketing,Partner,Starter,New,1184,Converted,C0940
+L000586,364,Professional Services,Partner,Business,Demo,8913,Converted,C0218
+L000587,525,IT Services,Website,Starter,Demo,5681,Lost,
+L000588,923,Professional Services,Website,Business,New,16417,Lost,
+L000589,297,SaaS,Referral,Starter,Negotiation,640,Lost,
+L000590,324,Healthcare,Paid Ads,Business,Qualified,13012,Lost,
+L000591,850,Education,Outbound,Business,New,12972,Lost,
+L000592,636,FinTech,Referral,Starter,Negotiation,7493,Lost,
+L000593,11,Education,Paid Ads,Free,Demo,4413,In Progress,
+L000594,800,SaaS,Website,Business,Qualified,9532,Lost,
+L000595,655,Professional Services,Outbound,Business,Proposal,10846,In Progress,
+L000596,905,IT Services,Outbound,Business,Demo,9130,In Progress,
+L000597,849,FinTech,Outbound,Business,Proposal,15348,Converted,C0812
+L000598,589,Professional Services,Outbound,Starter,Qualified,7349,In Progress,
+L000599,798,Marketing,Website,Starter,Proposal,15652,In Progress,
+L000600,412,Professional Services,Paid Ads,Business,New,2598,Lost,
+L000601,809,Marketing,Referral,Business,New,1601,Lost,
+L000602,766,Healthcare,Referral,Starter,Qualified,6746,In Progress,
+L000603,749,Education,Referral,Business,Negotiation,4714,In Progress,
+L000604,284,Professional Services,Paid Ads,Business,Qualified,10865,Lost,
+L000605,307,E-commerce,Referral,Business,Negotiation,1712,Converted,C0585
+L000606,616,SaaS,Paid Ads,Business,Negotiation,12132,Lost,
+L000607,506,Healthcare,Referral,Business,Proposal,14768,Lost,
+L000608,251,Marketing,Referral,Business,New,15583,In Progress,
+L000609,624,Marketing,Website,Business,Qualified,9528,Converted,C0077
+L000610,965,E-commerce,Partner,Business,Qualified,9916,In Progress,
+L000611,577,Professional Services,Partner,Business,Demo,6904,Converted,C0877
+L000612,699,Healthcare,Paid Ads,Business,Proposal,1962,Lost,
+L000613,527,Professional Services,Referral,Business,New,1549,In Progress,
+L000614,344,Healthcare,Outbound,Business,Proposal,1714,In Progress,
+L000615,19,Marketing,Outbound,Business,Demo,2453,In Progress,
+L000616,82,Professional Services,Referral,Business,Proposal,8706,Lost,
+L000617,278,E-commerce,Website,Business,Negotiation,16645,Lost,
+L000618,27,SaaS,Outbound,Starter,Qualified,11282,In Progress,
+L000619,751,FinTech,Website,Starter,Demo,1057,In Progress,
+L000620,845,Professional Services,Paid Ads,Starter,Proposal,3218,Converted,C0677
+L000621,15,E-commerce,Outbound,Free,Proposal,10143,Lost,
+L000622,448,Professional Services,Website,Business,Negotiation,11846,Lost,
+L000623,694,Education,Outbound,Business,Negotiation,11173,Converted,C0237
+L000624,53,E-commerce,Website,Starter,Qualified,13186,Lost,
+L000625,705,Professional Services,Paid Ads,Business,Proposal,14041,Lost,
+L000626,948,SaaS,Partner,Business,Demo,14201,Converted,C0537
+L000627,207,Marketing,Paid Ads,Business,Negotiation,8028,Converted,C0495
+L000628,67,Professional Services,Paid Ads,Starter,New,15324,In Progress,
+L000629,840,IT Services,Outbound,Business,Negotiation,6422,Converted,C0246
+L000630,745,IT Services,Referral,Business,Qualified,5981,Lost,
+L000631,698,Healthcare,Referral,Starter,Demo,9130,Converted,C0447
+L000632,217,Healthcare,Paid Ads,Business,Demo,15182,Lost,
+L000633,589,Healthcare,Outbound,Business,Demo,9000,Converted,C0785
+L000634,519,IT Services,Website,Business,Qualified,3322,Converted,C0216
+L000635,439,E-commerce,Outbound,Business,New,14226,In Progress,
+L000636,620,E-commerce,Outbound,Business,New,17511,Lost,
+L000637,690,Education,Outbound,Business,Proposal,19007,Lost,
+L000638,804,Healthcare,Partner,Business,Qualified,13919,Converted,C0903
+L000639,583,Professional Services,Referral,Business,Demo,12954,In Progress,
+L000640,527,E-commerce,Outbound,Business,Negotiation,14896,Lost,
+L000641,714,Healthcare,Referral,Business,Proposal,4164,Lost,
+L000642,640,FinTech,Partner,Business,Negotiation,11544,Lost,
+L000643,155,Marketing,Referral,Business,Proposal,11259,Lost,
+L000644,181,Education,Paid Ads,Starter,Proposal,16918,Converted,C0786
+L000645,150,IT Services,Paid Ads,Starter,Demo,14662,In Progress,
+L000646,761,E-commerce,Website,Business,New,14207,In Progress,
+L000647,324,SaaS,Outbound,Starter,Proposal,17569,Lost,
+L000648,254,SaaS,Partner,Business,New,4901,Converted,C0585
+L000649,1000,Marketing,Website,Business,Qualified,18068,Converted,C0060
+L000650,902,Healthcare,Website,Business,Proposal,10611,Lost,
+L000651,352,Healthcare,Partner,Business,Proposal,18369,Converted,C0622
+L000652,584,Marketing,Partner,Starter,Demo,7078,Converted,C0319
+L000653,980,Professional Services,Paid Ads,Starter,Proposal,2537,Converted,C0871
+L000654,137,SaaS,Paid Ads,Starter,Proposal,3614,Lost,
+L000655,721,Marketing,Partner,Business,Demo,17544,Lost,
+L000656,996,Education,Paid Ads,Business,Negotiation,6332,In Progress,
+L000657,584,FinTech,Website,Business,Proposal,5049,In Progress,
+L000658,160,FinTech,Website,Business,Demo,1018,In Progress,
+L000659,237,Healthcare,Referral,Business,Proposal,5800,Converted,C0906
+L000660,950,SaaS,Website,Business,Negotiation,11438,Converted,C0896
+L000661,990,E-commerce,Website,Business,Negotiation,19453,In Progress,
+L000662,556,Marketing,Paid Ads,Starter,New,3318,In Progress,
+L000663,345,FinTech,Partner,Business,Demo,8749,In Progress,
+L000664,719,IT Services,Website,Business,Qualified,4601,Lost,
+L000665,119,Professional Services,Paid Ads,Starter,Negotiation,9149,Converted,C0528
+L000666,135,Marketing,Partner,Business,New,2820,Lost,
+L000667,868,SaaS,Outbound,Starter,New,5075,Converted,C0701
+L000668,58,Healthcare,Website,Starter,New,8286,In Progress,
+L000669,10,IT Services,Paid Ads,Starter,Proposal,3778,Lost,
+L000670,715,FinTech,Website,Business,Proposal,6715,Lost,
+L000671,924,IT Services,Paid Ads,Starter,New,9291,Converted,C0343
+L000672,930,Professional Services,Partner,Starter,Qualified,18347,Lost,
+L000673,23,Professional Services,Referral,Free,Qualified,6200,Lost,
+L000674,472,E-commerce,Referral,Business,Negotiation,3831,In Progress,
+L000675,628,IT Services,Website,Business,Qualified,7296,In Progress,
+L000676,650,IT Services,Website,Starter,Negotiation,9639,Lost,
+L000677,918,IT Services,Referral,Business,Negotiation,5621,Lost,
+L000678,623,E-commerce,Partner,Business,New,1326,Converted,C0097
+L000679,246,Education,Outbound,Business,Qualified,7072,Lost,
+L000680,537,E-commerce,Referral,Business,Demo,6737,Lost,
+L000681,559,FinTech,Paid Ads,Starter,New,14287,Converted,C0105
+L000682,362,FinTech,Referral,Business,New,15458,In Progress,
+L000683,568,FinTech,Partner,Business,Negotiation,17574,Lost,
+L000684,682,SaaS,Outbound,Starter,Demo,11284,Converted,C0412
+L000685,873,Healthcare,Outbound,Starter,Qualified,4570,In Progress,
+L000686,916,Professional Services,Website,Business,Demo,19980,Converted,C0403
+L000687,441,Marketing,Outbound,Business,Qualified,12599,Converted,C0935
+L000688,920,Professional Services,Website,Business,Proposal,791,Converted,C0916
+L000689,732,Professional Services,Partner,Starter,New,2347,In Progress,
+L000690,374,Professional Services,Paid Ads,Business,Demo,5587,Lost,
+L000691,26,E-commerce,Partner,Starter,Demo,3911,Converted,C0713
+L000692,824,SaaS,Partner,Business,Demo,1274,Lost,
+L000693,725,SaaS,Outbound,Business,Proposal,6101,Lost,
+L000694,840,Marketing,Referral,Business,Negotiation,1728,Converted,C0628
+L000695,46,E-commerce,Website,Free,Demo,8939,Converted,C0285
+L000696,506,Professional Services,Outbound,Starter,Negotiation,8613,Lost,
+L000697,664,IT Services,Outbound,Starter,Demo,1361,Converted,C0473
+L000698,598,SaaS,Paid Ads,Business,Negotiation,11117,Converted,C0235
+L000699,783,IT Services,Partner,Business,New,7397,Converted,C0344
+L000700,352,Healthcare,Referral,Starter,New,17181,Converted,C0601
+L000701,876,IT Services,Website,Starter,Negotiation,10237,In Progress,
+L000702,198,Education,Paid Ads,Starter,Qualified,18436,In Progress,
+L000703,390,E-commerce,Referral,Starter,Negotiation,18561,Lost,
+L000704,617,SaaS,Website,Business,Negotiation,4370,Lost,
+L000705,658,Education,Website,Business,Proposal,10800,Converted,C0376
+L000706,771,Professional Services,Outbound,Business,Negotiation,3708,In Progress,
+L000707,35,Healthcare,Paid Ads,Free,Qualified,5169,Converted,C0374
+L000708,28,Marketing,Paid Ads,Starter,Qualified,14376,Lost,
+L000709,553,E-commerce,Partner,Business,Qualified,9407,In Progress,
+L000710,643,Marketing,Referral,Business,New,13760,In Progress,
+L000711,386,IT Services,Partner,Starter,Proposal,1672,Converted,C0523
+L000712,580,Healthcare,Paid Ads,Business,Demo,15281,In Progress,
+L000713,546,SaaS,Website,Starter,Negotiation,9277,In Progress,
+L000714,421,SaaS,Paid Ads,Business,Demo,6631,Converted,C0202
+L000715,951,Marketing,Partner,Business,Proposal,4035,Lost,
+L000716,649,Education,Outbound,Business,Proposal,3584,Converted,C0166
+L000717,262,Healthcare,Partner,Starter,Demo,17482,Lost,
+L000718,614,Healthcare,Paid Ads,Business,Qualified,19766,Lost,
+L000719,984,E-commerce,Referral,Business,New,5686,Lost,
+L000720,326,IT Services,Partner,Business,Qualified,19566,In Progress,
+L000721,333,Marketing,Partner,Business,Proposal,9015,Lost,
+L000722,147,Education,Website,Starter,Qualified,19695,In Progress,
+L000723,168,Education,Partner,Business,Proposal,3763,In Progress,
+L000724,216,Education,Partner,Starter,New,2563,Lost,
+L000725,117,Marketing,Partner,Starter,Qualified,4022,In Progress,
+L000726,187,Healthcare,Partner,Starter,New,15935,In Progress,
+L000727,257,Marketing,Website,Business,Proposal,8774,In Progress,
+L000728,923,FinTech,Referral,Business,Qualified,9095,Lost,
+L000729,883,Marketing,Paid Ads,Business,Negotiation,9239,In Progress,
+L000730,170,Marketing,Partner,Starter,Demo,15686,Converted,C0511
+L000731,848,Professional Services,Website,Business,Qualified,2667,Converted,C0227
+L000732,340,Professional Services,Paid Ads,Business,New,3712,Lost,
+L000733,699,Education,Website,Business,New,13820,Lost,
+L000734,384,Education,Website,Business,Proposal,17707,In Progress,
+L000735,179,Education,Website,Starter,New,17328,In Progress,
+L000736,940,Marketing,Referral,Business,Qualified,13289,Converted,C0237
+L000737,188,IT Services,Referral,Starter,Negotiation,2577,Converted,C0149
+L000738,745,E-commerce,Paid Ads,Business,Proposal,1332,In Progress,
+L000739,150,Healthcare,Paid Ads,Starter,Demo,5980,In Progress,
+L000740,125,E-commerce,Outbound,Starter,New,7882,Lost,
+L000741,689,Professional Services,Partner,Business,Demo,15822,Lost,
+L000742,498,SaaS,Paid Ads,Business,Negotiation,18083,In Progress,
+L000743,719,Education,Website,Starter,Demo,8819,In Progress,
+L000744,373,FinTech,Outbound,Starter,Demo,15170,In Progress,
+L000745,416,Healthcare,Referral,Business,Demo,19398,Lost,
+L000746,172,FinTech,Referral,Starter,Qualified,6691,Lost,
+L000747,259,FinTech,Outbound,Business,Qualified,2525,Lost,
+L000748,965,Professional Services,Paid Ads,Starter,New,15751,Lost,
+L000749,85,Professional Services,Paid Ads,Starter,Proposal,6277,In Progress,
+L000750,290,Healthcare,Website,Business,Negotiation,18075,Lost,
+L000751,318,Professional Services,Website,Business,New,3306,In Progress,
+L000752,629,SaaS,Paid Ads,Starter,New,3629,Converted,C0428
+L000753,631,IT Services,Paid Ads,Starter,Qualified,15203,Converted,C0676
+L000754,663,Healthcare,Paid Ads,Business,Demo,6202,Lost,
+L000755,776,FinTech,Partner,Starter,Negotiation,1955,In Progress,
+L000756,259,Marketing,Paid Ads,Business,New,2123,Lost,
+L000757,226,IT Services,Referral,Starter,Demo,14291,Lost,
+L000758,922,FinTech,Paid Ads,Business,Negotiation,13953,Lost,
+L000759,763,Healthcare,Partner,Business,Demo,8216,In Progress,
+L000760,23,FinTech,Paid Ads,Free,New,12690,Converted,C0093
+L000761,491,SaaS,Paid Ads,Starter,Demo,15336,Converted,C0311
+L000762,363,Education,Outbound,Starter,New,18662,In Progress,
+L000763,64,Professional Services,Website,Starter,Proposal,18614,In Progress,
+L000764,141,Professional Services,Paid Ads,Business,Proposal,15684,Converted,C0426
+L000765,658,Marketing,Website,Starter,Qualified,17833,Converted,C0801
+L000766,497,Healthcare,Referral,Business,Qualified,13041,In Progress,
+L000767,273,Marketing,Paid Ads,Starter,Demo,11884,Converted,C0182
+L000768,46,Professional Services,Outbound,Free,Demo,4717,Converted,C0542
+L000769,813,IT Services,Partner,Business,Proposal,11094,Converted,C0872
+L000770,139,Healthcare,Website,Starter,Demo,13899,In Progress,
+L000771,996,Marketing,Website,Business,Proposal,16790,Converted,C0245
+L000772,390,SaaS,Referral,Business,New,19101,In Progress,
+L000773,231,E-commerce,Website,Business,Proposal,6723,In Progress,
+L000774,378,Education,Referral,Starter,Demo,16115,Lost,
+L000775,398,FinTech,Referral,Business,Proposal,5729,Lost,
+L000776,63,Healthcare,Outbound,Business,Qualified,1980,Converted,C0270
+L000777,817,FinTech,Referral,Starter,Proposal,1090,In Progress,
+L000778,217,SaaS,Website,Business,Demo,8077,Converted,C0244
+L000779,292,FinTech,Website,Business,Qualified,15009,Lost,
+L000780,772,Marketing,Website,Business,Qualified,19128,Converted,C0733
+L000781,896,Education,Paid Ads,Business,Qualified,8942,Lost,
+L000782,453,Professional Services,Partner,Starter,New,7038,Converted,C0778
+L000783,295,E-commerce,Outbound,Business,Demo,17683,Lost,
+L000784,791,Healthcare,Website,Business,New,5745,In Progress,
+L000785,340,Marketing,Referral,Business,Proposal,767,Converted,C0667
+L000786,415,Marketing,Outbound,Starter,Qualified,1941,Lost,
+L000787,575,Professional Services,Outbound,Starter,Proposal,3575,In Progress,
+L000788,367,Education,Outbound,Business,New,15393,In Progress,
+L000789,884,Professional Services,Partner,Business,Demo,4660,Converted,C0004
+L000790,909,Education,Outbound,Business,Qualified,3450,Lost,
+L000791,822,FinTech,Paid Ads,Business,Negotiation,4783,In Progress,
+L000792,774,Education,Referral,Business,New,13616,In Progress,
+L000793,281,Education,Partner,Starter,Qualified,17653,Converted,C0116
+L000794,147,Professional Services,Partner,Business,Qualified,3266,Converted,C0673
+L000795,922,Professional Services,Partner,Business,Demo,2219,Converted,C0148
+L000796,517,Healthcare,Partner,Starter,Negotiation,12120,Lost,
+L000797,311,Healthcare,Referral,Business,New,16176,Lost,
+L000798,196,Marketing,Outbound,Starter,Qualified,19064,Converted,C0079
+L000799,681,Marketing,Partner,Business,Qualified,19133,Lost,
+L000800,694,IT Services,Paid Ads,Business,Proposal,14232,In Progress,
+L000801,165,SaaS,Website,Business,Qualified,17696,In Progress,
+L000802,296,Healthcare,Paid Ads,Business,Qualified,9605,Converted,C0173
+L000803,424,IT Services,Paid Ads,Starter,Qualified,4996,Lost,
+L000804,262,Marketing,Website,Starter,New,12230,Lost,
+L000805,175,Healthcare,Referral,Business,Qualified,8968,In Progress,
+L000806,119,Education,Partner,Starter,Qualified,4937,Lost,
+L000807,92,Education,Partner,Starter,New,16614,Converted,C0822
+L000808,643,IT Services,Paid Ads,Business,Proposal,5285,Lost,
+L000809,49,Marketing,Paid Ads,Starter,Demo,1553,In Progress,
+L000810,158,IT Services,Paid Ads,Starter,Proposal,9815,Lost,
+L000811,956,Education,Outbound,Business,Qualified,7400,In Progress,
+L000812,94,Professional Services,Outbound,Starter,Qualified,1495,Converted,C0184
+L000813,421,FinTech,Paid Ads,Business,Negotiation,4369,In Progress,
+L000814,571,Education,Paid Ads,Business,Demo,1255,Lost,
+L000815,619,IT Services,Website,Business,Proposal,12967,Lost,
+L000816,163,Marketing,Website,Business,Negotiation,3777,In Progress,
+L000817,898,Marketing,Outbound,Business,Negotiation,16498,In Progress,
+L000818,843,Marketing,Partner,Starter,Demo,2759,In Progress,
+L000819,58,Healthcare,Referral,Starter,Proposal,19063,In Progress,
+L000820,463,E-commerce,Referral,Starter,Negotiation,3541,Lost,
+L000821,611,IT Services,Website,Business,Negotiation,13378,In Progress,
+L000822,280,SaaS,Outbound,Business,Qualified,7856,Converted,C0363
+L000823,730,FinTech,Website,Starter,New,12642,In Progress,
+L000824,568,Marketing,Referral,Business,Proposal,8004,In Progress,
+L000825,609,E-commerce,Referral,Business,Negotiation,13832,Lost,
+L000826,437,E-commerce,Outbound,Starter,Negotiation,16165,Lost,
+L000827,817,Healthcare,Outbound,Starter,Proposal,4270,Lost,
+L000828,54,FinTech,Referral,Starter,New,15358,Lost,
+L000829,931,SaaS,Referral,Starter,New,18489,In Progress,
+L000830,87,Education,Outbound,Starter,New,16922,Lost,
+L000831,904,E-commerce,Paid Ads,Business,New,5286,Lost,
+L000832,192,Education,Website,Starter,Qualified,9341,Converted,C0565
+L000833,456,Education,Website,Business,Proposal,12083,Lost,
+L000834,293,E-commerce,Outbound,Starter,New,7918,In Progress,
+L000835,28,Education,Outbound,Starter,Proposal,2465,Converted,C0421
+L000836,857,E-commerce,Website,Starter,New,7950,Lost,
+L000837,834,SaaS,Partner,Business,Qualified,8678,Lost,
+L000838,513,SaaS,Partner,Business,Qualified,11868,Lost,
+L000839,744,Education,Referral,Starter,Demo,11840,Lost,
+L000840,38,IT Services,Partner,Free,Proposal,1753,In Progress,
+L000841,292,IT Services,Partner,Business,Negotiation,8204,In Progress,
+L000842,172,Professional Services,Referral,Business,Negotiation,19212,Lost,
+L000843,826,Marketing,Outbound,Starter,Negotiation,4927,Lost,
+L000844,581,Healthcare,Paid Ads,Business,Negotiation,16975,In Progress,
+L000845,249,E-commerce,Referral,Business,New,17534,Converted,C0528
+L000846,48,SaaS,Partner,Free,Proposal,5985,Converted,C0027
+L000847,813,IT Services,Referral,Starter,Qualified,6258,In Progress,
+L000848,957,Education,Partner,Starter,Qualified,14873,In Progress,
+L000849,568,E-commerce,Referral,Business,Qualified,17715,Lost,
+L000850,484,SaaS,Partner,Business,Negotiation,3248,In Progress,
+L000851,750,E-commerce,Website,Business,Negotiation,12062,Lost,
+L000852,984,IT Services,Paid Ads,Business,Qualified,5374,Converted,C0309
+L000853,921,E-commerce,Referral,Business,Demo,5736,Lost,
+L000854,121,IT Services,Outbound,Starter,Demo,6314,Converted,C0479
+L000855,223,SaaS,Referral,Business,Qualified,18708,Converted,C0353
+L000856,265,E-commerce,Referral,Business,New,18837,In Progress,
+L000857,720,Marketing,Outbound,Business,Demo,5572,Lost,
+L000858,37,Marketing,Website,Starter,New,11842,In Progress,
+L000859,202,Marketing,Paid Ads,Business,Demo,17927,In Progress,
+L000860,486,Education,Outbound,Business,New,4585,Lost,
+L000861,57,Education,Paid Ads,Starter,Qualified,16045,In Progress,
+L000862,474,SaaS,Website,Business,Qualified,17617,Converted,C0945
+L000863,144,SaaS,Partner,Starter,Negotiation,6401,Lost,
+L000864,896,Professional Services,Website,Business,Qualified,7380,Lost,
+L000865,883,Professional Services,Website,Business,Negotiation,3106,In Progress,
+L000866,303,E-commerce,Partner,Business,Demo,5517,Converted,C0603
+L000867,69,Marketing,Paid Ads,Business,New,10327,Converted,C0126
+L000868,710,IT Services,Partner,Business,Proposal,12860,Converted,C0590
+L000869,148,Marketing,Paid Ads,Starter,Demo,6757,In Progress,
+L000870,31,IT Services,Website,Free,Proposal,11043,In Progress,
+L000871,19,Professional Services,Outbound,Free,Demo,5054,In Progress,
+L000872,521,FinTech,Outbound,Business,Negotiation,14638,Lost,
+L000873,474,FinTech,Outbound,Business,Negotiation,8014,In Progress,
+L000874,706,Professional Services,Referral,Starter,New,12329,Lost,
+L000875,884,E-commerce,Outbound,Business,Negotiation,632,Lost,
+L000876,726,FinTech,Referral,Business,New,12079,In Progress,
+L000877,479,SaaS,Partner,Business,Qualified,8067,Converted,C0253
+L000878,867,Marketing,Website,Business,Demo,18855,Converted,C0108
+L000879,752,Professional Services,Referral,Business,Demo,12006,In Progress,
+L000880,471,Marketing,Paid Ads,Business,New,15388,In Progress,
+L000881,17,Healthcare,Outbound,Free,Proposal,4050,Converted,C0671
+L000882,929,E-commerce,Website,Business,Proposal,14185,In Progress,
+L000883,522,Education,Website,Starter,Proposal,6652,Lost,
+L000884,67,Healthcare,Partner,Business,Demo,17374,Lost,
+L000885,248,Marketing,Referral,Business,Qualified,7128,Lost,
+L000886,503,Healthcare,Referral,Starter,Proposal,5251,In Progress,
+L000887,411,Professional Services,Partner,Business,Qualified,6931,Lost,
+L000888,196,IT Services,Referral,Starter,Negotiation,14537,Lost,
+L000889,640,Education,Outbound,Business,Proposal,11949,In Progress,
+L000890,964,FinTech,Referral,Starter,Negotiation,10070,Converted,C0132
+L000891,798,IT Services,Partner,Business,Proposal,4539,Converted,C0964
+L000892,179,IT Services,Paid Ads,Starter,Demo,3955,Converted,C0181
+L000893,17,Healthcare,Website,Starter,New,12849,Lost,
+L000894,968,IT Services,Paid Ads,Business,New,5614,In Progress,
+L000895,166,Healthcare,Paid Ads,Business,Qualified,17186,Converted,C0378
+L000896,742,FinTech,Website,Business,Negotiation,1137,Converted,C0736
+L000897,470,E-commerce,Partner,Business,Demo,15820,In Progress,
+L000898,943,Education,Website,Business,Proposal,855,Lost,
+L000899,854,FinTech,Paid Ads,Business,Demo,19377,In Progress,
+L000900,825,Marketing,Outbound,Business,Negotiation,15116,In Progress,
+L000901,627,Marketing,Partner,Business,Demo,10223,Lost,
+L000902,501,Healthcare,Referral,Business,Qualified,9460,Lost,
+L000903,602,Education,Partner,Business,Negotiation,16396,Lost,
+L000904,983,Healthcare,Paid Ads,Business,Demo,15188,Converted,C0399
+L000905,648,Education,Paid Ads,Starter,Proposal,3371,Converted,C0485
+L000906,713,E-commerce,Referral,Business,Proposal,16646,In Progress,
+L000907,151,Education,Partner,Business,Demo,4304,In Progress,
+L000908,785,E-commerce,Website,Starter,New,16359,Converted,C0014
+L000909,488,Marketing,Outbound,Starter,Demo,11987,Converted,C0266
+L000910,616,Healthcare,Referral,Business,Demo,19187,Converted,C0932
+L000911,691,Education,Website,Business,Qualified,2250,Converted,C0062
+L000912,341,Professional Services,Partner,Business,Demo,7569,Lost,
+L000913,538,FinTech,Paid Ads,Starter,Negotiation,17375,Lost,
+L000914,539,Healthcare,Paid Ads,Business,Qualified,8320,Converted,C0950
+L000915,570,E-commerce,Referral,Business,Demo,18167,Converted,C0896
+L000916,632,E-commerce,Referral,Business,Qualified,17812,Converted,C0643
+L000917,556,Healthcare,Website,Business,New,9269,Lost,
+L000918,723,E-commerce,Paid Ads,Business,Negotiation,9228,Converted,C0452
+L000919,586,Professional Services,Referral,Business,New,1717,Lost,
+L000920,618,IT Services,Referral,Starter,Demo,4550,In Progress,
+L000921,795,Professional Services,Referral,Business,Proposal,18588,Converted,C0848
+L000922,751,SaaS,Partner,Business,Qualified,820,Converted,C0711
+L000923,632,FinTech,Paid Ads,Business,Proposal,3442,Lost,
+L000924,893,Healthcare,Referral,Business,Qualified,10689,In Progress,
+L000925,628,Professional Services,Referral,Business,Proposal,10439,In Progress,
+L000926,899,Marketing,Referral,Business,Qualified,16514,Converted,C0580
+L000927,974,Healthcare,Website,Starter,Demo,4977,Converted,C0222
+L000928,410,E-commerce,Website,Starter,Qualified,18318,Converted,C0183
+L000929,463,FinTech,Referral,Starter,New,17469,Converted,C0123
+L000930,968,Education,Outbound,Business,Proposal,11561,Converted,C0494
+L000931,966,SaaS,Partner,Business,Demo,6130,Lost,
+L000932,911,IT Services,Website,Starter,Negotiation,18110,In Progress,
+L000933,344,Professional Services,Outbound,Business,New,12762,In Progress,
+L000934,74,Professional Services,Paid Ads,Business,New,13168,Converted,C0499
+L000935,540,FinTech,Partner,Business,New,1705,In Progress,
+L000936,549,Professional Services,Paid Ads,Starter,New,5316,Lost,
+L000937,414,Education,Paid Ads,Starter,New,7910,Converted,C0772
+L000938,92,Marketing,Referral,Business,Demo,11790,Converted,C0084
+L000939,572,FinTech,Outbound,Business,Qualified,17979,In Progress,
+L000940,349,FinTech,Paid Ads,Business,New,19450,Converted,C0628
+L000941,185,FinTech,Website,Business,Demo,10699,Lost,
+L000942,569,Education,Referral,Business,Qualified,6052,In Progress,
+L000943,791,E-commerce,Outbound,Business,New,14639,Converted,C0220
+L000944,556,SaaS,Outbound,Starter,Demo,9200,In Progress,
+L000945,209,Healthcare,Partner,Business,Qualified,8476,In Progress,
+L000946,495,FinTech,Partner,Business,Demo,9682,Converted,C0749
+L000947,519,FinTech,Outbound,Business,Proposal,8743,Lost,
+L000948,109,E-commerce,Referral,Starter,Proposal,7547,Lost,
+L000949,411,Marketing,Website,Business,Demo,15558,Converted,C0227
+L000950,302,Marketing,Referral,Business,Negotiation,17753,In Progress,
+L000951,886,Marketing,Partner,Business,New,6084,Lost,
+L000952,295,SaaS,Partner,Business,Qualified,12556,In Progress,
+L000953,507,FinTech,Website,Business,Negotiation,8769,Converted,C0312
+L000954,320,E-commerce,Referral,Business,Negotiation,17705,Converted,C0853
+L000955,759,SaaS,Website,Business,Negotiation,8342,Lost,
+L000956,329,Healthcare,Outbound,Starter,Negotiation,11656,Lost,
+L000957,428,IT Services,Website,Starter,Negotiation,4417,In Progress,
+L000958,822,E-commerce,Referral,Business,Qualified,6405,Lost,
+L000959,237,E-commerce,Website,Business,Demo,18964,In Progress,
+L000960,971,IT Services,Referral,Starter,New,17749,Lost,
+L000961,962,FinTech,Referral,Business,Demo,14031,Converted,C0966
+L000962,127,Professional Services,Website,Business,New,5083,Converted,C0225
+L000963,199,FinTech,Partner,Business,Proposal,5804,Lost,
+L000964,830,Healthcare,Outbound,Starter,Demo,9444,Converted,C0041
+L000965,218,SaaS,Referral,Starter,New,767,In Progress,
+L000966,353,Healthcare,Outbound,Business,Demo,14740,In Progress,
+L000967,26,FinTech,Paid Ads,Starter,Qualified,8192,Lost,
+L000968,318,IT Services,Referral,Starter,Negotiation,4284,In Progress,
+L000969,169,SaaS,Outbound,Business,New,15598,Lost,
+L000970,950,Marketing,Partner,Starter,New,17169,Lost,
+L000971,91,SaaS,Referral,Starter,Proposal,10646,Lost,
+L000972,436,Healthcare,Referral,Business,New,5931,Lost,
+L000973,136,Professional Services,Paid Ads,Business,Qualified,1056,Converted,C0143
+L000974,654,SaaS,Outbound,Starter,New,16996,Converted,C0621
+L000975,160,Professional Services,Outbound,Starter,Qualified,5761,Converted,C0303
+L000976,7,SaaS,Outbound,Free,New,14797,Converted,C0561
+L000977,341,IT Services,Outbound,Business,New,3354,In Progress,
+L000978,142,FinTech,Partner,Starter,New,2228,Lost,
+L000979,203,E-commerce,Website,Business,Negotiation,13543,In Progress,
+L000980,202,Marketing,Partner,Starter,Negotiation,2243,Lost,
+L000981,540,E-commerce,Paid Ads,Business,New,19992,In Progress,
+L000982,182,SaaS,Partner,Business,Proposal,2652,In Progress,
+L000983,826,IT Services,Referral,Business,New,11711,Converted,C0245
+L000984,644,Marketing,Outbound,Business,Proposal,14734,Lost,
+L000985,458,Marketing,Outbound,Business,Qualified,11133,In Progress,
+L000986,5,IT Services,Outbound,Free,Proposal,11225,Lost,
+L000987,507,Professional Services,Website,Business,New,10564,Converted,C0666
+L000988,947,Healthcare,Paid Ads,Business,Demo,12606,Lost,
+L000989,912,Education,Outbound,Business,Negotiation,17157,Converted,C0943
+L000990,982,Professional Services,Referral,Business,Negotiation,9041,Lost,
+L000991,461,Education,Referral,Business,Demo,18838,Converted,C0956
+L000992,339,E-commerce,Outbound,Business,Qualified,16204,In Progress,
+L000993,614,Marketing,Outbound,Business,Proposal,19790,Converted,C0992
+L000994,394,Marketing,Partner,Business,Proposal,3987,In Progress,
+L000995,585,Education,Website,Business,New,16769,Converted,C0677
+L000996,417,Professional Services,Referral,Starter,Proposal,7881,Lost,
+L000997,705,IT Services,Referral,Starter,New,16354,Converted,C0254
+L000998,229,FinTech,Website,Starter,Demo,4381,Lost,
+L000999,509,SaaS,Website,Business,Negotiation,10029,Converted,C0090
+L001000,198,SaaS,Partner,Starter,Qualified,2438,Lost,
+L001001,871,Education,Referral,Business,Proposal,10484,Converted,C0869
+L001002,336,IT Services,Website,Business,Negotiation,13423,In Progress,
+L001003,954,Healthcare,Paid Ads,Business,Negotiation,17397,Lost,
+L001004,517,Professional Services,Website,Starter,New,7388,Lost,
+L001005,803,Education,Outbound,Business,Negotiation,5172,Converted,C0139
+L001006,780,E-commerce,Website,Business,Negotiation,2128,Converted,C0310
+L001007,903,FinTech,Website,Business,Qualified,4083,In Progress,
+L001008,872,Education,Referral,Starter,Qualified,9499,Lost,
+L001009,410,Healthcare,Referral,Business,Negotiation,4483,Converted,C0863
+L001010,930,IT Services,Outbound,Business,Qualified,7308,In Progress,
+L001011,835,E-commerce,Referral,Business,Negotiation,6390,Converted,C0243
+L001012,549,FinTech,Paid Ads,Business,Proposal,12984,In Progress,
+L001013,223,Marketing,Outbound,Starter,Proposal,9087,In Progress,
+L001014,799,E-commerce,Referral,Business,Proposal,3233,Lost,
+L001015,612,Healthcare,Outbound,Business,Qualified,17983,Lost,
+L001016,842,Healthcare,Outbound,Business,Proposal,6938,In Progress,
+L001017,46,E-commerce,Partner,Free,New,13993,In Progress,
+L001018,709,SaaS,Partner,Business,New,8875,In Progress,
+L001019,600,Healthcare,Referral,Business,Negotiation,17874,Converted,C0150
+L001020,350,SaaS,Partner,Business,Proposal,18760,In Progress,
+L001021,693,Healthcare,Website,Business,Proposal,11943,In Progress,
+L001022,152,Marketing,Paid Ads,Starter,Negotiation,14426,Lost,
+L001023,729,Marketing,Outbound,Starter,Demo,18310,Converted,C0653
+L001024,33,E-commerce,Referral,Starter,Demo,17902,In Progress,
+L001025,925,Education,Paid Ads,Business,New,10767,In Progress,
+L001026,163,FinTech,Outbound,Starter,New,19540,Lost,
+L001027,778,Marketing,Referral,Business,Qualified,11339,Lost,
+L001028,351,Marketing,Outbound,Business,Qualified,19666,Lost,
+L001029,196,Professional Services,Website,Starter,Negotiation,2407,In Progress,
+L001030,336,IT Services,Paid Ads,Business,Negotiation,12572,Lost,
+L001031,310,Healthcare,Referral,Business,Qualified,9454,Lost,
+L001032,125,Marketing,Outbound,Starter,Demo,18799,In Progress,
+L001033,799,Education,Outbound,Business,Negotiation,19861,In Progress,
+L001034,524,Professional Services,Outbound,Business,Negotiation,8355,Lost,
+L001035,651,E-commerce,Paid Ads,Starter,Demo,15627,Converted,C0527
+L001036,382,FinTech,Referral,Business,New,11067,Converted,C0877
+L001037,869,E-commerce,Referral,Business,Negotiation,19108,Converted,C0614
+L001038,376,IT Services,Website,Starter,Demo,7429,Converted,C0390
+L001039,724,Education,Outbound,Starter,Proposal,1424,Converted,C0453
+L001040,565,Marketing,Outbound,Business,Demo,7137,Lost,
+L001041,294,Marketing,Outbound,Business,New,13443,Lost,
+L001042,237,IT Services,Website,Business,Qualified,7350,Lost,
+L001043,780,Education,Partner,Business,Qualified,7698,In Progress,
+L001044,949,SaaS,Partner,Starter,New,16234,In Progress,
+L001045,257,SaaS,Outbound,Business,Negotiation,19973,Converted,C0964
+L001046,32,Professional Services,Paid Ads,Free,Proposal,5919,Converted,C0399
+L001047,90,Education,Referral,Starter,Qualified,5149,Lost,
+L001048,758,SaaS,Partner,Business,Demo,16545,Converted,C0295
+L001049,414,FinTech,Website,Business,Negotiation,6264,Lost,
+L001050,175,Professional Services,Website,Starter,Negotiation,7594,Converted,C0135
+L001051,581,FinTech,Paid Ads,Business,Negotiation,18445,In Progress,
+L001052,717,E-commerce,Partner,Business,Qualified,5305,In Progress,
+L001053,339,Professional Services,Website,Business,Negotiation,10491,Converted,C0310
+L001054,624,IT Services,Website,Business,Negotiation,18791,Lost,
+L001055,509,FinTech,Referral,Starter,Qualified,9007,In Progress,
+L001056,610,Education,Partner,Business,Qualified,2781,Lost,
+L001057,699,Marketing,Referral,Business,New,1199,Converted,C0832
+L001058,380,E-commerce,Paid Ads,Starter,New,12032,Lost,
+L001059,262,Healthcare,Partner,Starter,Demo,3764,Converted,C0361
+L001060,850,Healthcare,Paid Ads,Business,Negotiation,6457,In Progress,
+L001061,636,IT Services,Referral,Starter,Negotiation,17701,Lost,
+L001062,688,Education,Referral,Business,Qualified,5078,Converted,C0961
+L001063,208,Healthcare,Partner,Starter,Negotiation,4566,Lost,
+L001064,641,Education,Outbound,Business,New,2433,In Progress,
+L001065,958,FinTech,Outbound,Starter,Proposal,7114,Converted,C0928
+L001066,507,E-commerce,Referral,Starter,New,13287,In Progress,
+L001067,834,Marketing,Website,Business,Demo,17981,Lost,
+L001068,931,FinTech,Partner,Business,Negotiation,15948,In Progress,
+L001069,482,Marketing,Partner,Business,Negotiation,10312,In Progress,
+L001070,105,Marketing,Referral,Starter,Negotiation,12768,Lost,
+L001071,12,Education,Partner,Starter,Qualified,1429,Converted,C0107
+L001072,64,IT Services,Referral,Starter,Demo,19180,Lost,
+L001073,145,Marketing,Outbound,Business,Negotiation,7752,Lost,
+L001074,753,Professional Services,Paid Ads,Business,Qualified,1197,In Progress,
+L001075,389,Healthcare,Website,Starter,Demo,17406,In Progress,
+L001076,514,Education,Website,Business,Demo,10072,Lost,
+L001077,620,Professional Services,Website,Business,Negotiation,1935,In Progress,
+L001078,446,E-commerce,Referral,Business,Proposal,16156,Converted,C0570
+L001079,886,FinTech,Partner,Business,New,13233,In Progress,
+L001080,580,Marketing,Referral,Starter,Qualified,17054,Lost,
+L001081,192,IT Services,Paid Ads,Business,Negotiation,16294,Lost,
+L001082,296,Professional Services,Referral,Starter,New,624,In Progress,
+L001083,879,E-commerce,Paid Ads,Starter,New,13780,In Progress,
+L001084,875,Education,Website,Business,Negotiation,1767,Converted,C0998
+L001085,43,Healthcare,Partner,Free,Proposal,19190,Converted,C0009
+L001086,509,FinTech,Partner,Business,Demo,16665,Lost,
+L001087,900,Marketing,Outbound,Business,Negotiation,6504,In Progress,
+L001088,270,Marketing,Partner,Starter,Qualified,2729,Converted,C0657
+L001089,735,IT Services,Referral,Business,Proposal,7327,In Progress,
+L001090,302,Professional Services,Paid Ads,Business,New,18245,Converted,C0355
+L001091,451,Professional Services,Paid Ads,Starter,New,4246,Converted,C0778
+L001092,606,IT Services,Referral,Business,Demo,8011,Converted,C0708
+L001093,429,FinTech,Website,Starter,Demo,13218,Converted,C0089
+L001094,674,Healthcare,Outbound,Starter,Proposal,13202,Converted,C0680
+L001095,356,FinTech,Referral,Business,Demo,19094,In Progress,
+L001096,921,Education,Outbound,Starter,Negotiation,8940,Converted,C0116
+L001097,621,SaaS,Paid Ads,Business,Demo,19610,Converted,C0587
+L001098,915,E-commerce,Website,Starter,New,11083,Converted,C0227
+L001099,818,SaaS,Partner,Business,New,7963,Lost,
+L001100,702,Professional Services,Referral,Business,Proposal,13574,Converted,C0614
+L001101,220,IT Services,Outbound,Starter,Proposal,1154,In Progress,
+L001102,881,Marketing,Referral,Business,Negotiation,4274,Converted,C0244
+L001103,946,IT Services,Outbound,Starter,Qualified,5875,In Progress,
+L001104,816,Healthcare,Paid Ads,Business,Proposal,11797,In Progress,
+L001105,812,Healthcare,Outbound,Business,Demo,3586,In Progress,
+L001106,405,IT Services,Paid Ads,Business,New,14665,Lost,
+L001107,17,Marketing,Paid Ads,Business,Negotiation,12738,In Progress,
+L001108,442,Healthcare,Website,Business,Negotiation,2219,Converted,C0372
+L001109,988,Healthcare,Referral,Starter,New,18438,In Progress,
+L001110,747,SaaS,Partner,Business,Qualified,2135,In Progress,
+L001111,827,SaaS,Website,Business,Qualified,7249,In Progress,
+L001112,5,Healthcare,Website,Free,Negotiation,10238,In Progress,
+L001113,803,Education,Website,Business,New,6698,Lost,
+L001114,475,FinTech,Partner,Business,Negotiation,8178,Lost,
+L001115,57,Education,Website,Starter,Demo,3487,In Progress,
+L001116,862,SaaS,Partner,Business,New,17056,Converted,C0497
+L001117,367,Education,Partner,Business,Demo,12880,Lost,
+L001118,821,Healthcare,Partner,Business,Demo,18181,Lost,
+L001119,354,Healthcare,Partner,Business,New,9998,Lost,
+L001120,876,Professional Services,Referral,Business,Negotiation,1675,Lost,
+L001121,340,IT Services,Paid Ads,Starter,New,18525,In Progress,
+L001122,726,FinTech,Paid Ads,Starter,Qualified,19270,Lost,
+L001123,723,Healthcare,Referral,Starter,Proposal,3458,In Progress,
+L001124,257,Professional Services,Outbound,Business,Qualified,3565,In Progress,
+L001125,437,SaaS,Paid Ads,Business,Negotiation,3509,In Progress,
+L001126,993,Healthcare,Paid Ads,Business,Proposal,780,In Progress,
+L001127,863,SaaS,Outbound,Business,Negotiation,16739,Lost,
+L001128,290,E-commerce,Referral,Business,Qualified,13062,Converted,C0996
+L001129,576,Marketing,Referral,Business,Qualified,5717,Lost,
+L001130,310,Healthcare,Referral,Starter,Demo,11682,In Progress,
+L001131,989,Professional Services,Partner,Business,Negotiation,9801,In Progress,
+L001132,83,E-commerce,Referral,Business,Demo,19116,Converted,C0760
+L001133,541,IT Services,Website,Business,Demo,14483,Converted,C0859
+L001134,192,Professional Services,Website,Starter,New,4400,In Progress,
+L001135,827,Professional Services,Paid Ads,Business,New,3303,Converted,C0922
+L001136,801,FinTech,Paid Ads,Business,Demo,10946,Converted,C0139
+L001137,458,SaaS,Partner,Starter,Qualified,12363,Lost,
+L001138,929,Education,Referral,Starter,Qualified,2885,Lost,
+L001139,79,Healthcare,Paid Ads,Business,Negotiation,16221,In Progress,
+L001140,16,FinTech,Outbound,Business,Proposal,9990,In Progress,
+L001141,216,Professional Services,Partner,Business,Qualified,17202,Lost,
+L001142,90,E-commerce,Paid Ads,Business,New,12692,Converted,C0531
+L001143,792,E-commerce,Website,Business,Negotiation,13192,In Progress,
+L001144,452,Marketing,Referral,Business,Qualified,19640,Converted,C0426
+L001145,900,Marketing,Partner,Starter,Demo,2692,In Progress,
+L001146,408,FinTech,Outbound,Business,Proposal,13579,Converted,C0179
+L001147,188,IT Services,Paid Ads,Business,Qualified,19090,Converted,C0455
+L001148,493,FinTech,Outbound,Business,Demo,17056,In Progress,
+L001149,355,Professional Services,Partner,Business,Negotiation,3362,Converted,C0273
+L001150,476,SaaS,Outbound,Business,Proposal,8080,Lost,
+L001151,162,Marketing,Website,Business,Proposal,15850,In Progress,
+L001152,331,Education,Paid Ads,Business,Negotiation,1157,In Progress,
+L001153,479,SaaS,Referral,Business,Qualified,16262,Lost,
+L001154,351,IT Services,Website,Business,New,19446,In Progress,
+L001155,422,Marketing,Outbound,Business,Qualified,18063,Lost,
+L001156,556,Marketing,Website,Business,Qualified,11368,In Progress,
+L001157,674,IT Services,Partner,Business,Proposal,3125,Converted,C0309
+L001158,45,Education,Website,Free,Qualified,18399,In Progress,
+L001159,871,Professional Services,Outbound,Business,Proposal,3435,In Progress,
+L001160,873,SaaS,Referral,Business,New,11560,Converted,C0246
+L001161,16,Marketing,Outbound,Starter,Proposal,18749,In Progress,
+L001162,121,Professional Services,Referral,Starter,Proposal,3845,In Progress,
+L001163,190,FinTech,Outbound,Starter,Proposal,17682,Lost,
+L001164,370,Education,Outbound,Business,Qualified,14881,In Progress,
+L001165,755,IT Services,Website,Starter,Negotiation,7161,In Progress,
+L001166,730,Education,Outbound,Starter,Proposal,3972,Converted,C0873
+L001167,606,IT Services,Paid Ads,Business,Proposal,17739,Lost,
+L001168,547,Healthcare,Website,Business,Proposal,9756,In Progress,
+L001169,135,Marketing,Partner,Business,Negotiation,2198,In Progress,
+L001170,672,Healthcare,Outbound,Business,Qualified,1644,In Progress,
+L001171,755,IT Services,Referral,Starter,Negotiation,9920,Converted,C0449
+L001172,801,Professional Services,Website,Business,Proposal,7201,In Progress,
+L001173,49,FinTech,Referral,Starter,New,18503,In Progress,
+L001174,680,Healthcare,Referral,Business,New,6434,In Progress,
+L001175,153,FinTech,Outbound,Starter,Demo,2847,Converted,C0377
+L001176,1000,IT Services,Referral,Business,New,14281,In Progress,
+L001177,863,IT Services,Partner,Business,New,14221,Converted,C0279
+L001178,376,Marketing,Referral,Business,Negotiation,5501,Converted,C0181
+L001179,982,Marketing,Outbound,Business,New,14723,Converted,C0771
+L001180,440,Education,Website,Business,Demo,10178,Lost,
+L001181,774,Education,Referral,Business,New,10054,Lost,
+L001182,178,E-commerce,Outbound,Business,Proposal,3072,Converted,C0416
+L001183,130,Professional Services,Outbound,Business,Demo,11507,In Progress,
+L001184,284,Education,Partner,Starter,Negotiation,15208,Converted,C0980
+L001185,852,Education,Outbound,Business,Proposal,16575,In Progress,
+L001186,224,IT Services,Website,Business,Proposal,4011,Converted,C0723
+L001187,6,SaaS,Referral,Starter,New,10591,Lost,
+L001188,634,E-commerce,Referral,Business,New,7751,Lost,
+L001189,632,Professional Services,Paid Ads,Starter,Qualified,4034,Converted,C0715
+L001190,744,Healthcare,Outbound,Starter,New,2097,Lost,
+L001191,943,SaaS,Website,Business,Demo,5208,In Progress,
+L001192,703,Marketing,Website,Business,Demo,13483,In Progress,
+L001193,437,Education,Website,Business,Negotiation,18821,Lost,
+L001194,685,FinTech,Outbound,Starter,Demo,19891,Converted,C0707
+L001195,699,Healthcare,Paid Ads,Business,New,1369,Lost,
+L001196,373,FinTech,Partner,Business,Qualified,15858,Lost,
+L001197,396,IT Services,Paid Ads,Business,Negotiation,15446,Converted,C0516
+L001198,377,FinTech,Website,Business,Negotiation,14639,Converted,C0409
+L001199,927,E-commerce,Website,Business,Qualified,14220,In Progress,
+L001200,790,Professional Services,Website,Business,Demo,7433,Lost,
+L001201,265,Healthcare,Referral,Starter,Negotiation,3033,Converted,C0341
+L001202,268,FinTech,Referral,Business,Negotiation,17181,Converted,C0260
+L001203,560,Professional Services,Outbound,Business,Qualified,13496,In Progress,
+L001204,505,IT Services,Website,Business,Demo,11135,Lost,
+L001205,815,Professional Services,Paid Ads,Starter,New,4366,In Progress,
+L001206,715,Professional Services,Partner,Business,New,16143,Converted,C0098
+L001207,64,E-commerce,Outbound,Business,Demo,14255,Lost,
+L001208,128,E-commerce,Outbound,Starter,New,4384,Converted,C0568
+L001209,313,Marketing,Paid Ads,Business,Negotiation,18700,In Progress,
+L001210,647,Marketing,Website,Starter,Qualified,14350,Lost,
+L001211,465,Education,Website,Starter,Demo,9612,In Progress,
+L001212,146,E-commerce,Outbound,Starter,New,10789,In Progress,
+L001213,347,Healthcare,Website,Business,Proposal,6538,Converted,C0113
+L001214,968,Education,Referral,Business,Demo,13732,Converted,C0965
+L001215,622,SaaS,Partner,Starter,Demo,676,Converted,C0335
+L001216,863,FinTech,Paid Ads,Starter,Proposal,3476,Converted,C0030
+L001217,977,Professional Services,Paid Ads,Business,Negotiation,9608,Converted,C0210
+L001218,483,SaaS,Website,Starter,Proposal,19797,Converted,C0760
+L001219,75,Education,Paid Ads,Business,Qualified,18653,Lost,
+L001220,522,Marketing,Paid Ads,Business,Demo,5365,Converted,C0006
+L001221,631,SaaS,Referral,Business,Demo,7522,Converted,C0643
+L001222,520,Education,Website,Starter,New,13082,Converted,C0143
+L001223,335,E-commerce,Paid Ads,Business,New,15151,Converted,C0155
+L001224,997,Healthcare,Referral,Business,Proposal,9365,Converted,C0528
+L001225,599,IT Services,Outbound,Business,Demo,16920,Lost,
+L001226,502,Professional Services,Paid Ads,Business,Demo,19207,In Progress,
+L001227,437,Education,Outbound,Business,Negotiation,8051,Lost,
+L001228,483,Marketing,Partner,Business,New,18987,In Progress,
+L001229,192,IT Services,Referral,Starter,Proposal,11192,Lost,
+L001230,859,Education,Outbound,Business,Demo,9491,Lost,
+L001231,818,SaaS,Referral,Business,Qualified,10946,In Progress,
+L001232,768,Education,Outbound,Business,Qualified,11360,In Progress,
+L001233,160,SaaS,Outbound,Business,Proposal,18560,Lost,
+L001234,843,Healthcare,Referral,Business,Proposal,9652,Converted,C0049
+L001235,97,E-commerce,Referral,Business,Negotiation,14945,Converted,C0288
+L001236,894,Professional Services,Paid Ads,Business,Qualified,5291,Lost,
+L001237,746,E-commerce,Website,Starter,Negotiation,3081,In Progress,
+L001238,858,Education,Outbound,Starter,New,10514,Converted,C0210
+L001239,621,Education,Referral,Business,Negotiation,6822,Converted,C0607
+L001240,421,E-commerce,Paid Ads,Starter,Negotiation,8621,Lost,
+L001241,635,E-commerce,Website,Business,Proposal,1878,Converted,C0437
+L001242,932,IT Services,Outbound,Business,Demo,11021,Lost,
+L001243,868,IT Services,Partner,Business,Negotiation,5642,In Progress,
+L001244,972,Marketing,Referral,Starter,Proposal,19014,Converted,C0394
+L001245,359,Healthcare,Referral,Business,New,9145,Converted,C0728
+L001246,509,Marketing,Website,Business,Demo,8507,Converted,C0340
+L001247,58,Professional Services,Partner,Business,Demo,11828,Lost,
+L001248,988,FinTech,Website,Business,Negotiation,7580,In Progress,
+L001249,346,Education,Referral,Business,Negotiation,12114,Lost,
+L001250,943,IT Services,Partner,Business,Qualified,2945,Lost,
+L001251,812,Healthcare,Paid Ads,Starter,Proposal,2209,Lost,
+L001252,771,Professional Services,Paid Ads,Starter,Qualified,16539,Converted,C0495
+L001253,228,Healthcare,Referral,Business,New,10075,In Progress,
+L001254,341,E-commerce,Outbound,Business,Demo,16744,Lost,
+L001255,469,Education,Paid Ads,Business,Demo,9326,Lost,
+L001256,892,FinTech,Outbound,Starter,New,18573,Converted,C0937
+L001257,60,FinTech,Website,Starter,Qualified,10786,In Progress,
+L001258,157,Education,Partner,Business,New,19344,Converted,C0589
+L001259,894,Professional Services,Website,Business,Qualified,11015,In Progress,
+L001260,107,Healthcare,Website,Business,Proposal,9633,Converted,C0146
+L001261,118,FinTech,Outbound,Business,Qualified,14872,Lost,
+L001262,89,Education,Website,Business,Demo,5165,Lost,
+L001263,400,Healthcare,Referral,Business,Qualified,10488,In Progress,
+L001264,995,Professional Services,Outbound,Starter,Demo,3111,In Progress,
+L001265,659,FinTech,Partner,Business,Proposal,10123,Converted,C0913
+L001266,933,IT Services,Paid Ads,Business,Negotiation,15296,In Progress,
+L001267,535,SaaS,Partner,Business,Negotiation,19744,In Progress,
+L001268,904,Marketing,Paid Ads,Starter,Qualified,13400,Converted,C0422
+L001269,850,SaaS,Paid Ads,Starter,Negotiation,17684,Converted,C0638
+L001270,53,E-commerce,Partner,Starter,Negotiation,4207,Converted,C0110
+L001271,885,SaaS,Partner,Business,Proposal,5632,In Progress,
+L001272,619,Marketing,Website,Starter,Negotiation,2293,Converted,C0330
+L001273,540,Marketing,Website,Starter,Negotiation,7250,Lost,
+L001274,101,E-commerce,Paid Ads,Business,Demo,13130,In Progress,
+L001275,249,Professional Services,Referral,Starter,Qualified,8039,In Progress,
+L001276,959,Marketing,Partner,Business,Demo,5026,Converted,C0008
+L001277,623,E-commerce,Website,Business,Qualified,12305,In Progress,
+L001278,52,Marketing,Outbound,Business,Demo,9999,Lost,
+L001279,91,SaaS,Referral,Business,Negotiation,2308,In Progress,
+L001280,466,Healthcare,Paid Ads,Business,Demo,13064,Lost,
+L001281,761,E-commerce,Website,Starter,New,950,Lost,
+L001282,801,IT Services,Partner,Business,Negotiation,2156,Lost,
+L001283,882,FinTech,Website,Starter,Demo,11786,Converted,C0989
+L001284,13,IT Services,Outbound,Starter,Proposal,10762,In Progress,
+L001285,708,Marketing,Website,Business,Demo,17431,Converted,C0921
+L001286,202,FinTech,Website,Starter,Proposal,11925,Lost,
+L001287,961,IT Services,Website,Starter,New,18644,In Progress,
+L001288,653,Marketing,Partner,Business,Proposal,9062,Lost,
+L001289,802,SaaS,Referral,Starter,Proposal,11552,Lost,
+L001290,500,IT Services,Website,Business,Negotiation,19780,Lost,
+L001291,938,Professional Services,Partner,Starter,Demo,796,In Progress,
+L001292,958,Professional Services,Paid Ads,Business,Qualified,7417,Lost,
+L001293,337,FinTech,Referral,Business,Qualified,16322,Converted,C0768
+L001294,737,FinTech,Partner,Starter,Qualified,680,In Progress,
+L001295,480,IT Services,Paid Ads,Starter,Negotiation,17745,Lost,
+L001296,571,Education,Referral,Starter,Qualified,15750,Converted,C0988
+L001297,484,E-commerce,Website,Starter,Demo,10630,In Progress,
+L001298,673,Healthcare,Partner,Business,Demo,12436,Converted,C0607
+L001299,723,Healthcare,Outbound,Business,New,4565,Lost,
+L001300,338,Professional Services,Partner,Starter,Qualified,12311,In Progress,
+L001301,569,Professional Services,Referral,Starter,Negotiation,6150,In Progress,
+L001302,568,Marketing,Partner,Starter,Qualified,9216,In Progress,
+L001303,893,IT Services,Partner,Business,New,8680,In Progress,
+L001304,952,FinTech,Website,Starter,Proposal,8670,Converted,C0083
+L001305,880,FinTech,Referral,Business,Demo,19580,In Progress,
+L001306,319,Marketing,Paid Ads,Business,Negotiation,6083,Converted,C0759
+L001307,610,Marketing,Referral,Business,New,6858,Lost,
+L001308,697,Education,Partner,Starter,Qualified,14053,Converted,C0756
+L001309,554,SaaS,Paid Ads,Business,Qualified,3894,Lost,
+L001310,474,E-commerce,Paid Ads,Business,Qualified,6839,Converted,C0476
+L001311,965,Education,Website,Business,Proposal,11062,Converted,C0983
+L001312,268,FinTech,Referral,Business,New,1354,Converted,C0165
+L001313,143,Professional Services,Paid Ads,Starter,Demo,12400,Converted,C0621
+L001314,784,FinTech,Website,Starter,Demo,16729,Lost,
+L001315,346,E-commerce,Referral,Business,New,13572,In Progress,
+L001316,133,FinTech,Website,Business,New,16522,Lost,
+L001317,43,FinTech,Paid Ads,Free,Negotiation,14921,In Progress,
+L001318,665,Professional Services,Paid Ads,Starter,Demo,12633,In Progress,
+L001319,404,SaaS,Partner,Business,Qualified,13859,Converted,C0957
+L001320,684,SaaS,Paid Ads,Business,Proposal,3949,Converted,C0761
+L001321,603,Education,Partner,Business,Negotiation,5799,Lost,
+L001322,74,Marketing,Website,Starter,Demo,2070,Converted,C0266
+L001323,714,FinTech,Outbound,Business,New,13672,Converted,C0711
+L001324,763,Professional Services,Website,Business,Proposal,5810,Converted,C0717
+L001325,69,Education,Referral,Starter,New,2673,Lost,
+L001326,858,Professional Services,Paid Ads,Business,Proposal,10900,Lost,
+L001327,932,IT Services,Paid Ads,Business,Qualified,4567,Converted,C0189
+L001328,12,E-commerce,Outbound,Free,Demo,9670,In Progress,
+L001329,762,Healthcare,Outbound,Starter,Proposal,12465,Lost,
+L001330,607,E-commerce,Referral,Starter,Negotiation,10490,Converted,C0983
+L001331,122,FinTech,Referral,Starter,Negotiation,710,Converted,C0989
+L001332,419,IT Services,Paid Ads,Business,Qualified,6859,Converted,C0529
+L001333,539,Professional Services,Outbound,Business,Negotiation,5358,Converted,C0015
+L001334,79,FinTech,Website,Business,New,9406,Converted,C0871
+L001335,924,IT Services,Outbound,Starter,Proposal,7987,Converted,C0999
+L001336,141,E-commerce,Outbound,Starter,Proposal,2050,Converted,C0987
+L001337,108,IT Services,Outbound,Starter,Demo,3296,Lost,
+L001338,98,E-commerce,Referral,Business,Qualified,800,Converted,C0926
+L001339,995,Professional Services,Referral,Business,Qualified,19343,Converted,C0477
+L001340,219,Marketing,Paid Ads,Starter,Demo,19294,In Progress,
+L001341,525,Education,Partner,Starter,Qualified,12538,Converted,C0677
+L001342,57,Professional Services,Paid Ads,Business,Negotiation,14897,Converted,C0020
+L001343,453,E-commerce,Outbound,Business,Demo,4123,Lost,
+L001344,253,Marketing,Website,Business,Negotiation,8920,Lost,
+L001345,85,SaaS,Website,Starter,Qualified,17835,Converted,C0702
+L001346,347,IT Services,Outbound,Business,New,2070,In Progress,
+L001347,840,Healthcare,Outbound,Business,Demo,726,Converted,C0548
+L001348,319,Healthcare,Referral,Starter,Negotiation,19953,In Progress,
+L001349,446,Professional Services,Website,Business,Negotiation,12766,In Progress,
+L001350,74,Marketing,Outbound,Starter,Proposal,11791,In Progress,
+L001351,442,FinTech,Website,Starter,Qualified,4813,Converted,C0995
+L001352,628,Education,Paid Ads,Starter,Negotiation,3564,Lost,
+L001353,35,E-commerce,Outbound,Business,Qualified,2825,In Progress,
+L001354,983,SaaS,Partner,Business,Demo,18583,In Progress,
+L001355,298,IT Services,Website,Business,Proposal,3395,Converted,C0300
+L001356,813,Professional Services,Outbound,Business,Negotiation,3633,Lost,
+L001357,776,FinTech,Outbound,Starter,Negotiation,10467,Converted,C0222
+L001358,881,SaaS,Referral,Starter,New,12002,In Progress,
+L001359,219,IT Services,Referral,Business,Negotiation,10470,Converted,C0195
+L001360,951,FinTech,Partner,Business,Proposal,2946,In Progress,
+L001361,279,Education,Referral,Business,New,11209,Lost,
+L001362,535,FinTech,Referral,Starter,New,8560,Lost,
+L001363,145,Professional Services,Referral,Starter,Demo,6047,Converted,C0220
+L001364,690,SaaS,Website,Business,New,11740,Converted,C0995
+L001365,431,SaaS,Outbound,Business,Demo,4755,Lost,
+L001366,383,E-commerce,Referral,Starter,New,2877,Lost,
+L001367,785,Marketing,Outbound,Business,Proposal,12725,Converted,C0119
+L001368,182,SaaS,Website,Business,Qualified,6964,Lost,
+L001369,337,Professional Services,Partner,Starter,New,4440,Converted,C0728
+L001370,887,Professional Services,Paid Ads,Business,Demo,13824,Lost,
+L001371,328,FinTech,Website,Starter,Demo,5578,In Progress,
+L001372,737,SaaS,Partner,Starter,Qualified,4314,Lost,
+L001373,295,Marketing,Outbound,Business,Negotiation,3169,In Progress,
+L001374,708,E-commerce,Outbound,Starter,Negotiation,10947,In Progress,
+L001375,905,FinTech,Website,Business,Proposal,10272,Lost,
+L001376,8,Professional Services,Paid Ads,Starter,Negotiation,14211,In Progress,
+L001377,399,Healthcare,Partner,Business,New,7102,Lost,
+L001378,120,Education,Outbound,Business,Proposal,13020,Converted,C0204
+L001379,512,Marketing,Website,Business,Proposal,14644,In Progress,
+L001380,911,FinTech,Partner,Business,Demo,7987,Converted,C0311
+L001381,677,SaaS,Paid Ads,Starter,Negotiation,12017,Lost,
+L001382,604,SaaS,Paid Ads,Business,Negotiation,16308,Lost,
+L001383,444,IT Services,Referral,Starter,Qualified,8438,In Progress,
+L001384,722,FinTech,Outbound,Business,Proposal,2422,In Progress,
+L001385,689,SaaS,Partner,Starter,Negotiation,7502,In Progress,
+L001386,161,Healthcare,Outbound,Business,Qualified,16122,In Progress,
+L001387,440,Healthcare,Website,Business,New,8350,Converted,C0248
+L001388,181,Education,Partner,Starter,Qualified,19331,Converted,C0569
+L001389,227,Professional Services,Referral,Business,Negotiation,13249,Lost,
+L001390,972,Healthcare,Paid Ads,Business,Demo,2131,In Progress,
+L001391,749,Marketing,Paid Ads,Business,New,5322,Lost,
+L001392,109,IT Services,Paid Ads,Business,Qualified,1064,In Progress,
+L001393,169,FinTech,Paid Ads,Starter,Qualified,11748,In Progress,
+L001394,79,SaaS,Referral,Business,Proposal,16979,Converted,C0718
+L001395,557,E-commerce,Referral,Business,Qualified,2032,Lost,
+L001396,151,Professional Services,Referral,Business,New,12682,Lost,
+L001397,500,SaaS,Outbound,Starter,Negotiation,9296,Lost,
+L001398,915,Education,Partner,Business,New,11334,In Progress,
+L001399,603,E-commerce,Referral,Starter,Negotiation,7058,Lost,
+L001400,619,Professional Services,Partner,Starter,Proposal,16412,Converted,C0650
+L001401,369,IT Services,Referral,Business,New,17316,Lost,
+L001402,30,Professional Services,Website,Free,New,10027,In Progress,
+L001403,410,Healthcare,Outbound,Business,Negotiation,3294,Lost,
+L001404,957,Professional Services,Partner,Business,Demo,1077,In Progress,
+L001405,997,Education,Outbound,Business,Negotiation,11202,Lost,
+L001406,17,Marketing,Website,Free,Demo,14151,Converted,C0401
+L001407,733,SaaS,Website,Business,Proposal,10006,In Progress,
+L001408,699,IT Services,Outbound,Business,Negotiation,16544,Lost,
+L001409,568,Professional Services,Paid Ads,Starter,Proposal,7292,In Progress,
+L001410,414,E-commerce,Website,Business,Negotiation,13793,In Progress,
+L001411,584,SaaS,Paid Ads,Business,Demo,11582,In Progress,
+L001412,247,Education,Website,Business,Proposal,3983,Converted,C0404
+L001413,399,Healthcare,Website,Starter,Negotiation,2024,Lost,
+L001414,964,IT Services,Partner,Business,Proposal,13217,Lost,
+L001415,129,Professional Services,Website,Starter,New,860,Lost,
+L001416,688,Healthcare,Partner,Business,Demo,10230,Converted,C0807
+L001417,70,E-commerce,Website,Starter,Qualified,2888,Lost,
+L001418,532,FinTech,Referral,Business,New,18101,In Progress,
+L001419,737,SaaS,Partner,Starter,Demo,7759,Converted,C0379
+L001420,6,IT Services,Website,Starter,Negotiation,3790,Converted,C0028
+L001421,79,Marketing,Website,Starter,New,7423,Lost,
+L001422,652,FinTech,Partner,Business,Demo,5682,Lost,
+L001423,894,Education,Paid Ads,Business,Proposal,19504,Lost,
+L001424,985,IT Services,Website,Business,Qualified,12237,In Progress,
+L001425,703,Professional Services,Website,Business,Demo,18484,In Progress,
+L001426,723,FinTech,Paid Ads,Business,Qualified,1264,Converted,C0651
+L001427,117,Education,Website,Starter,Proposal,13088,In Progress,
+L001428,973,Professional Services,Paid Ads,Business,New,10346,In Progress,
+L001429,649,SaaS,Website,Starter,Demo,1763,Lost,
+L001430,463,Education,Paid Ads,Starter,Negotiation,6571,Converted,C0948
+L001431,435,IT Services,Paid Ads,Starter,Negotiation,568,Converted,C0604
+L001432,175,Education,Partner,Business,Proposal,7926,Lost,
+L001433,557,IT Services,Referral,Business,Proposal,8138,Converted,C0691
+L001434,526,Professional Services,Paid Ads,Business,Qualified,690,Converted,C0968
+L001435,285,IT Services,Referral,Business,New,1955,In Progress,
+L001436,981,Healthcare,Referral,Business,Negotiation,18603,Lost,
+L001437,990,SaaS,Outbound,Business,Negotiation,19729,Lost,
+L001438,181,FinTech,Website,Starter,New,991,In Progress,
+L001439,868,Healthcare,Website,Starter,Qualified,635,Converted,C0010
+L001440,66,Education,Referral,Starter,Qualified,11916,Converted,C0253
+L001441,757,E-commerce,Referral,Business,Qualified,18765,In Progress,
+L001442,701,E-commerce,Website,Business,Proposal,15649,Lost,
+L001443,355,Professional Services,Referral,Business,Demo,5017,In Progress,
+L001444,147,Education,Partner,Starter,Negotiation,2812,In Progress,
+L001445,484,FinTech,Partner,Business,Demo,15998,Lost,
+L001446,136,FinTech,Paid Ads,Business,Demo,18953,Converted,C0016
+L001447,800,FinTech,Website,Business,Negotiation,4058,Converted,C0803
+L001448,284,SaaS,Paid Ads,Business,Proposal,6897,Converted,C0864
+L001449,95,Healthcare,Partner,Starter,Proposal,15334,In Progress,
+L001450,273,Marketing,Outbound,Business,Negotiation,14796,Lost,
+L001451,975,E-commerce,Website,Business,Demo,15257,Lost,
+L001452,483,FinTech,Partner,Starter,Qualified,4538,Lost,
+L001453,746,IT Services,Paid Ads,Business,Negotiation,17742,In Progress,
+L001454,251,Education,Website,Starter,Proposal,16398,Lost,
+L001455,357,Professional Services,Referral,Business,Qualified,10780,Lost,
+L001456,705,Healthcare,Website,Business,Demo,8650,In Progress,
+L001457,159,Education,Partner,Starter,Qualified,16901,In Progress,
+L001458,451,Marketing,Outbound,Business,Proposal,19631,In Progress,
+L001459,806,Education,Paid Ads,Business,Qualified,3177,Lost,
+L001460,580,Healthcare,Paid Ads,Business,New,9049,Converted,C0739
+L001461,692,Professional Services,Website,Starter,Proposal,18038,In Progress,
+L001462,340,E-commerce,Website,Business,Negotiation,16466,Lost,
+L001463,189,FinTech,Partner,Starter,Negotiation,8199,In Progress,
+L001464,485,IT Services,Partner,Business,Negotiation,5688,Lost,
+L001465,37,Education,Partner,Free,Demo,4562,Converted,C0508
+L001466,318,SaaS,Outbound,Business,Proposal,8120,In Progress,
+L001467,526,Education,Outbound,Business,Demo,6090,Lost,
+L001468,7,Professional Services,Outbound,Free,New,13659,In Progress,
+L001469,785,IT Services,Paid Ads,Starter,Negotiation,11892,Converted,C0934
+L001470,778,SaaS,Referral,Business,Demo,5318,Lost,
+L001471,154,SaaS,Referral,Starter,New,6963,Lost,
+L001472,328,Education,Partner,Starter,New,12149,Lost,
+L001473,77,FinTech,Referral,Starter,Negotiation,11897,Lost,
+L001474,864,E-commerce,Website,Business,New,9587,In Progress,
+L001475,723,IT Services,Website,Business,Qualified,1831,Converted,C0175
+L001476,750,Professional Services,Website,Business,Demo,9906,Converted,C0333
+L001477,326,IT Services,Partner,Business,Negotiation,10134,Lost,
+L001478,646,Professional Services,Referral,Business,Proposal,14970,Converted,C0783
+L001479,687,SaaS,Outbound,Business,Negotiation,8124,In Progress,
+L001480,578,Education,Partner,Business,Qualified,12491,Converted,C0180
+L001481,149,IT Services,Outbound,Business,Demo,5125,Lost,
+L001482,404,Healthcare,Outbound,Starter,Negotiation,7072,Converted,C0176
+L001483,529,SaaS,Website,Business,Proposal,19055,In Progress,
+L001484,720,SaaS,Outbound,Starter,Qualified,17241,In Progress,
+L001485,862,Education,Website,Business,Proposal,18555,In Progress,
+L001486,776,IT Services,Paid Ads,Business,Negotiation,13315,In Progress,
+L001487,865,SaaS,Outbound,Starter,New,17691,Lost,
+L001488,87,IT Services,Referral,Starter,Proposal,2626,Converted,C0520
+L001489,180,Professional Services,Referral,Business,Qualified,16701,In Progress,
+L001490,404,Healthcare,Website,Business,Negotiation,5260,Converted,C0875
+L001491,733,E-commerce,Website,Business,New,13304,In Progress,
+L001492,116,Professional Services,Referral,Starter,Demo,6986,Converted,C0138
+L001493,817,Education,Referral,Starter,Negotiation,7381,In Progress,
+L001494,737,IT Services,Referral,Starter,Negotiation,18232,In Progress,
+L001495,179,Education,Website,Starter,Negotiation,17213,In Progress,
+L001496,741,E-commerce,Partner,Starter,Demo,9434,In Progress,
+L001497,218,Marketing,Paid Ads,Starter,Proposal,5905,In Progress,
+L001498,332,FinTech,Website,Business,Proposal,2412,Lost,
+L001499,863,Healthcare,Partner,Starter,Proposal,8515,Lost,
+L001500,149,SaaS,Partner,Starter,Demo,9546,Converted,C0275
+L001501,643,SaaS,Outbound,Starter,New,16579,Lost,
+L001502,746,Healthcare,Outbound,Business,Qualified,5069,Lost,
+L001503,793,IT Services,Partner,Business,Demo,6391,Lost,
+L001504,423,SaaS,Paid Ads,Business,Demo,8060,In Progress,
+L001505,345,FinTech,Referral,Business,New,8084,Converted,C0846
+L001506,33,SaaS,Referral,Free,Proposal,8084,Lost,
+L001507,5,Healthcare,Referral,Starter,Proposal,2652,Lost,
+L001508,49,Marketing,Outbound,Starter,New,16338,Lost,
+L001509,212,IT Services,Outbound,Business,Demo,13548,In Progress,
+L001510,75,Professional Services,Partner,Starter,Negotiation,11399,Converted,C0490
+L001511,498,Professional Services,Paid Ads,Starter,Demo,10835,Lost,
+L001512,320,Professional Services,Website,Starter,New,19497,Converted,C0201
+L001513,28,Healthcare,Partner,Starter,Negotiation,10228,Lost,
+L001514,159,E-commerce,Partner,Starter,Demo,16931,Lost,
+L001515,31,Healthcare,Paid Ads,Free,Qualified,19335,Lost,
+L001516,377,Education,Website,Business,Qualified,7901,Converted,C0397
+L001517,708,Marketing,Referral,Business,Demo,10681,Converted,C0757
+L001518,153,IT Services,Referral,Business,Qualified,17684,Lost,
+L001519,848,SaaS,Referral,Business,Qualified,538,Lost,
+L001520,1000,Marketing,Paid Ads,Business,Negotiation,2831,Converted,C0879
+L001521,332,FinTech,Paid Ads,Business,Negotiation,13039,Converted,C0436
+L001522,805,FinTech,Paid Ads,Starter,Negotiation,17822,Lost,
+L001523,111,Education,Partner,Business,Negotiation,7950,Lost,
+L001524,485,Professional Services,Paid Ads,Business,Demo,10573,Converted,C0297
+L001525,945,Healthcare,Paid Ads,Business,Proposal,15364,Converted,C0254
+L001526,180,FinTech,Partner,Starter,Demo,14756,In Progress,
+L001527,116,Education,Partner,Starter,New,16943,In Progress,
+L001528,183,IT Services,Partner,Business,Demo,10927,Converted,C0750
+L001529,465,Marketing,Paid Ads,Business,Qualified,11260,Lost,
+L001530,869,Healthcare,Referral,Business,Qualified,16707,Converted,C0857
+L001531,390,Healthcare,Referral,Business,Demo,4807,Lost,
+L001532,750,Healthcare,Referral,Business,Negotiation,11073,Converted,C0734
+L001533,472,IT Services,Partner,Business,Demo,16787,Lost,
+L001534,741,Marketing,Outbound,Business,Demo,15975,In Progress,
+L001535,877,FinTech,Referral,Starter,Qualified,5185,In Progress,
+L001536,588,Professional Services,Referral,Business,Qualified,4406,Lost,
+L001537,850,Healthcare,Partner,Business,Negotiation,9893,In Progress,
+L001538,780,IT Services,Paid Ads,Business,Demo,1335,In Progress,
+L001539,339,Education,Paid Ads,Business,Negotiation,19175,Lost,
+L001540,315,IT Services,Referral,Business,Proposal,4372,Lost,
+L001541,357,Education,Referral,Business,Negotiation,18331,Converted,C0847
+L001542,301,FinTech,Referral,Business,New,19857,Lost,
+L001543,704,E-commerce,Paid Ads,Business,New,14963,In Progress,
+L001544,846,SaaS,Partner,Business,Demo,10123,Lost,
+L001545,721,SaaS,Partner,Business,Qualified,12254,In Progress,
+L001546,367,FinTech,Outbound,Starter,Demo,5922,Lost,
+L001547,418,IT Services,Outbound,Business,Qualified,12751,Lost,
+L001548,554,E-commerce,Partner,Business,Negotiation,18004,Converted,C0817
+L001549,716,IT Services,Paid Ads,Business,New,1973,In Progress,
+L001550,349,Professional Services,Paid Ads,Starter,New,5644,Converted,C0148
+L001551,88,E-commerce,Referral,Business,Proposal,17092,In Progress,
+L001552,987,FinTech,Paid Ads,Business,Demo,7476,Lost,
+L001553,893,IT Services,Outbound,Business,Negotiation,12187,Lost,
+L001554,349,IT Services,Paid Ads,Business,New,17134,Converted,C0438
+L001555,258,Professional Services,Partner,Business,Proposal,15046,In Progress,
+L001556,940,FinTech,Outbound,Business,Negotiation,11717,In Progress,
+L001557,794,SaaS,Paid Ads,Business,Proposal,6717,Converted,C0408
+L001558,938,Education,Paid Ads,Business,New,1190,In Progress,
+L001559,436,Professional Services,Outbound,Business,Negotiation,2706,Converted,C0134
+L001560,863,Healthcare,Partner,Starter,Demo,11714,Lost,
+L001561,176,Professional Services,Referral,Business,Qualified,17466,Converted,C0306
+L001562,395,FinTech,Paid Ads,Business,Negotiation,19184,Lost,
+L001563,398,Education,Partner,Starter,Negotiation,8924,Converted,C0745
+L001564,20,E-commerce,Outbound,Starter,New,5709,Converted,C0603
+L001565,73,Marketing,Partner,Starter,New,14308,Lost,
+L001566,169,Professional Services,Referral,Business,Proposal,7522,Converted,C0275
+L001567,446,Education,Outbound,Business,Proposal,1113,In Progress,
+L001568,761,Healthcare,Website,Business,Proposal,6189,In Progress,
+L001569,1000,SaaS,Website,Business,New,14346,Converted,C0045
+L001570,412,FinTech,Paid Ads,Business,New,14985,In Progress,
+L001571,866,E-commerce,Referral,Business,Qualified,2137,Converted,C0865
+L001572,690,FinTech,Partner,Starter,Demo,2218,Lost,
+L001573,184,Education,Referral,Business,Negotiation,6837,Converted,C0870
+L001574,630,Education,Partner,Starter,Negotiation,4614,Lost,
+L001575,482,FinTech,Outbound,Business,Proposal,9661,Lost,
+L001576,148,FinTech,Paid Ads,Business,Qualified,9369,Converted,C0375
+L001577,16,Education,Partner,Free,Proposal,17107,In Progress,
+L001578,222,SaaS,Paid Ads,Starter,New,18631,Lost,
+L001579,144,FinTech,Paid Ads,Business,Qualified,14464,Lost,
+L001580,796,Marketing,Paid Ads,Business,Qualified,17147,Converted,C0613
+L001581,14,Marketing,Referral,Free,Proposal,11932,In Progress,
+L001582,37,IT Services,Partner,Starter,Proposal,7559,Lost,
+L001583,400,Education,Referral,Business,Proposal,16030,In Progress,
+L001584,46,Professional Services,Referral,Free,Demo,4029,In Progress,
+L001585,672,E-commerce,Paid Ads,Business,Proposal,6470,Converted,C0562
+L001586,396,E-commerce,Referral,Starter,Qualified,18633,Converted,C0987
+L001587,207,IT Services,Paid Ads,Business,Demo,5885,Lost,
+L001588,990,FinTech,Partner,Starter,Negotiation,12275,In Progress,
+L001589,508,IT Services,Referral,Business,New,2309,Lost,
+L001590,476,Education,Outbound,Business,Qualified,10619,Lost,
+L001591,554,IT Services,Outbound,Business,Negotiation,11845,Lost,
+L001592,832,SaaS,Outbound,Business,Negotiation,2230,Converted,C0898
+L001593,371,FinTech,Referral,Starter,New,11258,In Progress,
+L001594,758,Marketing,Website,Business,New,19972,Lost,
+L001595,783,Healthcare,Partner,Business,Negotiation,4788,Converted,C0679
+L001596,159,FinTech,Referral,Starter,Proposal,11878,Lost,
+L001597,115,Professional Services,Outbound,Business,Qualified,4907,Lost,
+L001598,888,Education,Paid Ads,Business,Negotiation,16179,Converted,C0419
+L001599,476,IT Services,Partner,Business,Demo,3689,In Progress,
+L001600,560,Healthcare,Referral,Business,Proposal,12216,Lost,
+L001601,971,E-commerce,Website,Business,Qualified,16409,Converted,C0474
+L001602,264,IT Services,Website,Business,New,17597,Lost,
+L001603,240,Marketing,Website,Business,Proposal,6587,Converted,C0503
+L001604,822,IT Services,Partner,Business,Demo,17172,Converted,C0091
+L001605,810,Healthcare,Website,Business,Negotiation,526,Lost,
+L001606,50,Healthcare,Website,Free,Demo,12801,Converted,C0152
+L001607,909,SaaS,Outbound,Starter,Proposal,18615,Lost,
+L001608,815,SaaS,Paid Ads,Starter,Negotiation,3251,Converted,C0195
+L001609,40,E-commerce,Outbound,Free,Qualified,11372,Converted,C0112
+L001610,280,Healthcare,Paid Ads,Business,New,1323,Lost,
+L001611,644,E-commerce,Paid Ads,Business,Proposal,8397,In Progress,
+L001612,619,Education,Paid Ads,Business,Qualified,7508,In Progress,
+L001613,438,Healthcare,Partner,Business,Negotiation,12521,Lost,
+L001614,746,Professional Services,Paid Ads,Starter,Demo,7967,In Progress,
+L001615,884,Healthcare,Partner,Business,Demo,14411,Converted,C0858
+L001616,631,E-commerce,Partner,Starter,Negotiation,6097,Converted,C0666
+L001617,662,Education,Referral,Business,Demo,3702,Lost,
+L001618,957,Professional Services,Referral,Business,Proposal,17635,In Progress,
+L001619,590,Professional Services,Partner,Business,Proposal,11445,Converted,C0274
+L001620,464,Education,Paid Ads,Starter,Negotiation,16467,Lost,
+L001621,451,Marketing,Partner,Business,Negotiation,12686,Lost,
+L001622,38,FinTech,Website,Starter,Proposal,11749,Converted,C0477
+L001623,675,Professional Services,Referral,Business,New,12355,Lost,
+L001624,158,Professional Services,Outbound,Business,New,1779,Converted,C0270
+L001625,565,IT Services,Outbound,Business,Proposal,19324,Converted,C0157
+L001626,864,FinTech,Paid Ads,Business,Qualified,5389,In Progress,
+L001627,455,SaaS,Outbound,Business,Negotiation,9093,Converted,C0811
+L001628,413,FinTech,Referral,Business,Negotiation,12847,Converted,C0772
+L001629,225,SaaS,Paid Ads,Business,Proposal,9805,Lost,
+L001630,90,IT Services,Website,Business,New,19051,In Progress,
+L001631,619,Education,Paid Ads,Starter,Negotiation,8592,In Progress,
+L001632,38,Healthcare,Outbound,Free,New,6388,Lost,
+L001633,535,FinTech,Partner,Business,Demo,11805,In Progress,
+L001634,935,IT Services,Outbound,Business,Proposal,2929,Lost,
+L001635,644,SaaS,Website,Business,Demo,1543,Converted,C0928
+L001636,942,Healthcare,Partner,Business,Demo,16184,Converted,C0667
+L001637,875,Professional Services,Paid Ads,Business,Demo,10642,Lost,
+L001638,929,Healthcare,Referral,Business,New,19204,Lost,
+L001639,942,Education,Website,Business,Qualified,17051,In Progress,
+L001640,766,E-commerce,Partner,Business,Qualified,4437,Converted,C0324
+L001641,336,Marketing,Outbound,Business,Demo,13458,Lost,
+L001642,293,Education,Partner,Starter,Demo,15478,In Progress,
+L001643,675,E-commerce,Paid Ads,Business,Negotiation,6748,Converted,C0692
+L001644,450,Education,Referral,Business,Proposal,14781,Lost,
+L001645,293,Professional Services,Paid Ads,Business,Demo,11964,In Progress,
+L001646,574,SaaS,Website,Starter,New,19261,In Progress,
+L001647,313,Professional Services,Paid Ads,Business,Demo,16767,Lost,
+L001648,68,SaaS,Referral,Starter,Qualified,10915,In Progress,
+L001649,949,E-commerce,Website,Starter,Negotiation,5750,Lost,
+L001650,633,Professional Services,Partner,Business,Negotiation,7557,Converted,C0693
+L001651,650,SaaS,Referral,Business,Proposal,15851,Lost,
+L001652,483,Marketing,Outbound,Business,Demo,1566,In Progress,
+L001653,228,Professional Services,Paid Ads,Business,Demo,6005,Lost,
+L001654,698,Education,Paid Ads,Starter,Negotiation,18364,Lost,
+L001655,648,Marketing,Website,Business,Qualified,4734,In Progress,
+L001656,641,IT Services,Website,Business,New,19105,Converted,C0991
+L001657,127,Professional Services,Website,Starter,Negotiation,6414,In Progress,
+L001658,299,Healthcare,Referral,Business,Demo,8347,In Progress,
+L001659,654,Education,Partner,Business,New,696,Converted,C0314
+L001660,720,IT Services,Outbound,Starter,Negotiation,2164,In Progress,
+L001661,810,E-commerce,Website,Business,Demo,5244,In Progress,
+L001662,462,Professional Services,Paid Ads,Starter,Qualified,8481,In Progress,
+L001663,344,E-commerce,Outbound,Business,Qualified,2314,Converted,C0605
+L001664,895,Professional Services,Referral,Business,Negotiation,8891,In Progress,
+L001665,126,FinTech,Partner,Business,Negotiation,9423,Converted,C0650
+L001666,619,IT Services,Paid Ads,Starter,New,10129,Converted,C0117
+L001667,442,FinTech,Referral,Business,Negotiation,14773,In Progress,
+L001668,371,FinTech,Referral,Business,Demo,2405,Converted,C0487
+L001669,525,E-commerce,Outbound,Business,Negotiation,10423,Lost,
+L001670,179,Education,Website,Starter,Negotiation,1955,Converted,C0138
+L001671,211,SaaS,Partner,Business,Demo,19297,In Progress,
+L001672,185,Healthcare,Partner,Starter,Proposal,16818,Lost,
+L001673,444,IT Services,Referral,Business,Proposal,6778,In Progress,
+L001674,245,Education,Paid Ads,Business,Demo,6395,Lost,
+L001675,366,FinTech,Outbound,Business,Negotiation,19955,In Progress,
+L001676,24,Marketing,Website,Starter,New,19185,In Progress,
+L001677,788,FinTech,Paid Ads,Starter,Negotiation,1410,Converted,C0517
+L001678,910,E-commerce,Partner,Business,Proposal,17348,Lost,
+L001679,305,FinTech,Referral,Business,Proposal,17536,Converted,C0221
+L001680,475,IT Services,Paid Ads,Business,New,15573,Converted,C0222
+L001681,325,FinTech,Website,Business,Negotiation,13144,Converted,C0283
+L001682,464,Education,Website,Business,Proposal,2106,Lost,
+L001683,385,SaaS,Paid Ads,Business,New,4719,Lost,
+L001684,877,Professional Services,Referral,Business,Demo,14587,Converted,C0603
+L001685,98,IT Services,Partner,Business,Demo,1643,Converted,C0559
+L001686,769,IT Services,Paid Ads,Business,Negotiation,10235,Lost,
+L001687,188,IT Services,Partner,Starter,Negotiation,2801,Lost,
+L001688,469,Marketing,Outbound,Business,Negotiation,18518,In Progress,
+L001689,83,SaaS,Partner,Business,Demo,2071,Converted,C0168
+L001690,708,SaaS,Paid Ads,Starter,Qualified,5339,In Progress,
+L001691,516,SaaS,Partner,Business,Demo,1667,Lost,
+L001692,421,SaaS,Partner,Business,Qualified,5934,In Progress,
+L001693,599,Education,Website,Business,Demo,713,Converted,C0403
+L001694,262,Professional Services,Partner,Starter,Qualified,13077,In Progress,
+L001695,137,IT Services,Partner,Business,Qualified,16640,In Progress,
+L001696,807,Professional Services,Outbound,Business,New,12387,Lost,
+L001697,654,FinTech,Paid Ads,Business,Proposal,6815,In Progress,
+L001698,163,Marketing,Paid Ads,Business,New,18050,Lost,
+L001699,689,Education,Partner,Business,Qualified,19324,Converted,C0418
+L001700,943,IT Services,Referral,Business,New,16911,Lost,
+L001701,37,FinTech,Referral,Starter,Demo,14575,Converted,C0101
+L001702,798,E-commerce,Paid Ads,Starter,Qualified,13060,In Progress,
+L001703,861,FinTech,Website,Business,Proposal,4244,Converted,C0016
+L001704,360,Education,Outbound,Business,Demo,11422,Lost,
+L001705,187,Professional Services,Website,Business,Proposal,9180,Lost,
+L001706,236,Professional Services,Paid Ads,Business,Proposal,2694,In Progress,
+L001707,348,SaaS,Referral,Business,Qualified,3122,In Progress,
+L001708,255,FinTech,Outbound,Business,New,1272,Converted,C0203
+L001709,382,Healthcare,Partner,Business,Qualified,7061,Converted,C0619
+L001710,854,Professional Services,Outbound,Business,Negotiation,8618,In Progress,
+L001711,645,Professional Services,Partner,Business,Proposal,12651,In Progress,
+L001712,643,Education,Outbound,Business,Qualified,7260,In Progress,
+L001713,349,Education,Paid Ads,Business,Qualified,13548,Lost,
+L001714,374,E-commerce,Outbound,Business,Demo,3352,Lost,
+L001715,345,Marketing,Partner,Business,Negotiation,16670,In Progress,
+L001716,897,Professional Services,Paid Ads,Business,Qualified,7679,Converted,C0499
+L001717,180,SaaS,Partner,Starter,Negotiation,19335,Lost,
+L001718,948,Marketing,Website,Business,Qualified,12036,Lost,
+L001719,823,SaaS,Referral,Business,Qualified,13405,In Progress,
+L001720,102,Education,Website,Starter,Demo,9100,In Progress,
+L001721,915,Healthcare,Partner,Business,Demo,10802,In Progress,
+L001722,491,Marketing,Paid Ads,Business,Negotiation,5955,Converted,C0565
+L001723,855,Professional Services,Paid Ads,Business,New,10041,In Progress,
+L001724,298,Marketing,Partner,Business,Proposal,4939,Lost,
+L001725,252,Education,Paid Ads,Business,Proposal,5831,Lost,
+L001726,306,Professional Services,Referral,Starter,Proposal,11352,Lost,
+L001727,235,Professional Services,Referral,Business,Demo,8427,Lost,
+L001728,822,Professional Services,Paid Ads,Starter,Proposal,6148,Lost,
+L001729,404,IT Services,Website,Business,New,18867,In Progress,
+L001730,463,IT Services,Partner,Business,Qualified,5921,Converted,C0657
+L001731,258,Marketing,Referral,Business,New,12335,Converted,C0871
+L001732,723,Healthcare,Partner,Business,Proposal,17254,In Progress,
+L001733,464,Marketing,Partner,Business,Demo,14087,In Progress,
+L001734,554,IT Services,Paid Ads,Business,Qualified,10632,In Progress,
+L001735,211,E-commerce,Referral,Business,New,7711,In Progress,
+L001736,318,IT Services,Website,Business,Negotiation,14002,Lost,
+L001737,295,SaaS,Outbound,Business,Demo,18449,In Progress,
+L001738,183,IT Services,Paid Ads,Starter,Proposal,16326,Lost,
+L001739,146,E-commerce,Referral,Starter,Qualified,14714,In Progress,
+L001740,490,Marketing,Outbound,Business,New,11151,In Progress,
+L001741,214,FinTech,Paid Ads,Starter,New,5783,In Progress,
+L001742,587,IT Services,Partner,Business,Qualified,19454,In Progress,
+L001743,926,SaaS,Paid Ads,Starter,Demo,10281,Converted,C0311
+L001744,766,Marketing,Website,Business,New,13208,Converted,C0509
+L001745,983,Professional Services,Website,Business,Negotiation,15224,Converted,C0224
+L001746,976,SaaS,Outbound,Business,Negotiation,4949,Converted,C0738
+L001747,600,Marketing,Partner,Starter,Demo,6158,Lost,
+L001748,289,FinTech,Website,Business,Qualified,10039,In Progress,
+L001749,179,E-commerce,Outbound,Business,Proposal,14520,In Progress,
+L001750,13,Education,Paid Ads,Starter,Demo,1412,In Progress,
+L001751,961,E-commerce,Outbound,Business,Demo,6407,In Progress,
+L001752,778,Education,Partner,Business,Qualified,11945,In Progress,
+L001753,71,Healthcare,Paid Ads,Starter,Proposal,11346,Converted,C0959
+L001754,650,Marketing,Outbound,Business,New,7078,In Progress,
+L001755,630,FinTech,Paid Ads,Business,Proposal,638,In Progress,
+L001756,533,E-commerce,Paid Ads,Business,Negotiation,7283,Converted,C0597
+L001757,955,Professional Services,Referral,Starter,New,14507,In Progress,
+L001758,857,Healthcare,Referral,Business,Demo,825,Converted,C0292
+L001759,573,FinTech,Referral,Business,Negotiation,14529,Converted,C0295
+L001760,87,Healthcare,Paid Ads,Business,Negotiation,1234,Converted,C0584
+L001761,239,Marketing,Partner,Starter,Proposal,13738,Lost,
+L001762,955,Healthcare,Paid Ads,Business,Proposal,16263,Converted,C0391
+L001763,723,Marketing,Paid Ads,Business,New,9696,In Progress,
+L001764,431,Marketing,Referral,Starter,Negotiation,14916,Lost,
+L001765,975,IT Services,Paid Ads,Starter,Qualified,2688,Converted,C0607
+L001766,903,FinTech,Paid Ads,Business,Demo,19264,Lost,
+L001767,865,E-commerce,Referral,Business,Qualified,16569,In Progress,
+L001768,932,E-commerce,Paid Ads,Business,New,15148,In Progress,
+L001769,114,Marketing,Website,Starter,Proposal,6337,Lost,
+L001770,413,Healthcare,Paid Ads,Business,Negotiation,8880,Converted,C0257
+L001771,492,FinTech,Paid Ads,Starter,New,13364,Lost,
+L001772,69,Healthcare,Referral,Starter,Demo,12267,Lost,
+L001773,839,E-commerce,Referral,Business,Demo,10671,Converted,C0456
+L001774,870,Education,Partner,Business,Proposal,1049,Lost,
+L001775,597,IT Services,Paid Ads,Business,Proposal,1782,In Progress,
+L001776,985,Marketing,Referral,Business,Demo,19074,Lost,
+L001777,113,Healthcare,Partner,Starter,Qualified,12468,Lost,
+L001778,87,SaaS,Partner,Starter,Demo,14118,Lost,
+L001779,783,Education,Website,Business,Negotiation,17271,Lost,
+L001780,494,E-commerce,Referral,Business,Qualified,10977,Converted,C0752
+L001781,150,SaaS,Paid Ads,Starter,New,18570,In Progress,
+L001782,817,FinTech,Paid Ads,Business,New,8780,Lost,
+L001783,875,Education,Paid Ads,Business,Proposal,17843,Lost,
+L001784,326,Marketing,Partner,Business,New,12277,Lost,
+L001785,400,Healthcare,Paid Ads,Business,Proposal,1546,In Progress,
+L001786,764,IT Services,Website,Business,Qualified,16210,Lost,
+L001787,594,Healthcare,Website,Starter,Proposal,8750,In Progress,
+L001788,993,Marketing,Website,Business,Proposal,13827,Lost,
+L001789,787,Professional Services,Website,Business,Demo,15694,In Progress,
+L001790,487,E-commerce,Paid Ads,Business,New,6829,Lost,
+L001791,28,Marketing,Paid Ads,Starter,New,17854,Lost,
+L001792,670,FinTech,Referral,Business,Negotiation,7246,Lost,
+L001793,136,E-commerce,Website,Business,New,2669,In Progress,
+L001794,845,E-commerce,Partner,Starter,Demo,10990,In Progress,
+L001795,558,Marketing,Paid Ads,Business,Proposal,19403,In Progress,
+L001796,742,Healthcare,Website,Business,Proposal,7431,Lost,
+L001797,220,IT Services,Outbound,Starter,Qualified,13828,Converted,C0783
+L001798,653,FinTech,Outbound,Starter,Negotiation,14041,Converted,C0616
+L001799,143,FinTech,Partner,Starter,New,10088,Converted,C0324
+L001800,314,SaaS,Website,Business,Negotiation,5219,Converted,C0719
+L001801,652,FinTech,Website,Starter,Demo,13514,Lost,
+L001802,622,E-commerce,Outbound,Business,Demo,7890,Lost,
+L001803,206,Marketing,Outbound,Starter,Negotiation,10734,Lost,
+L001804,939,Professional Services,Website,Starter,Proposal,15823,Converted,C0795
+L001805,203,FinTech,Partner,Business,New,9676,Converted,C0726
+L001806,948,FinTech,Paid Ads,Business,Qualified,18253,In Progress,
+L001807,248,Marketing,Partner,Starter,Negotiation,18125,Converted,C0388
+L001808,95,SaaS,Partner,Starter,Proposal,1703,Lost,
+L001809,424,IT Services,Website,Business,Negotiation,7012,In Progress,
+L001810,206,E-commerce,Referral,Business,New,14612,Converted,C0376
+L001811,493,Education,Outbound,Business,Demo,13947,In Progress,
+L001812,737,Healthcare,Paid Ads,Business,Negotiation,4159,In Progress,
+L001813,790,Healthcare,Paid Ads,Starter,Demo,4305,In Progress,
+L001814,920,Professional Services,Outbound,Business,Proposal,17345,Converted,C0880
+L001815,495,FinTech,Paid Ads,Starter,Negotiation,12520,Lost,
+L001816,838,FinTech,Website,Starter,Demo,3311,In Progress,
+L001817,14,E-commerce,Outbound,Starter,Demo,14952,Lost,
+L001818,511,Education,Website,Business,Qualified,13080,Lost,
+L001819,941,FinTech,Website,Business,Demo,5947,In Progress,
+L001820,68,Education,Website,Starter,Negotiation,12312,In Progress,
+L001821,444,FinTech,Referral,Business,Qualified,16767,Lost,
+L001822,76,Marketing,Paid Ads,Starter,New,19356,Converted,C0490
+L001823,662,IT Services,Paid Ads,Business,New,2284,Lost,
+L001824,108,E-commerce,Referral,Starter,Qualified,17111,Converted,C0935
+L001825,532,Healthcare,Outbound,Business,Negotiation,17495,In Progress,
+L001826,746,Healthcare,Paid Ads,Business,Proposal,2861,Converted,C0646
+L001827,764,FinTech,Paid Ads,Business,Negotiation,10771,Lost,
+L001828,139,Professional Services,Website,Starter,Demo,3542,Lost,
+L001829,108,Education,Partner,Starter,Proposal,5489,In Progress,
+L001830,58,Education,Referral,Starter,Demo,10719,Lost,
+L001831,788,Healthcare,Paid Ads,Business,Negotiation,1404,In Progress,
+L001832,532,Education,Outbound,Business,Demo,10742,Lost,
+L001833,557,IT Services,Partner,Business,Negotiation,10583,Converted,C0315
+L001834,936,Healthcare,Outbound,Starter,Demo,18927,In Progress,
+L001835,318,Marketing,Outbound,Business,New,3270,In Progress,
+L001836,61,IT Services,Referral,Starter,Proposal,4889,Converted,C0014
+L001837,700,IT Services,Partner,Business,Qualified,8190,In Progress,
+L001838,281,Healthcare,Website,Business,Proposal,17484,Lost,
+L001839,150,Professional Services,Paid Ads,Starter,Demo,2569,In Progress,
+L001840,640,E-commerce,Outbound,Business,Proposal,14111,In Progress,
+L001841,575,FinTech,Website,Starter,Demo,1188,In Progress,
+L001842,175,Marketing,Referral,Starter,Negotiation,4631,Converted,C0966
+L001843,684,E-commerce,Partner,Business,Qualified,1773,Lost,
+L001844,724,SaaS,Referral,Business,Demo,3429,In Progress,
+L001845,566,Marketing,Website,Business,Demo,19521,Converted,C0500
+L001846,527,SaaS,Partner,Business,Negotiation,15420,In Progress,
+L001847,687,FinTech,Website,Business,Negotiation,8055,In Progress,
+L001848,590,Marketing,Partner,Business,Demo,7772,Lost,
+L001849,589,Healthcare,Partner,Business,Demo,12412,In Progress,
+L001850,832,Education,Partner,Business,Demo,12000,Converted,C0225
+L001851,825,Healthcare,Website,Business,Proposal,10624,Converted,C0479
+L001852,250,IT Services,Website,Business,Qualified,5135,Converted,C0587
+L001853,648,Professional Services,Referral,Business,Proposal,13652,Lost,
+L001854,967,Education,Partner,Business,New,13913,Converted,C0075
+L001855,21,SaaS,Referral,Starter,Qualified,12203,In Progress,
+L001856,601,Education,Paid Ads,Starter,Qualified,5089,In Progress,
+L001857,859,Professional Services,Partner,Business,New,2942,Converted,C0914
+L001858,398,IT Services,Partner,Starter,Qualified,15411,Converted,C0157
+L001859,682,Professional Services,Website,Business,Proposal,15445,Lost,
+L001860,835,SaaS,Outbound,Business,Proposal,10000,Lost,
+L001861,409,FinTech,Website,Starter,Proposal,15314,Lost,
+L001862,721,Healthcare,Paid Ads,Business,Proposal,5524,Converted,C0910
+L001863,921,Education,Referral,Business,Demo,12091,Converted,C0196
+L001864,978,SaaS,Referral,Business,New,16718,In Progress,
+L001865,340,SaaS,Outbound,Business,New,7199,Converted,C0632
+L001866,734,Marketing,Paid Ads,Business,Proposal,7191,In Progress,
+L001867,624,IT Services,Referral,Business,Qualified,18885,Converted,C0715
+L001868,955,Healthcare,Referral,Starter,New,15867,Converted,C0533
+L001869,855,E-commerce,Partner,Business,Proposal,8087,In Progress,
+L001870,894,Healthcare,Website,Business,New,18034,Converted,C0658
+L001871,595,IT Services,Referral,Business,New,14795,Converted,C0413
+L001872,583,Marketing,Outbound,Starter,New,14253,In Progress,
+L001873,633,Education,Partner,Business,New,18555,In Progress,
+L001874,549,Education,Outbound,Business,Negotiation,5248,Converted,C0144
+L001875,665,IT Services,Outbound,Business,Qualified,4419,In Progress,
+L001876,691,SaaS,Paid Ads,Business,Demo,9408,Lost,
+L001877,100,E-commerce,Website,Starter,Proposal,17612,Lost,
+L001878,890,Marketing,Website,Starter,Qualified,18732,In Progress,
+L001879,700,FinTech,Website,Business,Proposal,6352,Lost,
+L001880,491,E-commerce,Partner,Business,Qualified,16892,Converted,C0886
+L001881,969,FinTech,Referral,Business,Proposal,16786,Converted,C0359
+L001882,510,Healthcare,Outbound,Business,Negotiation,12064,In Progress,
+L001883,541,IT Services,Website,Business,Qualified,9414,Lost,
+L001884,861,E-commerce,Website,Business,New,17047,Lost,
+L001885,619,Professional Services,Referral,Starter,Demo,13587,Lost,
+L001886,111,FinTech,Outbound,Starter,Proposal,7584,Lost,
+L001887,356,Professional Services,Website,Business,Proposal,4333,In Progress,
+L001888,435,Healthcare,Website,Business,Proposal,10474,In Progress,
+L001889,180,IT Services,Partner,Starter,Qualified,15288,Converted,C0201
+L001890,448,FinTech,Referral,Business,Qualified,5527,Lost,
+L001891,372,Marketing,Paid Ads,Starter,Demo,9773,Lost,
+L001892,895,Marketing,Partner,Business,Proposal,1799,Lost,
+L001893,58,E-commerce,Paid Ads,Starter,Proposal,955,Lost,
+L001894,635,Marketing,Website,Business,Proposal,13687,Lost,
+L001895,816,SaaS,Paid Ads,Business,Negotiation,19842,Converted,C0488
+L001896,72,Healthcare,Referral,Starter,Demo,8725,In Progress,
+L001897,558,SaaS,Website,Business,New,599,Lost,
+L001898,490,E-commerce,Paid Ads,Business,Demo,2094,Lost,
+L001899,19,IT Services,Paid Ads,Starter,Negotiation,10700,In Progress,
+L001900,378,SaaS,Website,Starter,Demo,18212,Lost,
+L001901,498,SaaS,Partner,Business,Proposal,11911,Lost,
+L001902,341,Marketing,Referral,Business,Proposal,5823,Converted,C0993
+L001903,492,Marketing,Partner,Business,New,11968,Converted,C0156
+L001904,211,Education,Outbound,Starter,New,14958,Converted,C0625
+L001905,232,E-commerce,Website,Business,New,19554,Converted,C0903
+L001906,62,Marketing,Referral,Business,New,18798,Converted,C0262
+L001907,415,Marketing,Referral,Starter,Demo,15157,In Progress,
+L001908,545,FinTech,Website,Business,New,11764,Lost,
+L001909,179,E-commerce,Partner,Starter,Qualified,15429,In Progress,
+L001910,206,SaaS,Paid Ads,Business,Demo,1545,Lost,
+L001911,627,IT Services,Partner,Starter,Qualified,2495,In Progress,
+L001912,83,SaaS,Partner,Starter,Demo,12365,Lost,
+L001913,567,Education,Paid Ads,Business,Demo,18209,Lost,
+L001914,707,Marketing,Referral,Business,Demo,5859,Converted,C0570
+L001915,171,FinTech,Referral,Starter,Proposal,1454,Lost,
+L001916,967,E-commerce,Website,Starter,Proposal,8410,In Progress,
+L001917,929,E-commerce,Referral,Starter,New,11585,In Progress,
+L001918,878,Education,Referral,Starter,New,17679,Converted,C0049
+L001919,33,Marketing,Referral,Starter,Negotiation,3986,Converted,C0001
+L001920,487,SaaS,Referral,Business,Demo,3521,In Progress,
+L001921,379,Education,Partner,Business,New,11857,Lost,
+L001922,809,Education,Referral,Starter,Qualified,6769,Converted,C0146
+L001923,893,SaaS,Partner,Business,New,14852,Lost,
+L001924,68,IT Services,Partner,Business,New,5265,In Progress,
+L001925,654,SaaS,Paid Ads,Business,Qualified,7189,Converted,C0473
+L001926,153,E-commerce,Partner,Starter,Qualified,8908,In Progress,
+L001927,47,Marketing,Outbound,Starter,Demo,8187,In Progress,
+L001928,58,FinTech,Partner,Starter,Negotiation,16468,Lost,
+L001929,575,Education,Outbound,Business,New,6920,Converted,C0740
+L001930,436,SaaS,Paid Ads,Business,Qualified,18622,Converted,C0414
+L001931,277,Professional Services,Outbound,Starter,Negotiation,16603,Lost,
+L001932,481,FinTech,Outbound,Business,Demo,5069,Lost,
+L001933,495,E-commerce,Partner,Starter,New,3392,In Progress,
+L001934,969,E-commerce,Partner,Starter,Proposal,19129,Converted,C0695
+L001935,563,Healthcare,Paid Ads,Business,Demo,9550,Converted,C0985
+L001936,455,Education,Outbound,Business,Negotiation,13162,Converted,C0659
+L001937,94,Education,Partner,Starter,Demo,13527,Lost,
+L001938,417,Professional Services,Website,Business,Demo,19195,In Progress,
+L001939,398,Healthcare,Referral,Business,Proposal,5693,Lost,
+L001940,616,Professional Services,Website,Business,Qualified,7880,In Progress,
+L001941,42,SaaS,Outbound,Free,New,18074,In Progress,
+L001942,18,IT Services,Website,Business,Negotiation,18523,Lost,
+L001943,243,SaaS,Outbound,Business,Demo,5774,Converted,C0430
+L001944,309,Healthcare,Partner,Business,Proposal,7688,In Progress,
+L001945,466,E-commerce,Partner,Business,Proposal,7763,In Progress,
+L001946,456,Marketing,Referral,Business,New,15588,Converted,C0618
+L001947,47,Education,Referral,Free,Demo,3035,In Progress,
+L001948,479,FinTech,Website,Starter,Proposal,12568,Converted,C0521
+L001949,687,Professional Services,Paid Ads,Starter,Negotiation,13715,Lost,
+L001950,478,Education,Referral,Business,New,10169,Converted,C0512
+L001951,421,Healthcare,Referral,Business,Qualified,14973,Converted,C0401
+L001952,64,Education,Website,Business,Proposal,11214,Lost,
+L001953,23,E-commerce,Outbound,Starter,Qualified,2962,Lost,
+L001954,619,Marketing,Paid Ads,Business,Negotiation,18341,Converted,C0821
+L001955,592,Professional Services,Website,Business,Demo,8472,Lost,
+L001956,820,FinTech,Referral,Business,Qualified,12217,Lost,
+L001957,367,FinTech,Referral,Starter,Negotiation,1436,In Progress,
+L001958,582,Professional Services,Website,Business,Negotiation,10732,Lost,
+L001959,563,Marketing,Partner,Business,Demo,1787,Lost,
+L001960,331,E-commerce,Paid Ads,Business,Demo,2070,In Progress,
+L001961,512,Marketing,Paid Ads,Starter,Proposal,13621,In Progress,
+L001962,667,Professional Services,Paid Ads,Business,Demo,19748,Converted,C0476
+L001963,774,Education,Website,Business,Demo,5582,Lost,
+L001964,898,SaaS,Partner,Business,Proposal,896,Converted,C0175
+L001965,897,FinTech,Paid Ads,Business,Proposal,19696,Lost,
+L001966,352,Education,Paid Ads,Business,Negotiation,12687,In Progress,
+L001967,940,FinTech,Paid Ads,Business,New,11785,Lost,
+L001968,447,E-commerce,Referral,Business,Qualified,18281,Lost,
+L001969,660,FinTech,Website,Business,Proposal,8919,Lost,
+L001970,951,SaaS,Referral,Starter,Negotiation,3767,Converted,C0806
+L001971,834,SaaS,Outbound,Business,Demo,17022,In Progress,
+L001972,380,SaaS,Referral,Business,Demo,10286,Converted,C0451
+L001973,543,Healthcare,Website,Business,Qualified,16070,Lost,
+L001974,892,Healthcare,Paid Ads,Business,Negotiation,14121,In Progress,
+L001975,437,IT Services,Partner,Business,Proposal,7237,Converted,C0834
+L001976,624,E-commerce,Paid Ads,Business,Negotiation,17747,In Progress,
+L001977,383,Professional Services,Outbound,Starter,Proposal,12839,Lost,
+L001978,102,FinTech,Partner,Starter,Demo,3447,In Progress,
+L001979,149,E-commerce,Referral,Business,Demo,1531,In Progress,
+L001980,928,SaaS,Partner,Business,Demo,10365,In Progress,
+L001981,104,Education,Outbound,Business,Demo,7380,Converted,C0158
+L001982,137,Education,Referral,Starter,Proposal,10900,In Progress,
+L001983,82,SaaS,Paid Ads,Starter,Demo,4362,Lost,
+L001984,554,FinTech,Outbound,Starter,Demo,19170,In Progress,
+L001985,325,Professional Services,Outbound,Business,Demo,17183,In Progress,
+L001986,686,FinTech,Paid Ads,Starter,Qualified,18115,In Progress,
+L001987,687,SaaS,Outbound,Business,New,8022,In Progress,
+L001988,404,E-commerce,Referral,Business,New,19181,Lost,
+L001989,641,SaaS,Paid Ads,Business,Proposal,3983,Converted,C0971
+L001990,992,Education,Website,Business,Negotiation,11773,In Progress,
+L001991,678,Professional Services,Referral,Business,Proposal,5809,In Progress,
+L001992,535,SaaS,Website,Starter,Demo,17596,Lost,
+L001993,527,IT Services,Website,Business,New,4563,Converted,C0025
+L001994,711,Marketing,Referral,Business,Negotiation,6337,In Progress,
+L001995,528,FinTech,Outbound,Starter,Qualified,2580,Lost,
+L001996,436,Education,Outbound,Starter,Negotiation,16633,In Progress,
+L001997,833,E-commerce,Website,Business,Qualified,19742,Lost,
+L001998,234,SaaS,Website,Business,Qualified,14475,In Progress,
+L001999,503,FinTech,Partner,Business,Proposal,10793,Converted,C0499
+L002000,36,Education,Referral,Starter,Demo,17289,Lost,

@@ -1,0 +1,9 @@
+Flowdesk Integration Guide
+
+Flowdesk supports integrations with external business tools.
+
+Customers should verify authentication credentials and connection permissions when configuring an integration.
+
+If synchronization fails, customers should first reconnect the integration and verify that the required permissions are still active.
+
+Persistent synchronization failures should be reported to Flowdesk Support with the affected integration and relevant error information.

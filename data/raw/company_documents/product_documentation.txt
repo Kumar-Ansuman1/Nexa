@@ -1,0 +1,11 @@
+Flowdesk Product Documentation
+
+Flowdesk provides a business productivity platform with dashboards, reporting, analytics, team management, and integrations.
+
+The dashboard provides an overview of important business activity.
+
+Reports allow customers to analyze operational information.
+
+Team management allows administrators to invite and manage team members.
+
+Integrations allow Flowdesk to connect with external business systems and synchronize relevant information.

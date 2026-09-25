@@ -1,0 +1,17 @@
+Flowdesk Pricing Policy
+
+Flowdesk offers three subscription plans.
+
+Free:
+Designed for individuals and very small teams.
+Includes basic dashboard access and limited reporting.
+
+Starter:
+Designed for growing teams.
+Includes advanced reporting, team management, and additional integrations.
+
+Business:
+Designed for larger organizations.
+Includes advanced analytics, expanded integrations, priority support, and higher usage limits.
+
+Customers may upgrade or downgrade their plans according to the applicable subscription terms.

@@ -1,0 +1,1001 @@
+customer_id,signup_date,country,industry,company_size,plan,acquisition_channel
+C0001,2026-03-23,India,Professional Services,10,Free,Paid Ads
+C0002,2026-01-15,Germany,FinTech,172,Starter,Organic
+C0003,2026-01-04,United States,SaaS,144,Free,Organic
+C0004,2026-04-05,India,SaaS,166,Starter,Partner
+C0005,2026-02-05,India,SaaS,80,Business,Organic
+C0006,2026-02-01,United States,Marketing,2,Free,Referral
+C0007,2026-01-29,Singapore,Professional Services,25,Free,Organic
+C0008,2026-01-18,United Kingdom,IT Services,51,Starter,Organic
+C0009,2026-04-05,Canada,Professional Services,6,Free,Referral
+C0010,2026-01-14,India,Professional Services,141,Starter,Referral
+C0011,2026-03-28,India,Education,5,Starter,Sales
+C0012,2026-04-05,United States,Marketing,46,Free,Referral
+C0013,2026-04-25,Germany,Healthcare,735,Business,Referral
+C0014,2026-03-11,United States,FinTech,34,Starter,Paid Ads
+C0015,2026-01-12,Germany,FinTech,919,Business,Organic
+C0016,2026-03-17,India,SaaS,78,Business,Partner
+C0017,2026-02-24,Germany,Marketing,62,Starter,Organic
+C0018,2026-01-05,India,Marketing,3,Free,Organic
+C0019,2026-01-04,United States,SaaS,177,Business,Referral
+C0020,2026-01-12,Australia,E-commerce,86,Starter,Organic
+C0021,2026-01-28,India,FinTech,7,Free,Sales
+C0022,2026-01-30,United Kingdom,Professional Services,2,Free,Sales
+C0023,2026-03-06,India,Marketing,5,Free,Referral
+C0024,2026-03-19,United Kingdom,FinTech,50,Starter,Partner
+C0025,2026-01-04,Canada,E-commerce,23,Free,Partner
+C0026,2026-03-13,Canada,E-commerce,4,Free,Partner
+C0027,2026-01-26,United States,Healthcare,18,Starter,Paid Ads
+C0028,2026-04-02,India,E-commerce,36,Starter,Paid Ads
+C0029,2026-03-25,United States,Professional Services,106,Business,Referral
+C0030,2026-03-31,United Kingdom,SaaS,40,Starter,Referral
+C0031,2026-03-11,India,IT Services,4,Free,Organic
+C0032,2026-02-23,United States,SaaS,6,Free,Referral
+C0033,2026-01-29,India,E-commerce,2,Free,Partner
+C0034,2026-02-27,United States,Marketing,7,Free,Organic
+C0035,2026-03-17,United States,E-commerce,13,Free,Organic
+C0036,2026-02-05,United States,E-commerce,48,Free,Partner
+C0037,2026-04-14,India,E-commerce,18,Free,Organic
+C0038,2026-04-22,Australia,Healthcare,8,Free,Paid Ads
+C0039,2026-01-01,United States,SaaS,8,Free,Paid Ads
+C0040,2026-04-08,India,FinTech,10,Free,Paid Ads
+C0041,2026-04-14,India,SaaS,180,Starter,Sales
+C0042,2026-01-21,United States,E-commerce,19,Starter,Sales
+C0043,2026-03-31,United Kingdom,Healthcare,42,Starter,Organic
+C0044,2026-02-24,United States,SaaS,1,Free,Referral
+C0045,2026-02-13,Germany,IT Services,9,Free,Paid Ads
+C0046,2026-02-05,Canada,Healthcare,63,Business,Organic
+C0047,2026-01-20,United States,Healthcare,9,Free,Referral
+C0048,2026-01-28,Canada,Marketing,7,Starter,Paid Ads
+C0049,2026-04-08,United States,SaaS,10,Free,Organic
+C0050,2026-02-13,India,Healthcare,8,Free,Partner
+C0051,2026-01-14,India,IT Services,181,Starter,Paid Ads
+C0052,2026-01-12,Germany,IT Services,96,Free,Paid Ads
+C0053,2026-02-18,India,Healthcare,48,Free,Referral
+C0054,2026-01-13,United States,FinTech,22,Free,Sales
+C0055,2026-02-15,Canada,SaaS,3,Free,Organic
+C0056,2026-04-19,United States,Professional Services,17,Starter,Referral
+C0057,2026-02-14,United Kingdom,FinTech,35,Starter,Paid Ads
+C0058,2026-03-19,India,Professional Services,10,Free,Partner
+C0059,2026-02-03,United States,Healthcare,10,Free,Referral
+C0060,2026-04-14,India,FinTech,6,Free,Referral
+C0061,2026-01-06,United States,SaaS,43,Free,Organic
+C0062,2026-04-04,India,SaaS,149,Free,Organic
+C0063,2026-02-28,India,Professional Services,37,Starter,Partner
+C0064,2026-03-10,India,FinTech,49,Free,Organic
+C0065,2026-01-16,United States,Education,4,Free,Referral
+C0066,2026-04-29,Australia,Education,121,Starter,Paid Ads
+C0067,2026-02-18,United States,SaaS,7,Free,Referral
+C0068,2026-01-11,United States,Education,6,Free,Organic
+C0069,2026-03-12,India,Healthcare,29,Starter,Referral
+C0070,2026-02-07,India,Healthcare,8,Free,Partner
+C0071,2026-04-17,United States,SaaS,19,Free,Referral
+C0072,2026-03-22,United States,Education,86,Free,Referral
+C0073,2026-03-21,India,IT Services,7,Starter,Sales
+C0074,2026-04-24,United States,FinTech,49,Starter,Paid Ads
+C0075,2026-04-21,United Kingdom,Professional Services,9,Free,Organic
+C0076,2026-02-16,United States,SaaS,30,Business,Organic
+C0077,2026-03-15,India,IT Services,46,Free,Organic
+C0078,2026-01-25,India,SaaS,6,Business,Paid Ads
+C0079,2026-04-01,United States,Professional Services,192,Starter,Referral
+C0080,2026-01-09,India,Marketing,4,Free,Referral
+C0081,2026-01-06,United Kingdom,FinTech,102,Free,Paid Ads
+C0082,2026-03-26,India,FinTech,104,Business,Referral
+C0083,2026-01-30,United States,Healthcare,10,Free,Organic
+C0084,2026-04-09,India,Education,29,Free,Organic
+C0085,2026-02-07,Singapore,SaaS,6,Starter,Referral
+C0086,2026-01-11,United States,IT Services,3,Starter,Organic
+C0087,2026-04-20,India,Healthcare,22,Free,Referral
+C0088,2026-01-30,United States,Education,179,Business,Sales
+C0089,2026-04-21,India,FinTech,189,Business,Organic
+C0090,2026-01-13,India,FinTech,6,Free,Referral
+C0091,2026-02-18,United Kingdom,IT Services,2,Free,Organic
+C0092,2026-02-05,India,E-commerce,6,Free,Sales
+C0093,2026-02-28,United Kingdom,E-commerce,46,Free,Organic
+C0094,2026-03-23,Germany,Education,8,Free,Referral
+C0095,2026-04-17,United Kingdom,SaaS,200,Free,Paid Ads
+C0096,2026-02-16,India,E-commerce,10,Free,Partner
+C0097,2026-01-21,United Kingdom,E-commerce,7,Starter,Referral
+C0098,2026-02-17,India,FinTech,9,Free,Partner
+C0099,2026-02-15,United States,SaaS,5,Free,Organic
+C0100,2026-01-27,Canada,IT Services,159,Free,Organic
+C0101,2026-03-27,United States,FinTech,11,Starter,Organic
+C0102,2026-02-04,Singapore,Professional Services,44,Starter,Organic
+C0103,2026-03-31,Australia,FinTech,2,Free,Referral
+C0104,2026-04-30,India,E-commerce,12,Free,Organic
+C0105,2026-03-29,India,Marketing,591,Business,Paid Ads
+C0106,2026-03-24,India,Healthcare,3,Free,Sales
+C0107,2026-01-10,United Kingdom,SaaS,14,Starter,Partner
+C0108,2026-03-19,India,FinTech,1,Free,Referral
+C0109,2026-03-23,India,SaaS,4,Free,Referral
+C0110,2026-01-22,India,E-commerce,119,Business,Partner
+C0111,2026-03-10,India,SaaS,92,Starter,Organic
+C0112,2026-04-04,Germany,SaaS,5,Free,Partner
+C0113,2026-02-01,United States,Professional Services,5,Free,Organic
+C0114,2026-01-21,Canada,IT Services,20,Free,Organic
+C0115,2026-03-01,India,E-commerce,66,Business,Paid Ads
+C0116,2026-02-18,India,Professional Services,29,Starter,Sales
+C0117,2026-02-04,India,IT Services,24,Free,Organic
+C0118,2026-04-29,United States,IT Services,45,Free,Partner
+C0119,2026-03-23,India,Professional Services,13,Free,Organic
+C0120,2026-03-30,Singapore,Marketing,6,Free,Organic
+C0121,2026-03-13,India,SaaS,8,Free,Sales
+C0122,2026-01-29,Australia,SaaS,2,Free,Organic
+C0123,2026-03-29,India,Professional Services,194,Starter,Paid Ads
+C0124,2026-02-11,India,E-commerce,430,Business,Referral
+C0125,2026-04-18,United States,IT Services,9,Free,Organic
+C0126,2026-04-09,United States,E-commerce,7,Free,Referral
+C0127,2026-04-10,United Kingdom,SaaS,26,Starter,Paid Ads
+C0128,2026-01-08,India,E-commerce,181,Business,Referral
+C0129,2026-01-30,Canada,E-commerce,29,Free,Organic
+C0130,2026-04-16,Germany,FinTech,14,Free,Paid Ads
+C0131,2026-01-05,India,Healthcare,7,Free,Organic
+C0132,2026-04-14,India,SaaS,35,Free,Organic
+C0133,2026-02-10,United States,FinTech,627,Free,Organic
+C0134,2026-02-21,United States,Healthcare,6,Free,Referral
+C0135,2026-02-04,United States,IT Services,9,Free,Partner
+C0136,2026-01-09,United States,Education,64,Starter,Organic
+C0137,2026-01-28,Canada,FinTech,1,Free,Paid Ads
+C0138,2026-04-27,India,SaaS,27,Starter,Referral
+C0139,2026-03-14,Germany,SaaS,4,Free,Organic
+C0140,2026-04-23,India,SaaS,50,Free,Organic
+C0141,2026-04-02,United States,FinTech,39,Starter,Paid Ads
+C0142,2026-02-10,United States,E-commerce,4,Starter,Organic
+C0143,2026-01-28,United States,E-commerce,6,Free,Paid Ads
+C0144,2026-03-25,India,SaaS,10,Starter,Paid Ads
+C0145,2026-03-05,Singapore,SaaS,9,Free,Organic
+C0146,2026-02-20,India,Healthcare,49,Starter,Referral
+C0147,2026-04-24,Canada,E-commerce,4,Free,Partner
+C0148,2026-04-28,United States,FinTech,23,Starter,Paid Ads
+C0149,2026-03-24,India,E-commerce,126,Starter,Paid Ads
+C0150,2026-02-28,India,E-commerce,8,Free,Referral
+C0151,2026-01-19,India,Healthcare,3,Starter,Partner
+C0152,2026-02-03,United States,IT Services,15,Starter,Organic
+C0153,2026-01-18,India,Education,98,Business,Organic
+C0154,2026-02-01,United States,Education,22,Starter,Paid Ads
+C0155,2026-04-06,United Kingdom,SaaS,9,Free,Referral
+C0156,2026-03-13,United States,SaaS,81,Starter,Partner
+C0157,2026-03-10,India,E-commerce,7,Free,Organic
+C0158,2026-02-03,India,Professional Services,13,Free,Referral
+C0159,2026-04-06,India,Healthcare,38,Free,Sales
+C0160,2026-03-16,Australia,E-commerce,5,Starter,Paid Ads
+C0161,2026-02-24,India,SaaS,770,Business,Paid Ads
+C0162,2026-04-25,India,Education,27,Free,Organic
+C0163,2026-03-16,India,E-commerce,19,Starter,Sales
+C0164,2026-02-21,Canada,SaaS,21,Starter,Referral
+C0165,2026-02-16,United States,SaaS,10,Free,Paid Ads
+C0166,2026-01-29,Canada,Marketing,116,Starter,Sales
+C0167,2026-01-18,India,IT Services,1,Free,Paid Ads
+C0168,2026-03-07,India,Healthcare,6,Free,Partner
+C0169,2026-03-05,India,SaaS,170,Free,Partner
+C0170,2026-01-12,India,IT Services,90,Business,Organic
+C0171,2026-04-07,India,SaaS,13,Free,Organic
+C0172,2026-01-07,India,Professional Services,3,Starter,Referral
+C0173,2026-04-21,India,FinTech,31,Free,Sales
+C0174,2026-01-15,Canada,E-commerce,10,Free,Referral
+C0175,2026-01-20,United States,Education,64,Free,Organic
+C0176,2026-03-22,Canada,IT Services,10,Free,Paid Ads
+C0177,2026-01-21,Germany,Healthcare,5,Free,Organic
+C0178,2026-04-12,United States,Healthcare,8,Free,Referral
+C0179,2026-03-29,United States,Healthcare,197,Starter,Paid Ads
+C0180,2026-02-24,India,E-commerce,9,Free,Sales
+C0181,2026-03-18,United States,Healthcare,567,Business,Paid Ads
+C0182,2026-01-09,India,E-commerce,2,Free,Organic
+C0183,2026-02-19,United States,SaaS,132,Free,Organic
+C0184,2026-02-18,United States,FinTech,44,Free,Organic
+C0185,2026-03-18,United States,SaaS,25,Starter,Sales
+C0186,2026-03-01,Australia,E-commerce,3,Free,Organic
+C0187,2026-03-09,United Kingdom,FinTech,9,Starter,Paid Ads
+C0188,2026-02-02,United States,IT Services,68,Business,Partner
+C0189,2026-03-12,India,IT Services,9,Starter,Referral
+C0190,2026-04-21,India,Education,91,Business,Paid Ads
+C0191,2026-01-02,United Kingdom,Healthcare,37,Starter,Sales
+C0192,2026-03-29,Australia,FinTech,9,Free,Partner
+C0193,2026-04-03,United States,Education,45,Free,Sales
+C0194,2026-01-15,India,Professional Services,7,Free,Organic
+C0195,2026-03-29,Canada,Healthcare,2,Starter,Paid Ads
+C0196,2026-04-24,Canada,FinTech,33,Starter,Paid Ads
+C0197,2026-03-10,United States,SaaS,4,Starter,Referral
+C0198,2026-04-07,Canada,E-commerce,24,Free,Paid Ads
+C0199,2026-02-04,India,Healthcare,135,Starter,Organic
+C0200,2026-04-09,United States,Marketing,135,Starter,Referral
+C0201,2026-03-24,United States,Marketing,143,Business,Referral
+C0202,2026-02-13,India,E-commerce,5,Starter,Sales
+C0203,2026-01-15,Singapore,IT Services,4,Free,Sales
+C0204,2026-02-07,United States,FinTech,50,Free,Referral
+C0205,2026-02-25,Canada,Healthcare,9,Free,Referral
+C0206,2026-01-21,Singapore,Marketing,8,Free,Organic
+C0207,2026-02-28,United States,SaaS,194,Starter,Organic
+C0208,2026-01-01,United States,E-commerce,11,Free,Referral
+C0209,2026-04-03,India,E-commerce,2,Free,Paid Ads
+C0210,2026-04-23,India,E-commerce,6,Free,Organic
+C0211,2026-04-03,India,FinTech,657,Business,Sales
+C0212,2026-02-03,United States,Healthcare,447,Business,Referral
+C0213,2026-03-06,United States,Education,113,Starter,Organic
+C0214,2026-04-08,United Kingdom,E-commerce,13,Starter,Referral
+C0215,2026-01-23,United States,IT Services,31,Starter,Organic
+C0216,2026-03-06,Canada,Marketing,148,Business,Referral
+C0217,2026-04-27,India,Marketing,2,Free,Sales
+C0218,2026-01-14,India,Healthcare,149,Business,Partner
+C0219,2026-04-22,India,Healthcare,5,Free,Organic
+C0220,2026-03-22,India,Professional Services,45,Starter,Referral
+C0221,2026-02-08,Canada,E-commerce,29,Free,Partner
+C0222,2026-04-18,Australia,E-commerce,12,Starter,Organic
+C0223,2026-03-23,Canada,Professional Services,9,Free,Partner
+C0224,2026-03-06,India,E-commerce,6,Free,Organic
+C0225,2026-03-19,Australia,Healthcare,182,Business,Referral
+C0226,2026-01-26,United States,Healthcare,9,Free,Referral
+C0227,2026-01-20,India,Education,39,Starter,Organic
+C0228,2026-02-17,United States,IT Services,8,Starter,Organic
+C0229,2026-04-08,United States,Education,1,Starter,Paid Ads
+C0230,2026-01-21,United States,IT Services,504,Business,Partner
+C0231,2026-03-11,United States,FinTech,23,Business,Referral
+C0232,2026-04-10,India,E-commerce,529,Business,Paid Ads
+C0233,2026-04-29,India,Professional Services,727,Business,Organic
+C0234,2026-03-09,India,FinTech,2,Free,Referral
+C0235,2026-04-28,India,FinTech,2,Starter,Referral
+C0236,2026-01-01,Australia,Professional Services,3,Free,Paid Ads
+C0237,2026-03-18,United States,Professional Services,9,Free,Sales
+C0238,2026-02-11,India,Marketing,187,Starter,Organic
+C0239,2026-03-04,United States,Marketing,11,Free,Organic
+C0240,2026-01-03,Canada,Education,67,Starter,Organic
+C0241,2026-01-15,United Kingdom,E-commerce,24,Starter,Organic
+C0242,2026-04-29,India,E-commerce,24,Free,Organic
+C0243,2026-02-16,India,Healthcare,38,Starter,Partner
+C0244,2026-04-23,United States,Professional Services,17,Business,Organic
+C0245,2026-04-17,India,Marketing,24,Free,Paid Ads
+C0246,2026-04-14,Australia,FinTech,9,Free,Organic
+C0247,2026-02-09,India,Healthcare,38,Free,Organic
+C0248,2026-01-31,Germany,Healthcare,2,Free,Referral
+C0249,2026-01-08,United States,IT Services,20,Free,Organic
+C0250,2026-01-31,India,E-commerce,1,Starter,Partner
+C0251,2026-04-23,Germany,FinTech,8,Free,Referral
+C0252,2026-03-14,India,Marketing,135,Business,Paid Ads
+C0253,2026-01-11,United Kingdom,SaaS,60,Starter,Organic
+C0254,2026-01-11,United States,SaaS,2,Free,Sales
+C0255,2026-04-04,United States,Professional Services,69,Business,Organic
+C0256,2026-03-04,United States,SaaS,1,Starter,Organic
+C0257,2026-04-15,United States,Professional Services,22,Starter,Sales
+C0258,2026-01-09,India,Education,5,Starter,Referral
+C0259,2026-04-08,India,Marketing,193,Starter,Referral
+C0260,2026-03-10,United States,FinTech,2,Free,Organic
+C0261,2026-04-09,United Kingdom,IT Services,198,Starter,Referral
+C0262,2026-01-17,India,FinTech,4,Free,Partner
+C0263,2026-01-17,India,Healthcare,5,Free,Paid Ads
+C0264,2026-03-26,Canada,FinTech,37,Free,Organic
+C0265,2026-03-02,Australia,SaaS,7,Free,Organic
+C0266,2026-03-12,India,Marketing,8,Starter,Organic
+C0267,2026-01-22,Canada,FinTech,7,Free,Paid Ads
+C0268,2026-02-03,India,SaaS,161,Starter,Organic
+C0269,2026-03-09,India,IT Services,31,Free,Organic
+C0270,2026-04-22,United Kingdom,FinTech,12,Starter,Referral
+C0271,2026-03-19,Australia,FinTech,150,Starter,Referral
+C0272,2026-02-24,United States,SaaS,2,Free,Referral
+C0273,2026-01-28,United Kingdom,FinTech,187,Free,Referral
+C0274,2026-04-29,Australia,E-commerce,1,Free,Organic
+C0275,2026-03-11,United States,Education,50,Starter,Partner
+C0276,2026-04-07,United States,SaaS,15,Starter,Paid Ads
+C0277,2026-04-04,India,Professional Services,10,Starter,Paid Ads
+C0278,2026-03-30,Canada,Professional Services,62,Business,Referral
+C0279,2026-01-26,India,SaaS,2,Starter,Organic
+C0280,2026-04-02,Germany,Education,33,Free,Sales
+C0281,2026-02-09,Australia,IT Services,715,Business,Sales
+C0282,2026-02-21,Singapore,E-commerce,2,Free,Referral
+C0283,2026-03-27,India,Education,5,Starter,Sales
+C0284,2026-03-25,India,Marketing,5,Free,Sales
+C0285,2026-02-17,Australia,FinTech,73,Business,Referral
+C0286,2026-02-26,United States,FinTech,5,Starter,Paid Ads
+C0287,2026-04-26,India,SaaS,984,Business,Referral
+C0288,2026-03-08,United States,Marketing,163,Business,Organic
+C0289,2026-02-27,Germany,Education,35,Starter,Organic
+C0290,2026-01-16,India,FinTech,36,Business,Organic
+C0291,2026-02-01,Singapore,Marketing,1,Free,Organic
+C0292,2026-01-29,Canada,IT Services,8,Starter,Partner
+C0293,2026-01-09,United Kingdom,SaaS,91,Business,Sales
+C0294,2026-02-13,India,Professional Services,9,Starter,Paid Ads
+C0295,2026-01-03,Singapore,E-commerce,4,Starter,Organic
+C0296,2026-03-17,India,IT Services,85,Starter,Sales
+C0297,2026-03-12,Singapore,Professional Services,7,Free,Organic
+C0298,2026-01-30,India,SaaS,9,Free,Paid Ads
+C0299,2026-03-17,India,IT Services,29,Starter,Organic
+C0300,2026-01-29,Australia,Marketing,20,Free,Organic
+C0301,2026-01-01,India,SaaS,127,Starter,Referral
+C0302,2026-01-10,Germany,Marketing,6,Free,Sales
+C0303,2026-04-01,India,IT Services,11,Starter,Paid Ads
+C0304,2026-03-22,India,FinTech,192,Starter,Organic
+C0305,2026-01-08,Australia,SaaS,9,Free,Organic
+C0306,2026-01-30,Singapore,FinTech,345,Business,Referral
+C0307,2026-01-09,India,Education,2,Starter,Organic
+C0308,2026-04-26,Canada,Professional Services,13,Starter,Organic
+C0309,2026-01-05,India,FinTech,52,Starter,Referral
+C0310,2026-04-21,United States,E-commerce,10,Free,Organic
+C0311,2026-02-12,India,Education,151,Starter,Organic
+C0312,2026-01-10,India,Healthcare,188,Business,Paid Ads
+C0313,2026-03-07,India,IT Services,9,Free,Referral
+C0314,2026-01-31,United Kingdom,SaaS,72,Starter,Paid Ads
+C0315,2026-02-05,United States,Healthcare,5,Free,Referral
+C0316,2026-03-27,Germany,FinTech,104,Business,Sales
+C0317,2026-03-04,United States,IT Services,33,Starter,Organic
+C0318,2026-01-28,Australia,FinTech,24,Free,Organic
+C0319,2026-03-11,United States,Marketing,37,Free,Organic
+C0320,2026-01-17,United States,Education,9,Free,Organic
+C0321,2026-04-03,United States,Marketing,20,Starter,Paid Ads
+C0322,2026-04-30,India,SaaS,3,Starter,Organic
+C0323,2026-04-23,United Kingdom,FinTech,98,Starter,Sales
+C0324,2026-03-15,India,FinTech,4,Free,Organic
+C0325,2026-03-15,India,Education,50,Free,Referral
+C0326,2026-03-02,India,SaaS,5,Free,Organic
+C0327,2026-02-01,Singapore,Education,23,Starter,Paid Ads
+C0328,2026-04-11,Canada,Education,18,Business,Organic
+C0329,2026-03-02,United Kingdom,E-commerce,22,Starter,Referral
+C0330,2026-04-14,India,E-commerce,47,Free,Organic
+C0331,2026-02-22,India,FinTech,64,Starter,Paid Ads
+C0332,2026-01-25,India,E-commerce,46,Starter,Paid Ads
+C0333,2026-01-13,India,SaaS,8,Free,Organic
+C0334,2026-01-13,India,Professional Services,9,Free,Paid Ads
+C0335,2026-03-26,India,E-commerce,15,Free,Organic
+C0336,2026-02-25,India,Professional Services,29,Starter,Paid Ads
+C0337,2026-02-15,United States,SaaS,68,Starter,Organic
+C0338,2026-02-24,India,E-commerce,5,Free,Referral
+C0339,2026-02-22,United States,E-commerce,301,Business,Organic
+C0340,2026-03-01,United Kingdom,FinTech,23,Starter,Organic
+C0341,2026-04-21,India,FinTech,10,Starter,Paid Ads
+C0342,2026-04-04,India,Healthcare,8,Free,Paid Ads
+C0343,2026-01-07,United States,Healthcare,32,Free,Partner
+C0344,2026-03-28,India,FinTech,33,Starter,Organic
+C0345,2026-03-25,United Kingdom,E-commerce,83,Business,Organic
+C0346,2026-03-24,United States,FinTech,4,Free,Organic
+C0347,2026-01-13,United States,Education,17,Starter,Partner
+C0348,2026-01-08,India,E-commerce,5,Starter,Sales
+C0349,2026-02-21,United States,SaaS,10,Free,Sales
+C0350,2026-04-04,United States,Education,2,Free,Referral
+C0351,2026-02-13,United Kingdom,Professional Services,23,Free,Referral
+C0352,2026-04-13,Australia,IT Services,6,Free,Organic
+C0353,2026-04-21,United States,Marketing,175,Free,Paid Ads
+C0354,2026-01-14,India,Education,8,Free,Referral
+C0355,2026-02-01,United States,Education,135,Starter,Sales
+C0356,2026-01-25,India,Professional Services,50,Starter,Organic
+C0357,2026-01-25,Germany,E-commerce,5,Free,Paid Ads
+C0358,2026-03-10,Singapore,FinTech,48,Starter,Paid Ads
+C0359,2026-02-27,India,Professional Services,3,Free,Organic
+C0360,2026-01-18,Singapore,E-commerce,10,Free,Paid Ads
+C0361,2026-02-24,United Kingdom,E-commerce,10,Starter,Sales
+C0362,2026-01-24,United States,Professional Services,6,Free,Organic
+C0363,2026-02-05,India,E-commerce,31,Starter,Paid Ads
+C0364,2026-03-01,Singapore,Marketing,160,Starter,Organic
+C0365,2026-02-01,Australia,IT Services,21,Starter,Sales
+C0366,2026-04-22,India,Marketing,52,Starter,Sales
+C0367,2026-04-29,India,IT Services,131,Starter,Sales
+C0368,2026-01-10,India,IT Services,26,Starter,Sales
+C0369,2026-02-26,India,Marketing,427,Business,Paid Ads
+C0370,2026-04-14,United Kingdom,Education,7,Free,Organic
+C0371,2026-04-21,India,Healthcare,121,Business,Sales
+C0372,2026-04-20,Australia,Marketing,569,Business,Referral
+C0373,2026-03-12,India,Healthcare,3,Free,Referral
+C0374,2026-01-13,India,Healthcare,6,Free,Paid Ads
+C0375,2026-01-07,Australia,E-commerce,8,Starter,Paid Ads
+C0376,2026-03-25,Canada,IT Services,40,Starter,Partner
+C0377,2026-03-11,Singapore,SaaS,8,Free,Referral
+C0378,2026-04-18,Germany,IT Services,33,Free,Organic
+C0379,2026-01-02,United Kingdom,IT Services,30,Free,Paid Ads
+C0380,2026-01-12,Australia,FinTech,8,Free,Organic
+C0381,2026-04-29,Germany,Healthcare,46,Free,Partner
+C0382,2026-04-07,Canada,SaaS,2,Free,Referral
+C0383,2026-04-19,India,IT Services,95,Business,Paid Ads
+C0384,2026-01-31,Canada,E-commerce,71,Free,Organic
+C0385,2026-01-22,India,Education,122,Business,Paid Ads
+C0386,2026-02-22,India,Marketing,344,Business,Organic
+C0387,2026-03-04,India,E-commerce,45,Business,Sales
+C0388,2026-03-03,Canada,IT Services,4,Free,Organic
+C0389,2026-01-28,Canada,E-commerce,5,Free,Referral
+C0390,2026-04-21,United Kingdom,SaaS,2,Free,Organic
+C0391,2026-02-21,India,SaaS,15,Starter,Paid Ads
+C0392,2026-04-26,India,E-commerce,1,Free,Referral
+C0393,2026-01-08,United States,Healthcare,43,Business,Referral
+C0394,2026-01-22,India,Healthcare,1,Free,Sales
+C0395,2026-02-18,Canada,Education,48,Starter,Paid Ads
+C0396,2026-01-01,India,FinTech,199,Business,Organic
+C0397,2026-02-19,India,SaaS,7,Free,Referral
+C0398,2026-02-03,India,FinTech,10,Free,Organic
+C0399,2026-04-29,Germany,SaaS,105,Free,Sales
+C0400,2026-04-11,India,FinTech,60,Starter,Referral
+C0401,2026-04-11,United States,SaaS,9,Starter,Referral
+C0402,2026-02-28,India,E-commerce,5,Free,Organic
+C0403,2026-02-06,Canada,Marketing,45,Starter,Referral
+C0404,2026-02-24,Australia,Healthcare,9,Free,Paid Ads
+C0405,2026-03-31,India,SaaS,8,Starter,Referral
+C0406,2026-04-04,United States,IT Services,20,Free,Referral
+C0407,2026-04-11,India,Professional Services,6,Free,Organic
+C0408,2026-03-13,India,E-commerce,7,Free,Partner
+C0409,2026-03-26,Germany,FinTech,25,Free,Referral
+C0410,2026-04-02,Germany,SaaS,48,Starter,Referral
+C0411,2026-03-04,Singapore,SaaS,29,Free,Referral
+C0412,2026-01-20,India,Education,3,Free,Organic
+C0413,2026-01-25,Australia,Marketing,8,Business,Referral
+C0414,2026-02-07,Canada,Professional Services,714,Business,Referral
+C0415,2026-01-28,United States,E-commerce,43,Free,Paid Ads
+C0416,2026-01-08,India,IT Services,16,Free,Sales
+C0417,2026-03-16,Canada,E-commerce,36,Free,Referral
+C0418,2026-04-05,India,IT Services,34,Free,Sales
+C0419,2026-03-11,United Kingdom,E-commerce,9,Business,Paid Ads
+C0420,2026-01-08,United Kingdom,SaaS,11,Business,Organic
+C0421,2026-04-06,India,Professional Services,26,Business,Paid Ads
+C0422,2026-02-10,Australia,IT Services,93,Business,Paid Ads
+C0423,2026-01-08,United States,SaaS,43,Free,Organic
+C0424,2026-01-07,India,IT Services,3,Free,Paid Ads
+C0425,2026-03-16,India,SaaS,39,Free,Referral
+C0426,2026-03-03,India,Professional Services,91,Free,Referral
+C0427,2026-03-06,India,E-commerce,3,Free,Referral
+C0428,2026-04-28,India,SaaS,47,Starter,Partner
+C0429,2026-04-20,United Kingdom,Professional Services,10,Free,Organic
+C0430,2026-03-09,India,IT Services,3,Starter,Paid Ads
+C0431,2026-01-21,India,Marketing,8,Free,Referral
+C0432,2026-01-08,United States,Professional Services,33,Starter,Referral
+C0433,2026-03-07,India,E-commerce,13,Starter,Referral
+C0434,2026-01-11,United Kingdom,Marketing,107,Starter,Partner
+C0435,2026-04-19,United States,E-commerce,175,Starter,Sales
+C0436,2026-01-24,United States,E-commerce,25,Starter,Referral
+C0437,2026-01-09,Germany,FinTech,2,Free,Partner
+C0438,2026-03-18,India,E-commerce,5,Free,Partner
+C0439,2026-01-09,United States,SaaS,145,Business,Paid Ads
+C0440,2026-03-28,United States,SaaS,25,Starter,Sales
+C0441,2026-04-21,United States,IT Services,13,Starter,Referral
+C0442,2026-01-31,United States,Marketing,4,Free,Paid Ads
+C0443,2026-02-21,United Kingdom,SaaS,44,Free,Organic
+C0444,2026-01-16,United States,Education,6,Free,Paid Ads
+C0445,2026-04-24,India,Education,7,Starter,Paid Ads
+C0446,2026-03-14,India,Professional Services,8,Starter,Referral
+C0447,2026-02-01,India,IT Services,8,Free,Partner
+C0448,2026-03-16,Singapore,FinTech,13,Business,Paid Ads
+C0449,2026-03-18,India,SaaS,241,Business,Referral
+C0450,2026-01-06,India,Healthcare,133,Business,Partner
+C0451,2026-03-21,United States,E-commerce,17,Starter,Sales
+C0452,2026-01-11,India,Education,44,Free,Paid Ads
+C0453,2026-02-23,India,IT Services,5,Free,Paid Ads
+C0454,2026-03-26,Germany,FinTech,5,Free,Referral
+C0455,2026-03-16,United Kingdom,SaaS,10,Free,Referral
+C0456,2026-03-14,United States,E-commerce,45,Free,Sales
+C0457,2026-03-08,United States,Healthcare,10,Starter,Sales
+C0458,2026-02-10,United Kingdom,Marketing,95,Free,Organic
+C0459,2026-04-30,Australia,Marketing,35,Free,Sales
+C0460,2026-02-03,United Kingdom,SaaS,7,Free,Organic
+C0461,2026-01-27,Australia,Professional Services,34,Business,Paid Ads
+C0462,2026-03-27,United States,FinTech,48,Business,Organic
+C0463,2026-04-02,Germany,IT Services,2,Free,Sales
+C0464,2026-02-10,India,Healthcare,44,Starter,Organic
+C0465,2026-01-31,United Kingdom,Healthcare,115,Business,Organic
+C0466,2026-02-03,India,Marketing,7,Free,Organic
+C0467,2026-02-20,United States,IT Services,4,Free,Organic
+C0468,2026-01-17,India,FinTech,183,Starter,Organic
+C0469,2026-03-27,India,IT Services,154,Starter,Organic
+C0470,2026-03-24,Singapore,Professional Services,33,Free,Sales
+C0471,2026-02-08,India,Healthcare,139,Free,Organic
+C0472,2026-02-28,Germany,E-commerce,8,Starter,Paid Ads
+C0473,2026-02-10,United States,FinTech,41,Starter,Referral
+C0474,2026-04-29,India,Healthcare,52,Starter,Sales
+C0475,2026-04-07,India,Healthcare,9,Free,Paid Ads
+C0476,2026-04-30,Singapore,Marketing,3,Free,Paid Ads
+C0477,2026-01-10,Germany,SaaS,8,Free,Referral
+C0478,2026-01-02,Canada,Education,3,Free,Organic
+C0479,2026-02-28,India,Healthcare,4,Free,Organic
+C0480,2026-03-21,India,SaaS,70,Business,Organic
+C0481,2026-03-14,United States,FinTech,9,Free,Partner
+C0482,2026-01-13,Singapore,Education,5,Starter,Partner
+C0483,2026-01-10,India,E-commerce,105,Starter,Referral
+C0484,2026-03-10,India,Healthcare,354,Business,Paid Ads
+C0485,2026-01-28,Singapore,Education,3,Free,Referral
+C0486,2026-03-06,Canada,E-commerce,362,Business,Referral
+C0487,2026-02-03,India,FinTech,143,Starter,Partner
+C0488,2026-01-17,Canada,SaaS,49,Free,Paid Ads
+C0489,2026-04-30,United States,Healthcare,18,Free,Referral
+C0490,2026-02-14,United States,FinTech,25,Starter,Referral
+C0491,2026-04-23,Canada,FinTech,37,Business,Referral
+C0492,2026-01-09,India,IT Services,32,Business,Paid Ads
+C0493,2026-04-23,Canada,SaaS,2,Starter,Referral
+C0494,2026-02-01,Canada,E-commerce,8,Free,Sales
+C0495,2026-02-17,United States,SaaS,892,Business,Paid Ads
+C0496,2026-02-06,India,E-commerce,41,Free,Partner
+C0497,2026-01-21,Singapore,E-commerce,41,Free,Organic
+C0498,2026-02-26,Singapore,Healthcare,104,Starter,Paid Ads
+C0499,2026-04-17,United States,E-commerce,48,Business,Organic
+C0500,2026-03-11,Canada,FinTech,21,Starter,Partner
+C0501,2026-04-01,India,FinTech,7,Free,Organic
+C0502,2026-02-08,Australia,SaaS,1,Free,Organic
+C0503,2026-03-20,India,E-commerce,4,Starter,Sales
+C0504,2026-04-14,India,E-commerce,13,Starter,Referral
+C0505,2026-03-25,Canada,Healthcare,19,Starter,Organic
+C0506,2026-03-09,United States,IT Services,10,Starter,Referral
+C0507,2026-01-02,India,SaaS,10,Free,Organic
+C0508,2026-03-27,India,E-commerce,3,Starter,Organic
+C0509,2026-04-15,India,Education,85,Business,Referral
+C0510,2026-03-12,United States,SaaS,43,Free,Sales
+C0511,2026-02-08,India,SaaS,13,Business,Partner
+C0512,2026-04-30,India,IT Services,10,Free,Organic
+C0513,2026-03-26,United States,Healthcare,3,Free,Organic
+C0514,2026-01-14,India,Education,14,Starter,Sales
+C0515,2026-04-23,United States,FinTech,371,Business,Referral
+C0516,2026-01-18,United States,FinTech,27,Free,Paid Ads
+C0517,2026-02-03,India,IT Services,3,Free,Paid Ads
+C0518,2026-01-15,United States,FinTech,183,Starter,Organic
+C0519,2026-04-24,United Kingdom,IT Services,36,Starter,Referral
+C0520,2026-01-14,Germany,FinTech,195,Business,Referral
+C0521,2026-04-06,United Kingdom,SaaS,1,Free,Sales
+C0522,2026-03-12,India,Marketing,29,Starter,Organic
+C0523,2026-01-20,United States,Marketing,2,Starter,Paid Ads
+C0524,2026-02-04,India,Marketing,4,Free,Sales
+C0525,2026-02-06,Singapore,IT Services,8,Free,Referral
+C0526,2026-03-19,Australia,Education,10,Starter,Organic
+C0527,2026-01-27,United States,Marketing,8,Starter,Organic
+C0528,2026-04-02,India,E-commerce,41,Free,Sales
+C0529,2026-02-13,United Kingdom,FinTech,3,Free,Partner
+C0530,2026-01-27,United States,FinTech,107,Business,Sales
+C0531,2026-03-29,Australia,FinTech,37,Starter,Sales
+C0532,2026-03-23,India,E-commerce,10,Free,Organic
+C0533,2026-04-20,India,Education,20,Free,Sales
+C0534,2026-02-03,India,FinTech,10,Free,Referral
+C0535,2026-03-06,United States,E-commerce,22,Business,Referral
+C0536,2026-03-04,United States,IT Services,181,Business,Referral
+C0537,2026-02-02,United Kingdom,E-commerce,27,Business,Organic
+C0538,2026-04-26,India,IT Services,93,Starter,Sales
+C0539,2026-04-27,United States,Marketing,6,Free,Sales
+C0540,2026-04-19,India,Marketing,8,Free,Partner
+C0541,2026-01-07,United States,FinTech,10,Free,Sales
+C0542,2026-01-12,United States,FinTech,48,Free,Referral
+C0543,2026-03-23,Canada,FinTech,271,Business,Partner
+C0544,2026-02-24,India,SaaS,25,Starter,Referral
+C0545,2026-04-17,United Kingdom,IT Services,147,Starter,Sales
+C0546,2026-02-05,Australia,Marketing,35,Free,Paid Ads
+C0547,2026-01-06,United States,SaaS,3,Free,Organic
+C0548,2026-01-01,Australia,Healthcare,2,Free,Paid Ads
+C0549,2026-02-12,United States,Healthcare,1,Free,Organic
+C0550,2026-04-09,Australia,Marketing,102,Business,Referral
+C0551,2026-01-17,United States,FinTech,9,Starter,Organic
+C0552,2026-03-23,Canada,SaaS,43,Starter,Organic
+C0553,2026-02-03,India,FinTech,37,Free,Referral
+C0554,2026-01-21,United Kingdom,Healthcare,20,Free,Organic
+C0555,2026-04-05,India,FinTech,821,Business,Paid Ads
+C0556,2026-02-26,India,Healthcare,2,Free,Paid Ads
+C0557,2026-03-12,India,Professional Services,96,Starter,Referral
+C0558,2026-04-01,Germany,FinTech,41,Starter,Organic
+C0559,2026-02-24,United Kingdom,Marketing,60,Free,Referral
+C0560,2026-03-13,United States,E-commerce,9,Free,Partner
+C0561,2026-01-02,India,Marketing,9,Free,Partner
+C0562,2026-01-15,India,Marketing,2,Free,Organic
+C0563,2026-01-10,United States,E-commerce,2,Free,Organic
+C0564,2026-04-24,United Kingdom,Marketing,8,Free,Partner
+C0565,2026-03-30,India,E-commerce,19,Business,Referral
+C0566,2026-04-26,India,SaaS,10,Free,Sales
+C0567,2026-01-20,India,Healthcare,189,Starter,Sales
+C0568,2026-03-11,Germany,SaaS,1,Free,Paid Ads
+C0569,2026-01-05,United States,IT Services,38,Free,Paid Ads
+C0570,2026-04-17,United Kingdom,Professional Services,9,Free,Referral
+C0571,2026-02-17,United States,Professional Services,37,Free,Referral
+C0572,2026-03-16,Australia,Healthcare,145,Business,Organic
+C0573,2026-03-12,Germany,IT Services,1,Starter,Referral
+C0574,2026-01-19,United States,SaaS,44,Free,Paid Ads
+C0575,2026-02-25,Germany,IT Services,38,Free,Referral
+C0576,2026-01-17,India,SaaS,109,Business,Paid Ads
+C0577,2026-01-06,India,SaaS,41,Free,Paid Ads
+C0578,2026-02-09,India,SaaS,148,Starter,Organic
+C0579,2026-02-16,India,Education,6,Free,Paid Ads
+C0580,2026-04-26,United States,SaaS,48,Business,Paid Ads
+C0581,2026-04-30,India,SaaS,47,Free,Paid Ads
+C0582,2026-04-12,United States,FinTech,76,Starter,Referral
+C0583,2026-04-21,Australia,E-commerce,7,Starter,Organic
+C0584,2026-01-06,India,SaaS,3,Starter,Sales
+C0585,2026-04-26,United States,Education,27,Free,Referral
+C0586,2026-02-15,India,Professional Services,41,Starter,Paid Ads
+C0587,2026-01-27,India,IT Services,985,Free,Paid Ads
+C0588,2026-03-29,India,Education,4,Free,Organic
+C0589,2026-02-01,United States,SaaS,2,Free,Referral
+C0590,2026-03-27,United States,Healthcare,123,Business,Sales
+C0591,2026-01-14,Canada,E-commerce,190,Starter,Referral
+C0592,2026-02-15,United States,SaaS,155,Starter,Paid Ads
+C0593,2026-04-10,United Kingdom,Marketing,116,Starter,Partner
+C0594,2026-03-13,United States,Healthcare,99,Business,Referral
+C0595,2026-04-24,United States,FinTech,1,Free,Organic
+C0596,2026-04-22,United Kingdom,Healthcare,11,Starter,Paid Ads
+C0597,2026-02-22,United Kingdom,Education,47,Starter,Sales
+C0598,2026-03-21,India,E-commerce,44,Free,Referral
+C0599,2026-04-06,India,Professional Services,2,Starter,Paid Ads
+C0600,2026-01-20,Canada,SaaS,44,Free,Sales
+C0601,2026-04-29,Germany,IT Services,11,Starter,Referral
+C0602,2026-04-30,India,Healthcare,35,Starter,Paid Ads
+C0603,2026-01-31,India,FinTech,24,Free,Organic
+C0604,2026-04-21,India,Education,6,Free,Referral
+C0605,2026-01-21,United Kingdom,FinTech,155,Free,Organic
+C0606,2026-04-13,India,E-commerce,34,Free,Organic
+C0607,2026-04-14,United Kingdom,Marketing,2,Free,Paid Ads
+C0608,2026-01-23,Singapore,SaaS,20,Free,Referral
+C0609,2026-04-23,India,Professional Services,7,Free,Sales
+C0610,2026-02-22,United States,E-commerce,10,Free,Organic
+C0611,2026-01-04,India,FinTech,5,Free,Partner
+C0612,2026-01-23,United States,Education,117,Free,Organic
+C0613,2026-04-05,India,FinTech,9,Free,Paid Ads
+C0614,2026-04-29,India,IT Services,159,Business,Partner
+C0615,2026-02-12,India,SaaS,195,Starter,Paid Ads
+C0616,2026-04-11,Germany,Professional Services,34,Free,Referral
+C0617,2026-04-30,United States,Education,827,Business,Paid Ads
+C0618,2026-02-22,Australia,SaaS,5,Free,Referral
+C0619,2026-04-13,India,E-commerce,7,Free,Organic
+C0620,2026-03-27,Canada,E-commerce,24,Starter,Partner
+C0621,2026-04-21,India,E-commerce,156,Business,Organic
+C0622,2026-04-05,India,Education,9,Free,Paid Ads
+C0623,2026-04-14,United States,Marketing,46,Free,Referral
+C0624,2026-02-01,United States,SaaS,41,Free,Referral
+C0625,2026-02-04,United States,IT Services,3,Starter,Organic
+C0626,2026-01-21,United States,Education,34,Free,Referral
+C0627,2026-04-11,India,FinTech,194,Business,Organic
+C0628,2026-03-31,United States,Professional Services,46,Starter,Organic
+C0629,2026-01-14,India,Professional Services,41,Starter,Sales
+C0630,2026-02-18,India,IT Services,27,Starter,Referral
+C0631,2026-04-22,United Kingdom,IT Services,5,Free,Organic
+C0632,2026-01-05,United States,FinTech,10,Free,Partner
+C0633,2026-04-20,United States,IT Services,139,Free,Paid Ads
+C0634,2026-03-02,India,Education,7,Starter,Sales
+C0635,2026-01-29,India,Healthcare,19,Free,Referral
+C0636,2026-01-26,Singapore,FinTech,18,Starter,Paid Ads
+C0637,2026-04-15,India,Professional Services,109,Starter,Paid Ads
+C0638,2026-04-28,India,Education,39,Free,Paid Ads
+C0639,2026-02-28,Germany,FinTech,21,Free,Organic
+C0640,2026-02-14,Canada,Healthcare,2,Free,Referral
+C0641,2026-02-09,Canada,Education,105,Business,Sales
+C0642,2026-04-16,India,SaaS,9,Free,Partner
+C0643,2026-04-12,India,IT Services,7,Free,Paid Ads
+C0644,2026-04-22,United States,SaaS,6,Free,Referral
+C0645,2026-01-30,United States,FinTech,9,Free,Organic
+C0646,2026-01-29,India,SaaS,10,Starter,Organic
+C0647,2026-01-04,United States,IT Services,1,Free,Referral
+C0648,2026-03-26,India,IT Services,3,Free,Organic
+C0649,2026-01-25,United States,Professional Services,35,Starter,Paid Ads
+C0650,2026-02-21,United Kingdom,FinTech,1,Free,Referral
+C0651,2026-02-12,India,Healthcare,74,Starter,Paid Ads
+C0652,2026-02-05,India,Healthcare,20,Starter,Organic
+C0653,2026-04-21,United Kingdom,IT Services,8,Starter,Paid Ads
+C0654,2026-01-09,United States,Education,49,Starter,Referral
+C0655,2026-04-09,United States,Healthcare,38,Starter,Sales
+C0656,2026-02-05,India,E-commerce,291,Business,Organic
+C0657,2026-02-14,India,Marketing,15,Starter,Organic
+C0658,2026-03-24,United States,Marketing,27,Starter,Referral
+C0659,2026-03-07,United States,Education,4,Starter,Organic
+C0660,2026-02-21,United States,SaaS,145,Starter,Organic
+C0661,2026-03-28,India,Marketing,2,Free,Referral
+C0662,2026-04-18,United States,FinTech,60,Starter,Partner
+C0663,2026-03-10,Singapore,SaaS,7,Free,Referral
+C0664,2026-02-12,India,FinTech,7,Free,Organic
+C0665,2026-01-04,Germany,SaaS,10,Starter,Paid Ads
+C0666,2026-01-15,United States,Education,184,Business,Paid Ads
+C0667,2026-04-23,United Kingdom,Education,124,Starter,Partner
+C0668,2026-02-03,India,Healthcare,10,Free,Partner
+C0669,2026-01-23,United States,Professional Services,1,Free,Organic
+C0670,2026-03-16,India,FinTech,3,Free,Referral
+C0671,2026-02-03,United States,Education,8,Free,Paid Ads
+C0672,2026-01-05,United States,Marketing,39,Starter,Referral
+C0673,2026-01-14,India,E-commerce,11,Free,Paid Ads
+C0674,2026-03-18,Australia,FinTech,102,Starter,Organic
+C0675,2026-02-25,United Kingdom,Healthcare,873,Business,Organic
+C0676,2026-02-14,India,E-commerce,44,Free,Organic
+C0677,2026-04-04,Canada,SaaS,29,Free,Partner
+C0678,2026-04-11,India,Healthcare,4,Free,Paid Ads
+C0679,2026-02-10,United States,E-commerce,1,Free,Sales
+C0680,2026-02-25,United States,Marketing,181,Business,Organic
+C0681,2026-03-19,India,FinTech,9,Free,Organic
+C0682,2026-03-07,Canada,FinTech,25,Free,Referral
+C0683,2026-01-15,India,SaaS,94,Starter,Partner
+C0684,2026-02-19,Germany,FinTech,13,Starter,Partner
+C0685,2026-04-26,United States,E-commerce,34,Business,Referral
+C0686,2026-03-15,India,Marketing,4,Starter,Referral
+C0687,2026-01-25,India,SaaS,51,Starter,Sales
+C0688,2026-02-02,India,E-commerce,91,Business,Partner
+C0689,2026-01-06,India,E-commerce,16,Business,Referral
+C0690,2026-04-01,India,SaaS,5,Free,Referral
+C0691,2026-02-25,Canada,Professional Services,7,Free,Partner
+C0692,2026-01-01,India,E-commerce,33,Free,Paid Ads
+C0693,2026-03-08,Germany,Marketing,36,Free,Sales
+C0694,2026-04-29,United States,SaaS,36,Free,Organic
+C0695,2026-04-14,United States,SaaS,10,Free,Organic
+C0696,2026-03-10,United States,E-commerce,406,Business,Organic
+C0697,2026-03-29,United States,Healthcare,731,Business,Paid Ads
+C0698,2026-04-03,United Kingdom,Healthcare,54,Starter,Referral
+C0699,2026-04-05,Australia,SaaS,15,Starter,Organic
+C0700,2026-04-05,United States,SaaS,16,Business,Paid Ads
+C0701,2026-03-27,Singapore,Healthcare,9,Free,Sales
+C0702,2026-01-26,India,Healthcare,29,Starter,Referral
+C0703,2026-02-16,Singapore,Marketing,46,Starter,Sales
+C0704,2026-02-25,India,IT Services,10,Free,Organic
+C0705,2026-01-09,United States,SaaS,6,Free,Paid Ads
+C0706,2026-03-27,United States,E-commerce,6,Free,Referral
+C0707,2026-04-28,United States,Marketing,5,Free,Organic
+C0708,2026-02-12,Canada,Marketing,25,Free,Organic
+C0709,2026-03-21,United States,Healthcare,821,Business,Referral
+C0710,2026-02-10,India,Professional Services,23,Starter,Referral
+C0711,2026-03-26,India,FinTech,8,Free,Paid Ads
+C0712,2026-04-19,United States,Healthcare,36,Free,Organic
+C0713,2026-01-16,India,Education,10,Starter,Sales
+C0714,2026-04-03,India,SaaS,1,Free,Paid Ads
+C0715,2026-04-26,India,FinTech,117,Starter,Partner
+C0716,2026-02-08,United States,FinTech,95,Starter,Organic
+C0717,2026-03-06,Singapore,SaaS,37,Free,Organic
+C0718,2026-02-09,India,SaaS,9,Free,Paid Ads
+C0719,2026-03-27,United States,FinTech,2,Free,Paid Ads
+C0720,2026-02-22,India,FinTech,9,Free,Organic
+C0721,2026-02-11,United States,Marketing,15,Starter,Organic
+C0722,2026-02-21,Germany,E-commerce,9,Free,Referral
+C0723,2026-03-31,United Kingdom,Professional Services,126,Business,Referral
+C0724,2026-02-07,India,Marketing,32,Starter,Paid Ads
+C0725,2026-03-12,Germany,E-commerce,18,Free,Sales
+C0726,2026-01-17,United States,Education,43,Free,Organic
+C0727,2026-01-25,India,E-commerce,464,Business,Paid Ads
+C0728,2026-02-23,United States,SaaS,188,Starter,Organic
+C0729,2026-03-27,United States,SaaS,10,Starter,Organic
+C0730,2026-02-18,Germany,E-commerce,27,Free,Organic
+C0731,2026-03-28,United States,IT Services,39,Starter,Referral
+C0732,2026-04-06,Canada,E-commerce,35,Free,Referral
+C0733,2026-04-26,Australia,IT Services,47,Free,Organic
+C0734,2026-01-23,Singapore,E-commerce,174,Free,Referral
+C0735,2026-03-20,India,E-commerce,4,Free,Organic
+C0736,2026-03-14,United States,IT Services,6,Free,Organic
+C0737,2026-02-08,India,Education,8,Free,Referral
+C0738,2026-02-21,United Kingdom,Healthcare,40,Starter,Organic
+C0739,2026-03-12,Singapore,FinTech,48,Business,Referral
+C0740,2026-04-17,United States,Education,1,Free,Paid Ads
+C0741,2026-01-01,United States,Education,41,Free,Sales
+C0742,2026-02-08,India,E-commerce,18,Starter,Partner
+C0743,2026-02-06,Germany,SaaS,27,Starter,Referral
+C0744,2026-01-27,India,E-commerce,15,Free,Referral
+C0745,2026-02-25,Canada,FinTech,148,Starter,Organic
+C0746,2026-04-11,United Kingdom,Marketing,107,Business,Partner
+C0747,2026-03-16,India,Education,109,Free,Partner
+C0748,2026-03-19,United States,Professional Services,31,Business,Referral
+C0749,2026-03-25,India,Marketing,7,Free,Referral
+C0750,2026-02-11,India,FinTech,6,Business,Sales
+C0751,2026-03-01,United States,FinTech,183,Starter,Organic
+C0752,2026-02-26,India,Marketing,45,Free,Partner
+C0753,2026-02-26,India,E-commerce,53,Starter,Organic
+C0754,2026-03-28,Australia,Professional Services,5,Starter,Referral
+C0755,2026-01-28,Singapore,SaaS,26,Free,Sales
+C0756,2026-03-07,United States,Professional Services,29,Free,Sales
+C0757,2026-03-02,India,SaaS,2,Free,Sales
+C0758,2026-04-12,India,Marketing,7,Starter,Paid Ads
+C0759,2026-04-26,United Kingdom,SaaS,32,Starter,Referral
+C0760,2026-04-12,Germany,Marketing,15,Free,Organic
+C0761,2026-04-05,India,Professional Services,46,Starter,Referral
+C0762,2026-01-22,United Kingdom,FinTech,22,Free,Organic
+C0763,2026-03-26,United Kingdom,Marketing,8,Starter,Partner
+C0764,2026-01-11,India,IT Services,6,Free,Sales
+C0765,2026-02-06,United Kingdom,SaaS,33,Free,Paid Ads
+C0766,2026-03-07,India,IT Services,24,Starter,Referral
+C0767,2026-03-26,United States,Marketing,47,Starter,Paid Ads
+C0768,2026-03-23,United States,Education,119,Starter,Partner
+C0769,2026-03-21,India,SaaS,3,Free,Paid Ads
+C0770,2026-02-12,India,FinTech,965,Starter,Paid Ads
+C0771,2026-01-12,United Kingdom,FinTech,4,Free,Referral
+C0772,2026-04-15,Germany,SaaS,711,Business,Paid Ads
+C0773,2026-04-07,Singapore,E-commerce,102,Business,Paid Ads
+C0774,2026-01-31,Germany,E-commerce,441,Starter,Organic
+C0775,2026-03-28,India,E-commerce,4,Free,Referral
+C0776,2026-02-09,United Kingdom,Healthcare,118,Free,Organic
+C0777,2026-01-29,United States,Healthcare,4,Starter,Paid Ads
+C0778,2026-04-14,India,Healthcare,4,Free,Paid Ads
+C0779,2026-01-26,India,Professional Services,4,Free,Paid Ads
+C0780,2026-01-19,Germany,IT Services,456,Business,Referral
+C0781,2026-01-04,India,E-commerce,10,Free,Referral
+C0782,2026-01-06,Canada,SaaS,6,Free,Partner
+C0783,2026-02-01,India,Professional Services,20,Business,Organic
+C0784,2026-03-02,Singapore,Marketing,2,Starter,Paid Ads
+C0785,2026-03-20,India,IT Services,81,Starter,Sales
+C0786,2026-04-19,India,Healthcare,16,Free,Paid Ads
+C0787,2026-04-09,Canada,IT Services,8,Free,Sales
+C0788,2026-01-10,United States,SaaS,52,Business,Sales
+C0789,2026-02-28,United States,FinTech,189,Starter,Partner
+C0790,2026-02-23,United Kingdom,Education,1,Free,Sales
+C0791,2026-04-24,United States,SaaS,41,Free,Paid Ads
+C0792,2026-03-22,United Kingdom,Education,34,Business,Organic
+C0793,2026-03-15,Australia,Healthcare,50,Free,Referral
+C0794,2026-01-25,United States,Education,31,Free,Referral
+C0795,2026-04-02,United States,Education,8,Free,Paid Ads
+C0796,2026-03-31,India,Professional Services,47,Free,Referral
+C0797,2026-02-19,India,FinTech,28,Starter,Referral
+C0798,2026-03-05,United Kingdom,Marketing,703,Business,Organic
+C0799,2026-02-21,United States,SaaS,97,Starter,Paid Ads
+C0800,2026-02-01,Germany,SaaS,181,Business,Referral
+C0801,2026-01-19,United Kingdom,FinTech,28,Starter,Sales
+C0802,2026-03-25,India,Marketing,7,Free,Referral
+C0803,2026-03-30,India,Healthcare,4,Free,Sales
+C0804,2026-01-01,United Kingdom,Education,47,Free,Organic
+C0805,2026-04-25,Singapore,FinTech,3,Starter,Paid Ads
+C0806,2026-04-07,United States,E-commerce,64,Business,Organic
+C0807,2026-04-21,Canada,E-commerce,9,Free,Organic
+C0808,2026-04-09,Canada,Education,7,Starter,Partner
+C0809,2026-04-24,India,Education,41,Starter,Paid Ads
+C0810,2026-01-14,India,SaaS,9,Free,Organic
+C0811,2026-04-10,Singapore,Professional Services,1,Free,Paid Ads
+C0812,2026-02-24,Canada,E-commerce,9,Starter,Paid Ads
+C0813,2026-01-29,Germany,FinTech,139,Business,Partner
+C0814,2026-01-23,India,Professional Services,36,Free,Partner
+C0815,2026-04-13,United Kingdom,SaaS,22,Free,Referral
+C0816,2026-03-31,United States,IT Services,40,Starter,Partner
+C0817,2026-03-08,United States,Marketing,18,Starter,Partner
+C0818,2026-03-01,Canada,FinTech,44,Starter,Sales
+C0819,2026-01-07,Canada,FinTech,8,Starter,Paid Ads
+C0820,2026-03-13,United States,Marketing,524,Starter,Referral
+C0821,2026-02-01,United States,Healthcare,11,Starter,Sales
+C0822,2026-04-28,India,FinTech,54,Starter,Sales
+C0823,2026-04-19,India,SaaS,4,Free,Referral
+C0824,2026-01-16,United States,Marketing,148,Starter,Organic
+C0825,2026-02-28,Australia,E-commerce,199,Business,Paid Ads
+C0826,2026-01-18,India,SaaS,2,Free,Organic
+C0827,2026-04-13,United States,SaaS,6,Starter,Paid Ads
+C0828,2026-03-01,India,Marketing,571,Business,Organic
+C0829,2026-03-27,Germany,SaaS,10,Free,Sales
+C0830,2026-03-09,United Kingdom,FinTech,5,Free,Organic
+C0831,2026-03-13,United States,SaaS,22,Free,Referral
+C0832,2026-03-18,India,IT Services,9,Free,Partner
+C0833,2026-02-10,India,Professional Services,27,Starter,Paid Ads
+C0834,2026-04-07,India,Marketing,111,Starter,Organic
+C0835,2026-04-25,United States,Healthcare,5,Free,Organic
+C0836,2026-02-26,United States,Healthcare,41,Starter,Referral
+C0837,2026-03-20,Australia,FinTech,138,Starter,Paid Ads
+C0838,2026-04-15,India,E-commerce,34,Starter,Paid Ads
+C0839,2026-04-03,Germany,E-commerce,22,Starter,Referral
+C0840,2026-04-25,Canada,Marketing,8,Free,Partner
+C0841,2026-03-06,Australia,Education,7,Free,Referral
+C0842,2026-02-24,Germany,SaaS,104,Free,Referral
+C0843,2026-04-17,United States,Education,7,Free,Paid Ads
+C0844,2026-04-27,India,E-commerce,6,Free,Paid Ads
+C0845,2026-03-12,India,Marketing,34,Starter,Organic
+C0846,2026-02-27,India,IT Services,7,Free,Paid Ads
+C0847,2026-04-25,India,E-commerce,5,Free,Referral
+C0848,2026-01-21,India,E-commerce,39,Free,Referral
+C0849,2026-04-06,India,SaaS,3,Free,Partner
+C0850,2026-04-21,India,FinTech,47,Free,Referral
+C0851,2026-03-02,United Kingdom,FinTech,3,Free,Organic
+C0852,2026-02-27,India,Marketing,47,Starter,Partner
+C0853,2026-02-03,India,Marketing,4,Free,Sales
+C0854,2026-04-07,India,Healthcare,17,Business,Sales
+C0855,2026-02-01,Germany,Marketing,28,Starter,Organic
+C0856,2026-04-18,United States,Healthcare,26,Free,Paid Ads
+C0857,2026-03-23,Australia,E-commerce,46,Starter,Sales
+C0858,2026-02-05,Canada,SaaS,161,Starter,Paid Ads
+C0859,2026-04-09,United States,SaaS,35,Starter,Organic
+C0860,2026-04-10,United States,Education,23,Starter,Organic
+C0861,2026-03-08,Germany,E-commerce,3,Free,Referral
+C0862,2026-03-04,India,Professional Services,89,Business,Partner
+C0863,2026-03-22,India,FinTech,41,Free,Sales
+C0864,2026-01-31,India,E-commerce,11,Starter,Organic
+C0865,2026-02-05,Germany,E-commerce,96,Starter,Paid Ads
+C0866,2026-02-26,United States,SaaS,158,Free,Paid Ads
+C0867,2026-01-10,United States,E-commerce,712,Business,Paid Ads
+C0868,2026-04-02,Canada,E-commerce,3,Free,Partner
+C0869,2026-02-06,India,SaaS,44,Starter,Referral
+C0870,2026-01-31,India,Education,9,Free,Paid Ads
+C0871,2026-02-04,India,IT Services,31,Starter,Referral
+C0872,2026-02-12,United States,IT Services,175,Starter,Referral
+C0873,2026-02-10,United States,Healthcare,30,Starter,Paid Ads
+C0874,2026-04-25,India,Education,27,Free,Referral
+C0875,2026-03-11,Australia,FinTech,9,Free,Organic
+C0876,2026-01-11,United States,FinTech,10,Free,Organic
+C0877,2026-01-18,United States,SaaS,1,Free,Organic
+C0878,2026-01-20,United States,E-commerce,7,Free,Referral
+C0879,2026-01-30,United States,SaaS,17,Starter,Paid Ads
+C0880,2026-02-19,United Kingdom,E-commerce,21,Starter,Referral
+C0881,2026-03-30,India,Healthcare,66,Business,Partner
+C0882,2026-01-20,India,Healthcare,106,Business,Organic
+C0883,2026-04-01,India,E-commerce,5,Free,Organic
+C0884,2026-01-28,United States,E-commerce,41,Starter,Referral
+C0885,2026-01-09,India,Healthcare,75,Starter,Organic
+C0886,2026-02-23,United Kingdom,IT Services,39,Starter,Paid Ads
+C0887,2026-02-22,United States,Professional Services,32,Starter,Partner
+C0888,2026-02-12,India,SaaS,467,Starter,Referral
+C0889,2026-03-11,Germany,SaaS,6,Starter,Partner
+C0890,2026-03-01,United States,FinTech,6,Free,Referral
+C0891,2026-02-23,Canada,SaaS,194,Business,Paid Ads
+C0892,2026-01-08,United States,IT Services,193,Business,Paid Ads
+C0893,2026-01-27,India,Education,116,Business,Sales
+C0894,2026-04-17,Australia,IT Services,6,Starter,Paid Ads
+C0895,2026-02-23,India,Professional Services,12,Starter,Organic
+C0896,2026-02-19,India,E-commerce,37,Business,Organic
+C0897,2026-04-26,India,SaaS,2,Business,Organic
+C0898,2026-04-09,United Kingdom,E-commerce,140,Starter,Paid Ads
+C0899,2026-03-16,India,Healthcare,101,Starter,Organic
+C0900,2026-03-31,India,Education,10,Free,Referral
+C0901,2026-01-03,India,E-commerce,10,Starter,Sales
+C0902,2026-04-20,United Kingdom,E-commerce,45,Starter,Organic
+C0903,2026-04-23,India,Marketing,3,Free,Organic
+C0904,2026-04-08,United States,E-commerce,123,Business,Referral
+C0905,2026-03-15,Canada,SaaS,564,Business,Organic
+C0906,2026-02-18,India,Healthcare,6,Free,Referral
+C0907,2026-03-03,India,Marketing,43,Starter,Paid Ads
+C0908,2026-01-01,India,FinTech,8,Starter,Referral
+C0909,2026-02-15,United States,SaaS,8,Free,Paid Ads
+C0910,2026-02-08,Australia,FinTech,2,Free,Organic
+C0911,2026-04-07,United Kingdom,FinTech,35,Free,Paid Ads
+C0912,2026-02-19,Singapore,Marketing,50,Starter,Organic
+C0913,2026-04-20,United States,Healthcare,124,Starter,Paid Ads
+C0914,2026-04-25,India,Marketing,40,Starter,Referral
+C0915,2026-04-17,India,E-commerce,20,Starter,Paid Ads
+C0916,2026-02-23,United Kingdom,Healthcare,21,Starter,Organic
+C0917,2026-03-10,Germany,Healthcare,137,Starter,Paid Ads
+C0918,2026-04-06,India,FinTech,7,Free,Referral
+C0919,2026-04-05,India,Healthcare,10,Free,Organic
+C0920,2026-03-11,Canada,Professional Services,47,Free,Paid Ads
+C0921,2026-04-13,Australia,Healthcare,615,Business,Partner
+C0922,2026-03-19,India,Marketing,69,Business,Referral
+C0923,2026-04-25,India,Marketing,2,Free,Organic
+C0924,2026-01-29,India,E-commerce,92,Starter,Organic
+C0925,2026-03-04,Canada,FinTech,32,Free,Sales
+C0926,2026-01-29,United States,E-commerce,25,Starter,Organic
+C0927,2026-02-04,India,Marketing,31,Free,Referral
+C0928,2026-02-25,United States,Education,31,Free,Sales
+C0929,2026-03-04,India,FinTech,125,Starter,Organic
+C0930,2026-01-04,Australia,IT Services,28,Free,Sales
+C0931,2026-02-19,India,SaaS,152,Business,Organic
+C0932,2026-02-13,United Kingdom,FinTech,120,Business,Organic
+C0933,2026-03-27,India,IT Services,39,Business,Organic
+C0934,2026-03-28,Canada,SaaS,143,Free,Referral
+C0935,2026-04-13,United States,IT Services,48,Free,Partner
+C0936,2026-02-21,United States,SaaS,44,Starter,Referral
+C0937,2026-04-03,United States,IT Services,166,Business,Sales
+C0938,2026-01-22,Germany,FinTech,37,Starter,Referral
+C0939,2026-04-18,India,Marketing,3,Free,Referral
+C0940,2026-03-01,India,Education,22,Business,Referral
+C0941,2026-04-28,United Kingdom,IT Services,1,Free,Organic
+C0942,2026-01-17,India,Education,83,Starter,Referral
+C0943,2026-03-21,Canada,E-commerce,26,Starter,Referral
+C0944,2026-03-10,India,Education,27,Starter,Paid Ads
+C0945,2026-01-04,India,Marketing,16,Free,Paid Ads
+C0946,2026-04-27,United States,IT Services,4,Free,Organic
+C0947,2026-02-20,United States,IT Services,371,Business,Partner
+C0948,2026-03-17,Singapore,Healthcare,152,Free,Referral
+C0949,2026-03-14,India,Healthcare,17,Starter,Organic
+C0950,2026-03-26,India,Healthcare,17,Starter,Referral
+C0951,2026-01-04,India,SaaS,15,Starter,Paid Ads
+C0952,2026-01-11,India,Professional Services,41,Free,Paid Ads
+C0953,2026-03-24,India,FinTech,46,Business,Organic
+C0954,2026-02-24,United States,Healthcare,14,Starter,Referral
+C0955,2026-01-18,United Kingdom,Professional Services,12,Free,Referral
+C0956,2026-04-21,India,Healthcare,36,Free,Referral
+C0957,2026-03-01,United States,IT Services,9,Free,Sales
+C0958,2026-01-24,United States,IT Services,72,Starter,Referral
+C0959,2026-01-07,United Kingdom,SaaS,77,Starter,Referral
+C0960,2026-02-03,Germany,Marketing,27,Business,Organic
+C0961,2026-02-18,United States,E-commerce,10,Free,Paid Ads
+C0962,2026-02-11,United States,SaaS,90,Business,Referral
+C0963,2026-01-28,United States,FinTech,16,Starter,Partner
+C0964,2026-02-28,Canada,Education,35,Starter,Sales
+C0965,2026-02-11,India,Marketing,30,Starter,Organic
+C0966,2026-02-13,United Kingdom,SaaS,4,Free,Referral
+C0967,2026-04-08,United States,SaaS,114,Starter,Partner
+C0968,2026-04-23,United States,FinTech,5,Free,Sales
+C0969,2026-02-18,United Kingdom,FinTech,8,Free,Sales
+C0970,2026-02-05,India,IT Services,3,Free,Sales
+C0971,2026-04-07,India,E-commerce,19,Starter,Referral
+C0972,2026-04-17,Australia,SaaS,44,Starter,Organic
+C0973,2026-02-23,United Kingdom,Education,3,Free,Organic
+C0974,2026-02-02,United States,Education,58,Business,Paid Ads
+C0975,2026-04-17,India,E-commerce,1,Free,Organic
+C0976,2026-01-11,India,SaaS,33,Starter,Referral
+C0977,2026-03-02,United States,Marketing,31,Starter,Partner
+C0978,2026-01-03,India,Marketing,8,Starter,Partner
+C0979,2026-04-06,Germany,E-commerce,40,Starter,Paid Ads
+C0980,2026-03-11,India,Marketing,9,Free,Sales
+C0981,2026-01-07,India,Education,479,Business,Sales
+C0982,2026-02-14,United States,IT Services,46,Business,Referral
+C0983,2026-01-29,India,E-commerce,8,Free,Partner
+C0984,2026-03-25,United States,E-commerce,19,Free,Organic
+C0985,2026-01-09,India,Healthcare,9,Free,Organic
+C0986,2026-04-10,India,IT Services,22,Business,Organic
+C0987,2026-03-25,India,IT Services,167,Starter,Referral
+C0988,2026-01-06,India,SaaS,195,Starter,Organic
+C0989,2026-04-07,India,Professional Services,646,Business,Organic
+C0990,2026-01-04,Singapore,Education,44,Starter,Organic
+C0991,2026-02-01,India,Education,187,Starter,Organic
+C0992,2026-01-26,India,IT Services,30,Starter,Partner
+C0993,2026-04-18,United States,Marketing,33,Free,Paid Ads
+C0994,2026-01-03,Germany,E-commerce,41,Starter,Paid Ads
+C0995,2026-03-21,India,Professional Services,9,Free,Sales
+C0996,2026-01-20,Canada,IT Services,109,Starter,Paid Ads
+C0997,2026-01-31,United Kingdom,E-commerce,73,Business,Sales
+C0998,2026-01-17,India,FinTech,164,Starter,Organic
+C0999,2026-03-02,United States,FinTech,5,Free,Organic
+C1000,2026-03-27,United Kingdom,Healthcare,144,Free,Organic

@@ -1,0 +1,1001 @@
+customer_id,plan,company_size,industry,country,acquisition_channel,activity_count,active_months,integration_failures,feature_usage_count,revenue,transaction_count,ticket_count,integration_ticket_count,avg_resolution_time,feedback_count
+C0001,Free,10,Professional Services,India,Paid Ads,36,2,1,10,0.0,0.0,6,1,37.72,1
+C0002,Starter,172,FinTech,Germany,Organic,48,4,2,12,196.0,4.0,5,3,46.586,2
+C0003,Free,144,SaaS,United States,Organic,17,4,1,3,0.0,0.0,8,3,28.2075,3
+C0004,Starter,166,SaaS,India,Partner,108,1,2,21,49.0,1.0,8,1,33.56375,4
+C0005,Business,80,SaaS,India,Organic,201,3,5,65,597.0,3.0,2,1,36.545,1
+C0006,Free,2,Marketing,United States,Referral,18,3,0,2,0.0,0.0,3,1,44.99333333333333,3
+C0007,Free,25,Professional Services,Singapore,Organic,46,4,0,14,0.0,0.0,7,0,37.98428571428571,4
+C0008,Starter,51,IT Services,United Kingdom,Organic,77,4,1,22,196.0,4.0,6,1,44.04666666666666,1
+C0009,Free,6,Professional Services,Canada,Referral,54,1,1,10,0.0,0.0,6,2,50.16833333333333,2
+C0010,Starter,141,Professional Services,India,Referral,57,4,2,13,196.0,4.0,4,2,38.8975,3
+C0011,Starter,5,Education,India,Sales,60,2,1,11,98.0,2.0,7,2,15.105714285714287,4
+C0012,Free,46,Marketing,United States,Referral,45,1,0,10,0.0,0.0,1,0,59.23,4
+C0013,Business,735,Healthcare,Germany,Referral,113,1,2,36,199.0,1.0,6,2,40.84,1
+C0014,Starter,34,FinTech,United States,Paid Ads,116,2,3,25,98.0,2.0,3,1,32.92666666666667,3
+C0015,Business,919,FinTech,Germany,Organic,148,4,0,34,796.0,4.0,3,1,31.27,1
+C0016,Business,78,SaaS,India,Partner,210,2,5,55,398.0,2.0,7,1,26.528571428571432,3
+C0017,Starter,62,Marketing,Germany,Organic,90,3,1,21,147.0,3.0,1,0,19.41,1
+C0018,Free,3,Marketing,India,Organic,28,4,1,7,0.0,0.0,2,0,26.28,1
+C0019,Business,177,SaaS,United States,Referral,116,4,5,28,796.0,4.0,1,1,23.16,1
+C0020,Starter,86,E-commerce,Australia,Organic,68,4,0,22,196.0,4.0,6,2,41.01499999999999,2
+C0021,Free,7,FinTech,India,Sales,52,4,1,13,0.0,0.0,8,4,32.13625,4
+C0022,Free,2,Professional Services,United Kingdom,Sales,28,4,0,7,0.0,0.0,4,3,47.792500000000004,2
+C0023,Free,5,Marketing,India,Referral,56,2,0,19,0.0,0.0,7,0,39.855714285714285,4
+C0024,Starter,50,FinTech,United Kingdom,Partner,118,2,6,30,98.0,2.0,3,0,47.723333333333336,4
+C0025,Free,23,E-commerce,Canada,Partner,28,4,1,6,0.0,0.0,3,1,16.02,1
+C0026,Free,4,E-commerce,Canada,Partner,48,2,0,13,0.0,0.0,3,0,40.76,4
+C0027,Starter,18,Healthcare,United States,Paid Ads,60,4,1,18,196.0,4.0,3,0,22.25,3
+C0028,Starter,36,E-commerce,India,Paid Ads,75,1,3,15,49.0,1.0,4,1,36.545,4
+C0029,Business,106,Professional Services,United States,Referral,248,2,6,59,398.0,2.0,6,2,28.82166666666667,2
+C0030,Starter,40,SaaS,United Kingdom,Referral,73,2,3,17,98.0,2.0,6,1,31.031666666666666,1
+C0031,Free,4,IT Services,India,Organic,33,2,0,4,0.0,0.0,3,1,19.849999999999998,4
+C0032,Free,6,SaaS,United States,Referral,39,3,0,11,0.0,0.0,6,3,35.663333333333334,4
+C0033,Free,2,E-commerce,India,Partner,24,4,0,5,0.0,0.0,4,2,39.875,2
+C0034,Free,7,Marketing,United States,Organic,22,3,1,5,0.0,0.0,3,1,43.04333333333333,4
+C0035,Free,13,E-commerce,United States,Organic,34,2,1,11,0.0,0.0,6,1,29.274999999999995,2
+C0036,Free,48,E-commerce,United States,Partner,39,3,0,8,0.0,0.0,2,2,60.235,2
+C0037,Free,18,E-commerce,India,Organic,23,1,1,4,0.0,0.0,5,1,29.880000000000003,2
+C0038,Free,8,Healthcare,Australia,Paid Ads,24,1,0,7,0.0,0.0,7,1,37.93285714285714,3
+C0039,Free,8,SaaS,United States,Paid Ads,46,4,0,9,0.0,0.0,3,1,30.77333333333333,1
+C0040,Free,10,FinTech,India,Paid Ads,42,1,0,10,0.0,0.0,2,0,24.28,1
+C0041,Starter,180,SaaS,India,Sales,56,1,1,13,49.0,1.0,5,1,37.72,4
+C0042,Starter,19,E-commerce,United States,Sales,88,4,0,25,196.0,4.0,4,0,45.5625,1
+C0043,Starter,42,Healthcare,United Kingdom,Organic,80,2,0,18,98.0,2.0,3,0,35.24666666666667,3
+C0044,Free,1,SaaS,United States,Referral,19,3,1,2,0.0,0.0,4,1,39.9525,3
+C0045,Free,9,IT Services,Germany,Paid Ads,33,3,2,8,0.0,0.0,1,0,29.34,1
+C0046,Business,63,Healthcare,Canada,Organic,114,3,2,28,597.0,3.0,8,0,40.7375,4
+C0047,Free,9,Healthcare,United States,Referral,36,4,0,8,0.0,0.0,4,2,27.490000000000002,3
+C0048,Starter,7,Marketing,Canada,Paid Ads,71,4,2,18,196.0,4.0,1,1,50.95,1
+C0049,Free,10,SaaS,United States,Organic,32,1,0,6,0.0,0.0,7,1,28.122857142857146,1
+C0050,Free,8,Healthcare,India,Partner,21,3,1,3,0.0,0.0,8,2,41.22125,4
+C0051,Starter,181,IT Services,India,Paid Ads,88,4,2,19,196.0,4.0,3,1,38.413333333333334,4
+C0052,Free,96,IT Services,Germany,Paid Ads,20,4,0,4,0.0,0.0,7,2,35.33428571428571,1
+C0053,Free,48,Healthcare,India,Referral,27,3,0,6,0.0,0.0,2,0,68.225,2
+C0054,Free,22,FinTech,United States,Sales,24,4,0,6,0.0,0.0,7,3,31.240000000000002,2
+C0055,Free,3,SaaS,Canada,Organic,48,3,0,12,0.0,0.0,3,1,50.71666666666667,2
+C0056,Starter,17,Professional Services,United States,Referral,94,1,3,24,49.0,1.0,6,1,30.745,4
+C0057,Starter,35,FinTech,United Kingdom,Paid Ads,93,3,0,25,147.0,3.0,2,0,47.440000000000005,3
+C0058,Free,10,Professional Services,India,Partner,60,2,0,13,0.0,0.0,5,0,32.794,4
+C0059,Free,10,Healthcare,United States,Referral,39,3,0,12,0.0,0.0,3,1,22.810000000000002,4
+C0060,Free,6,FinTech,India,Referral,44,1,0,11,0.0,0.0,3,1,14.986666666666666,2
+C0061,Free,43,SaaS,United States,Organic,24,4,0,6,0.0,0.0,2,0,44.845,2
+C0062,Free,149,SaaS,India,Organic,13,1,0,4,0.0,0.0,2,2,64.645,1
+C0063,Starter,37,Professional Services,India,Partner,99,3,1,26,147.0,3.0,2,0,38.915,1
+C0064,Free,49,FinTech,India,Organic,13,2,1,2,0.0,0.0,6,1,23.046666666666667,2
+C0065,Free,4,Education,United States,Referral,39,4,1,10,0.0,0.0,5,0,34.989999999999995,4
+C0066,Starter,121,Education,Australia,Paid Ads,59,1,0,11,49.0,1.0,3,0,14.096666666666666,2
+C0067,Free,7,SaaS,United States,Referral,27,3,0,7,0.0,0.0,7,2,42.02428571428572,2
+C0068,Free,6,Education,United States,Organic,23,4,2,6,0.0,0.0,1,0,62.16,3
+C0069,Starter,29,Healthcare,India,Referral,84,2,3,21,98.0,2.0,8,2,45.46875,3
+C0070,Free,8,Healthcare,India,Partner,54,3,0,15,0.0,0.0,4,0,34.83,2
+C0071,Free,19,SaaS,United States,Referral,32,1,1,3,0.0,0.0,5,0,41.876,1
+C0072,Free,86,Education,United States,Referral,34,2,1,12,0.0,0.0,4,2,30.3875,3
+C0073,Starter,7,IT Services,India,Sales,94,2,1,22,98.0,2.0,5,1,47.438,2
+C0074,Starter,49,FinTech,United States,Paid Ads,98,1,3,25,49.0,1.0,1,0,46.42,3
+C0075,Free,9,Professional Services,United Kingdom,Organic,18,1,0,4,0.0,0.0,7,2,49.83142857142857,3
+C0076,Business,30,SaaS,United States,Organic,234,3,7,66,597.0,3.0,8,3,36.135,2
+C0077,Free,46,IT Services,India,Organic,34,2,0,9,0.0,0.0,7,1,46.60857142857143,3
+C0078,Business,6,SaaS,India,Paid Ads,212,4,4,43,796.0,4.0,4,2,49.1475,2
+C0079,Starter,192,Professional Services,United States,Referral,53,1,1,17,49.0,1.0,5,2,39.758,1
+C0080,Free,4,Marketing,India,Referral,52,4,1,3,0.0,0.0,7,0,40.74571428571428,1
+C0081,Free,102,FinTech,United Kingdom,Paid Ads,22,4,1,2,0.0,0.0,6,1,22.425,2
+C0082,Business,104,FinTech,India,Referral,180,2,2,48,398.0,2.0,8,3,40.52375,3
+C0083,Free,10,Healthcare,United States,Organic,56,4,1,17,0.0,0.0,6,2,40.681666666666665,4
+C0084,Free,29,Education,India,Organic,31,1,1,11,0.0,0.0,6,4,29.15833333333333,2
+C0085,Starter,6,SaaS,Singapore,Referral,51,3,1,19,147.0,3.0,8,1,42.385000000000005,3
+C0086,Starter,3,IT Services,United States,Organic,72,4,0,20,196.0,4.0,8,2,42.06625,3
+C0087,Free,22,Healthcare,India,Referral,54,1,2,16,0.0,0.0,8,2,35.705,4
+C0088,Business,179,Education,United States,Sales,244,4,6,58,796.0,4.0,7,1,49.48285714285714,4
+C0089,Business,189,FinTech,India,Organic,229,1,6,61,199.0,1.0,2,0,62.105,3
+C0090,Free,6,FinTech,India,Referral,48,4,1,18,0.0,0.0,8,0,44.51875,4
+C0091,Free,2,IT Services,United Kingdom,Organic,21,3,0,5,0.0,0.0,2,1,39.31,4
+C0092,Free,6,E-commerce,India,Sales,28,3,1,8,0.0,0.0,3,1,20.286666666666665,4
+C0093,Free,46,E-commerce,United Kingdom,Organic,30,3,2,6,0.0,0.0,8,0,42.8875,1
+C0094,Free,8,Education,Germany,Referral,20,2,2,3,0.0,0.0,2,0,19.655,4
+C0095,Free,200,SaaS,United Kingdom,Paid Ads,46,1,1,6,0.0,0.0,2,0,35.38,3
+C0096,Free,10,E-commerce,India,Partner,39,3,1,12,0.0,0.0,1,0,26.93,1
+C0097,Starter,7,E-commerce,United Kingdom,Referral,64,4,1,13,196.0,4.0,6,2,44.725,1
+C0098,Free,9,FinTech,India,Partner,24,3,0,7,0.0,0.0,3,1,28.24666666666667,4
+C0099,Free,5,SaaS,United States,Organic,18,3,0,4,0.0,0.0,6,0,27.258333333333336,4
+C0100,Free,159,IT Services,Canada,Organic,40,4,0,7,0.0,0.0,8,2,33.871249999999996,1
+C0101,Starter,11,FinTech,United States,Organic,92,2,1,21,98.0,2.0,5,0,48.809999999999995,2
+C0102,Starter,44,Professional Services,Singapore,Organic,47,3,1,13,147.0,3.0,4,0,33.465,2
+C0103,Free,2,FinTech,Australia,Referral,44,2,1,10,0.0,0.0,5,3,33.018,4
+C0104,Free,12,E-commerce,India,Organic,21,1,0,5,0.0,0.0,1,0,17.47,2
+C0105,Business,591,Marketing,India,Paid Ads,246,2,4,63,398.0,2.0,1,0,4.87,2
+C0106,Free,3,Healthcare,India,Sales,26,2,0,10,0.0,0.0,2,0,39.260000000000005,2
+C0107,Starter,14,SaaS,United Kingdom,Partner,96,4,5,26,196.0,4.0,6,1,45.20166666666666,4
+C0108,Free,1,FinTech,India,Referral,30,2,1,7,0.0,0.0,4,0,41.7475,2
+C0109,Free,4,SaaS,India,Referral,58,2,3,14,0.0,0.0,3,0,59.32666666666666,1
+C0110,Business,119,E-commerce,India,Partner,204,4,6,61,796.0,4.0,1,0,10.58,4
+C0111,Starter,92,SaaS,India,Organic,102,2,4,25,98.0,2.0,7,0,23.684285714285714,4
+C0112,Free,5,SaaS,Germany,Partner,54,1,2,11,0.0,0.0,2,0,47.635000000000005,4
+C0113,Free,5,Professional Services,United States,Organic,37,3,0,9,0.0,0.0,7,5,42.64857142857143,3
+C0114,Free,20,IT Services,Canada,Organic,32,4,1,9,0.0,0.0,8,1,23.1,4
+C0115,Business,66,E-commerce,India,Paid Ads,198,2,1,54,398.0,2.0,4,0,27.32,2
+C0116,Starter,29,Professional Services,India,Sales,66,3,0,24,147.0,3.0,1,1,46.44,4
+C0117,Free,24,IT Services,India,Organic,60,3,1,19,0.0,0.0,1,1,26.27,3
+C0118,Free,45,IT Services,United States,Partner,48,1,0,16,0.0,0.0,8,1,39.7825,3
+C0119,Free,13,Professional Services,India,Organic,41,2,2,10,0.0,0.0,7,2,41.08428571428571,1
+C0120,Free,6,Marketing,Singapore,Organic,44,2,1,10,0.0,0.0,7,1,27.462857142857143,4
+C0121,Free,8,SaaS,India,Sales,42,2,0,9,0.0,0.0,7,0,28.252857142857145,4
+C0122,Free,2,SaaS,Australia,Organic,32,4,0,7,0.0,0.0,2,0,54.07,3
+C0123,Starter,194,Professional Services,India,Paid Ads,104,2,0,21,98.0,2.0,4,1,50.78,4
+C0124,Business,430,E-commerce,India,Referral,148,3,4,38,597.0,3.0,8,2,36.56125,2
+C0125,Free,9,IT Services,United States,Organic,28,1,1,3,0.0,0.0,6,0,21.526666666666667,2
+C0126,Free,7,E-commerce,United States,Referral,31,1,0,13,0.0,0.0,2,1,36.935,1
+C0127,Starter,26,SaaS,United Kingdom,Paid Ads,52,1,2,10,49.0,1.0,6,1,33.90333333333333,3
+C0128,Business,181,E-commerce,India,Referral,240,4,5,65,796.0,4.0,7,0,38.449999999999996,4
+C0129,Free,29,E-commerce,Canada,Organic,32,4,1,9,0.0,0.0,7,1,30.562857142857144,1
+C0130,Free,14,FinTech,Germany,Paid Ads,32,1,1,11,0.0,0.0,4,0,20.61,2
+C0131,Free,7,Healthcare,India,Organic,20,4,0,4,0.0,0.0,3,1,29.623333333333335,3
+C0132,Free,35,SaaS,India,Organic,39,1,0,9,0.0,0.0,4,1,36.3425,1
+C0133,Free,627,FinTech,United States,Organic,27,3,1,7,0.0,0.0,4,1,51.8075,3
+C0134,Free,6,Healthcare,United States,Referral,21,3,0,7,0.0,0.0,2,2,8.34,2
+C0135,Free,9,IT Services,United States,Partner,21,3,0,3,0.0,0.0,8,1,35.98875,3
+C0136,Starter,64,Education,United States,Organic,50,4,1,15,196.0,4.0,2,1,29.5,2
+C0137,Free,1,FinTech,Canada,Paid Ads,36,4,1,10,0.0,0.0,8,3,36.27875,2
+C0138,Starter,27,SaaS,India,Referral,119,1,2,30,49.0,1.0,5,1,37.3,4
+C0139,Free,4,SaaS,Germany,Organic,56,2,1,13,0.0,0.0,5,1,35.316,4
+C0140,Free,50,SaaS,India,Organic,52,1,1,10,0.0,0.0,2,0,36.555,4
+C0141,Starter,39,FinTech,United States,Paid Ads,78,1,1,17,49.0,1.0,8,1,38.2125,3
+C0142,Starter,4,E-commerce,United States,Organic,86,3,0,28,147.0,3.0,7,3,35.52571428571429,1
+C0143,Free,6,E-commerce,United States,Paid Ads,39,4,1,9,0.0,0.0,5,1,32.928000000000004,2
+C0144,Starter,10,SaaS,India,Paid Ads,48,2,0,9,98.0,2.0,6,2,29.673333333333332,3
+C0145,Free,9,SaaS,Singapore,Organic,52,2,0,15,0.0,0.0,1,0,41.28,3
+C0146,Starter,49,Healthcare,India,Referral,75,3,0,18,147.0,3.0,7,3,30.075714285714287,3
+C0147,Free,4,E-commerce,Canada,Partner,24,1,1,5,0.0,0.0,8,2,34.4625,4
+C0148,Starter,23,FinTech,United States,Paid Ads,66,1,1,15,49.0,1.0,5,1,33.872,2
+C0149,Starter,126,E-commerce,India,Paid Ads,75,2,4,18,98.0,2.0,7,2,34.63,2
+C0150,Free,8,E-commerce,India,Referral,24,3,0,4,0.0,0.0,4,1,25.6875,2
+C0151,Starter,3,Healthcare,India,Partner,112,4,2,23,196.0,4.0,1,0,49.78,4
+C0152,Starter,15,IT Services,United States,Organic,111,3,3,22,147.0,3.0,6,3,35.52333333333333,1
+C0153,Business,98,Education,India,Organic,108,4,0,18,796.0,4.0,2,1,52.69,4
+C0154,Starter,22,Education,United States,Paid Ads,73,3,3,19,147.0,3.0,2,1,62.300000000000004,3
+C0155,Free,9,SaaS,United Kingdom,Referral,47,1,1,12,0.0,0.0,1,0,52.48,3
+C0156,Starter,81,SaaS,United States,Partner,70,2,4,17,98.0,2.0,3,1,19.74,1
+C0157,Free,7,E-commerce,India,Organic,52,2,0,13,0.0,0.0,3,2,8.866666666666667,2
+C0158,Free,13,Professional Services,India,Referral,27,3,2,9,0.0,0.0,5,1,31.222,4
+C0159,Free,38,Healthcare,India,Sales,35,1,1,7,0.0,0.0,3,0,43.32666666666666,2
+C0160,Starter,5,E-commerce,Australia,Paid Ads,84,2,0,24,98.0,2.0,7,2,27.31142857142857,3
+C0161,Business,770,SaaS,India,Paid Ads,111,3,0,27,597.0,3.0,5,2,44.936,3
+C0162,Free,27,Education,India,Organic,23,1,1,7,0.0,0.0,8,1,32.973749999999995,1
+C0163,Starter,19,E-commerce,India,Sales,78,2,0,19,98.0,2.0,8,1,33.365,4
+C0164,Starter,21,SaaS,Canada,Referral,80,3,2,23,147.0,3.0,4,1,48.4425,1
+C0165,Free,10,SaaS,United States,Paid Ads,30,3,0,7,0.0,0.0,3,1,56.42333333333334,4
+C0166,Starter,116,Marketing,Canada,Sales,60,4,2,18,196.0,4.0,6,0,39.358333333333334,1
+C0167,Free,1,IT Services,India,Paid Ads,48,4,1,15,0.0,0.0,1,0,6.26,2
+C0168,Free,6,Healthcare,India,Partner,50,2,1,13,0.0,0.0,2,0,24.705,3
+C0169,Free,170,SaaS,India,Partner,36,2,0,10,0.0,0.0,8,0,44.73125,3
+C0170,Business,90,IT Services,India,Organic,236,4,7,59,796.0,4.0,5,2,45.588,1
+C0171,Free,13,SaaS,India,Organic,56,1,0,17,0.0,0.0,5,1,33.402,2
+C0172,Starter,3,Professional Services,India,Referral,60,4,2,16,196.0,4.0,5,1,41.424,2
+C0173,Free,31,FinTech,India,Sales,42,1,1,9,0.0,0.0,8,0,35.106249999999996,3
+C0174,Free,10,E-commerce,Canada,Referral,52,4,0,9,0.0,0.0,6,3,29.58666666666667,3
+C0175,Free,64,Education,United States,Organic,20,4,0,3,0.0,0.0,6,1,33.725,1
+C0176,Free,10,IT Services,Canada,Paid Ads,20,2,0,9,0.0,0.0,6,0,26.063333333333333,3
+C0177,Free,5,Healthcare,Germany,Organic,36,4,1,7,0.0,0.0,2,0,13.9,2
+C0178,Free,8,Healthcare,United States,Referral,25,1,0,6,0.0,0.0,4,0,35.7625,3
+C0179,Starter,197,Healthcare,United States,Paid Ads,80,2,0,17,98.0,2.0,3,0,25.473333333333333,3
+C0180,Free,9,E-commerce,India,Sales,51,3,0,14,0.0,0.0,4,3,50.85,4
+C0181,Business,567,Healthcare,United States,Paid Ads,156,2,3,54,398.0,2.0,6,0,32.49333333333333,1
+C0182,Free,2,E-commerce,India,Organic,60,4,0,15,0.0,0.0,6,1,38.27333333333333,4
+C0183,Free,132,SaaS,United States,Organic,47,3,1,11,0.0,0.0,5,0,36.303999999999995,4
+C0184,Free,44,FinTech,United States,Organic,30,3,0,8,0.0,0.0,5,0,40.086,1
+C0185,Starter,25,SaaS,United States,Sales,112,2,1,24,98.0,2.0,2,0,16.845000000000002,1
+C0186,Free,3,E-commerce,Australia,Organic,48,2,2,5,0.0,0.0,4,0,48.19,1
+C0187,Starter,9,FinTech,United Kingdom,Paid Ads,96,2,3,22,98.0,2.0,6,4,47.29833333333334,3
+C0188,Business,68,IT Services,United States,Partner,129,3,3,29,597.0,3.0,3,0,25.146666666666665,2
+C0189,Starter,9,IT Services,India,Referral,102,2,3,30,98.0,2.0,1,0,17.61,2
+C0190,Business,91,Education,India,Paid Ads,217,1,5,53,199.0,1.0,5,0,33.71,2
+C0191,Starter,37,Healthcare,United Kingdom,Sales,116,4,0,30,196.0,4.0,5,2,24.45,1
+C0192,Free,9,FinTech,Australia,Partner,20,2,0,4,0.0,0.0,8,2,50.07125,4
+C0193,Free,45,Education,United States,Sales,32,1,1,4,0.0,0.0,1,1,8.0,3
+C0194,Free,7,Professional Services,India,Organic,40,4,1,11,0.0,0.0,8,3,39.82875,1
+C0195,Starter,2,Healthcare,Canada,Paid Ads,116,2,5,30,98.0,2.0,1,0,62.35,1
+C0196,Starter,33,FinTech,Canada,Paid Ads,77,1,2,12,49.0,1.0,8,4,23.4725,2
+C0197,Starter,4,SaaS,United States,Referral,70,2,2,20,98.0,2.0,7,0,34.167142857142856,2
+C0198,Free,24,E-commerce,Canada,Paid Ads,39,1,0,10,0.0,0.0,8,0,23.502499999999998,2
+C0199,Starter,135,Healthcare,India,Organic,66,3,0,13,147.0,3.0,7,1,29.7,2
+C0200,Starter,135,Marketing,United States,Referral,105,1,1,25,49.0,1.0,5,1,49.364,4
+C0201,Business,143,Marketing,United States,Referral,212,2,3,68,398.0,2.0,1,0,8.27,3
+C0202,Starter,5,E-commerce,India,Sales,72,3,2,20,147.0,3.0,1,0,69.8,2
+C0203,Free,4,IT Services,Singapore,Sales,40,4,1,8,0.0,0.0,1,0,2.75,1
+C0204,Free,50,FinTech,United States,Referral,30,3,0,7,0.0,0.0,7,4,41.52428571428572,1
+C0205,Free,9,Healthcare,Canada,Referral,21,3,1,4,0.0,0.0,2,0,53.15,4
+C0206,Free,8,Marketing,Singapore,Organic,20,4,1,3,0.0,0.0,4,1,41.877500000000005,1
+C0207,Starter,194,SaaS,United States,Organic,69,3,0,13,147.0,3.0,1,0,70.69,2
+C0208,Free,11,E-commerce,United States,Referral,48,4,0,13,0.0,0.0,2,0,61.37,1
+C0209,Free,2,E-commerce,India,Paid Ads,48,1,0,15,0.0,0.0,1,0,13.81,3
+C0210,Free,6,E-commerce,India,Organic,45,1,1,15,0.0,0.0,1,0,29.27,1
+C0211,Business,657,FinTech,India,Sales,147,1,0,32,199.0,1.0,6,0,16.923333333333332,3
+C0212,Business,447,Healthcare,United States,Referral,246,3,10,55,597.0,3.0,1,1,54.5,1
+C0213,Starter,113,Education,United States,Organic,69,2,2,16,98.0,2.0,2,0,41.555,2
+C0214,Starter,13,E-commerce,United Kingdom,Referral,99,1,1,26,49.0,1.0,6,1,20.511666666666667,3
+C0215,Starter,31,IT Services,United States,Organic,52,4,0,18,196.0,4.0,6,3,32.86666666666667,1
+C0216,Business,148,Marketing,Canada,Referral,153,2,4,34,398.0,2.0,6,0,38.645,2
+C0217,Free,2,Marketing,India,Sales,50,1,1,15,0.0,0.0,1,0,67.22,3
+C0218,Business,149,Healthcare,India,Partner,248,4,8,59,796.0,4.0,4,0,35.745,4
+C0219,Free,5,Healthcare,India,Organic,26,1,0,8,0.0,0.0,7,0,39.970000000000006,1
+C0220,Starter,45,Professional Services,India,Referral,104,2,3,28,98.0,2.0,7,1,33.98714285714286,3
+C0221,Free,29,E-commerce,Canada,Partner,21,3,0,2,0.0,0.0,6,0,34.76833333333333,2
+C0222,Starter,12,E-commerce,Australia,Organic,107,1,1,28,49.0,1.0,6,3,29.596666666666664,3
+C0223,Free,9,Professional Services,Canada,Partner,48,2,0,9,0.0,0.0,4,2,39.36,3
+C0224,Free,6,E-commerce,India,Organic,46,2,1,6,0.0,0.0,1,0,66.41,2
+C0225,Business,182,Healthcare,Australia,Referral,114,2,3,30,398.0,2.0,4,0,22.945,1
+C0226,Free,9,Healthcare,United States,Referral,60,4,1,15,0.0,0.0,1,0,27.7,3
+C0227,Starter,39,Education,India,Organic,112,4,2,32,196.0,4.0,2,0,43.005,1
+C0228,Starter,8,IT Services,United States,Organic,108,3,3,35,147.0,3.0,3,1,58.35999999999999,1
+C0229,Starter,1,Education,United States,Paid Ads,118,1,1,35,49.0,1.0,4,0,36.917500000000004,2
+C0230,Business,504,IT Services,United States,Partner,228,4,5,61,796.0,4.0,6,0,46.031666666666666,4
+C0231,Business,23,FinTech,United States,Referral,112,2,4,26,398.0,2.0,3,1,54.85333333333333,3
+C0232,Business,529,E-commerce,India,Paid Ads,216,1,3,51,199.0,1.0,7,1,36.65571428571428,4
+C0233,Business,727,Professional Services,India,Organic,245,1,7,56,199.0,1.0,7,0,33.425714285714285,2
+C0234,Free,2,FinTech,India,Referral,22,2,1,4,0.0,0.0,4,1,34.85,4
+C0235,Starter,2,FinTech,India,Referral,99,1,0,34,49.0,1.0,1,0,25.8,3
+C0236,Free,3,Professional Services,Australia,Paid Ads,52,4,1,13,0.0,0.0,4,1,33.2925,4
+C0237,Free,9,Professional Services,United States,Sales,42,2,0,15,0.0,0.0,5,0,48.784,4
+C0238,Starter,187,Marketing,India,Organic,72,3,1,18,147.0,3.0,8,1,44.59875,1
+C0239,Free,11,Marketing,United States,Organic,46,2,3,11,0.0,0.0,2,1,46.07,4
+C0240,Starter,67,Education,Canada,Organic,92,4,2,21,196.0,4.0,5,0,41.006,3
+C0241,Starter,24,E-commerce,United Kingdom,Organic,64,4,2,22,196.0,4.0,2,1,50.525000000000006,1
+C0242,Free,24,E-commerce,India,Organic,13,1,1,3,0.0,0.0,4,1,26.994999999999997,4
+C0243,Starter,38,Healthcare,India,Partner,114,3,0,24,147.0,3.0,4,2,34.44,3
+C0244,Business,17,Professional Services,United States,Organic,154,1,3,39,199.0,1.0,1,0,50.77,3
+C0245,Free,24,Marketing,India,Paid Ads,35,1,2,8,0.0,0.0,8,4,46.08375,2
+C0246,Free,9,FinTech,Australia,Organic,29,1,1,9,0.0,0.0,7,3,26.797142857142855,1
+C0247,Free,38,Healthcare,India,Organic,21,3,1,5,0.0,0.0,5,1,44.914,4
+C0248,Free,2,Healthcare,Germany,Referral,24,4,1,10,0.0,0.0,4,0,57.3875,2
+C0249,Free,20,IT Services,United States,Organic,52,4,1,13,0.0,0.0,7,0,29.580000000000002,4
+C0250,Starter,1,E-commerce,India,Partner,68,4,2,11,196.0,4.0,1,0,10.86,2
+C0251,Free,8,FinTech,Germany,Referral,48,1,4,12,0.0,0.0,4,2,45.685,4
+C0252,Business,135,Marketing,India,Paid Ads,122,2,0,25,398.0,2.0,3,0,47.370000000000005,4
+C0253,Starter,60,SaaS,United Kingdom,Organic,72,4,3,10,196.0,4.0,5,1,39.114,4
+C0254,Free,2,SaaS,United States,Sales,40,4,0,13,0.0,0.0,4,1,44.1025,3
+C0255,Business,69,Professional Services,United States,Organic,166,1,3,39,199.0,1.0,8,1,35.426249999999996,2
+C0256,Starter,1,SaaS,United States,Organic,70,2,2,17,98.0,2.0,2,1,17.125,3
+C0257,Starter,22,Professional Services,United States,Sales,53,1,0,15,49.0,1.0,2,0,61.04,3
+C0258,Starter,5,Education,India,Referral,80,4,1,22,196.0,4.0,5,2,41.332,1
+C0259,Starter,193,Marketing,India,Referral,104,1,2,22,49.0,1.0,4,0,30.575,1
+C0260,Free,2,FinTech,United States,Organic,48,2,6,9,0.0,0.0,2,0,25.06,2
+C0261,Starter,198,IT Services,United Kingdom,Referral,104,1,3,21,49.0,1.0,3,0,29.036666666666665,4
+C0262,Free,4,FinTech,India,Partner,32,4,2,6,0.0,0.0,1,0,33.95,3
+C0263,Free,5,Healthcare,India,Paid Ads,32,4,2,6,0.0,0.0,8,1,22.08625,1
+C0264,Free,37,FinTech,Canada,Organic,56,2,1,11,0.0,0.0,5,0,32.404,3
+C0265,Free,7,SaaS,Australia,Organic,34,2,0,12,0.0,0.0,5,0,34.702,3
+C0266,Starter,8,Marketing,India,Organic,50,2,3,15,98.0,2.0,8,1,40.735,1
+C0267,Free,7,FinTech,Canada,Paid Ads,32,4,0,7,0.0,0.0,5,2,32.971999999999994,4
+C0268,Starter,161,SaaS,India,Organic,69,3,1,18,147.0,3.0,3,0,32.36,3
+C0269,Free,31,IT Services,India,Organic,30,2,0,6,0.0,0.0,6,1,25.87166666666667,3
+C0270,Starter,12,FinTech,United Kingdom,Referral,82,1,2,19,49.0,1.0,8,2,33.77125,4
+C0271,Starter,150,FinTech,Australia,Referral,76,2,0,19,98.0,2.0,1,0,70.56,4
+C0272,Free,2,SaaS,United States,Referral,45,3,2,8,0.0,0.0,3,1,43.42333333333334,2
+C0273,Free,187,FinTech,United Kingdom,Referral,24,4,2,6,0.0,0.0,6,1,34.165,4
+C0274,Free,1,E-commerce,Australia,Organic,43,1,0,6,0.0,0.0,6,4,31.896666666666665,3
+C0275,Starter,50,Education,United States,Partner,104,2,2,22,98.0,2.0,1,0,19.8,1
+C0276,Starter,15,SaaS,United States,Paid Ads,41,1,0,10,49.0,1.0,3,1,46.126666666666665,2
+C0277,Starter,10,Professional Services,India,Paid Ads,32,1,2,7,49.0,1.0,7,1,32.00857142857143,3
+C0278,Business,62,Professional Services,Canada,Referral,206,2,5,52,398.0,2.0,7,0,40.37571428571429,1
+C0279,Starter,2,SaaS,India,Organic,112,4,2,34,196.0,4.0,8,3,26.322499999999998,1
+C0280,Free,33,Education,Germany,Sales,42,1,1,14,0.0,0.0,6,0,26.493333333333336,4
+C0281,Business,715,IT Services,Australia,Sales,228,3,6,56,597.0,3.0,8,0,39.41125,4
+C0282,Free,2,E-commerce,Singapore,Referral,51,3,1,13,0.0,0.0,6,2,18.691666666666666,4
+C0283,Starter,5,Education,India,Sales,57,2,0,10,98.0,2.0,1,1,32.01,2
+C0284,Free,5,Marketing,India,Sales,24,2,1,9,0.0,0.0,5,2,42.577999999999996,3
+C0285,Business,73,FinTech,Australia,Referral,163,3,7,33,597.0,3.0,7,1,41.52142857142858,1
+C0286,Starter,5,FinTech,United States,Paid Ads,51,3,0,12,147.0,3.0,6,3,15.866666666666667,3
+C0287,Business,984,SaaS,India,Referral,142,1,5,42,199.0,1.0,5,1,50.638,1
+C0288,Business,163,Marketing,United States,Organic,126,2,1,26,398.0,2.0,6,0,34.071666666666665,2
+C0289,Starter,35,Education,Germany,Organic,117,3,3,22,147.0,3.0,5,3,36.43,2
+C0290,Business,36,FinTech,India,Organic,188,4,6,41,796.0,4.0,2,0,57.125,1
+C0291,Free,1,Marketing,Singapore,Organic,54,3,0,10,0.0,0.0,5,1,30.906,3
+C0292,Starter,8,IT Services,Canada,Partner,112,4,0,36,196.0,4.0,8,1,36.0075,2
+C0293,Business,91,SaaS,United Kingdom,Sales,204,4,4,46,796.0,4.0,6,0,32.050000000000004,4
+C0294,Starter,9,Professional Services,India,Paid Ads,60,3,1,13,147.0,3.0,1,0,46.14,2
+C0295,Starter,4,E-commerce,Singapore,Organic,88,4,0,25,196.0,4.0,3,0,52.47333333333333,2
+C0296,Starter,85,IT Services,India,Sales,84,2,2,18,98.0,2.0,2,0,49.825,4
+C0297,Free,7,Professional Services,Singapore,Organic,44,2,1,10,0.0,0.0,5,1,18.854,3
+C0298,Free,9,SaaS,India,Paid Ads,48,4,2,8,0.0,0.0,8,2,34.05375,2
+C0299,Starter,29,IT Services,India,Organic,108,2,0,21,98.0,2.0,7,2,44.964285714285715,3
+C0300,Free,20,Marketing,Australia,Organic,56,4,0,14,0.0,0.0,4,0,27.5,1
+C0301,Starter,127,SaaS,India,Referral,72,4,1,18,196.0,4.0,6,2,34.04333333333333,2
+C0302,Free,6,Marketing,Germany,Sales,42,4,0,6,0.0,0.0,4,0,52.31,1
+C0303,Starter,11,IT Services,India,Paid Ads,103,1,3,29,49.0,1.0,3,0,22.2,1
+C0304,Starter,192,FinTech,India,Organic,54,2,2,14,98.0,2.0,7,3,44.56857142857143,2
+C0305,Free,9,SaaS,Australia,Organic,24,4,0,8,0.0,0.0,7,2,32.74285714285714,4
+C0306,Business,345,FinTech,Singapore,Referral,100,4,2,28,796.0,4.0,7,2,21.81142857142857,3
+C0307,Starter,2,Education,India,Organic,60,4,0,17,196.0,4.0,4,1,18.794999999999998,1
+C0308,Starter,13,Professional Services,Canada,Organic,110,1,3,31,49.0,1.0,1,1,30.24,3
+C0309,Starter,52,FinTech,India,Referral,81,4,3,15,196.0,4.0,4,0,34.66,4
+C0310,Free,10,E-commerce,United States,Organic,28,1,0,7,0.0,0.0,5,2,43.218,1
+C0311,Starter,151,Education,India,Organic,88,3,0,18,147.0,3.0,3,0,58.20666666666667,1
+C0312,Business,188,Healthcare,India,Paid Ads,224,4,9,51,796.0,4.0,2,0,38.825,3
+C0313,Free,9,IT Services,India,Referral,26,2,0,4,0.0,0.0,6,0,34.876666666666665,3
+C0314,Starter,72,SaaS,United Kingdom,Paid Ads,88,4,2,33,196.0,4.0,5,1,43.242,2
+C0315,Free,5,Healthcare,United States,Referral,41,3,1,11,0.0,0.0,6,0,28.541666666666668,3
+C0316,Business,104,FinTech,Germany,Sales,131,2,1,28,398.0,2.0,7,1,30.37857142857143,2
+C0317,Starter,33,IT Services,United States,Organic,65,2,2,11,98.0,2.0,1,1,26.53,2
+C0318,Free,24,FinTech,Australia,Organic,44,4,0,14,0.0,0.0,3,0,27.37,4
+C0319,Free,37,Marketing,United States,Organic,20,2,0,5,0.0,0.0,7,1,26.197142857142858,1
+C0320,Free,9,Education,United States,Organic,32,4,0,9,0.0,0.0,1,0,62.72,2
+C0321,Starter,20,Marketing,United States,Paid Ads,81,1,2,16,49.0,1.0,5,0,39.706,1
+C0322,Starter,3,SaaS,India,Organic,62,1,1,18,49.0,1.0,4,1,47.14,4
+C0323,Starter,98,FinTech,United Kingdom,Sales,70,1,1,23,49.0,1.0,6,2,36.86833333333333,4
+C0324,Free,4,FinTech,India,Organic,22,2,1,3,0.0,0.0,3,1,40.873333333333335,4
+C0325,Free,50,Education,India,Referral,20,2,1,2,0.0,0.0,5,2,29.406,3
+C0326,Free,5,SaaS,India,Organic,48,2,1,11,0.0,0.0,7,0,40.73857142857143,2
+C0327,Starter,23,Education,Singapore,Paid Ads,84,3,2,25,147.0,3.0,5,0,48.507999999999996,2
+C0328,Business,18,Education,Canada,Organic,116,1,3,29,199.0,1.0,8,2,33.81625,2
+C0329,Starter,22,E-commerce,United Kingdom,Referral,56,2,0,11,98.0,2.0,7,2,43.26428571428572,3
+C0330,Free,47,E-commerce,India,Organic,20,1,0,5,0.0,0.0,2,0,33.935,1
+C0331,Starter,64,FinTech,India,Paid Ads,61,3,1,15,147.0,3.0,5,0,31.072000000000003,4
+C0332,Starter,46,E-commerce,India,Paid Ads,104,4,1,26,196.0,4.0,5,0,55.013999999999996,1
+C0333,Free,8,SaaS,India,Organic,19,4,0,8,0.0,0.0,3,0,45.126666666666665,4
+C0334,Free,9,Professional Services,India,Paid Ads,40,4,0,14,0.0,0.0,6,0,30.263333333333332,2
+C0335,Free,15,E-commerce,India,Organic,36,2,0,14,0.0,0.0,4,1,30.46,2
+C0336,Starter,29,Professional Services,India,Paid Ads,72,3,1,18,147.0,3.0,2,0,48.1,4
+C0337,Starter,68,SaaS,United States,Organic,108,3,3,25,147.0,3.0,3,1,51.693333333333335,2
+C0338,Free,5,E-commerce,India,Referral,24,3,2,3,0.0,0.0,5,0,49.568,3
+C0339,Business,301,E-commerce,United States,Organic,126,3,2,29,597.0,3.0,3,0,22.06,4
+C0340,Starter,23,FinTech,United Kingdom,Organic,106,2,3,24,98.0,2.0,4,1,38.79,2
+C0341,Starter,10,FinTech,India,Paid Ads,63,1,4,18,49.0,1.0,3,0,51.220000000000006,1
+C0342,Free,8,Healthcare,India,Paid Ads,48,1,3,13,0.0,0.0,2,0,9.71,2
+C0343,Free,32,Healthcare,United States,Partner,40,4,0,9,0.0,0.0,7,0,26.102857142857143,4
+C0344,Starter,33,FinTech,India,Organic,118,2,2,24,98.0,2.0,7,2,28.381428571428568,2
+C0345,Business,83,E-commerce,United Kingdom,Organic,131,2,4,30,398.0,2.0,6,2,16.005,1
+C0346,Free,4,FinTech,United States,Organic,22,2,0,7,0.0,0.0,1,1,57.19,3
+C0347,Starter,17,Education,United States,Partner,94,4,2,19,196.0,4.0,8,4,38.440000000000005,4
+C0348,Starter,5,E-commerce,India,Sales,84,4,2,13,196.0,4.0,1,0,12.98,3
+C0349,Free,10,SaaS,United States,Sales,47,3,0,9,0.0,0.0,5,1,28.68,3
+C0350,Free,2,Education,United States,Referral,16,1,2,5,0.0,0.0,6,0,27.986666666666665,4
+C0351,Free,23,Professional Services,United Kingdom,Referral,18,3,0,4,0.0,0.0,3,1,44.800000000000004,3
+C0352,Free,6,IT Services,Australia,Organic,24,1,0,6,0.0,0.0,4,0,26.2425,4
+C0353,Free,175,Marketing,United States,Paid Ads,45,1,0,14,0.0,0.0,4,0,30.689999999999998,4
+C0354,Free,8,Education,India,Referral,36,4,0,7,0.0,0.0,1,0,9.83,4
+C0355,Starter,135,Education,United States,Sales,91,3,1,28,147.0,3.0,4,1,40.7475,1
+C0356,Starter,50,Professional Services,India,Organic,72,4,1,13,196.0,4.0,1,1,45.02,4
+C0357,Free,5,E-commerce,Germany,Paid Ads,36,4,1,5,0.0,0.0,5,2,43.92,3
+C0358,Starter,48,FinTech,Singapore,Paid Ads,77,2,3,10,98.0,2.0,4,0,22.735,4
+C0359,Free,3,Professional Services,India,Organic,30,3,0,7,0.0,0.0,7,2,35.07857142857143,3
+C0360,Free,10,E-commerce,Singapore,Paid Ads,56,4,1,10,0.0,0.0,5,0,22.286,1
+C0361,Starter,10,E-commerce,United Kingdom,Sales,72,3,2,13,147.0,3.0,2,0,30.589999999999996,4
+C0362,Free,6,Professional Services,United States,Organic,46,4,3,9,0.0,0.0,2,0,41.754999999999995,2
+C0363,Starter,31,E-commerce,India,Paid Ads,55,3,1,11,147.0,3.0,1,0,6.59,2
+C0364,Starter,160,Marketing,Singapore,Organic,60,2,1,17,98.0,2.0,8,1,27.53875,1
+C0365,Starter,21,IT Services,Australia,Sales,76,3,1,15,147.0,3.0,2,1,48.32,3
+C0366,Starter,52,Marketing,India,Sales,90,1,1,21,49.0,1.0,4,1,29.775000000000002,3
+C0367,Starter,131,IT Services,India,Sales,55,1,0,14,49.0,1.0,6,1,37.17166666666667,4
+C0368,Starter,26,IT Services,India,Sales,76,4,0,22,196.0,4.0,4,3,29.290000000000003,1
+C0369,Business,427,Marketing,India,Paid Ads,180,3,4,47,597.0,3.0,2,1,4.975,4
+C0370,Free,7,Education,United Kingdom,Organic,33,1,1,12,0.0,0.0,6,0,34.88333333333333,1
+C0371,Business,121,Healthcare,India,Sales,128,1,5,28,199.0,1.0,6,0,43.663333333333334,4
+C0372,Business,569,Marketing,Australia,Referral,81,1,1,16,199.0,1.0,8,1,45.59875,3
+C0373,Free,3,Healthcare,India,Referral,48,2,1,15,0.0,0.0,1,0,71.04,4
+C0374,Free,6,Healthcare,India,Paid Ads,20,4,1,4,0.0,0.0,4,1,22.6275,1
+C0375,Starter,8,E-commerce,Australia,Paid Ads,89,4,2,26,196.0,4.0,8,4,48.19,2
+C0376,Starter,40,IT Services,Canada,Partner,80,2,1,18,98.0,2.0,6,1,49.343333333333334,1
+C0377,Free,8,SaaS,Singapore,Referral,22,2,0,7,0.0,0.0,5,0,29.968,2
+C0378,Free,33,IT Services,Germany,Organic,55,1,1,11,0.0,0.0,3,0,15.183333333333335,4
+C0379,Free,30,IT Services,United Kingdom,Paid Ads,31,4,1,9,0.0,0.0,3,0,42.54666666666667,4
+C0380,Free,8,FinTech,Australia,Organic,24,4,1,6,0.0,0.0,4,1,24.355,4
+C0381,Free,46,Healthcare,Germany,Partner,35,1,0,7,0.0,0.0,6,0,27.366666666666664,1
+C0382,Free,2,SaaS,Canada,Referral,35,1,0,10,0.0,0.0,1,1,33.16,3
+C0383,Business,95,IT Services,India,Paid Ads,173,1,5,38,199.0,1.0,6,0,33.666666666666664,1
+C0384,Free,71,E-commerce,Canada,Organic,56,4,0,12,0.0,0.0,7,3,32.82142857142857,4
+C0385,Business,122,Education,India,Paid Ads,136,4,5,28,796.0,4.0,7,2,41.48571428571428,2
+C0386,Business,344,Marketing,India,Organic,234,3,3,46,597.0,3.0,8,0,47.652499999999996,4
+C0387,Business,45,E-commerce,India,Sales,160,2,2,45,398.0,2.0,7,0,29.99857142857143,4
+C0388,Free,4,IT Services,Canada,Organic,28,2,1,4,0.0,0.0,6,0,21.15833333333333,4
+C0389,Free,5,E-commerce,Canada,Referral,44,4,0,14,0.0,0.0,4,1,19.5325,2
+C0390,Free,2,SaaS,United Kingdom,Organic,59,1,1,21,0.0,0.0,2,0,25.805,3
+C0391,Starter,15,SaaS,India,Paid Ads,111,3,4,25,147.0,3.0,7,1,44.93857142857143,3
+C0392,Free,1,E-commerce,India,Referral,28,1,0,4,0.0,0.0,8,0,33.90125,2
+C0393,Business,43,Healthcare,United States,Referral,212,4,2,65,796.0,4.0,7,1,35.97,4
+C0394,Free,1,Healthcare,India,Sales,56,4,0,12,0.0,0.0,2,1,19.975,3
+C0395,Starter,48,Education,Canada,Paid Ads,72,3,1,17,147.0,3.0,4,1,31.445,4
+C0396,Business,199,FinTech,India,Organic,148,4,3,38,796.0,4.0,2,0,57.67,4
+C0397,Free,7,SaaS,India,Referral,33,3,0,6,0.0,0.0,8,0,39.4275,3
+C0398,Free,10,FinTech,India,Organic,42,3,1,10,0.0,0.0,8,0,46.75375,1
+C0399,Free,105,SaaS,Germany,Sales,29,1,0,9,0.0,0.0,3,0,38.48,2
+C0400,Starter,60,FinTech,India,Referral,36,1,0,8,49.0,1.0,2,0,54.849999999999994,1
+C0401,Starter,9,SaaS,United States,Referral,73,1,2,13,49.0,1.0,8,1,36.73125,4
+C0402,Free,5,E-commerce,India,Organic,35,3,0,8,0.0,0.0,7,1,28.851428571428574,4
+C0403,Starter,45,Marketing,Canada,Referral,75,3,0,18,147.0,3.0,1,0,60.59,4
+C0404,Free,9,Healthcare,Australia,Paid Ads,24,3,0,5,0.0,0.0,7,1,36.5,3
+C0405,Starter,8,SaaS,India,Referral,79,2,3,21,98.0,2.0,3,1,22.74,3
+C0406,Free,20,IT Services,United States,Referral,27,1,0,8,0.0,0.0,8,2,32.45875,4
+C0407,Free,6,Professional Services,India,Organic,41,1,0,6,0.0,0.0,1,1,1.98,3
+C0408,Free,7,E-commerce,India,Partner,22,2,1,10,0.0,0.0,5,0,49.041999999999994,3
+C0409,Free,25,FinTech,Germany,Referral,22,2,1,5,0.0,0.0,8,0,21.27125,2
+C0410,Starter,48,SaaS,Germany,Referral,112,1,4,31,49.0,1.0,3,0,29.863333333333333,3
+C0411,Free,29,SaaS,Singapore,Referral,48,2,0,11,0.0,0.0,4,0,19.95,3
+C0412,Free,3,Education,India,Organic,48,4,0,16,0.0,0.0,3,0,36.403333333333336,3
+C0413,Business,8,Marketing,Australia,Referral,204,4,3,51,796.0,4.0,5,1,29.6,3
+C0414,Business,714,Professional Services,Canada,Referral,204,3,3,51,597.0,3.0,2,0,37.019999999999996,2
+C0415,Free,43,E-commerce,United States,Paid Ads,48,4,1,10,0.0,0.0,3,0,31.94666666666667,1
+C0416,Free,16,IT Services,India,Sales,60,4,2,12,0.0,0.0,7,2,26.45285714285714,3
+C0417,Free,36,E-commerce,Canada,Referral,13,2,2,3,0.0,0.0,1,0,54.06,3
+C0418,Free,34,IT Services,India,Sales,26,1,1,5,0.0,0.0,3,1,32.99333333333333,3
+C0419,Business,9,E-commerce,United Kingdom,Paid Ads,184,2,2,44,398.0,2.0,6,1,25.16333333333333,4
+C0420,Business,11,SaaS,United Kingdom,Organic,116,4,1,29,796.0,4.0,4,1,35.735,2
+C0421,Business,26,Professional Services,India,Paid Ads,98,1,2,19,199.0,1.0,5,0,27.836000000000002,1
+C0422,Business,93,IT Services,Australia,Paid Ads,195,3,3,57,597.0,3.0,2,0,39.4,4
+C0423,Free,43,SaaS,United States,Organic,32,4,0,10,0.0,0.0,7,0,41.65428571428571,4
+C0424,Free,3,IT Services,India,Paid Ads,37,4,2,6,0.0,0.0,1,1,28.11,2
+C0425,Free,39,SaaS,India,Referral,42,2,0,7,0.0,0.0,4,1,17.145,1
+C0426,Free,91,Professional Services,India,Referral,36,2,0,13,0.0,0.0,7,1,32.955714285714286,1
+C0427,Free,3,E-commerce,India,Referral,28,2,1,6,0.0,0.0,1,0,55.63,2
+C0428,Starter,47,SaaS,India,Partner,52,1,1,9,49.0,1.0,7,1,46.85,3
+C0429,Free,10,Professional Services,United Kingdom,Organic,46,1,1,6,0.0,0.0,5,0,50.2,3
+C0430,Starter,3,IT Services,India,Paid Ads,56,2,3,16,98.0,2.0,6,0,28.316666666666666,4
+C0431,Free,8,Marketing,India,Referral,28,4,0,5,0.0,0.0,7,2,40.18714285714286,3
+C0432,Starter,33,Professional Services,United States,Referral,64,4,0,19,196.0,4.0,8,2,28.17875,1
+C0433,Starter,13,E-commerce,India,Referral,58,2,2,6,98.0,2.0,1,0,37.0,1
+C0434,Starter,107,Marketing,United Kingdom,Partner,60,4,4,14,196.0,4.0,5,1,34.73,2
+C0435,Starter,175,E-commerce,United States,Sales,54,1,1,14,49.0,1.0,7,2,31.157142857142862,2
+C0436,Starter,25,E-commerce,United States,Referral,88,4,5,21,196.0,4.0,3,0,15.68,4
+C0437,Free,2,FinTech,Germany,Partner,36,4,1,11,0.0,0.0,5,1,22.357999999999997,4
+C0438,Free,5,E-commerce,India,Partner,42,2,2,5,0.0,0.0,3,0,44.693333333333335,4
+C0439,Business,145,SaaS,United States,Paid Ads,176,4,7,55,796.0,4.0,1,0,20.2,3
+C0440,Starter,25,SaaS,United States,Sales,82,2,1,21,98.0,2.0,3,1,21.56,4
+C0441,Starter,13,IT Services,United States,Referral,120,1,4,37,49.0,1.0,3,1,53.27666666666667,2
+C0442,Free,4,Marketing,United States,Paid Ads,52,4,2,13,0.0,0.0,4,1,37.247499999999995,1
+C0443,Free,44,SaaS,United Kingdom,Organic,42,3,1,14,0.0,0.0,1,0,65.29,2
+C0444,Free,6,Education,United States,Paid Ads,52,4,3,16,0.0,0.0,4,1,37.91,1
+C0445,Starter,7,Education,India,Paid Ads,102,1,1,25,49.0,1.0,2,0,51.205,2
+C0446,Starter,8,Professional Services,India,Referral,74,2,3,18,98.0,2.0,4,2,36.47,1
+C0447,Free,8,IT Services,India,Partner,30,3,1,2,0.0,0.0,2,0,63.925,3
+C0448,Business,13,FinTech,Singapore,Paid Ads,192,2,5,38,398.0,2.0,6,1,45.708333333333336,1
+C0449,Business,241,SaaS,India,Referral,248,2,13,62,398.0,2.0,2,0,34.58,2
+C0450,Business,133,Healthcare,India,Partner,212,4,2,58,796.0,4.0,6,2,32.861666666666665,3
+C0451,Starter,17,E-commerce,United States,Sales,72,2,1,17,98.0,2.0,7,3,42.84142857142857,4
+C0452,Free,44,Education,India,Paid Ads,28,4,2,8,0.0,0.0,6,3,32.050000000000004,4
+C0453,Free,5,IT Services,India,Paid Ads,30,3,0,9,0.0,0.0,5,1,19.02,4
+C0454,Free,5,FinTech,Germany,Referral,22,2,0,6,0.0,0.0,1,0,38.46,4
+C0455,Free,10,SaaS,United Kingdom,Referral,60,2,0,14,0.0,0.0,5,1,51.238,1
+C0456,Free,45,E-commerce,United States,Sales,54,2,1,14,0.0,0.0,1,1,17.84,2
+C0457,Starter,10,Healthcare,United States,Sales,58,2,0,20,98.0,2.0,7,0,29.73428571428571,1
+C0458,Free,95,Marketing,United Kingdom,Organic,27,3,0,6,0.0,0.0,5,0,29.634000000000004,4
+C0459,Free,35,Marketing,Australia,Sales,36,1,2,5,0.0,0.0,3,0,29.866666666666664,3
+C0460,Free,7,SaaS,United Kingdom,Organic,42,3,0,7,0.0,0.0,1,0,23.61,4
+C0461,Business,34,Professional Services,Australia,Paid Ads,204,4,2,57,796.0,4.0,3,2,46.42666666666667,4
+C0462,Business,48,FinTech,United States,Organic,202,2,3,49,398.0,2.0,5,1,50.254,1
+C0463,Free,2,IT Services,Germany,Sales,37,1,0,6,0.0,0.0,4,1,29.675,3
+C0464,Starter,44,Healthcare,India,Organic,51,3,1,13,147.0,3.0,5,1,26.738,1
+C0465,Business,115,Healthcare,United Kingdom,Organic,124,4,1,30,796.0,4.0,2,0,47.075,3
+C0466,Free,7,Marketing,India,Organic,24,3,1,6,0.0,0.0,8,1,47.7225,1
+C0467,Free,4,IT Services,United States,Organic,33,3,0,7,0.0,0.0,1,0,48.12,2
+C0468,Starter,183,FinTech,India,Organic,68,4,1,17,196.0,4.0,6,2,33.903333333333336,2
+C0469,Starter,154,IT Services,India,Organic,43,2,4,13,98.0,2.0,3,1,43.73,2
+C0470,Free,33,Professional Services,Singapore,Sales,34,2,0,7,0.0,0.0,4,0,44.114999999999995,1
+C0471,Free,139,Healthcare,India,Organic,39,3,1,5,0.0,0.0,7,3,31.181428571428572,3
+C0472,Starter,8,E-commerce,Germany,Paid Ads,65,3,0,17,147.0,3.0,2,0,47.025,3
+C0473,Starter,41,FinTech,United States,Referral,49,3,4,9,147.0,3.0,1,0,40.52,2
+C0474,Starter,52,Healthcare,India,Sales,77,1,2,23,49.0,1.0,8,3,44.13,1
+C0475,Free,9,Healthcare,India,Paid Ads,39,1,1,8,0.0,0.0,2,0,34.86,3
+C0476,Free,3,Marketing,Singapore,Paid Ads,38,1,0,8,0.0,0.0,6,2,26.211666666666662,4
+C0477,Free,8,SaaS,Germany,Referral,48,4,0,10,0.0,0.0,7,0,47.30428571428571,4
+C0478,Free,3,Education,Canada,Organic,18,4,0,6,0.0,0.0,7,2,50.93857142857143,2
+C0479,Free,4,Healthcare,India,Organic,33,3,0,4,0.0,0.0,8,1,36.36875,1
+C0480,Business,70,SaaS,India,Organic,186,2,3,45,398.0,2.0,1,0,17.6,3
+C0481,Free,9,FinTech,United States,Partner,26,2,0,9,0.0,0.0,2,0,17.65,3
+C0482,Starter,5,Education,Singapore,Partner,64,4,3,12,196.0,4.0,8,2,30.965,3
+C0483,Starter,105,E-commerce,India,Referral,79,4,2,16,196.0,4.0,5,0,31.983999999999998,3
+C0484,Business,354,Healthcare,India,Paid Ads,112,2,1,23,398.0,2.0,4,0,38.4225,1
+C0485,Free,3,Education,Singapore,Referral,36,4,2,6,0.0,0.0,4,1,29.925,2
+C0486,Business,362,E-commerce,Canada,Referral,138,2,2,29,398.0,2.0,3,0,28.66333333333333,3
+C0487,Starter,143,FinTech,India,Partner,78,3,0,23,147.0,3.0,4,2,22.8475,1
+C0488,Free,49,SaaS,Canada,Paid Ads,40,4,1,10,0.0,0.0,4,1,54.057500000000005,3
+C0489,Free,18,Healthcare,United States,Referral,27,1,0,6,0.0,0.0,8,0,39.42375,4
+C0490,Starter,25,FinTech,United States,Referral,65,3,0,20,147.0,3.0,6,2,34.28,3
+C0491,Business,37,FinTech,Canada,Referral,235,1,9,64,199.0,1.0,5,0,30.496,4
+C0492,Business,32,IT Services,India,Paid Ads,148,4,2,37,796.0,4.0,4,2,50.67,1
+C0493,Starter,2,SaaS,Canada,Referral,116,1,1,37,49.0,1.0,1,0,63.16,2
+C0494,Free,8,E-commerce,Canada,Sales,39,3,0,4,0.0,0.0,5,0,21.360000000000003,3
+C0495,Business,892,SaaS,United States,Paid Ads,234,3,3,64,597.0,3.0,5,3,33.524,2
+C0496,Free,41,E-commerce,India,Partner,33,3,0,8,0.0,0.0,1,0,42.18,3
+C0497,Free,41,E-commerce,Singapore,Organic,24,4,0,9,0.0,0.0,5,1,35.638,3
+C0498,Starter,104,Healthcare,Singapore,Paid Ads,60,3,1,12,147.0,3.0,5,0,42.844,2
+C0499,Business,48,E-commerce,United States,Organic,211,1,5,52,199.0,1.0,8,2,34.003750000000004,1
+C0500,Starter,21,FinTech,Canada,Partner,104,2,1,30,98.0,2.0,2,1,48.015,2
+C0501,Free,7,FinTech,India,Organic,48,1,0,14,0.0,0.0,2,0,65.64500000000001,3
+C0502,Free,1,SaaS,Australia,Organic,42,3,1,10,0.0,0.0,8,2,43.151250000000005,4
+C0503,Starter,4,E-commerce,India,Sales,118,2,1,30,98.0,2.0,5,2,27.348000000000003,4
+C0504,Starter,13,E-commerce,India,Referral,108,1,1,24,49.0,1.0,2,1,52.285000000000004,1
+C0505,Starter,19,Healthcare,Canada,Organic,112,2,1,29,98.0,2.0,4,0,42.505,3
+C0506,Starter,10,IT Services,United States,Referral,114,2,1,33,98.0,2.0,5,1,25.810000000000002,3
+C0507,Free,10,SaaS,India,Organic,32,4,0,9,0.0,0.0,2,0,38.38,2
+C0508,Starter,3,E-commerce,India,Organic,104,2,1,36,98.0,2.0,3,0,47.44,2
+C0509,Business,85,Education,India,Referral,116,1,0,33,199.0,1.0,6,2,25.255,1
+C0510,Free,43,SaaS,United States,Sales,32,2,0,5,0.0,0.0,7,1,23.824285714285715,2
+C0511,Business,13,SaaS,India,Partner,141,3,2,38,597.0,3.0,6,1,32.92666666666667,3
+C0512,Free,10,IT Services,India,Organic,21,1,0,5,0.0,0.0,7,3,42.721428571428575,3
+C0513,Free,3,Healthcare,United States,Organic,17,2,0,5,0.0,0.0,8,4,39.41375,3
+C0514,Starter,14,Education,India,Sales,108,4,6,33,196.0,4.0,4,0,44.2875,2
+C0515,Business,371,FinTech,United States,Referral,250,1,4,57,199.0,1.0,4,0,27.145,3
+C0516,Free,27,FinTech,United States,Paid Ads,40,4,0,15,0.0,0.0,7,3,31.655714285714286,3
+C0517,Free,3,IT Services,India,Paid Ads,54,3,0,11,0.0,0.0,1,1,35.67,2
+C0518,Starter,183,FinTech,United States,Organic,104,4,1,21,196.0,4.0,8,2,33.81875,4
+C0519,Starter,36,IT Services,United Kingdom,Referral,53,1,1,10,49.0,1.0,7,1,33.6,4
+C0520,Business,195,FinTech,Germany,Referral,156,4,1,41,796.0,4.0,4,0,25.002499999999998,3
+C0521,Free,1,SaaS,United Kingdom,Sales,14,1,0,4,0.0,0.0,8,0,31.0775,3
+C0522,Starter,29,Marketing,India,Organic,94,2,2,26,98.0,2.0,3,0,58.29666666666666,2
+C0523,Starter,2,Marketing,United States,Paid Ads,112,4,2,26,196.0,4.0,2,1,63.9,2
+C0524,Free,4,Marketing,India,Sales,36,3,0,13,0.0,0.0,2,0,11.955,1
+C0525,Free,8,IT Services,Singapore,Referral,27,3,0,5,0.0,0.0,2,0,25.369999999999997,3
+C0526,Starter,10,Education,Australia,Organic,92,2,4,19,98.0,2.0,4,2,42.91499999999999,4
+C0527,Starter,8,Marketing,United States,Organic,96,4,4,26,196.0,4.0,1,1,38.05,4
+C0528,Free,41,E-commerce,India,Sales,44,1,1,16,0.0,0.0,4,1,21.4775,3
+C0529,Free,3,FinTech,United Kingdom,Partner,24,3,0,6,0.0,0.0,8,1,39.02375,3
+C0530,Business,107,FinTech,United States,Sales,204,4,5,53,796.0,4.0,8,1,50.94875,2
+C0531,Starter,37,FinTech,Australia,Sales,84,2,4,15,98.0,2.0,8,1,43.363749999999996,1
+C0532,Free,10,E-commerce,India,Organic,44,2,0,13,0.0,0.0,4,1,36.2775,2
+C0533,Free,20,Education,India,Sales,34,1,0,7,0.0,0.0,2,0,12.235,3
+C0534,Free,10,FinTech,India,Referral,45,3,1,15,0.0,0.0,2,0,35.26,2
+C0535,Business,22,E-commerce,United States,Referral,152,2,6,41,398.0,2.0,6,2,53.776666666666664,2
+C0536,Business,181,IT Services,United States,Referral,134,2,2,38,398.0,2.0,5,1,38.734,4
+C0537,Business,27,E-commerce,United Kingdom,Organic,174,3,5,54,597.0,3.0,4,1,40.8625,2
+C0538,Starter,93,IT Services,India,Sales,83,1,1,22,49.0,1.0,2,0,42.525,1
+C0539,Free,6,Marketing,United States,Sales,30,1,1,8,0.0,0.0,8,2,27.51625,2
+C0540,Free,8,Marketing,India,Partner,27,1,0,9,0.0,0.0,4,0,17.695,2
+C0541,Free,10,FinTech,United States,Sales,48,4,3,13,0.0,0.0,1,0,37.15,2
+C0542,Free,48,FinTech,United States,Referral,20,4,0,6,0.0,0.0,3,0,46.666666666666664,1
+C0543,Business,271,FinTech,Canada,Partner,134,2,2,38,398.0,2.0,8,1,39.27375,2
+C0544,Starter,25,SaaS,India,Referral,105,3,2,24,147.0,3.0,7,3,29.048571428571428,1
+C0545,Starter,147,IT Services,United Kingdom,Sales,77,1,2,23,49.0,1.0,7,1,36.839999999999996,1
+C0546,Free,35,Marketing,Australia,Paid Ads,54,3,1,19,0.0,0.0,4,1,34.6575,2
+C0547,Free,3,SaaS,United States,Organic,48,4,0,17,0.0,0.0,4,1,30.84,3
+C0548,Free,2,Healthcare,Australia,Paid Ads,28,4,3,1,0.0,0.0,1,1,46.42,2
+C0549,Free,1,Healthcare,United States,Organic,33,3,1,12,0.0,0.0,1,0,5.95,1
+C0550,Business,102,Marketing,Australia,Referral,148,1,2,44,199.0,1.0,5,2,46.418,4
+C0551,Starter,9,FinTech,United States,Organic,80,4,0,18,196.0,4.0,2,0,25.34,3
+C0552,Starter,43,SaaS,Canada,Organic,69,2,1,16,98.0,2.0,1,0,43.87,1
+C0553,Free,37,FinTech,India,Referral,41,3,0,7,0.0,0.0,6,2,39.108333333333334,3
+C0554,Free,20,Healthcare,United Kingdom,Organic,28,4,0,8,0.0,0.0,5,1,33.598,4
+C0555,Business,821,FinTech,India,Paid Ads,182,1,4,48,199.0,1.0,5,0,33.934,1
+C0556,Free,2,Healthcare,India,Paid Ads,30,3,1,9,0.0,0.0,6,0,38.995,2
+C0557,Starter,96,Professional Services,India,Referral,66,2,0,17,98.0,2.0,8,0,36.25,4
+C0558,Starter,41,FinTech,Germany,Organic,110,1,0,23,49.0,1.0,5,0,43.792,1
+C0559,Free,60,Marketing,United Kingdom,Referral,21,3,0,6,0.0,0.0,1,0,51.42,4
+C0560,Free,9,E-commerce,United States,Partner,52,2,1,16,0.0,0.0,2,1,45.93,3
+C0561,Free,9,Marketing,India,Partner,21,4,1,5,0.0,0.0,5,0,44.15599999999999,3
+C0562,Free,2,Marketing,India,Organic,36,4,0,11,0.0,0.0,8,1,34.7275,2
+C0563,Free,2,E-commerce,United States,Organic,34,4,1,12,0.0,0.0,6,0,35.39166666666667,4
+C0564,Free,8,Marketing,United Kingdom,Partner,45,1,2,15,0.0,0.0,4,0,36.905,3
+C0565,Business,19,E-commerce,India,Referral,110,2,4,30,398.0,2.0,2,0,18.11,3
+C0566,Free,10,SaaS,India,Sales,59,1,0,17,0.0,0.0,4,1,47.2225,1
+C0567,Starter,189,Healthcare,India,Sales,48,4,2,18,196.0,4.0,6,1,40.623333333333335,2
+C0568,Free,1,SaaS,Germany,Paid Ads,56,2,1,14,0.0,0.0,8,0,51.85,4
+C0569,Free,38,IT Services,United States,Paid Ads,42,4,0,9,0.0,0.0,4,0,51.8925,1
+C0570,Free,9,Professional Services,United Kingdom,Referral,44,1,0,10,0.0,0.0,8,2,37.47,1
+C0571,Free,37,Professional Services,United States,Referral,33,3,1,9,0.0,0.0,4,1,26.502499999999998,4
+C0572,Business,145,Healthcare,Australia,Organic,136,2,1,30,398.0,2.0,3,0,48.67666666666667,4
+C0573,Starter,1,IT Services,Germany,Referral,58,2,0,20,98.0,2.0,7,3,33.81428571428571,4
+C0574,Free,44,SaaS,United States,Paid Ads,48,4,3,10,0.0,0.0,4,1,40.45,3
+C0575,Free,38,IT Services,Germany,Referral,36,3,2,8,0.0,0.0,3,0,42.26,4
+C0576,Business,109,SaaS,India,Paid Ads,156,4,6,40,796.0,4.0,6,1,41.22166666666667,4
+C0577,Free,41,SaaS,India,Paid Ads,44,4,0,7,0.0,0.0,6,1,33.98833333333333,1
+C0578,Starter,148,SaaS,India,Organic,93,3,1,24,147.0,3.0,4,1,44.942499999999995,3
+C0579,Free,6,Education,India,Paid Ads,45,3,1,10,0.0,0.0,4,1,23.205,3
+C0580,Business,48,SaaS,United States,Paid Ads,150,1,1,48,199.0,1.0,5,2,45.282,4
+C0581,Free,47,SaaS,India,Paid Ads,25,1,0,4,0.0,0.0,8,2,41.0925,2
+C0582,Starter,76,FinTech,United States,Referral,53,1,1,16,49.0,1.0,5,2,32.704,2
+C0583,Starter,7,E-commerce,Australia,Organic,75,1,0,25,49.0,1.0,8,2,38.19,3
+C0584,Starter,3,SaaS,India,Sales,77,4,1,22,196.0,4.0,7,2,24.807142857142853,2
+C0585,Free,27,Education,United States,Referral,49,1,0,12,0.0,0.0,3,1,33.419999999999995,1
+C0586,Starter,41,Professional Services,India,Paid Ads,108,3,2,33,147.0,3.0,8,2,41.09875,1
+C0587,Free,985,IT Services,India,Paid Ads,44,4,0,10,0.0,0.0,6,3,39.791666666666664,2
+C0588,Free,4,Education,India,Organic,28,2,1,10,0.0,0.0,4,0,38.235,1
+C0589,Free,2,SaaS,United States,Referral,21,3,0,5,0.0,0.0,5,2,18.038,1
+C0590,Business,123,Healthcare,United States,Sales,192,2,2,43,398.0,2.0,1,0,22.24,2
+C0591,Starter,190,E-commerce,Canada,Referral,42,4,1,10,196.0,4.0,6,3,38.93,2
+C0592,Starter,155,SaaS,United States,Paid Ads,66,3,2,19,147.0,3.0,6,3,36.248333333333335,3
+C0593,Starter,116,Marketing,United Kingdom,Partner,53,1,4,12,49.0,1.0,4,1,25.825,3
+C0594,Business,99,Healthcare,United States,Referral,192,2,4,60,398.0,2.0,8,4,35.36625,3
+C0595,Free,1,FinTech,United States,Organic,28,1,0,7,0.0,0.0,7,0,31.595714285714283,2
+C0596,Starter,11,Healthcare,United Kingdom,Paid Ads,55,1,1,17,49.0,1.0,4,0,31.885,3
+C0597,Starter,47,Education,United Kingdom,Sales,75,3,0,26,147.0,3.0,2,1,22.115000000000002,3
+C0598,Free,44,E-commerce,India,Referral,19,2,1,4,0.0,0.0,4,0,36.085,2
+C0599,Starter,2,Professional Services,India,Paid Ads,78,1,4,19,49.0,1.0,1,1,16.9,3
+C0600,Free,44,SaaS,Canada,Sales,28,4,3,4,0.0,0.0,8,2,31.53875,2
+C0601,Starter,11,IT Services,Germany,Referral,65,1,2,11,49.0,1.0,4,0,32.72,3
+C0602,Starter,35,Healthcare,India,Paid Ads,102,1,2,28,49.0,1.0,7,2,43.30285714285714,2
+C0603,Free,24,FinTech,India,Organic,32,4,0,13,0.0,0.0,7,2,35.26714285714286,4
+C0604,Free,6,Education,India,Referral,27,1,1,4,0.0,0.0,5,2,41.682,4
+C0605,Free,155,FinTech,United Kingdom,Organic,40,4,1,7,0.0,0.0,5,0,23.748,2
+C0606,Free,34,E-commerce,India,Organic,25,1,0,6,0.0,0.0,4,1,38.6225,1
+C0607,Free,2,Marketing,United Kingdom,Paid Ads,55,1,1,15,0.0,0.0,6,1,39.515,3
+C0608,Free,20,SaaS,Singapore,Referral,20,4,1,6,0.0,0.0,4,0,35.29,1
+C0609,Free,7,Professional Services,India,Sales,20,1,1,2,0.0,0.0,4,0,39.6325,1
+C0610,Free,10,E-commerce,United States,Organic,18,3,0,4,0.0,0.0,3,1,19.55333333333333,4
+C0611,Free,5,FinTech,India,Partner,31,4,0,6,0.0,0.0,8,3,26.59125,1
+C0612,Free,117,Education,United States,Organic,52,4,1,15,0.0,0.0,3,1,22.900000000000002,4
+C0613,Free,9,FinTech,India,Paid Ads,26,1,0,10,0.0,0.0,3,1,34.1,3
+C0614,Business,159,IT Services,India,Partner,216,1,4,61,199.0,1.0,3,1,35.04333333333333,3
+C0615,Starter,195,SaaS,India,Paid Ads,63,3,2,15,147.0,3.0,7,1,38.167142857142856,2
+C0616,Free,34,Professional Services,Germany,Referral,52,1,0,14,0.0,0.0,8,2,46.505,2
+C0617,Business,827,Education,United States,Paid Ads,111,1,0,34,199.0,1.0,2,0,18.68,3
+C0618,Free,5,SaaS,Australia,Referral,27,3,1,8,0.0,0.0,3,1,14.286666666666667,2
+C0619,Free,7,E-commerce,India,Organic,58,1,1,14,0.0,0.0,4,2,39.7725,1
+C0620,Starter,24,E-commerce,Canada,Partner,92,2,2,25,98.0,2.0,6,3,45.53,1
+C0621,Business,156,E-commerce,India,Organic,78,1,2,12,199.0,1.0,8,2,42.6375,1
+C0622,Free,9,Education,India,Paid Ads,52,1,2,16,0.0,0.0,3,1,55.24666666666667,2
+C0623,Free,46,Marketing,United States,Referral,18,1,1,6,0.0,0.0,6,2,31.30666666666667,2
+C0624,Free,41,SaaS,United States,Referral,48,3,2,13,0.0,0.0,2,0,67.91,2
+C0625,Starter,3,IT Services,United States,Organic,78,3,3,20,147.0,3.0,5,0,27.992,1
+C0626,Free,34,Education,United States,Referral,32,4,1,5,0.0,0.0,8,1,46.00875,3
+C0627,Business,194,FinTech,India,Organic,147,1,2,52,199.0,1.0,5,3,36.648,4
+C0628,Starter,46,Professional Services,United States,Organic,66,2,6,13,98.0,2.0,7,2,34.19857142857143,1
+C0629,Starter,41,Professional Services,India,Sales,60,4,4,19,196.0,4.0,1,1,27.35,2
+C0630,Starter,27,IT Services,India,Referral,44,3,0,14,147.0,3.0,1,0,62.42,4
+C0631,Free,5,IT Services,United Kingdom,Organic,22,1,1,8,0.0,0.0,5,1,32.736000000000004,4
+C0632,Free,10,FinTech,United States,Partner,52,4,1,17,0.0,0.0,2,1,30.21,4
+C0633,Free,139,IT Services,United States,Paid Ads,25,1,0,7,0.0,0.0,1,0,11.75,1
+C0634,Starter,7,Education,India,Sales,54,2,1,11,98.0,2.0,5,0,22.080000000000002,1
+C0635,Free,19,Healthcare,India,Referral,32,4,0,7,0.0,0.0,3,0,44.16,4
+C0636,Starter,18,FinTech,Singapore,Paid Ads,80,4,1,14,196.0,4.0,6,1,34.86333333333334,3
+C0637,Starter,109,Professional Services,India,Paid Ads,48,1,0,14,49.0,1.0,5,3,33.410000000000004,4
+C0638,Free,39,Education,India,Paid Ads,36,1,0,11,0.0,0.0,1,0,29.58,1
+C0639,Free,21,FinTech,Germany,Organic,57,3,1,11,0.0,0.0,6,1,28.205000000000002,4
+C0640,Free,2,Healthcare,Canada,Referral,18,3,0,3,0.0,0.0,8,1,39.988749999999996,3
+C0641,Business,105,Education,Canada,Sales,120,3,3,30,597.0,3.0,2,0,46.864999999999995,4
+C0642,Free,9,SaaS,India,Partner,42,1,1,11,0.0,0.0,6,2,41.185,2
+C0643,Free,7,IT Services,India,Paid Ads,39,1,0,10,0.0,0.0,5,1,39.074,4
+C0644,Free,6,SaaS,United States,Referral,39,1,0,9,0.0,0.0,8,0,31.60875,1
+C0645,Free,9,FinTech,United States,Organic,28,4,2,7,0.0,0.0,7,2,40.824285714285715,2
+C0646,Starter,10,SaaS,India,Organic,92,4,1,25,196.0,4.0,1,1,70.57,4
+C0647,Free,1,IT Services,United States,Referral,32,4,1,8,0.0,0.0,6,1,27.040000000000003,2
+C0648,Free,3,IT Services,India,Organic,34,2,0,9,0.0,0.0,6,1,41.22666666666667,3
+C0649,Starter,35,Professional Services,United States,Paid Ads,96,4,1,26,196.0,4.0,4,1,24.9175,2
+C0650,Free,1,FinTech,United Kingdom,Referral,39,3,2,5,0.0,0.0,6,0,46.22666666666667,3
+C0651,Starter,74,Healthcare,India,Paid Ads,57,3,0,17,147.0,3.0,2,0,41.585,3
+C0652,Starter,20,Healthcare,India,Organic,78,3,4,13,147.0,3.0,2,0,50.355000000000004,1
+C0653,Starter,8,IT Services,United Kingdom,Paid Ads,52,1,1,11,49.0,1.0,4,0,42.64,2
+C0654,Starter,49,Education,United States,Referral,72,4,1,19,196.0,4.0,2,2,38.415,2
+C0655,Starter,38,Healthcare,United States,Sales,72,1,1,22,49.0,1.0,3,0,37.71,3
+C0656,Business,291,E-commerce,India,Organic,171,3,2,44,597.0,3.0,7,2,39.137142857142855,4
+C0657,Starter,15,Marketing,India,Organic,91,3,0,22,147.0,3.0,8,1,34.99125,3
+C0658,Starter,27,Marketing,United States,Referral,112,2,5,31,98.0,2.0,8,2,46.11875,4
+C0659,Starter,4,Education,United States,Organic,56,2,1,17,98.0,2.0,5,2,29.362000000000002,4
+C0660,Starter,145,SaaS,United States,Organic,111,3,1,26,147.0,3.0,6,2,39.79,2
+C0661,Free,2,Marketing,India,Referral,54,2,2,17,0.0,0.0,1,0,7.54,2
+C0662,Starter,60,FinTech,United States,Partner,115,1,2,31,49.0,1.0,5,1,13.618,1
+C0663,Free,7,SaaS,Singapore,Referral,56,2,2,15,0.0,0.0,2,0,26.32,2
+C0664,Free,7,FinTech,India,Organic,44,3,1,9,0.0,0.0,1,0,17.32,1
+C0665,Starter,10,SaaS,Germany,Paid Ads,40,4,1,8,196.0,4.0,2,0,25.085,2
+C0666,Business,184,Education,United States,Paid Ads,244,4,8,60,796.0,4.0,6,2,40.13833333333333,2
+C0667,Starter,124,Education,United Kingdom,Partner,96,1,3,19,49.0,1.0,2,0,58.879999999999995,2
+C0668,Free,10,Healthcare,India,Partner,30,3,0,9,0.0,0.0,2,2,56.69,1
+C0669,Free,1,Professional Services,United States,Organic,52,4,1,11,0.0,0.0,4,2,37.19,3
+C0670,Free,3,FinTech,India,Referral,22,2,0,3,0.0,0.0,7,0,31.012857142857143,4
+C0671,Free,8,Education,United States,Paid Ads,18,3,0,4,0.0,0.0,8,0,44.8475,2
+C0672,Starter,39,Marketing,United States,Referral,104,4,2,22,196.0,4.0,5,1,22.698,3
+C0673,Free,11,E-commerce,India,Paid Ads,32,4,1,10,0.0,0.0,5,2,43.958,3
+C0674,Starter,102,FinTech,Australia,Organic,80,2,2,17,98.0,2.0,5,2,28.162,4
+C0675,Business,873,Healthcare,United Kingdom,Organic,153,3,2,44,597.0,3.0,1,0,25.58,2
+C0676,Free,44,E-commerce,India,Organic,27,3,0,5,0.0,0.0,4,1,47.0125,2
+C0677,Free,29,SaaS,Canada,Partner,33,1,0,10,0.0,0.0,3,1,41.550000000000004,2
+C0678,Free,4,Healthcare,India,Paid Ads,45,1,0,14,0.0,0.0,4,1,27.35,4
+C0679,Free,1,E-commerce,United States,Sales,33,3,0,9,0.0,0.0,3,1,33.86,3
+C0680,Business,181,Marketing,United States,Organic,243,3,6,77,597.0,3.0,5,0,25.428,4
+C0681,Free,9,FinTech,India,Organic,44,2,1,8,0.0,0.0,1,0,12.63,3
+C0682,Free,25,FinTech,Canada,Referral,60,2,0,14,0.0,0.0,7,3,32.02285714285714,1
+C0683,Starter,94,SaaS,India,Partner,56,4,1,15,196.0,4.0,3,0,33.29,4
+C0684,Starter,13,FinTech,Germany,Partner,69,3,1,18,147.0,3.0,1,1,18.3,1
+C0685,Business,34,E-commerce,United States,Referral,152,1,2,42,199.0,1.0,1,0,41.93,3
+C0686,Starter,4,Marketing,India,Referral,94,2,2,21,98.0,2.0,2,0,30.354999999999997,1
+C0687,Starter,51,SaaS,India,Sales,88,4,1,26,196.0,4.0,5,0,29.374000000000002,3
+C0688,Business,91,E-commerce,India,Partner,189,3,6,45,597.0,3.0,8,2,42.99125,2
+C0689,Business,16,E-commerce,India,Referral,244,4,10,54,796.0,4.0,8,2,30.725,4
+C0690,Free,5,SaaS,India,Referral,56,1,2,10,0.0,0.0,5,1,48.248000000000005,2
+C0691,Free,7,Professional Services,Canada,Partner,29,3,0,3,0.0,0.0,1,0,16.69,3
+C0692,Free,33,E-commerce,India,Paid Ads,24,4,0,6,0.0,0.0,8,1,40.92125,4
+C0693,Free,36,Marketing,Germany,Sales,48,2,3,10,0.0,0.0,2,1,25.9,3
+C0694,Free,36,SaaS,United States,Organic,21,1,2,3,0.0,0.0,8,2,44.33375,3
+C0695,Free,10,SaaS,United States,Organic,26,1,1,8,0.0,0.0,2,0,30.98,2
+C0696,Business,406,E-commerce,United States,Organic,89,2,0,21,398.0,2.0,6,0,37.46,4
+C0697,Business,731,Healthcare,United States,Paid Ads,106,2,1,33,398.0,2.0,2,0,29.385,1
+C0698,Starter,54,Healthcare,United Kingdom,Referral,85,1,2,20,49.0,1.0,8,1,35.7475,2
+C0699,Starter,15,SaaS,Australia,Organic,56,1,2,15,49.0,1.0,5,1,49.698,3
+C0700,Business,16,SaaS,United States,Paid Ads,78,1,2,11,199.0,1.0,6,3,30.151666666666667,4
+C0701,Free,9,Healthcare,Singapore,Sales,48,2,3,8,0.0,0.0,7,1,28.405714285714282,1
+C0702,Starter,29,Healthcare,India,Referral,80,4,4,23,196.0,4.0,7,4,29.888571428571428,4
+C0703,Starter,46,Marketing,Singapore,Sales,90,3,3,23,147.0,3.0,1,0,38.38,3
+C0704,Free,10,IT Services,India,Organic,48,3,0,15,0.0,0.0,1,0,10.63,1
+C0705,Free,6,SaaS,United States,Paid Ads,52,4,1,17,0.0,0.0,8,4,47.36125,3
+C0706,Free,6,E-commerce,United States,Referral,44,2,0,11,0.0,0.0,1,1,31.83,3
+C0707,Free,5,Marketing,United States,Organic,32,1,0,6,0.0,0.0,5,0,19.130000000000003,4
+C0708,Free,25,Marketing,Canada,Organic,24,3,0,5,0.0,0.0,2,0,24.6,1
+C0709,Business,821,Healthcare,United States,Referral,107,2,2,28,398.0,2.0,4,1,36.535000000000004,1
+C0710,Starter,23,Professional Services,India,Referral,87,3,2,27,147.0,3.0,4,3,33.510000000000005,2
+C0711,Free,8,FinTech,India,Paid Ads,24,2,1,5,0.0,0.0,2,1,50.72,2
+C0712,Free,36,Healthcare,United States,Organic,22,1,0,5,0.0,0.0,4,1,42.8575,2
+C0713,Starter,10,Education,India,Sales,100,4,2,31,196.0,4.0,8,0,50.1525,4
+C0714,Free,1,SaaS,India,Paid Ads,33,1,3,4,0.0,0.0,3,2,47.346666666666664,2
+C0715,Starter,117,FinTech,India,Partner,104,1,1,26,49.0,1.0,4,0,32.48,3
+C0716,Starter,95,FinTech,United States,Organic,57,3,0,16,147.0,3.0,2,0,52.715,2
+C0717,Free,37,SaaS,Singapore,Organic,28,2,0,6,0.0,0.0,4,1,30.505000000000003,2
+C0718,Free,9,SaaS,India,Paid Ads,34,3,0,8,0.0,0.0,3,1,52.81333333333333,1
+C0719,Free,2,FinTech,United States,Paid Ads,28,2,0,9,0.0,0.0,1,0,70.09,4
+C0720,Free,9,FinTech,India,Organic,39,3,0,10,0.0,0.0,6,2,29.43166666666667,3
+C0721,Starter,15,Marketing,United States,Organic,47,3,2,13,147.0,3.0,6,0,49.196666666666665,4
+C0722,Free,9,E-commerce,Germany,Referral,57,3,4,8,0.0,0.0,4,1,46.307500000000005,3
+C0723,Business,126,Professional Services,United Kingdom,Referral,146,2,2,28,398.0,2.0,3,0,47.45666666666667,1
+C0724,Starter,32,Marketing,India,Paid Ads,75,3,2,13,147.0,3.0,6,0,35.708333333333336,4
+C0725,Free,18,E-commerce,Germany,Sales,44,2,0,13,0.0,0.0,7,3,43.55428571428571,3
+C0726,Free,43,Education,United States,Organic,31,4,3,8,0.0,0.0,6,3,43.81,3
+C0727,Business,464,E-commerce,India,Paid Ads,158,4,3,45,796.0,4.0,7,2,26.458571428571428,4
+C0728,Starter,188,SaaS,United States,Organic,93,3,2,28,147.0,3.0,4,0,56.325,4
+C0729,Starter,10,SaaS,United States,Organic,78,2,1,19,98.0,2.0,4,1,17.67,3
+C0730,Free,27,E-commerce,Germany,Organic,39,3,2,6,0.0,0.0,6,0,23.936666666666667,4
+C0731,Starter,39,IT Services,United States,Referral,104,2,1,21,98.0,2.0,8,1,42.10625,4
+C0732,Free,35,E-commerce,Canada,Referral,57,1,2,13,0.0,0.0,1,0,8.31,3
+C0733,Free,47,IT Services,Australia,Organic,39,1,0,11,0.0,0.0,5,2,13.790000000000001,4
+C0734,Free,174,E-commerce,Singapore,Referral,28,4,0,10,0.0,0.0,3,0,32.12,4
+C0735,Free,4,E-commerce,India,Organic,13,2,1,4,0.0,0.0,8,1,29.345000000000002,3
+C0736,Free,6,IT Services,United States,Organic,56,2,0,12,0.0,0.0,7,1,26.57428571428571,3
+C0737,Free,8,Education,India,Referral,27,3,0,9,0.0,0.0,8,3,40.21125,4
+C0738,Starter,40,Healthcare,United Kingdom,Organic,102,3,1,26,147.0,3.0,5,1,38.35,3
+C0739,Business,48,FinTech,Singapore,Referral,208,2,4,50,398.0,2.0,4,0,30.05,3
+C0740,Free,1,Education,United States,Paid Ads,58,1,2,11,0.0,0.0,6,1,26.61,2
+C0741,Free,41,Education,United States,Sales,48,4,0,9,0.0,0.0,4,0,37.86,3
+C0742,Starter,18,E-commerce,India,Partner,93,3,0,25,147.0,3.0,5,0,31.098000000000003,2
+C0743,Starter,27,SaaS,Germany,Referral,63,3,2,19,147.0,3.0,8,3,25.1275,4
+C0744,Free,15,E-commerce,India,Referral,40,4,0,13,0.0,0.0,4,2,30.585,2
+C0745,Starter,148,FinTech,Canada,Organic,82,3,4,14,147.0,3.0,5,2,48.804,2
+C0746,Business,107,Marketing,United Kingdom,Partner,228,1,4,51,199.0,1.0,3,1,44.29666666666666,2
+C0747,Free,109,Education,India,Partner,52,2,0,9,0.0,0.0,5,0,44.098,2
+C0748,Business,31,Professional Services,United States,Referral,188,2,5,45,398.0,2.0,3,0,48.4,4
+C0749,Free,7,Marketing,India,Referral,32,2,0,8,0.0,0.0,7,2,36.04714285714286,4
+C0750,Business,6,FinTech,India,Sales,192,3,5,49,597.0,3.0,1,1,2.42,2
+C0751,Starter,183,FinTech,United States,Organic,62,2,1,14,98.0,2.0,5,1,32.184000000000005,3
+C0752,Free,45,Marketing,India,Partner,32,3,1,12,0.0,0.0,4,1,29.520000000000003,1
+C0753,Starter,53,E-commerce,India,Organic,74,3,3,20,147.0,3.0,6,0,37.291666666666664,2
+C0754,Starter,5,Professional Services,Australia,Referral,112,2,1,34,98.0,2.0,3,0,38.15,3
+C0755,Free,26,SaaS,Singapore,Sales,20,4,0,4,0.0,0.0,6,0,43.02333333333333,2
+C0756,Free,29,Professional Services,United States,Sales,54,2,3,15,0.0,0.0,1,0,71.74,4
+C0757,Free,2,SaaS,India,Sales,42,2,0,9,0.0,0.0,3,0,45.07333333333333,1
+C0758,Starter,7,Marketing,India,Paid Ads,69,1,2,26,49.0,1.0,7,0,31.81857142857143,1
+C0759,Starter,32,SaaS,United Kingdom,Referral,62,1,0,15,49.0,1.0,7,2,28.704285714285714,1
+C0760,Free,15,Marketing,Germany,Organic,31,1,2,6,0.0,0.0,6,0,41.585,4
+C0761,Starter,46,Professional Services,India,Referral,84,1,1,19,49.0,1.0,6,1,37.156666666666666,1
+C0762,Free,22,FinTech,United Kingdom,Organic,44,4,0,12,0.0,0.0,4,1,40.0275,1
+C0763,Starter,8,Marketing,United Kingdom,Partner,46,2,2,10,98.0,2.0,7,2,39.26571428571429,1
+C0764,Free,6,IT Services,India,Sales,48,4,1,14,0.0,0.0,2,0,22.580000000000002,4
+C0765,Free,33,SaaS,United Kingdom,Paid Ads,40,3,0,12,0.0,0.0,4,0,30.295,1
+C0766,Starter,24,IT Services,India,Referral,72,2,3,24,98.0,2.0,3,0,53.93333333333334,3
+C0767,Starter,47,Marketing,United States,Paid Ads,112,2,2,32,98.0,2.0,3,1,34.720000000000006,1
+C0768,Starter,119,Education,United States,Partner,88,2,0,28,98.0,2.0,5,1,33.722,3
+C0769,Free,3,SaaS,India,Paid Ads,36,2,2,13,0.0,0.0,3,1,49.36333333333334,1
+C0770,Starter,965,FinTech,India,Paid Ads,94,3,3,20,147.0,3.0,5,1,47.766,1
+C0771,Free,4,FinTech,United Kingdom,Referral,18,4,1,5,0.0,0.0,4,1,37.8975,1
+C0772,Business,711,SaaS,Germany,Paid Ads,198,1,4,55,199.0,1.0,2,0,21.95,4
+C0773,Business,102,E-commerce,Singapore,Paid Ads,133,1,4,32,199.0,1.0,1,1,22.87,1
+C0774,Starter,441,E-commerce,Germany,Organic,64,4,0,17,196.0,4.0,3,0,8.303333333333333,1
+C0775,Free,4,E-commerce,India,Referral,32,2,2,8,0.0,0.0,6,1,36.11166666666667,4
+C0776,Free,118,Healthcare,United Kingdom,Organic,48,3,1,11,0.0,0.0,2,0,46.755,2
+C0777,Starter,4,Healthcare,United States,Paid Ads,72,4,1,18,196.0,4.0,7,3,43.574285714285715,1
+C0778,Free,4,Healthcare,India,Paid Ads,27,1,0,8,0.0,0.0,3,0,31.683333333333334,4
+C0779,Free,4,Professional Services,India,Paid Ads,20,4,0,7,0.0,0.0,5,1,31.401999999999997,2
+C0780,Business,456,IT Services,Germany,Referral,86,4,3,20,796.0,4.0,6,1,30.11,2
+C0781,Free,10,E-commerce,India,Referral,34,4,0,11,0.0,0.0,1,0,48.09,2
+C0782,Free,6,SaaS,Canada,Partner,26,4,0,6,0.0,0.0,1,0,24.5,1
+C0783,Business,20,Professional Services,India,Organic,210,3,1,53,597.0,3.0,1,0,51.51,2
+C0784,Starter,2,Marketing,Singapore,Paid Ads,66,2,1,22,98.0,2.0,3,1,34.25,4
+C0785,Starter,81,IT Services,India,Sales,106,2,1,23,98.0,2.0,3,1,47.373333333333335,1
+C0786,Free,16,Healthcare,India,Paid Ads,49,1,0,11,0.0,0.0,3,0,16.55,1
+C0787,Free,8,IT Services,Canada,Sales,30,1,1,7,0.0,0.0,5,1,38.815999999999995,3
+C0788,Business,52,SaaS,United States,Sales,156,4,1,35,796.0,4.0,8,3,38.40625,4
+C0789,Starter,189,FinTech,United States,Partner,54,3,1,12,147.0,3.0,4,0,40.4225,4
+C0790,Free,1,Education,United Kingdom,Sales,40,3,1,11,0.0,0.0,4,1,44.795,2
+C0791,Free,41,SaaS,United States,Paid Ads,36,1,0,8,0.0,0.0,8,3,45.27875,1
+C0792,Business,34,Education,United Kingdom,Organic,156,2,5,36,398.0,2.0,3,1,26.820000000000004,4
+C0793,Free,50,Healthcare,Australia,Referral,20,2,0,4,0.0,0.0,5,0,33.25,4
+C0794,Free,31,Education,United States,Referral,28,4,0,7,0.0,0.0,5,1,28.619999999999997,1
+C0795,Free,8,Education,United States,Paid Ads,56,1,1,17,0.0,0.0,6,1,40.535,1
+C0796,Free,47,Professional Services,India,Referral,54,2,1,12,0.0,0.0,7,0,32.505714285714284,2
+C0797,Starter,28,FinTech,India,Referral,87,3,1,19,147.0,3.0,4,1,43.735,4
+C0798,Business,703,Marketing,United Kingdom,Organic,124,2,1,40,398.0,2.0,7,1,44.92142857142857,3
+C0799,Starter,97,SaaS,United States,Paid Ads,90,3,1,26,147.0,3.0,1,0,18.04,4
+C0800,Business,181,SaaS,Germany,Referral,182,3,1,39,597.0,3.0,3,0,31.573333333333334,2
+C0801,Starter,28,FinTech,United Kingdom,Sales,80,4,1,20,196.0,4.0,6,0,33.23166666666666,2
+C0802,Free,7,Marketing,India,Referral,42,2,0,10,0.0,0.0,5,1,48.248000000000005,4
+C0803,Free,4,Healthcare,India,Sales,30,2,2,11,0.0,0.0,6,3,18.529999999999998,1
+C0804,Free,47,Education,United Kingdom,Organic,28,4,1,8,0.0,0.0,3,1,19.886666666666667,1
+C0805,Starter,3,FinTech,Singapore,Paid Ads,114,1,1,33,49.0,1.0,5,1,46.358,1
+C0806,Business,64,E-commerce,United States,Organic,214,1,7,54,199.0,1.0,6,2,42.218333333333334,2
+C0807,Free,9,E-commerce,Canada,Organic,38,1,2,15,0.0,0.0,4,1,40.3775,4
+C0808,Starter,7,Education,Canada,Partner,92,1,1,21,49.0,1.0,7,2,46.77571428571429,1
+C0809,Starter,41,Education,India,Paid Ads,44,1,1,6,49.0,1.0,5,5,40.088,2
+C0810,Free,9,SaaS,India,Organic,32,4,1,10,0.0,0.0,6,1,38.846666666666664,4
+C0811,Free,1,Professional Services,Singapore,Paid Ads,42,1,1,8,0.0,0.0,8,2,36.365,2
+C0812,Starter,9,E-commerce,Canada,Paid Ads,93,3,1,17,147.0,3.0,4,2,29.5925,3
+C0813,Business,139,FinTech,Germany,Partner,154,4,5,37,796.0,4.0,4,0,30.240000000000002,2
+C0814,Free,36,Professional Services,India,Partner,32,4,0,6,0.0,0.0,8,1,36.5175,2
+C0815,Free,22,SaaS,United Kingdom,Referral,55,1,1,14,0.0,0.0,4,2,23.23,1
+C0816,Starter,40,IT Services,United States,Partner,50,2,2,11,98.0,2.0,5,0,31.692,3
+C0817,Starter,18,Marketing,United States,Partner,66,2,0,15,98.0,2.0,6,3,34.875,2
+C0818,Starter,44,FinTech,Canada,Sales,69,2,0,15,98.0,2.0,5,2,33.565999999999995,4
+C0819,Starter,8,FinTech,Canada,Paid Ads,100,4,3,29,196.0,4.0,7,1,37.521428571428565,3
+C0820,Starter,524,Marketing,United States,Referral,98,2,2,21,98.0,2.0,7,0,30.511428571428574,1
+C0821,Starter,11,Healthcare,United States,Sales,44,3,0,9,147.0,3.0,3,1,47.15,4
+C0822,Starter,54,FinTech,India,Sales,107,1,2,27,49.0,1.0,1,1,61.48,2
+C0823,Free,4,SaaS,India,Referral,38,1,1,10,0.0,0.0,2,0,47.870000000000005,2
+C0824,Starter,148,Marketing,United States,Organic,50,4,1,8,196.0,4.0,8,2,22.89,3
+C0825,Business,199,E-commerce,Australia,Paid Ads,138,3,6,31,597.0,3.0,6,2,37.96666666666667,1
+C0826,Free,2,SaaS,India,Organic,52,4,3,9,0.0,0.0,2,1,37.09,2
+C0827,Starter,6,SaaS,United States,Paid Ads,40,1,1,9,49.0,1.0,2,1,19.91,4
+C0828,Business,571,Marketing,India,Organic,120,2,1,25,398.0,2.0,3,0,30.28,3
+C0829,Free,10,SaaS,Germany,Sales,42,2,0,6,0.0,0.0,7,2,50.51714285714286,3
+C0830,Free,5,FinTech,United Kingdom,Organic,28,2,0,4,0.0,0.0,1,0,62.18,1
+C0831,Free,22,SaaS,United States,Referral,52,2,0,8,0.0,0.0,6,1,53.913333333333334,1
+C0832,Free,9,IT Services,India,Partner,54,2,1,12,0.0,0.0,4,0,44.3375,4
+C0833,Starter,27,Professional Services,India,Paid Ads,69,3,0,17,147.0,3.0,8,4,38.405,1
+C0834,Starter,111,Marketing,India,Organic,70,1,2,19,49.0,1.0,1,0,13.84,1
+C0835,Free,5,Healthcare,United States,Organic,51,1,0,15,0.0,0.0,4,1,36.7025,3
+C0836,Starter,41,Healthcare,United States,Referral,40,3,2,8,147.0,3.0,2,0,40.385,1
+C0837,Starter,138,FinTech,Australia,Paid Ads,78,2,3,25,98.0,2.0,6,0,20.40833333333333,1
+C0838,Starter,34,E-commerce,India,Paid Ads,84,1,2,20,49.0,1.0,3,0,21.103333333333335,2
+C0839,Starter,22,E-commerce,Germany,Referral,73,1,2,20,49.0,1.0,2,0,39.38,4
+C0840,Free,8,Marketing,Canada,Partner,13,1,0,4,0.0,0.0,4,2,33.715,2
+C0841,Free,7,Education,Australia,Referral,15,2,1,5,0.0,0.0,8,2,37.49,4
+C0842,Free,104,SaaS,Germany,Referral,30,3,1,9,0.0,0.0,3,1,60.593333333333334,4
+C0843,Free,7,Education,United States,Paid Ads,24,1,0,7,0.0,0.0,5,1,53.326,2
+C0844,Free,6,E-commerce,India,Paid Ads,13,1,0,5,0.0,0.0,5,1,39.312,2
+C0845,Starter,34,Marketing,India,Organic,74,2,1,15,98.0,2.0,2,1,34.96,4
+C0846,Free,7,IT Services,India,Paid Ads,30,3,1,7,0.0,0.0,6,1,31.968333333333334,4
+C0847,Free,5,E-commerce,India,Referral,51,1,2,16,0.0,0.0,8,1,38.26625,4
+C0848,Free,39,E-commerce,India,Referral,28,4,0,7,0.0,0.0,5,3,49.510000000000005,4
+C0849,Free,3,SaaS,India,Partner,56,1,0,12,0.0,0.0,2,1,53.53,2
+C0850,Free,47,FinTech,India,Referral,33,1,0,8,0.0,0.0,3,1,37.75666666666667,4
+C0851,Free,3,FinTech,United Kingdom,Organic,33,2,0,9,0.0,0.0,1,0,61.89,3
+C0852,Starter,47,Marketing,India,Partner,69,3,0,21,147.0,3.0,2,0,60.58,3
+C0853,Free,4,Marketing,India,Sales,30,3,0,9,0.0,0.0,8,2,29.603749999999998,3
+C0854,Business,17,Healthcare,India,Sales,156,1,4,44,199.0,1.0,3,0,28.810000000000002,1
+C0855,Starter,28,Marketing,Germany,Organic,60,3,0,13,147.0,3.0,1,0,41.17,3
+C0856,Free,26,Healthcare,United States,Paid Ads,33,1,0,4,0.0,0.0,5,1,36.938,3
+C0857,Starter,46,E-commerce,Australia,Sales,52,2,2,9,98.0,2.0,6,1,35.81,3
+C0858,Starter,161,SaaS,Canada,Paid Ads,48,3,1,8,147.0,3.0,3,0,48.73,1
+C0859,Starter,35,SaaS,United States,Organic,49,1,0,17,49.0,1.0,3,1,42.45333333333333,4
+C0860,Starter,23,Education,United States,Organic,51,1,0,11,49.0,1.0,1,0,45.13,2
+C0861,Free,3,E-commerce,Germany,Referral,30,2,0,10,0.0,0.0,3,0,44.29666666666666,4
+C0862,Business,89,Professional Services,India,Partner,110,2,1,28,398.0,2.0,5,1,45.262,3
+C0863,Free,41,FinTech,India,Sales,38,2,0,11,0.0,0.0,6,1,36.63166666666667,3
+C0864,Starter,11,E-commerce,India,Organic,60,4,2,9,196.0,4.0,1,1,4.47,3
+C0865,Starter,96,E-commerce,Germany,Paid Ads,96,3,1,27,147.0,3.0,8,0,30.145,1
+C0866,Free,158,SaaS,United States,Paid Ads,57,3,1,18,0.0,0.0,3,1,36.71333333333333,2
+C0867,Business,712,E-commerce,United States,Paid Ads,236,4,6,53,796.0,4.0,1,0,6.74,2
+C0868,Free,3,E-commerce,Canada,Partner,26,1,0,7,0.0,0.0,5,0,33.85,1
+C0869,Starter,44,SaaS,India,Referral,51,3,0,11,147.0,3.0,1,0,67.3,1
+C0870,Free,9,Education,India,Paid Ads,36,4,0,7,0.0,0.0,6,1,32.666666666666664,1
+C0871,Starter,31,IT Services,India,Referral,93,3,1,19,147.0,3.0,2,0,36.725,2
+C0872,Starter,175,IT Services,United States,Referral,108,3,4,25,147.0,3.0,1,0,19.09,3
+C0873,Starter,30,Healthcare,United States,Paid Ads,90,3,2,15,147.0,3.0,6,2,41.87666666666667,4
+C0874,Free,27,Education,India,Referral,24,1,1,5,0.0,0.0,6,0,37.085,1
+C0875,Free,9,FinTech,Australia,Organic,48,2,3,11,0.0,0.0,1,0,15.46,2
+C0876,Free,10,FinTech,United States,Organic,28,4,0,8,0.0,0.0,2,1,59.265,3
+C0877,Free,1,SaaS,United States,Organic,32,4,0,13,0.0,0.0,2,0,12.375,1
+C0878,Free,7,E-commerce,United States,Referral,44,4,1,11,0.0,0.0,7,3,39.18142857142857,4
+C0879,Starter,17,SaaS,United States,Paid Ads,96,4,0,21,196.0,4.0,8,2,40.60625,2
+C0880,Starter,21,E-commerce,United Kingdom,Referral,81,3,2,18,147.0,3.0,8,2,32.69375,4
+C0881,Business,66,Healthcare,India,Partner,93,2,3,19,398.0,2.0,4,0,32.1375,2
+C0882,Business,106,Healthcare,India,Organic,144,4,2,35,796.0,4.0,7,3,25.439999999999998,2
+C0883,Free,5,E-commerce,India,Organic,29,1,0,8,0.0,0.0,5,0,44.374,3
+C0884,Starter,41,E-commerce,United States,Referral,100,4,4,25,196.0,4.0,7,1,30.91714285714286,3
+C0885,Starter,75,Healthcare,India,Organic,60,4,0,15,196.0,4.0,5,1,27.965999999999998,1
+C0886,Starter,39,IT Services,United Kingdom,Paid Ads,84,3,1,13,147.0,3.0,7,0,32.39714285714286,2
+C0887,Starter,32,Professional Services,United States,Partner,111,3,1,26,147.0,3.0,5,2,19.113999999999997,4
+C0888,Starter,467,SaaS,India,Referral,60,3,0,15,147.0,3.0,1,0,70.28,4
+C0889,Starter,6,SaaS,Germany,Partner,96,2,1,17,98.0,2.0,2,0,45.015,1
+C0890,Free,6,FinTech,United States,Referral,40,2,1,11,0.0,0.0,3,0,38.10333333333333,2
+C0891,Business,194,SaaS,Canada,Paid Ads,165,3,5,37,597.0,3.0,8,2,24.2925,2
+C0892,Business,193,IT Services,United States,Paid Ads,120,4,0,28,796.0,4.0,5,0,31.881999999999998,1
+C0893,Business,116,Education,India,Sales,192,4,1,51,796.0,4.0,7,1,47.93714285714286,3
+C0894,Starter,6,IT Services,Australia,Paid Ads,58,1,0,13,49.0,1.0,7,2,37.34142857142857,4
+C0895,Starter,12,Professional Services,India,Organic,51,3,0,15,147.0,3.0,4,1,22.2575,3
+C0896,Business,37,E-commerce,India,Organic,138,3,1,26,597.0,3.0,8,2,40.43375,1
+C0897,Business,2,SaaS,India,Organic,124,1,3,34,199.0,1.0,7,1,38.01142857142857,1
+C0898,Starter,140,E-commerce,United Kingdom,Paid Ads,56,1,1,13,49.0,1.0,5,1,24.598000000000003,1
+C0899,Starter,101,Healthcare,India,Organic,56,2,1,14,98.0,2.0,2,0,48.43,2
+C0900,Free,10,Education,India,Referral,26,2,0,4,0.0,0.0,4,0,28.7325,2
+C0901,Starter,10,E-commerce,India,Sales,85,4,2,11,196.0,4.0,5,1,39.81,2
+C0902,Starter,45,E-commerce,United Kingdom,Organic,77,1,2,20,49.0,1.0,3,0,51.96,1
+C0903,Free,3,Marketing,India,Organic,43,1,1,9,0.0,0.0,4,1,50.095,1
+C0904,Business,123,E-commerce,United States,Referral,121,1,0,27,199.0,1.0,3,1,36.68666666666667,4
+C0905,Business,564,SaaS,Canada,Organic,156,2,3,35,398.0,2.0,2,1,31.005,2
+C0906,Free,6,Healthcare,India,Referral,32,3,1,7,0.0,0.0,3,0,29.03333333333333,4
+C0907,Starter,43,Marketing,India,Paid Ads,82,2,2,18,98.0,2.0,6,2,27.47666666666667,3
+C0908,Starter,8,FinTech,India,Referral,96,4,3,28,196.0,4.0,4,1,40.8575,4
+C0909,Free,8,SaaS,United States,Paid Ads,27,3,0,9,0.0,0.0,4,0,39.8675,4
+C0910,Free,2,FinTech,Australia,Organic,51,3,3,15,0.0,0.0,8,3,29.14875,2
+C0911,Free,35,FinTech,United Kingdom,Paid Ads,30,1,1,7,0.0,0.0,2,0,18.86,1
+C0912,Starter,50,Marketing,Singapore,Organic,72,3,2,18,147.0,3.0,2,0,4.945,3
+C0913,Starter,124,Healthcare,United States,Paid Ads,91,1,0,32,49.0,1.0,7,0,38.09285714285714,1
+C0914,Starter,40,Marketing,India,Referral,39,1,1,13,49.0,1.0,7,2,42.449999999999996,4
+C0915,Starter,20,E-commerce,India,Paid Ads,79,1,3,19,49.0,1.0,7,2,25.40142857142857,4
+C0916,Starter,21,Healthcare,United Kingdom,Organic,82,3,2,22,147.0,3.0,7,2,34.33142857142857,3
+C0917,Starter,137,Healthcare,Germany,Paid Ads,86,2,4,19,98.0,2.0,8,1,50.15375,4
+C0918,Free,7,FinTech,India,Referral,43,1,2,10,0.0,0.0,1,0,42.1,4
+C0919,Free,10,Healthcare,India,Organic,21,1,0,7,0.0,0.0,8,1,30.841250000000002,2
+C0920,Free,47,Professional Services,Canada,Paid Ads,22,2,2,6,0.0,0.0,2,0,47.05,4
+C0921,Business,615,Healthcare,Australia,Partner,108,1,4,28,199.0,1.0,3,0,41.95333333333333,4
+C0922,Business,69,Marketing,India,Referral,123,2,6,25,398.0,2.0,7,2,30.792857142857144,3
+C0923,Free,2,Marketing,India,Organic,25,1,1,6,0.0,0.0,2,0,48.705,3
+C0924,Starter,92,E-commerce,India,Organic,76,4,0,14,196.0,4.0,2,1,29.299999999999997,1
+C0925,Free,32,FinTech,Canada,Sales,54,2,1,13,0.0,0.0,8,0,35.0475,4
+C0926,Starter,25,E-commerce,United States,Organic,60,4,1,15,196.0,4.0,2,0,28.795,3
+C0927,Free,31,Marketing,India,Referral,42,3,0,14,0.0,0.0,2,0,18.08,3
+C0928,Free,31,Education,United States,Sales,21,3,0,6,0.0,0.0,1,1,43.91,1
+C0929,Starter,125,FinTech,India,Organic,114,2,3,26,98.0,2.0,8,0,22.28875,2
+C0930,Free,28,IT Services,Australia,Sales,36,4,0,5,0.0,0.0,8,2,31.89375,3
+C0931,Business,152,SaaS,India,Organic,168,3,1,40,597.0,3.0,8,0,28.12375,2
+C0932,Business,120,FinTech,United Kingdom,Organic,150,3,2,23,597.0,3.0,6,1,38.346666666666664,3
+C0933,Business,39,IT Services,India,Organic,173,2,3,44,398.0,2.0,4,1,28.59,2
+C0934,Free,143,SaaS,Canada,Referral,33,2,0,12,0.0,0.0,3,0,42.14,1
+C0935,Free,48,IT Services,United States,Partner,25,1,0,4,0.0,0.0,5,0,26.022000000000002,2
+C0936,Starter,44,SaaS,United States,Referral,114,3,0,30,147.0,3.0,4,1,50.3925,1
+C0937,Business,166,IT Services,United States,Sales,93,1,1,25,199.0,1.0,4,0,19.4675,3
+C0938,Starter,37,FinTech,Germany,Referral,80,4,3,19,196.0,4.0,1,0,13.85,3
+C0939,Free,3,Marketing,India,Referral,38,1,2,7,0.0,0.0,1,0,15.05,2
+C0940,Business,22,Education,India,Referral,136,2,1,34,398.0,2.0,1,0,61.99,3
+C0941,Free,1,IT Services,United Kingdom,Organic,48,1,0,9,0.0,0.0,8,2,27.192500000000003,2
+C0942,Starter,83,Education,India,Referral,49,4,0,9,196.0,4.0,5,1,29.912,1
+C0943,Starter,26,E-commerce,Canada,Referral,96,2,2,23,98.0,2.0,2,0,24.6,4
+C0944,Starter,27,Education,India,Paid Ads,70,2,1,20,98.0,2.0,8,3,34.3975,3
+C0945,Free,16,Marketing,India,Paid Ads,28,4,0,8,0.0,0.0,3,0,50.24,3
+C0946,Free,4,IT Services,United States,Organic,57,1,1,12,0.0,0.0,2,2,16.54,4
+C0947,Business,371,IT Services,United States,Partner,219,3,5,59,597.0,3.0,5,2,35.424,4
+C0948,Free,152,Healthcare,Singapore,Referral,60,2,1,16,0.0,0.0,2,0,67.595,3
+C0949,Starter,17,Healthcare,India,Organic,50,2,3,11,98.0,2.0,6,1,35.01,1
+C0950,Starter,17,Healthcare,India,Referral,60,2,1,18,98.0,2.0,3,1,21.266666666666666,3
+C0951,Starter,15,SaaS,India,Paid Ads,52,4,1,10,196.0,4.0,4,1,34.795,3
+C0952,Free,41,Professional Services,India,Paid Ads,24,4,0,3,0.0,0.0,6,2,37.504999999999995,3
+C0953,Business,46,FinTech,India,Organic,224,2,3,60,398.0,2.0,5,1,43.367999999999995,1
+C0954,Starter,14,Healthcare,United States,Referral,51,3,0,8,147.0,3.0,8,1,46.3675,2
+C0955,Free,12,Professional Services,United Kingdom,Referral,40,4,0,14,0.0,0.0,8,2,52.667500000000004,4
+C0956,Free,36,Healthcare,India,Referral,42,1,1,5,0.0,0.0,3,0,18.896666666666665,2
+C0957,Free,9,IT Services,United States,Sales,35,2,1,4,0.0,0.0,4,0,26.189999999999998,3
+C0958,Starter,72,IT Services,United States,Referral,92,4,1,21,196.0,4.0,2,1,23.799999999999997,2
+C0959,Starter,77,SaaS,United Kingdom,Referral,77,4,2,23,196.0,4.0,3,1,38.88333333333333,1
+C0960,Business,27,Marketing,Germany,Organic,156,3,3,29,597.0,3.0,1,0,32.33,1
+C0961,Free,10,E-commerce,United States,Paid Ads,33,3,2,7,0.0,0.0,4,1,21.42,3
+C0962,Business,90,SaaS,United States,Referral,177,3,5,44,597.0,3.0,5,1,41.660000000000004,2
+C0963,Starter,16,FinTech,United States,Partner,108,4,1,25,196.0,4.0,1,0,38.59,2
+C0964,Starter,35,Education,Canada,Sales,75,3,2,18,147.0,3.0,4,1,36.335,3
+C0965,Starter,30,Marketing,India,Organic,88,3,2,23,147.0,3.0,3,0,40.70666666666667,2
+C0966,Free,4,SaaS,United Kingdom,Referral,39,3,2,12,0.0,0.0,5,1,42.446000000000005,4
+C0967,Starter,114,SaaS,United States,Partner,69,1,0,20,49.0,1.0,6,0,29.86,3
+C0968,Free,5,FinTech,United States,Sales,52,1,0,12,0.0,0.0,1,0,48.73,1
+C0969,Free,8,FinTech,United Kingdom,Sales,57,3,0,15,0.0,0.0,8,1,24.68,4
+C0970,Free,3,IT Services,India,Sales,39,3,1,12,0.0,0.0,6,0,56.913333333333334,1
+C0971,Starter,19,E-commerce,India,Referral,72,1,0,21,49.0,1.0,3,1,19.323333333333334,1
+C0972,Starter,44,SaaS,Australia,Organic,74,1,0,20,49.0,1.0,5,0,27.178000000000004,2
+C0973,Free,3,Education,United Kingdom,Organic,30,3,0,9,0.0,0.0,5,1,57.33,1
+C0974,Business,58,Education,United States,Paid Ads,198,3,2,42,597.0,3.0,8,0,36.98625,1
+C0975,Free,1,E-commerce,India,Organic,59,1,2,16,0.0,0.0,5,0,53.424,4
+C0976,Starter,33,SaaS,India,Referral,72,4,2,14,196.0,4.0,1,1,8.1,1
+C0977,Starter,31,Marketing,United States,Partner,64,2,0,17,98.0,2.0,4,3,34.06,1
+C0978,Starter,8,Marketing,India,Partner,69,4,3,15,196.0,4.0,6,0,43.451666666666675,3
+C0979,Starter,40,E-commerce,Germany,Paid Ads,37,1,2,9,49.0,1.0,4,2,40.295,1
+C0980,Free,9,Marketing,India,Sales,24,2,0,7,0.0,0.0,6,1,31.001666666666665,3
+C0981,Business,479,Education,India,Sales,244,4,3,64,796.0,4.0,6,2,26.865,1
+C0982,Business,46,IT Services,United States,Referral,87,3,0,20,597.0,3.0,5,2,44.548,1
+C0983,Free,8,E-commerce,India,Partner,48,4,1,13,0.0,0.0,2,1,31.990000000000002,4
+C0984,Free,19,E-commerce,United States,Organic,22,2,0,9,0.0,0.0,1,0,44.36,1
+C0985,Free,9,Healthcare,India,Organic,48,4,1,9,0.0,0.0,5,0,34.978,1
+C0986,Business,22,IT Services,India,Organic,222,1,6,50,199.0,1.0,5,2,34.666000000000004,4
+C0987,Starter,167,IT Services,India,Referral,90,2,2,27,98.0,2.0,7,2,40.151428571428575,3
+C0988,Starter,195,SaaS,India,Organic,84,4,2,26,196.0,4.0,5,2,39.194,4
+C0989,Business,646,Professional Services,India,Organic,120,1,4,27,199.0,1.0,3,1,28.12,2
+C0990,Starter,44,Education,Singapore,Organic,104,4,3,21,196.0,4.0,8,2,41.70375,1
+C0991,Starter,187,Education,India,Organic,90,3,1,24,147.0,3.0,4,2,26.6525,3
+C0992,Starter,30,IT Services,India,Partner,92,4,4,15,196.0,4.0,8,2,34.18,2
+C0993,Free,33,Marketing,United States,Paid Ads,32,1,0,8,0.0,0.0,3,1,21.76,3
+C0994,Starter,41,E-commerce,Germany,Paid Ads,112,4,2,27,196.0,4.0,4,1,52.2075,4
+C0995,Free,9,Professional Services,India,Sales,26,2,0,6,0.0,0.0,7,1,36.925714285714285,2
+C0996,Starter,109,IT Services,Canada,Paid Ads,100,4,0,23,196.0,4.0,6,0,28.988333333333333,2
+C0997,Business,73,E-commerce,United Kingdom,Sales,244,4,1,66,796.0,4.0,7,2,30.047142857142855,3
+C0998,Starter,164,FinTech,India,Organic,59,4,1,9,196.0,4.0,2,1,37.925,2
+C0999,Free,5,FinTech,United States,Organic,24,2,0,4,0.0,0.0,4,3,35.2675,4
+C1000,Free,144,Healthcare,United Kingdom,Organic,54,2,1,12,0.0,0.0,5,3,32.306,2

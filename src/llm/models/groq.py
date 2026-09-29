@@ -27,7 +27,10 @@ class GroqModel(LLMProvider):
         prompt: str,
         response_model: type[T],
     ) -> T:
-        structured_model = self.model.with_structured_output(response_model)
+        structured_model = self.model.with_structured_output(
+            response_model,
+            method="json_schema",
+        )
 
         response = structured_model.invoke(prompt)
 

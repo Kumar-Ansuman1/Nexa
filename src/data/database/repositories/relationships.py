@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 
 from src.data.database.connection import get_connection
 from src.llm.schemas.registry import RelationshipRegistryEntry,ApprovalStatus
+from src.llm.schemas.registry import ApprovalStatus
 
 
 def save_relationship(
@@ -97,3 +98,25 @@ def get_relationships() -> list[RelationshipRegistryEntry]:
         )
         for row in rows
     ]
+
+def update_relationship_approval(
+    relationship_id: int,
+    approval_status: ApprovalStatus,
+) -> None:
+    connection = get_connection()
+
+    try:
+        connection.execute(
+            """
+            UPDATE relationships
+            SET approval_status = ?,
+                updated_at = CURRENT_TIMESTAMP
+            WHERE id = ?
+            """,
+            (approval_status.value, relationship_id),
+        )
+
+        connection.commit()
+
+    finally:
+        connection.close()

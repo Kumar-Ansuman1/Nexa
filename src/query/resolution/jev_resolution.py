@@ -1,4 +1,4 @@
-from src.data.semantic.query_retrieval import retrieve_query_candidates
+from src.query.retrieval.query_retrieval import retrieve_query_candidates
 from src.jev.selector import select_semantics
 from src.llm.schemas.semantic_query import SemanticQuery
 

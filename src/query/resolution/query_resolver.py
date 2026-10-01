@@ -1,4 +1,4 @@
-from src.data.semantic.resolver import resolve_semantic_id
+from src.query.resolution.resolver import resolve_semantic_id
 from src.llm.schemas.semantic_query import SemanticQuery
 
 

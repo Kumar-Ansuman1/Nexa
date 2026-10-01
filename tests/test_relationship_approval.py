@@ -1,4 +1,4 @@
-from src.data.semantic.relationship_approval import (
+from src.data.semantic.registry.relationship_approval import (
     approve_relationship,
     reject_relationship,
     edit_and_approve_relationship,

@@ -1,4 +1,4 @@
-from src.data.semantic.execution_planner import build_execution_plan
+from src.query.planning.execution_planner import build_execution_plan
 from src.llm.schemas.query_plan import QueryPlan, ResolvedColumn
 from src.llm.schemas.join_plan import JoinPlan, JoinStep
 from src.llm.schemas.query import QueryOperation

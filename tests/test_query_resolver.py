@@ -1,4 +1,4 @@
-from src.data.semantic.query_resolver import resolve_query
+from src.query.resolution.query_resolver import resolve_query
 from src.llm.schemas.semantic_query import SemanticQuery
 from src.llm.schemas.query import QueryOperation
 from src.llm.schemas.registry import (

@@ -1,4 +1,4 @@
-from src.data.semantic.sql_generator import generate_sql
+from src.query.sql.sql_generator import generate_sql
 
 
 execution_plan = {

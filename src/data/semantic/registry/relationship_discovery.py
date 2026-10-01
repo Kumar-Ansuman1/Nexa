@@ -1,6 +1,6 @@
-from src.data.semantic.relationship_candidates import generate_relationship_candidates
-from src.data.semantic.relationship_interpreter import interpret_relationship
-from src.data.semantic.relationship_registry_builder import (
+from src.data.semantic.registry.relationship_candidates import generate_relationship_candidates
+from src.data.semantic.registry.relationship_interpreter import interpret_relationship
+from src.data.semantic.registry.relationship_registry_builder import (
     build_relationship_registry_entry,
 )
 from src.llm.schemas.registry import RelationshipRegistryEntry, SemanticRegistry

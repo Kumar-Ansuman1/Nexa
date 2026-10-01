@@ -1,6 +1,6 @@
-from src.data.semantic.approval import approve_column
-from src.data.semantic.approval import reject_column
-from src.data.semantic.approval import edit_and_approve_column
+from src.data.semantic.registry.approval import approve_column
+from src.data.semantic.registry.approval import reject_column
+from src.data.semantic.registry.approval import edit_and_approve_column
 from src.llm.schemas.registry import (
     ApprovalStatus,
     ColumnRegistryEntry,

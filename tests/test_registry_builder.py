@@ -1,4 +1,4 @@
-from src.data.semantic.registry_builder import build_registry_entry
+from src.data.semantic.registry.registry_builder import build_registry_entry
 from src.llm.schemas.semantic import (
     DatasetInterpretation,
     SemanticMapping,

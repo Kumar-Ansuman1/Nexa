@@ -1,4 +1,4 @@
-from src.data.semantic.relationship_registry import (
+from src.data.semantic.registry.relationship_registry import (
     add_relationships_to_registry,
 )
 from src.llm.schemas.registry import (

@@ -1,6 +1,6 @@
-from src.data.semantic.catalog import SemanticCatalogEntry
-from src.data.semantic.retriever import retrieve_semantic_candidates
-from src.data.semantic.query_understanding import understand_query
+from src.data.semantic.catalog.catalog import SemanticCatalogEntry
+from src.query.retrieval.retriever import retrieve_semantic_candidates
+from src.query.understanding.query_understanding import understand_query
 
 
 def retrieve_query_candidates(

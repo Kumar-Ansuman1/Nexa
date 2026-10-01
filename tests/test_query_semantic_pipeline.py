@@ -1,5 +1,5 @@
-from src.data.semantic.catalog import build_semantic_catalog
-from src.data.semantic.resolver import resolve_semantic_id
+from src.data.semantic.catalog.catalog import build_semantic_catalog
+from src.query.resolution.resolver import resolve_semantic_id
 from src.jev.selector import select_query_semantics
 from src.llm.schemas.registry import (
     ApprovalStatus,

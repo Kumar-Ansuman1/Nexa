@@ -1,5 +1,5 @@
-from src.data.semantic.catalog import SemanticCatalogEntry
-from src.data.semantic.similarity import cosine_similarity
+from src.data.semantic.catalog.catalog import SemanticCatalogEntry
+from src.query.retrieval.similarity import cosine_similarity
 from src.embeddings.models.jina import embed_text
 from src.llm.schemas.retrieval import SemanticCandidate
 

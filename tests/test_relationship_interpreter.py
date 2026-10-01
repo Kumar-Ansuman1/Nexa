@@ -1,10 +1,10 @@
 import pandas as pd
 
 from src.data.profiling.profiler import profile_dataset
-from src.data.semantic.relationship_candidates import (
+from src.data.semantic.registry.relationship_candidates import (
     generate_relationship_candidates,
 )
-from src.data.semantic.relationship_interpreter import (
+from src.data.semantic.registry.relationship_interpreter import (
     interpret_relationship,
 )
 from src.llm.schemas.registry import (

@@ -1,5 +1,5 @@
-from src.data.semantic.relationship_approval import approve_relationship
-from src.data.semantic.relationship_registry_builder import (
+from src.data.semantic.registry.relationship_approval import approve_relationship
+from src.data.semantic.registry.relationship_registry_builder import (
     build_relationship_registry_entry,
 )
 from src.llm.schemas.relationship import RelationshipInterpretation

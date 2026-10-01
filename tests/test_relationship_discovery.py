@@ -1,6 +1,6 @@
 import pandas as pd
 
-from src.data.semantic.relationship_discovery import discover_relationships
+from src.data.semantic.registry.relationship_discovery import discover_relationships
 from src.llm.schemas.registry import (
     ApprovalStatus,
     ColumnRegistryEntry,

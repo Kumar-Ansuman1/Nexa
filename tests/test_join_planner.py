@@ -1,4 +1,4 @@
-from src.data.semantic.join_planner import build_join_plan
+from src.query.planning.join_planner import build_join_plan
 from src.llm.schemas.query_plan import QueryPlan, ResolvedColumn
 from src.llm.schemas.query import QueryOperation
 from src.llm.schemas.registry import (

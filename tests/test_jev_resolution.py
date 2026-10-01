@@ -1,5 +1,5 @@
-from src.data.semantic.jev_resolution import resolve_query_semantics
-from src.data.semantic.catalog import SemanticCatalogEntry
+from src.query.resolution.jev_resolution import resolve_query_semantics
+from src.data.semantic.catalog.catalog import SemanticCatalogEntry
 
 
 catalog = [

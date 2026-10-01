@@ -1,4 +1,4 @@
-from src.data.semantic.query_understanding import understand_query
+from src.query.understanding.query_understanding import understand_query
 
 
 query = "Show me revenue by subscription plan in March 2026."

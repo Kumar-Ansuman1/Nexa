@@ -1,5 +1,5 @@
-from src.data.semantic.catalog import SemanticCatalogEntry
-from src.data.semantic.query_retrieval import retrieve_query_candidates
+from src.data.semantic.catalog.catalog import SemanticCatalogEntry
+from src.query.retrieval.query_retrieval import retrieve_query_candidates
 
 
 catalog = [

@@ -1,4 +1,4 @@
-from src.data.semantic.query_planner import build_query_plan
+from src.query.planning.query_planner import build_query_plan
 from src.llm.schemas.semantic_query import SemanticQuery
 from src.llm.schemas.query import QueryOperation
 

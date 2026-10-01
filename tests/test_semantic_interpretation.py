@@ -1,7 +1,7 @@
 import pandas as pd
 
 from src.data.profiling.profiler import profile_dataset
-from src.data.semantic.interpreter import interpret_dataset
+from src.data.semantic.registry.interpreter import interpret_dataset
 
 
 df = pd.read_csv("data/raw/customers.csv")

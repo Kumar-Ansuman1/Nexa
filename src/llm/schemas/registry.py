@@ -1,4 +1,6 @@
 from enum import Enum
+import uuid
+
 from pydantic import BaseModel, Field
 
 
@@ -9,6 +11,9 @@ class ApprovalStatus(str, Enum):
 
 
 class ColumnRegistryEntry(BaseModel):
+    semantic_id: str = Field(
+        default_factory=lambda: f"sem_{uuid.uuid4().hex[:12]}"
+    )
     source_column: str
 
     suggested_meaning: str

@@ -33,6 +33,7 @@ def create_columns_table() -> None:
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             dataset_id INTEGER NOT NULL,
 
+            semantic_id TEXT NOT NULL UNIQUE,
             source_column TEXT NOT NULL,
 
             suggested_meaning TEXT NOT NULL,

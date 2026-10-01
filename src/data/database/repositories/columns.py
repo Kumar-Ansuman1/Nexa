@@ -21,6 +21,7 @@ def save_column(
         INSERT INTO columns (
             dataset_id,
             source_column,
+            semantic_id,
             suggested_meaning,
             suggested_description,
             suggested_role,
@@ -33,11 +34,12 @@ def save_column(
             created_at,
             updated_at
         )
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         (
             dataset_id,
             column.source_column,
+            column.semantic_id,
             column.suggested_meaning,
             column.suggested_description,
             column.suggested_role,
@@ -66,6 +68,7 @@ def get_columns(dataset_id: int) -> list[ColumnRegistryEntry]:
     rows = connection.execute(
         """
         SELECT
+            semantic_id,
             source_column,
             suggested_meaning,
             suggested_description,
@@ -87,16 +90,17 @@ def get_columns(dataset_id: int) -> list[ColumnRegistryEntry]:
 
     return [
         ColumnRegistryEntry(
-            source_column=row[0],
-            suggested_meaning=row[1],
-            suggested_description=row[2],
-            suggested_role=row[3],
-            confidence=row[4],
-            evidence=json.loads(row[5]),
-            approved_meaning=row[6],
-            approved_description=row[7],
-            approved_role=row[8],
-            approval_status=ApprovalStatus(row[9]),
+            semantic_id=row[0],
+            source_column=row[1],
+            suggested_meaning=row[2],
+            suggested_description=row[3],
+            suggested_role=row[4],
+            confidence=row[5],
+            evidence=json.loads(row[6]),
+            approved_meaning=row[7],
+            approved_description=row[8],
+            approved_role=row[9],
+            approval_status=ApprovalStatus(row[10]),
         )
         for row in rows
     ]

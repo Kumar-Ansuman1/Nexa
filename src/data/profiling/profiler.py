@@ -17,7 +17,7 @@ def detect_semantic_type(series):
             return "unknown"
 
         # Check whether the values can be interpreted as dates
-        parsed_dates = pd.to_datetime(non_null, errors="coerce")
+        parsed_dates = pd.to_datetime(non_null, errors="coerce",format="mixed",)
         date_ratio = parsed_dates.notna().mean()
 
         if date_ratio >= 0.95:

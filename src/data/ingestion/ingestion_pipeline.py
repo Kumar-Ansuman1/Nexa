@@ -2,8 +2,8 @@
 NEXA Data Ingestion Pipeline
 
 Complete orchestration pipeline for transforming arbitrary CSV
-datasets into a semantic registry, semantic catalog, and
-SQLite database containing the actual datasets.
+datasets into a semantic registry, semantic catalog, embeddings,
+and SQLite database containing the actual datasets.
 
 Flow:
 
@@ -27,9 +27,13 @@ Flow:
         ↓
     HUMAN APPROVAL
         ↓
-    Semantic catalog
+    Normalize + validate registry
         ↓
     Persist semantic registry
+        ↓
+    Generate semantic embeddings
+        ↓
+    Semantic catalog
 """
 
 from collections.abc import Callable
@@ -48,6 +52,10 @@ from src.data.database.schema import initialize_database
 from src.data.semantic.catalog.catalog import (
     SemanticCatalogEntry,
     build_semantic_catalog,
+)
+
+from src.data.semantic.embeddings.generator import (
+    generate_registry_embeddings,
 )
 
 from src.data.semantic.registry.interpreter import (
@@ -170,16 +178,6 @@ def load_datasets_into_database(
 
     Each dataset becomes a SQLite table using the dataset name
     as the table name.
-
-    Example:
-
-        customers.csv
-            ↓
-        customers table
-
-        transactions.csv
-            ↓
-        transactions table
     """
 
     for dataset_name, dataframe in datasets.items():
@@ -258,7 +256,32 @@ def discover_pending_relationships(
 
 
 # ============================================================
-# Stage 5. Semantic Catalog
+# Stage 5. Semantic Embeddings
+# ============================================================
+
+
+def generate_semantic_embeddings(
+    registry: SemanticRegistry,
+) -> int:
+    """
+    Generate and persist embeddings for approved semantic
+    columns.
+
+    Only columns with an approved meaning are embedded.
+
+    Returns
+    -------
+    int
+        Number of embeddings generated.
+    """
+
+    return generate_registry_embeddings(
+        registry=registry,
+    )
+
+
+# ============================================================
+# Stage 6. Semantic Catalog
 # ============================================================
 
 
@@ -278,7 +301,7 @@ def build_catalog(
 
 
 # ============================================================
-# Stage 6. Persist Registry
+# Stage 7. Persist Registry
 # ============================================================
 
 
@@ -354,9 +377,10 @@ def run_ingestion_pipeline(
     7. Wait for human approval of semantic interpretations.
     8. Discover relationships.
     9. Wait for human approval of relationships.
-    10. Build semantic catalog.
-    11. Normalize and validate registry.
-    12. Persist final approved registry.
+    10. Normalize and validate registry.
+    11. Persist final approved registry.
+    12. Generate embeddings for approved columns.
+    13. Build semantic catalog.
     """
 
     # --------------------------------------------------------
@@ -435,15 +459,7 @@ def run_ingestion_pipeline(
     )
 
     # --------------------------------------------------------
-    # 10. Semantic catalog
-    # --------------------------------------------------------
-
-    catalog = build_catalog(
-        registry
-    )
-
-    # --------------------------------------------------------
-    # 11. Normalize and validate registry
+    # 10. Normalize and validate registry
     # --------------------------------------------------------
 
     registry = SemanticRegistry.model_validate(
@@ -451,10 +467,31 @@ def run_ingestion_pipeline(
     )
 
     # --------------------------------------------------------
-    # 12. Persist final approved registry
+    # 11. Persist final approved registry
     # --------------------------------------------------------
 
     persist_ingestion_result(
+        registry
+    )
+
+    # --------------------------------------------------------
+    # 12. Generate embeddings
+    # --------------------------------------------------------
+
+    embedding_count = generate_semantic_embeddings(
+        registry=registry,
+    )
+
+    print(
+        f"Generated embeddings for "
+        f"{embedding_count} approved columns."
+    )
+
+    # --------------------------------------------------------
+    # 13. Semantic catalog
+    # --------------------------------------------------------
+
+    catalog = build_catalog(
         registry
     )
 

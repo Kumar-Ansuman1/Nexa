@@ -24,6 +24,7 @@ def create_datasets_table() -> None:
     connection.commit()
     connection.close()
 
+
 def create_columns_table() -> None:
     connection = get_connection()
 
@@ -60,6 +61,7 @@ def create_columns_table() -> None:
 
     connection.commit()
     connection.close()
+
 
 def create_relationships_table() -> None:
     connection = get_connection()
@@ -107,7 +109,35 @@ def create_relationships_table() -> None:
     connection.commit()
     connection.close()
 
+
+def create_semantic_embeddings_table() -> None:
+    connection = get_connection()
+
+    connection.execute(
+        """
+        CREATE TABLE IF NOT EXISTS semantic_embeddings (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+
+            semantic_id TEXT NOT NULL UNIQUE,
+            model_name TEXT NOT NULL,
+            embedding TEXT NOT NULL,
+
+            created_at TEXT NOT NULL,
+            updated_at TEXT NOT NULL,
+
+            FOREIGN KEY (semantic_id)
+                REFERENCES columns(semantic_id)
+                ON DELETE CASCADE
+        )
+        """
+    )
+
+    connection.commit()
+    connection.close()
+
+
 def initialize_database() -> None:
     create_datasets_table()
     create_columns_table()
     create_relationships_table()
+    create_semantic_embeddings_table()

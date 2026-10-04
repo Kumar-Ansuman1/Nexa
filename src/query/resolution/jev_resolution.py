@@ -1,4 +1,6 @@
-from src.query.retrieval.query_retrieval import retrieve_query_candidates
+from src.query.retrieval.query_retrieval import (
+    retrieve_query_candidates,
+)
 from src.jev.selector import select_semantics
 from src.llm.schemas.semantic_query import SemanticQuery
 
@@ -6,11 +8,13 @@ from src.llm.schemas.semantic_query import SemanticQuery
 def resolve_query_semantics(
     query: str,
     catalog,
+    stored_embeddings: dict[str, list[float]],
 ) -> SemanticQuery:
 
     candidates = retrieve_query_candidates(
         query=query,
         catalog=catalog,
+        stored_embeddings=stored_embeddings,
     )
 
     selection = select_semantics(

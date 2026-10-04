@@ -29,6 +29,9 @@ import time
 from typing import Any
 
 from src.data.database.introspection import get_database_schema
+from src.data.database.repositories.embeddings import (
+    get_all_embeddings,
+)
 from src.data.database.repositories.registry import load_registry
 from src.data.semantic.catalog.catalog import (
     SemanticCatalogEntry,
@@ -49,10 +52,6 @@ def _print_stage_time(
     stage_name: str,
     start_time: float,
 ) -> float:
-    """
-    Calculate and print the elapsed time for a pipeline stage.
-    """
-
     elapsed = time.perf_counter() - start_time
 
     print(
@@ -71,63 +70,15 @@ def run_query(
     database_schema: str | None = None,
     execute: bool = False,
 ) -> str | list[dict[str, Any]]:
-    """
-    Run a natural-language query through the complete NEXA
-    query pipeline.
-
-    Parameters
-    ----------
-    query:
-        User's natural-language question.
-
-    registry:
-        Optional semantic registry.
-
-        If omitted, the approved registry is loaded
-        from the SQLite database.
-
-    catalog:
-        Optional semantic catalog.
-
-        If omitted, the catalog is built from the loaded
-        semantic registry.
-
-    database_schema:
-        Optional database schema.
-
-        If omitted, the schema is generated from the actual
-        SQLite dataset tables.
-
-    execute:
-        If False, return validated SQL.
-
-        If True, execute the validated SQL and return the
-        actual database result.
-
-    Returns
-    -------
-    str
-        Validated SQL when execute=False.
-
-    list[dict[str, Any]]
-        Actual database result when execute=True.
-    """
 
     pipeline_start = time.perf_counter()
 
-    print(
-        "\n[NEXA] Query pipeline started",
-        flush=True,
-    )
+    print("\n[NEXA] Query pipeline started", flush=True)
+    print("-" * 70, flush=True)
 
-    print(
-        "-" * 70,
-        flush=True,
-    )
-
-    # =========================================================
-    # 0. Input validation
-    # =========================================================
+    # ---------------------------------------------------------
+    # Input validation
+    # ---------------------------------------------------------
 
     stage_start = time.perf_counter()
 
@@ -146,9 +97,9 @@ def run_query(
         stage_start,
     )
 
-    # =========================================================
-    # 1. Load semantic registry
-    # =========================================================
+    # ---------------------------------------------------------
+    # Registry loading
+    # ---------------------------------------------------------
 
     stage_start = time.perf_counter()
 
@@ -165,9 +116,9 @@ def run_query(
         stage_start,
     )
 
-    # =========================================================
-    # 2. Build semantic catalog
-    # =========================================================
+    # ---------------------------------------------------------
+    # Semantic catalog
+    # ---------------------------------------------------------
 
     stage_start = time.perf_counter()
 
@@ -188,9 +139,47 @@ def run_query(
         stage_start,
     )
 
-    # =========================================================
-    # 3. Database schema introspection
-    # =========================================================
+    # ---------------------------------------------------------
+    # Semantic embeddings
+    # ---------------------------------------------------------
+
+    stage_start = time.perf_counter()
+
+    embedding_rows = get_all_embeddings()
+
+    stored_embeddings = {
+        semantic_id: embedding
+        for semantic_id, model_name, embedding
+        in embedding_rows
+    }
+
+    if not stored_embeddings:
+        raise ValueError(
+            "No semantic embeddings are available. "
+            "Generate embeddings for the approved semantic "
+            "registry before running queries."
+        )
+
+    missing_embeddings = [
+        entry.semantic_id
+        for entry in catalog
+        if entry.semantic_id not in stored_embeddings
+    ]
+
+    if missing_embeddings:
+        raise ValueError(
+            "Missing embeddings for "
+            f"{len(missing_embeddings)} approved semantic columns."
+        )
+
+    _print_stage_time(
+        "Semantic embedding loading",
+        stage_start,
+    )
+
+    # ---------------------------------------------------------
+    # Database schema
+    # ---------------------------------------------------------
 
     stage_start = time.perf_counter()
 
@@ -207,20 +196,16 @@ def run_query(
         stage_start,
     )
 
-    # =========================================================
-    # 4. Query Understanding
-    # 5. Semantic Retrieval
-    # 6. JEV Selection
-    #
-    # These are currently implemented together inside
-    # resolve_query_semantics().
-    # =========================================================
+    # ---------------------------------------------------------
+    # Query understanding / retrieval / JEV
+    # ---------------------------------------------------------
 
     stage_start = time.perf_counter()
 
     semantic_query = resolve_query_semantics(
         query=query,
         catalog=catalog,
+        stored_embeddings=stored_embeddings,
     )
 
     _print_stage_time(
@@ -228,9 +213,9 @@ def run_query(
         stage_start,
     )
 
-    # =========================================================
-    # 7. Semantic Resolution
-    # =========================================================
+    # ---------------------------------------------------------
+    # Semantic resolution
+    # ---------------------------------------------------------
 
     stage_start = time.perf_counter()
 
@@ -244,9 +229,9 @@ def run_query(
         stage_start,
     )
 
-    # =========================================================
-    # 8. Query Planning
-    # =========================================================
+    # ---------------------------------------------------------
+    # Query planning
+    # ---------------------------------------------------------
 
     stage_start = time.perf_counter()
 
@@ -260,9 +245,9 @@ def run_query(
         stage_start,
     )
 
-    # =========================================================
-    # 9. Join Planning
-    # =========================================================
+    # ---------------------------------------------------------
+    # Join planning
+    # ---------------------------------------------------------
 
     stage_start = time.perf_counter()
 
@@ -276,9 +261,9 @@ def run_query(
         stage_start,
     )
 
-    # =========================================================
-    # 10. Execution Planning
-    # =========================================================
+    # ---------------------------------------------------------
+    # Execution planning
+    # ---------------------------------------------------------
 
     stage_start = time.perf_counter()
 
@@ -292,9 +277,9 @@ def run_query(
         stage_start,
     )
 
-    # =========================================================
-    # 11. SQL Generation
-    # =========================================================
+    # ---------------------------------------------------------
+    # SQL generation
+    # ---------------------------------------------------------
 
     stage_start = time.perf_counter()
 
@@ -310,9 +295,9 @@ def run_query(
         stage_start,
     )
 
-    # =========================================================
-    # 12. SQL Validation
-    # =========================================================
+    # ---------------------------------------------------------
+    # SQL validation
+    # ---------------------------------------------------------
 
     stage_start = time.perf_counter()
 
@@ -327,18 +312,15 @@ def run_query(
         stage_start,
     )
 
-    # =========================================================
+    # ---------------------------------------------------------
     # Total pipeline time
-    # =========================================================
+    # ---------------------------------------------------------
 
     total_pipeline_time = (
         time.perf_counter() - pipeline_start
     )
 
-    print(
-        "-" * 70,
-        flush=True,
-    )
+    print("-" * 70, flush=True)
 
     print(
         f"[TIMING] TOTAL QUERY PIPELINE"
@@ -346,14 +328,11 @@ def run_query(
         flush=True,
     )
 
-    print(
-        "-" * 70,
-        flush=True,
-    )
+    print("-" * 70, flush=True)
 
-    # =========================================================
-    # 13. Optional SQL execution
-    # =========================================================
+    # ---------------------------------------------------------
+    # Optional SQL execution
+    # ---------------------------------------------------------
 
     if execute:
         execution_start = time.perf_counter()

@@ -1,11 +1,18 @@
-from src.data.semantic.catalog.catalog import SemanticCatalogEntry
-from src.query.retrieval.retriever import retrieve_semantic_candidates
-from src.query.understanding.query_understanding import understand_query
+from src.data.semantic.catalog.catalog import (
+    SemanticCatalogEntry,
+)
+from src.query.retrieval.retriever import (
+    retrieve_semantic_candidates,
+)
+from src.query.understanding.query_understanding import (
+    understand_query,
+)
 
 
 def retrieve_query_candidates(
     query: str,
     catalog: list[SemanticCatalogEntry],
+    stored_embeddings: dict[str, list[float]],
 ) -> dict:
 
     understanding = understand_query(query)
@@ -21,6 +28,7 @@ def retrieve_query_candidates(
         results["metric"] = retrieve_semantic_candidates(
             phrase=understanding.metric_phrase,
             catalog=catalog,
+            stored_embeddings=stored_embeddings,
         )
 
     for phrase in understanding.dimension_phrases:
@@ -28,6 +36,7 @@ def retrieve_query_candidates(
             retrieve_semantic_candidates(
                 phrase=phrase,
                 catalog=catalog,
+                stored_embeddings=stored_embeddings,
             )
         )
 

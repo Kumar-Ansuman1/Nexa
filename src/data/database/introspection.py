@@ -16,6 +16,7 @@ METADATA_TABLES = {
     "datasets",
     "columns",
     "relationships",
+    "semantic_embeddings",
 }
 
 

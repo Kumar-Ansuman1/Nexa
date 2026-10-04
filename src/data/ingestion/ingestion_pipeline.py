@@ -2,15 +2,18 @@
 NEXA Data Ingestion Pipeline
 
 Complete orchestration pipeline for transforming arbitrary CSV
-datasets into a semantic registry and semantic catalog.
+datasets into a semantic registry, semantic catalog, and
+SQLite database containing the actual datasets.
 
 Flow:
 
-    CSV files
+    CSV directory
         ↓
     CSV ingestion
         ↓
     Dataset profiling
+        ↓
+    Load datasets into SQLite
         ↓
     Semantic interpretation
         ↓
@@ -25,9 +28,8 @@ Flow:
     HUMAN APPROVAL
         ↓
     Semantic catalog
-
-This module orchestrates existing NEXA components.
-It contains no dataset-specific knowledge.
+        ↓
+    Persist semantic registry
 """
 
 from collections.abc import Callable
@@ -39,23 +41,28 @@ import pandas as pd
 from src.data.ingestion.csv_loader import load_csv_directory
 from src.data.profiling.profiler import profile_dataset
 
+from src.data.database.data_loader import load_dataframe_to_database
+from src.data.database.repositories.registry import save_registry
+from src.data.database.schema import initialize_database
+
 from src.data.semantic.catalog.catalog import (
     SemanticCatalogEntry,
     build_semantic_catalog,
 )
+
 from src.data.semantic.registry.interpreter import (
     interpret_dataset,
 )
+
 from src.data.semantic.registry.registry_builder import (
     build_registry_entry,
 )
+
 from src.data.semantic.registry.relationship_discovery import (
     discover_relationships,
 )
 
 from src.llm.schemas.registry import SemanticRegistry
-from src.data.database.repositories.registry import save_registry
-from src.data.database.schema import initialize_database
 
 
 # ============================================================
@@ -111,23 +118,8 @@ RelationshipApprovalHandler = Callable[
 ]
 
 
-# --------------------------------------------------------
-# Stage 1. Initialize database
-# --------------------------------------------------------
-
-
-def run_ingestion_pipeline(
-    directory: str | Path,
-    column_approval_handler: ColumnApprovalHandler | None = None,
-    relationship_approval_handler: RelationshipApprovalHandler | None = None,
-) -> IngestionPipelineResult:
-
-    initialize_database()
-
-    datasets, profiles = load_and_profile_datasets(directory)
-
 # ============================================================
-# Stage 2: Load + Profile
+# Stage 1. Load + Profile
 # ============================================================
 
 
@@ -157,7 +149,6 @@ def load_and_profile_datasets(
     profiles: dict[str, dict] = {}
 
     for dataset_name, dataframe in datasets.items():
-
         profiles[dataset_name] = profile_dataset(
             dataframe,
             name=dataset_name,
@@ -167,7 +158,40 @@ def load_and_profile_datasets(
 
 
 # ============================================================
-# Stage 3: Semantic Interpretation + Registry
+# Stage 2. Load Actual Data into SQLite
+# ============================================================
+
+
+def load_datasets_into_database(
+    datasets: dict[str, pd.DataFrame],
+) -> None:
+    """
+    Load every dataset into the NEXA SQLite database.
+
+    Each dataset becomes a SQLite table using the dataset name
+    as the table name.
+
+    Example:
+
+        customers.csv
+            ↓
+        customers table
+
+        transactions.csv
+            ↓
+        transactions table
+    """
+
+    for dataset_name, dataframe in datasets.items():
+        load_dataframe_to_database(
+            dataframe=dataframe,
+            table_name=dataset_name,
+            if_exists="replace",
+        )
+
+
+# ============================================================
+# Stage 3. Semantic Interpretation + Registry
 # ============================================================
 
 
@@ -188,7 +212,6 @@ def build_semantic_registry(
     )
 
     for dataset_name, profile in profiles.items():
-
         mapping = interpret_dataset(profile)
 
         registry_entry = build_registry_entry(
@@ -204,7 +227,7 @@ def build_semantic_registry(
 
 
 # ============================================================
-# Stage 4: Relationship Discovery
+# Stage 4. Relationship Discovery
 # ============================================================
 
 
@@ -235,7 +258,7 @@ def discover_pending_relationships(
 
 
 # ============================================================
-# Stage 5: Semantic Catalog
+# Stage 5. Semantic Catalog
 # ============================================================
 
 
@@ -253,6 +276,12 @@ def build_catalog(
         registry=registry,
     )
 
+
+# ============================================================
+# Stage 6. Persist Registry
+# ============================================================
+
+
 def persist_ingestion_result(
     registry: SemanticRegistry,
 ) -> None:
@@ -260,12 +289,13 @@ def persist_ingestion_result(
     Persist the final approved semantic registry.
 
     The registry contains:
-    - approved datasets
-    - approved columns
-    - approved relationships
+        - approved datasets
+        - approved columns
+        - approved relationships
     """
 
     save_registry(registry)
+
 
 # ============================================================
 # Complete Pipeline
@@ -315,25 +345,28 @@ def run_ingestion_pipeline(
 
     Pipeline
     --------
-    1. Load CSV files.
-    2. Profile datasets.
-    3. Interpret dataset semantics.
-    4. Build semantic registry.
-    5. Wait for human approval of semantic interpretations.
-    6. Discover relationships.
-    7. Wait for human approval of relationships.
-    8. Build semantic catalog.
-
-    Notes
-    -----
-    Human approval is intentionally represented as an explicit
-    boundary. The pipeline never automatically approves an
-    LLM-generated semantic interpretation or relationship.
+    1. Initialize database.
+    2. Load CSV files.
+    3. Profile datasets.
+    4. Load datasets into SQLite.
+    5. Interpret dataset semantics.
+    6. Build semantic registry.
+    7. Wait for human approval of semantic interpretations.
+    8. Discover relationships.
+    9. Wait for human approval of relationships.
+    10. Build semantic catalog.
+    11. Normalize and validate registry.
+    12. Persist final approved registry.
     """
 
-    initialize_database()
     # --------------------------------------------------------
-    # 1. CSV ingestion
+    # 1. Initialize database
+    # --------------------------------------------------------
+
+    initialize_database()
+
+    # --------------------------------------------------------
+    # 2. CSV ingestion
     # --------------------------------------------------------
 
     datasets, profiles = load_and_profile_datasets(
@@ -341,8 +374,16 @@ def run_ingestion_pipeline(
     )
 
     # --------------------------------------------------------
-    # 2. Semantic interpretation
-    # 3. Registry construction
+    # 3. Store actual datasets in SQLite
+    # --------------------------------------------------------
+
+    load_datasets_into_database(
+        datasets=datasets,
+    )
+
+    # --------------------------------------------------------
+    # 4. Semantic interpretation
+    # 5. Registry construction
     # --------------------------------------------------------
 
     registry = build_semantic_registry(
@@ -350,11 +391,10 @@ def run_ingestion_pipeline(
     )
 
     # --------------------------------------------------------
-    # 4. Human approval: semantic registry
+    # 6. Human approval: semantic registry
     # --------------------------------------------------------
 
     if column_approval_handler is None:
-
         return IngestionPipelineResult(
             datasets=datasets,
             profiles=profiles,
@@ -368,8 +408,8 @@ def run_ingestion_pipeline(
     )
 
     # --------------------------------------------------------
-    # 5. Relationship discovery
-    # 6. Relationship interpretation
+    # 7. Relationship discovery
+    # 8. Relationship interpretation
     # --------------------------------------------------------
 
     registry = discover_pending_relationships(
@@ -378,11 +418,10 @@ def run_ingestion_pipeline(
     )
 
     # --------------------------------------------------------
-    # 7. Human approval: relationships
+    # 9. Human approval: relationships
     # --------------------------------------------------------
 
     if relationship_approval_handler is None:
-
         return IngestionPipelineResult(
             datasets=datasets,
             profiles=profiles,
@@ -396,26 +435,28 @@ def run_ingestion_pipeline(
     )
 
     # --------------------------------------------------------
-    # 8. Semantic catalog
+    # 10. Semantic catalog
     # --------------------------------------------------------
 
     catalog = build_catalog(
         registry
     )
 
-    
     # --------------------------------------------------------
-    # 9. Normalize and validate registry
+    # 11. Normalize and validate registry
     # --------------------------------------------------------
+
     registry = SemanticRegistry.model_validate(
-    registry.model_dump()
+        registry.model_dump()
     )
 
     # --------------------------------------------------------
-    # 10. Persist final approved registry
+    # 12. Persist final approved registry
     # --------------------------------------------------------
-    
-    persist_ingestion_result(registry)
+
+    persist_ingestion_result(
+        registry
+    )
 
     return IngestionPipelineResult(
         datasets=datasets,

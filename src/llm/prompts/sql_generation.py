@@ -60,8 +60,17 @@ SQL qualification rules:
 - Always qualify every join column with its table alias.
 - Use aliases that clearly map to the corresponding dataset.
 - The metric must appear as:
-      AGGREGATION(table_alias.metric_column)
+      AGGREGATION(table_alias.metric_column) AS metric_column
   where AGGREGATION is the exact operation from the execution plan.
+- The metric alias must be exactly the source metric column name
+  from the execution plan.
+- Do not use aliases such as:
+      total
+      value
+      result
+      metric
+      total_metric
+  unless that name is explicitly present in the execution plan.
 - Do not generate unqualified metric expressions such as:
       SUM(revenue)
       AVG(amount)
@@ -75,13 +84,16 @@ Execution plan metric:
     operation = sum
 
 Correct:
+    SUM(t.revenue) AS revenue
+
+Incorrect:
     SUM(t.revenue)
 
 Incorrect:
-    SUM(revenue)
+    SUM(t.revenue) AS total_revenue
 
 Incorrect:
-    SUM(c.revenue)
+    SUM(revenue)
 
 Return only the SQL query.
 """

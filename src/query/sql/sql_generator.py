@@ -1,16 +1,22 @@
 from src.llm.models.groq import GroqModel
-from src.llm.prompts.sql_generation import build_sql_generation_prompt
+from src.llm.prompts.sql_generation import (
+    build_sql_generation_prompt,
+)
 from src.llm.schemas.sql_generation import SQLQuery
 
 
 def generate_sql(
     execution_plan: dict,
     database_schema: str,
+    previous_sql: str | None = None,
+    validation_error: str | None = None,
 ) -> SQLQuery:
 
     prompt = build_sql_generation_prompt(
         execution_plan=execution_plan,
         database_schema=database_schema,
+        previous_sql=previous_sql,
+        validation_error=validation_error,
     )
 
     llm = GroqModel()

@@ -1,7 +1,28 @@
 def build_sql_generation_prompt(
     execution_plan: dict,
     database_schema: str,
+    previous_sql: str | None = None,
+    validation_error: str | None = None,
 ) -> str:
+
+    retry_context = ""
+
+    if previous_sql and validation_error:
+        retry_context = f"""
+Previous SQL attempt:
+
+{previous_sql}
+
+SQL validation error:
+
+{validation_error}
+
+The previous SQL failed deterministic validation.
+
+Generate a corrected SQL query that fixes the validation error while
+still following the execution plan and database schema exactly.
+Do not repeat the same validation error.
+"""
 
     return f"""
 You are the SQL generation component of Nexa.
@@ -13,6 +34,8 @@ Execution plan:
 
 Database schema:
 {database_schema}
+
+{retry_context}
 
 Rules:
 

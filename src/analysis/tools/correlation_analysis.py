@@ -1,28 +1,26 @@
 from math import sqrt
-from typing import Any
+from typing import Annotated, Any
+
+from langchain_core.tools import tool
+from langgraph.prebuilt import InjectedState
 
 from src.analysis.schemas.evidence import AnalysisEvidence
 
 
+@tool
 def correlation_analysis(
-    rows: list[dict[str, Any]],
+    rows: Annotated[list[dict[str, Any]], InjectedState("rows")],
     metric_x: str,
     metric_y: str,
 ) -> AnalysisEvidence:
     """
     Calculate Pearson correlation between two numeric metrics.
 
-    The function operates only on rows returned by the
-    Query Pipeline. It does not access the database,
-    execute SQL, or call an LLM.
-
     Pearson correlation ranges from -1 to +1:
-
         +1 -> perfect positive linear relationship
          0 -> no linear relationship
         -1 -> perfect negative linear relationship
     """
-
     if not isinstance(rows, list):
         raise TypeError("rows must be a list.")
 
@@ -32,14 +30,10 @@ def correlation_analysis(
         )
 
     if not isinstance(metric_x, str) or not metric_x.strip():
-        raise ValueError(
-            "metric_x must be a non-empty string."
-        )
+        raise ValueError("metric_x must be a non-empty string.")
 
     if not isinstance(metric_y, str) or not metric_y.strip():
-        raise ValueError(
-            "metric_y must be a non-empty string."
-        )
+        raise ValueError("metric_y must be a non-empty string.")
 
     metric_x = metric_x.strip()
     metric_y = metric_y.strip()
@@ -60,14 +54,12 @@ def correlation_analysis(
 
         if metric_x not in row:
             raise ValueError(
-                f"Metric column '{metric_x}' "
-                f"is missing from row {index}."
+                f"Metric column '{metric_x}' is missing from row {index}."
             )
 
         if metric_y not in row:
             raise ValueError(
-                f"Metric column '{metric_y}' "
-                f"is missing from row {index}."
+                f"Metric column '{metric_y}' is missing from row {index}."
             )
 
         x = row[metric_x]
@@ -75,26 +67,28 @@ def correlation_analysis(
 
         if x is None:
             raise ValueError(
-                f"Metric column '{metric_x}' "
-                f"contains NULL at row {index}."
+                f"Metric column '{metric_x}' contains NULL at row {index}."
             )
 
         if y is None:
             raise ValueError(
-                f"Metric column '{metric_y}' "
-                f"contains NULL at row {index}."
+                f"Metric column '{metric_y}' contains NULL at row {index}."
             )
 
-        if not isinstance(x, (int, float)):
+        if (
+            isinstance(x, bool)
+            or not isinstance(x, (int, float))
+        ):
             raise TypeError(
-                f"Metric column '{metric_x}' must contain "
-                f"numeric values."
+                f"Metric column '{metric_x}' must contain numeric values."
             )
 
-        if not isinstance(y, (int, float)):
+        if (
+            isinstance(y, bool)
+            or not isinstance(y, (int, float))
+        ):
             raise TypeError(
-                f"Metric column '{metric_y}' must contain "
-                f"numeric values."
+                f"Metric column '{metric_y}' must contain numeric values."
             )
 
         x_values.append(x)
@@ -119,8 +113,7 @@ def correlation_analysis(
     )
 
     denominator = sqrt(
-        x_squared_difference
-        * y_squared_difference
+        x_squared_difference * y_squared_difference
     )
 
     if denominator == 0:
@@ -165,9 +158,6 @@ def correlation_analysis(
             "direction": direction,
             "strength": strength,
         },
-        source_columns=[
-            metric_x,
-            metric_y,
-        ],
+        source_columns=[metric_x, metric_y],
         row_count=len(rows),
     )

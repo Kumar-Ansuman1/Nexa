@@ -1,43 +1,36 @@
-from typing import Any
+from typing import Annotated, Any
+
+from langchain_core.tools import tool
+from langgraph.prebuilt import InjectedState
 
 from src.analysis.schemas.evidence import AnalysisEvidence
-from src.analysis.tools.time_utils import (
-    sort_rows_chronologically,
-)
+from src.analysis.tools.time_utils import sort_rows_chronologically
 
 
+@tool
 def percentage_change_analysis(
-    rows: list[dict[str, Any]],
+    rows: Annotated[list[dict[str, Any]], InjectedState("rows")],
     metric: str,
     dimension: str,
 ) -> AnalysisEvidence:
     """
-    Calculate percentage changes between consecutive
-    chronological periods.
+    Calculate percentage changes between consecutive chronological periods.
 
-    The function operates only on rows returned by the
-    Query Pipeline. It does not access the database,
-    execute SQL, or call an LLM.
+    Operates only on rows returned by the Query Pipeline.
     """
-
     if not isinstance(rows, list):
         raise TypeError("rows must be a list.")
 
     if len(rows) < 2:
         raise ValueError(
-            "At least two rows are required for "
-            "percentage change analysis."
+            "At least two rows are required for percentage change analysis."
         )
 
     if not isinstance(metric, str) or not metric.strip():
-        raise ValueError(
-            "metric must be a non-empty string."
-        )
+        raise ValueError("metric must be a non-empty string.")
 
     if not isinstance(dimension, str) or not dimension.strip():
-        raise ValueError(
-            "dimension must be a non-empty string."
-        )
+        raise ValueError("dimension must be a non-empty string.")
 
     metric = metric.strip()
     dimension = dimension.strip()
@@ -47,27 +40,29 @@ def percentage_change_analysis(
         dimension=dimension,
     )
 
-    values = []
+    values: list[dict[str, Any]] = []
 
     for index, row in enumerate(ordered_rows):
+        if not isinstance(row, dict):
+            raise TypeError(
+                f"Row at index {index} must be a dictionary."
+            )
+
         if metric not in row:
             raise ValueError(
-                f"Metric column '{metric}' "
-                f"is missing from row {index}."
+                f"Metric column '{metric}' is missing from row {index}."
             )
 
         value = row[metric]
 
         if value is None:
             raise ValueError(
-                f"Metric column '{metric}' "
-                f"contains NULL at row {index}."
+                f"Metric column '{metric}' contains NULL at row {index}."
             )
 
-        if not isinstance(value, (int, float)):
+        if isinstance(value, bool) or not isinstance(value, (int, float)):
             raise TypeError(
-                f"Metric column '{metric}' must contain "
-                f"numeric values."
+                f"Metric column '{metric}' must contain numeric values."
             )
 
         values.append(
@@ -77,7 +72,7 @@ def percentage_change_analysis(
             }
         )
 
-    changes = []
+    changes: list[dict[str, Any]] = []
 
     for index in range(1, len(values)):
         previous = values[index - 1]
@@ -86,16 +81,12 @@ def percentage_change_analysis(
         previous_value = previous["value"]
         current_value = current["value"]
 
-        absolute_change = (
-            current_value - previous_value
-        )
+        absolute_change = current_value - previous_value
 
         percentage_change = None
-
         if previous_value != 0:
             percentage_change = (
-                absolute_change
-                / abs(previous_value)
+                absolute_change / abs(previous_value)
             ) * 100
 
         if absolute_change > 0:
@@ -131,7 +122,6 @@ def percentage_change_analysis(
             valid_changes,
             key=lambda change: change["percentage_change"],
         )
-
         largest_decrease = min(
             valid_changes,
             key=lambda change: change["percentage_change"],
@@ -149,16 +139,12 @@ def percentage_change_analysis(
             "metric": metric,
             "dimension": dimension,
             "ordered_periods": [
-                value["period"]
-                for value in values
+                value["period"] for value in values
             ],
             "changes": changes,
             "largest_increase": largest_increase,
             "largest_decrease": largest_decrease,
         },
-        source_columns=[
-            dimension,
-            metric,
-        ],
+        source_columns=[dimension, metric],
         row_count=len(rows),
     )

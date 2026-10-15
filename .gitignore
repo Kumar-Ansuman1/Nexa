@@ -20,3 +20,5 @@ Thumbs.db
 
 # Local database
 data/nexa.db
+
+tests

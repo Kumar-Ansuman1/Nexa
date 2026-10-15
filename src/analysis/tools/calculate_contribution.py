@@ -1,26 +1,29 @@
-from typing import Any
+from typing import Annotated, Any
+
+from langchain_core.tools import tool
+from langgraph.prebuilt import InjectedState
 
 from src.analysis.schemas.evidence import AnalysisEvidence
 
 
+@tool
 def calculate_contribution(
-    rows: list[dict[str, Any]],
+    rows: Annotated[list[dict[str, Any]], InjectedState("rows")],
     metric: str,
     dimension: str,
     category: Any,
 ) -> AnalysisEvidence:
     """
-    Calculate the contribution of a category to the total metric.
+    Calculate the percentage contribution of a category
+    to the total metric.
 
-    The calculation is based only on the rows returned by the
-    Query Pipeline. This function does not access the database
-    or execute SQL.
+    Use this tool to answer questions such as:
+    'What percentage of total revenue comes from India?'
 
-    Contribution:
-
-        category value
-        ------------- × 100
-         total value
+    Args:
+        metric: Numeric column to analyze.
+        dimension: Column containing the categories.
+        category: Category whose contribution is calculated.
     """
 
     if not isinstance(rows, list):
@@ -32,20 +35,15 @@ def calculate_contribution(
         )
 
     if not isinstance(metric, str) or not metric.strip():
-        raise ValueError(
-            "metric must be a non-empty string."
-        )
+        raise ValueError("metric must be a non-empty string.")
 
     if not isinstance(dimension, str) or not dimension.strip():
-        raise ValueError(
-            "dimension must be a non-empty string."
-        )
+        raise ValueError("dimension must be a non-empty string.")
 
     metric = metric.strip()
     dimension = dimension.strip()
 
     category_row = None
-
     total_value = 0.0
 
     for index, row in enumerate(rows):
@@ -74,10 +72,12 @@ def calculate_contribution(
                 f"contains NULL at row {index}."
             )
 
-        if not isinstance(value, (int, float)):
+        if isinstance(value, bool) or not isinstance(
+            value, (int, float)
+        ):
             raise TypeError(
                 f"Metric column '{metric}' must contain "
-                f"numeric values."
+                "numeric values."
             )
 
         total_value += value
@@ -118,9 +118,7 @@ def calculate_contribution(
             "category": category,
             "category_value": category_value,
             "total_value": total_value,
-            "contribution_percentage": (
-                contribution_percentage
-            ),
+            "contribution_percentage": contribution_percentage,
         },
         source_columns=[
             dimension,

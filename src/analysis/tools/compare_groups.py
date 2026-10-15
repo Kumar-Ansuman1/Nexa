@@ -1,10 +1,14 @@
-from typing import Any
+from typing import Annotated, Any
+
+from langchain_core.tools import tool
+from langgraph.prebuilt import InjectedState
 
 from src.analysis.schemas.evidence import AnalysisEvidence
 
 
+@tool
 def compare_groups(
-    rows: list[dict[str, Any]],
+    rows: Annotated[list[dict[str, Any]], InjectedState("rows")],
     metric: str,
     dimension: str,
     groups: list[Any] | None = None,
@@ -12,24 +16,13 @@ def compare_groups(
     """
     Compare groups using a numeric metric.
 
-    The function operates only on rows returned by the
-    Query Pipeline. It does not access the database
-    or execute SQL.
+    The rows are injected from the analysis graph state.
+    The LLM supplies metric, dimension, and optionally groups.
 
     Example:
-
-        rows = [
-            {"country": "India", "revenue": 50019.0},
-            {"country": "United States", "revenue": 32355.0},
-            {"country": "Canada", "revenue": 8157.0},
-        ]
-
-        compare_groups(
-            rows=rows,
-            metric="revenue",
-            dimension="country",
-            groups=["India", "United States"],
-        )
+        Compare revenue between India and the United States
+        using metric="revenue", dimension="country",
+        groups=["India", "United States"].
     """
 
     if not isinstance(rows, list):
@@ -88,18 +81,19 @@ def compare_groups(
                 f"contains NULL at row {index}."
             )
 
-        if not isinstance(row[metric], (int, float)):
+        if isinstance(row[metric], bool) or not isinstance(
+            row[metric], (int, float)
+        ):
             raise TypeError(
                 f"Metric column '{metric}' must contain "
-                f"numeric values."
+                "numeric values."
             )
 
     if groups is None:
         selected_rows = rows
     else:
         selected_rows = [
-            row
-            for row in rows
+            row for row in rows
             if row[dimension] in groups
         ]
 
@@ -116,8 +110,7 @@ def compare_groups(
 
     if groups is not None:
         missing_groups = [
-            group
-            for group in groups
+            group for group in groups
             if group not in found_groups
         ]
 

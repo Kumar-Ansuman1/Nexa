@@ -1,5 +1,8 @@
 from datetime import datetime
-from typing import Any
+from typing import Annotated, Any
+
+from langchain_core.tools import tool
+from langgraph.prebuilt import InjectedState
 
 from src.analysis.schemas.evidence import AnalysisEvidence
 
@@ -28,72 +31,25 @@ QUARTER_MONTHS = {
 
 
 def _parse_time_value(value: Any) -> tuple[int, int, int, str]:
-    """
-    Convert common temporal values into a sortable representation.
-
-    Supported examples:
-
-        2024
-        "2024"
-        "2024-01"
-        "2024-01-15"
-        "January 2024"
-        "Jan 2024"
-        "Q1 2024"
-
-    Returns:
-
-        (year, month, day, original_value)
-    """
-
+    """Convert supported temporal values into a sortable representation."""
     original = str(value).strip()
 
-    if isinstance(value, int) and 1900 <= value <= 2100:
-        return value, 1, 1, original
+    if isinstance(value, int) and not isinstance(value, bool):
+        if 1900 <= value <= 2100:
+            return value, 1, 1, original
 
     if isinstance(value, float) and value.is_integer():
         year = int(value)
-
         if 1900 <= year <= 2100:
             return year, 1, 1, original
 
-    # YYYY-MM-DD
-    try:
-        parsed = datetime.strptime(original, "%Y-%m-%d")
-        return (
-            parsed.year,
-            parsed.month,
-            parsed.day,
-            original,
-        )
-    except ValueError:
-        pass
+    for date_format in ("%Y-%m-%d", "%Y-%m", "%Y"):
+        try:
+            parsed = datetime.strptime(original, date_format)
+            return parsed.year, parsed.month, parsed.day, original
+        except ValueError:
+            pass
 
-    # YYYY-MM
-    try:
-        parsed = datetime.strptime(original, "%Y-%m")
-        return (
-            parsed.year,
-            parsed.month,
-            1,
-            original,
-        )
-    except ValueError:
-        pass
-
-    # YYYY
-    try:
-        parsed = datetime.strptime(original, "%Y")
-        return (
-            parsed.year,
-            1,
-            1,
-            original,
-        )
-    except ValueError:
-        pass
-
-    # Month Year
     parts = original.lower().replace(",", "").split()
 
     if len(parts) == 2:
@@ -103,12 +59,7 @@ def _parse_time_value(value: Any) -> tuple[int, int, int, str]:
             year = int(second)
 
             if first in MONTH_NAMES:
-                return (
-                    year,
-                    MONTH_NAMES[first],
-                    1,
-                    original,
-                )
+                return year, MONTH_NAMES[first], 1, original
 
             abbreviated_months = {
                 name[:3]: month
@@ -116,94 +67,66 @@ def _parse_time_value(value: Any) -> tuple[int, int, int, str]:
             }
 
             if first in abbreviated_months:
-                return (
-                    year,
-                    abbreviated_months[first],
-                    1,
-                    original,
-                )
+                return year, abbreviated_months[first], 1, original
 
             if first in QUARTER_MONTHS:
-                return (
-                    year,
-                    QUARTER_MONTHS[first],
-                    1,
-                    original,
-                )
+                return year, QUARTER_MONTHS[first], 1, original
 
     raise ValueError(
-        f"Unable to interpret '{value}' as a chronological "
-        "value. Supported formats include YYYY, YYYY-MM, "
-        "YYYY-MM-DD, Month YYYY, and Q1/Q2/Q3/Q4 YYYY."
+        f"Unable to interpret '{value}' as a chronological value. "
+        "Supported formats include YYYY, YYYY-MM, YYYY-MM-DD, "
+        "Month YYYY, and Q1/Q2/Q3/Q4 YYYY."
     )
 
 
+@tool
 def analyze_trend(
-    rows: list[dict[str, Any]],
+    rows: Annotated[list[dict[str, Any]], InjectedState("rows")],
     metric: str,
     dimension: str,
 ) -> AnalysisEvidence:
-    """
-    Analyze the trend of a numeric metric across a chronological
-    dimension.
-
-    Rows are explicitly ordered by this tool. The function does
-    not rely on the order returned by SQL.
-    """
+    """Analyze a numeric metric across a chronological dimension."""
 
     if not isinstance(rows, list):
         raise TypeError("rows must be a list.")
 
     if len(rows) < 2:
-        raise ValueError(
-            "At least two rows are required to analyze a trend."
-        )
+        raise ValueError("At least two rows are required to analyze a trend.")
 
     if not isinstance(metric, str) or not metric.strip():
-        raise ValueError(
-            "metric must be a non-empty string."
-        )
+        raise ValueError("metric must be a non-empty string.")
 
     if not isinstance(dimension, str) or not dimension.strip():
-        raise ValueError(
-            "dimension must be a non-empty string."
-        )
+        raise ValueError("dimension must be a non-empty string.")
 
     metric = metric.strip()
     dimension = dimension.strip()
-
     normalized_rows = []
 
     for index, row in enumerate(rows):
         if not isinstance(row, dict):
-            raise TypeError(
-                f"Row at index {index} must be a dictionary."
-            )
+            raise TypeError(f"Row at index {index} must be a dictionary.")
 
         if dimension not in row:
             raise ValueError(
-                f"Dimension column '{dimension}' "
-                f"is missing from row {index}."
+                f"Dimension column '{dimension}' is missing from row {index}."
             )
 
         if metric not in row:
             raise ValueError(
-                f"Metric column '{metric}' "
-                f"is missing from row {index}."
+                f"Metric column '{metric}' is missing from row {index}."
             )
 
         value = row[metric]
 
         if value is None:
             raise ValueError(
-                f"Metric column '{metric}' "
-                f"contains NULL at row {index}."
+                f"Metric column '{metric}' contains NULL at row {index}."
             )
 
-        if not isinstance(value, (int, float)):
+        if isinstance(value, bool) or not isinstance(value, (int, float)):
             raise TypeError(
-                f"Metric column '{metric}' must contain "
-                f"numeric values."
+                f"Metric column '{metric}' must contain numeric values."
             )
 
         sort_key = _parse_time_value(row[dimension])
@@ -216,16 +139,10 @@ def analyze_trend(
             }
         )
 
-    normalized_rows.sort(
-        key=lambda row: row["_sort_key"]
-    )
+    normalized_rows.sort(key=lambda row: row["_sort_key"])
 
-    # Remove internal sorting metadata from the evidence.
     ordered_rows = [
-        {
-            "period": row["period"],
-            "value": row["value"],
-        }
+        {"period": row["period"], "value": row["value"]}
         for row in normalized_rows
     ]
 
@@ -234,15 +151,11 @@ def analyze_trend(
 
     starting_value = starting["value"]
     ending_value = ending["value"]
-
     change = ending_value - starting_value
 
     percentage_change = None
-
     if starting_value != 0:
-        percentage_change = (
-            change / abs(starting_value)
-        ) * 100
+        percentage_change = (change / abs(starting_value)) * 100
 
     if change > 0:
         direction = "increasing"
@@ -270,9 +183,6 @@ def analyze_trend(
             "direction": direction,
             "ordered_rows": ordered_rows,
         },
-        source_columns=[
-            dimension,
-            metric,
-        ],
+        source_columns=[dimension, metric],
         row_count=len(rows),
     )

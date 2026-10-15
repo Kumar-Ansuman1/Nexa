@@ -1,47 +1,40 @@
-from typing import Any
+from typing import Annotated, Any
+
+from langchain_core.tools import tool
+from langgraph.prebuilt import InjectedState
 
 from src.analysis.schemas.evidence import AnalysisEvidence
 
 
+@tool
 def frequency_analysis(
-    rows: list[dict[str, Any]],
+    rows: Annotated[list[dict[str, Any]], InjectedState("rows")],
     dimension: str,
 ) -> AnalysisEvidence:
     """
-    Calculate the frequency of each category in a dimension.
+    Analyze how frequently each category occurs in the query results.
 
-    The function operates only on rows returned by the
-    Query Pipeline. It does not access the database,
-    execute SQL, or call an LLM.
+    Calculates counts, percentages, cumulative percentages, and
+    frequency rankings for the requested dimension.
 
-    The result contains:
-
-    - count for each category
-    - percentage of total rows
-    - cumulative percentage
-    - ranking by frequency
+    Uses rows supplied through LangGraph state. Does not execute SQL,
+    access the database, or call an LLM.
     """
-
     if not isinstance(rows, list):
         raise TypeError("rows must be a list.")
 
     if not rows:
         raise ValueError(
-            "Cannot calculate frequency analysis "
-            "from empty result rows."
+            "Cannot calculate frequency analysis from empty result rows."
         )
 
     if not isinstance(dimension, str) or not dimension.strip():
-        raise ValueError(
-            "dimension must be a non-empty string."
-        )
+        raise ValueError("dimension must be a non-empty string.")
 
     dimension = dimension.strip()
-
     frequencies: dict[Any, int] = {}
 
     for index, row in enumerate(rows):
-
         if not isinstance(row, dict):
             raise TypeError(
                 f"Row at index {index} must be a dictionary."
@@ -49,21 +42,23 @@ def frequency_analysis(
 
         if dimension not in row:
             raise ValueError(
-                f"Dimension column '{dimension}' "
-                f"is missing from row {index}."
+                f"Dimension column '{dimension}' is missing from row {index}."
             )
 
         category = row[dimension]
 
         if category is None:
             raise ValueError(
-                f"Dimension column '{dimension}' "
-                f"contains NULL at row {index}."
+                f"Dimension column '{dimension}' contains NULL at row {index}."
             )
 
-        frequencies[category] = (
-            frequencies.get(category, 0) + 1
-        )
+        try:
+            frequencies[category] = frequencies.get(category, 0) + 1
+        except TypeError as exc:
+            raise TypeError(
+                f"Category in dimension '{dimension}' at row {index} "
+                "must be hashable."
+            ) from exc
 
     total_count = len(rows)
 
@@ -74,17 +69,13 @@ def frequency_analysis(
     )
 
     distribution = []
-
     cumulative_percentage = 0.0
 
     for rank, (category, count) in enumerate(
         ranked_categories,
         start=1,
     ):
-        percentage = (
-            count / total_count
-        ) * 100
-
+        percentage = (count / total_count) * 100
         cumulative_percentage += percentage
 
         distribution.append(
@@ -93,18 +84,18 @@ def frequency_analysis(
                 "category": category,
                 "count": count,
                 "percentage": percentage,
-                "cumulative_percentage": (
-                    cumulative_percentage
-                ),
+                "cumulative_percentage": cumulative_percentage,
             }
         )
+
+    # Avoid floating-point accumulation artifacts in the final percentage.
+    distribution[-1]["cumulative_percentage"] = 100.0
 
     top_category = distribution[0]
 
     summary = (
-        f"{top_category['category']} is the most "
-        f"frequent {dimension} category with "
-        f"{top_category['count']} records."
+        f"{top_category['category']} is the most frequent "
+        f"{dimension} category with {top_category['count']} records."
     )
 
     return AnalysisEvidence(
@@ -117,5 +108,5 @@ def frequency_analysis(
             "distribution": distribution,
         },
         source_columns=[dimension],
-        row_count=len(rows),
+        row_count=total_count,
     )

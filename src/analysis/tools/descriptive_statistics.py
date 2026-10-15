@@ -1,28 +1,25 @@
-from typing import Any
+from typing import Annotated, Any
 from statistics import median
+
+from langchain_core.tools import tool
+from langgraph.prebuilt import InjectedState
 
 from src.analysis.schemas.evidence import AnalysisEvidence
 
 
+@tool
 def descriptive_statistics(
-    rows: list[dict[str, Any]],
+    rows: Annotated[list[dict[str, Any]], InjectedState("rows")],
     metric: str,
 ) -> AnalysisEvidence:
     """
     Calculate descriptive statistics for a numeric metric.
 
-    The function operates only on rows returned by the
-    Query Pipeline. It does not access the database,
-    execute SQL, or call an LLM.
+    Use this tool to find the count, sum, mean, median,
+    minimum, and maximum of a numeric column.
 
-    Calculated statistics:
-
-    - count
-    - sum
-    - mean
-    - median
-    - minimum
-    - maximum
+    Args:
+        metric: Numeric column to analyze.
     """
 
     if not isinstance(rows, list):
@@ -34,9 +31,7 @@ def descriptive_statistics(
         )
 
     if not isinstance(metric, str) or not metric.strip():
-        raise ValueError(
-            "metric must be a non-empty string."
-        )
+        raise ValueError("metric must be a non-empty string.")
 
     metric = metric.strip()
 
@@ -62,10 +57,12 @@ def descriptive_statistics(
                 f"contains NULL at row {index}."
             )
 
-        if not isinstance(value, (int, float)):
+        if isinstance(value, bool) or not isinstance(
+            value, (int, float)
+        ):
             raise TypeError(
                 f"Metric column '{metric}' must contain "
-                f"numeric values."
+                "numeric values."
             )
 
         values.append(value)

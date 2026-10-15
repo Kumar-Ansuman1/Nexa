@@ -1,38 +1,27 @@
-from typing import Any
+from typing import Annotated, Any
+
+from langchain_core.tools import tool
+from langgraph.prebuilt import InjectedState
 
 from src.analysis.schemas.evidence import AnalysisEvidence
 
 
+@tool
 def rank_categories(
-    rows: list[dict[str, Any]],
+    rows: Annotated[list[dict[str, Any]], InjectedState("rows")],
     metric: str,
     dimension: str,
     order: str = "descending",
     limit: int | None = None,
 ) -> AnalysisEvidence:
-    """
-    Rank categories using a metric from query result rows.
+    """Rank categories by a numeric metric from the query results.
 
-    The function operates only on the rows returned by the
-    Query Pipeline. It does not access the database or execute SQL.
+    Choose the metric and dimension from the available result columns.
+    Use descending order for highest-first rankings and ascending order
+    for lowest-first rankings. Optionally limit the number of results.
 
-    Example input:
-
-        rows = [
-            {"country": "India", "total_revenue": 50019.0},
-            {"country": "United States", "total_revenue": 32355.0},
-            {"country": "Canada", "total_revenue": 8157.0},
-        ]
-
-    Example:
-
-        rank_categories(
-            rows=rows,
-            metric="total_revenue",
-            dimension="country",
-            order="descending",
-            limit=3,
-        )
+    The query result rows are injected by LangGraph and are not supplied
+    by the language model.
     """
 
     if not isinstance(rows, list):
@@ -58,10 +47,14 @@ def rank_categories(
             "order must be either 'ascending' or 'descending'."
         )
 
-    if limit is not None and limit <= 0:
-        raise ValueError(
-            "limit must be greater than zero."
-        )
+    if limit is not None:
+        if isinstance(limit, bool) or not isinstance(limit, int):
+            raise TypeError("limit must be an integer or None.")
+
+        if limit <= 0:
+            raise ValueError(
+                "limit must be greater than zero."
+            )
 
     metric = metric.strip()
     dimension = dimension.strip()
@@ -84,13 +77,15 @@ def rank_categories(
                 f"is missing from row {index}."
             )
 
-        if row[metric] is None:
+        value = row[metric]
+
+        if value is None:
             raise ValueError(
                 f"Metric column '{metric}' "
                 f"contains NULL at row {index}."
             )
 
-        if not isinstance(row[metric], (int, float)):
+        if isinstance(value, bool) or not isinstance(value, (int, float)):
             raise TypeError(
                 f"Metric column '{metric}' must contain "
                 f"numeric values."
@@ -105,16 +100,14 @@ def rank_categories(
     if limit is not None:
         ranked_rows = ranked_rows[:limit]
 
-    ranking = []
-
-    for position, row in enumerate(ranked_rows, start=1):
-        ranking.append(
-            {
-                "rank": position,
-                "category": row[dimension],
-                "value": row[metric],
-            }
-        )
+    ranking = [
+        {
+            "rank": position,
+            "category": row[dimension],
+            "value": row[metric],
+        }
+        for position, row in enumerate(ranked_rows, start=1)
+    ]
 
     top_result = ranking[0]
 
@@ -133,9 +126,6 @@ def rank_categories(
             "order": order,
             "ranking": ranking,
         },
-        source_columns=[
-            dimension,
-            metric,
-        ],
+        source_columns=[dimension, metric],
         row_count=len(rows),
     )

@@ -1,4 +1,7 @@
-from typing import Any
+from typing import Annotated, Any
+
+from langchain_core.tools import tool
+from langgraph.prebuilt import InjectedState
 
 from src.analysis.schemas.evidence import AnalysisEvidence
 
@@ -8,40 +11,25 @@ def _percentile(
     percentile: float,
 ) -> float:
     """Calculate a percentile using linear interpolation."""
-
     if not 0 <= percentile <= 100:
-        raise ValueError(
-            "percentile must be between 0 and 100."
-        )
+        raise ValueError("percentile must be between 0 and 100.")
 
     sorted_values = sorted(values)
-
-    position = (
-        (len(sorted_values) - 1)
-        * percentile
-        / 100
-    )
+    position = (len(sorted_values) - 1) * percentile / 100
 
     lower_index = int(position)
-    upper_index = min(
-        lower_index + 1,
-        len(sorted_values) - 1,
-    )
-
+    upper_index = min(lower_index + 1, len(sorted_values) - 1)
     fraction = position - lower_index
 
     lower_value = sorted_values[lower_index]
     upper_value = sorted_values[upper_index]
 
-    return (
-        lower_value
-        + (upper_value - lower_value)
-        * fraction
-    )
+    return lower_value + (upper_value - lower_value) * fraction
 
 
+@tool
 def detect_outliers(
-    rows: list[dict[str, Any]],
+    rows: Annotated[list[dict[str, Any]], InjectedState("rows")],
     metric: str,
     dimension: str | None = None,
     multiplier: float = 1.5,
@@ -49,56 +37,41 @@ def detect_outliers(
     """
     Detect statistical outliers using the IQR method.
 
-    An observation is considered an outlier when it falls
-    outside:
-
+    An observation is an outlier when it falls outside:
         lower_bound = Q1 - multiplier * IQR
         upper_bound = Q3 + multiplier * IQR
 
-    The function operates only on rows returned by the
-    Query Pipeline. It does not access the database,
-    execute SQL, or call an LLM.
+    Operates only on rows returned by the Query Pipeline.
     """
-
     if not isinstance(rows, list):
         raise TypeError("rows must be a list.")
 
     if not rows:
-        raise ValueError(
-            "Cannot detect outliers in empty result rows."
-        )
+        raise ValueError("Cannot detect outliers in empty result rows.")
 
     if not isinstance(metric, str) or not metric.strip():
-        raise ValueError(
-            "metric must be a non-empty string."
-        )
+        raise ValueError("metric must be a non-empty string.")
 
     if dimension is not None:
         if not isinstance(dimension, str):
-            raise TypeError(
-                "dimension must be a string or None."
-            )
+            raise TypeError("dimension must be a string or None.")
 
         if not dimension.strip():
             raise ValueError(
-                "dimension must be a non-empty string "
-                "when provided."
+                "dimension must be a non-empty string when provided."
             )
 
         dimension = dimension.strip()
 
-    if not isinstance(multiplier, (int, float)):
-        raise TypeError(
-            "multiplier must be numeric."
-        )
+    if isinstance(multiplier, bool) or not isinstance(
+        multiplier, (int, float)
+    ):
+        raise TypeError("multiplier must be numeric.")
 
     if multiplier <= 0:
-        raise ValueError(
-            "multiplier must be greater than zero."
-        )
+        raise ValueError("multiplier must be greater than zero.")
 
     metric = metric.strip()
-
     values: list[int | float] = []
 
     for index, row in enumerate(rows):
@@ -109,52 +82,42 @@ def detect_outliers(
 
         if metric not in row:
             raise ValueError(
-                f"Metric column '{metric}' "
-                f"is missing from row {index}."
+                f"Metric column '{metric}' is missing from row {index}."
             )
 
         if dimension is not None and dimension not in row:
             raise ValueError(
-                f"Dimension column '{dimension}' "
-                f"is missing from row {index}."
+                f"Dimension column '{dimension}' is missing from row {index}."
             )
 
         value = row[metric]
 
         if value is None:
             raise ValueError(
-                f"Metric column '{metric}' "
-                f"contains NULL at row {index}."
+                f"Metric column '{metric}' contains NULL at row {index}."
             )
 
-        if not isinstance(value, (int, float)):
+        if isinstance(value, bool) or not isinstance(value, (int, float)):
             raise TypeError(
-                f"Metric column '{metric}' must contain "
-                f"numeric values."
+                f"Metric column '{metric}' must contain numeric values."
             )
 
         values.append(value)
 
     q1 = _percentile(values, 25)
     q3 = _percentile(values, 75)
-
     iqr = q3 - q1
 
-    lower_bound = q1 - (
-        multiplier * iqr
-    )
+    lower_bound = q1 - multiplier * iqr
+    upper_bound = q3 + multiplier * iqr
 
-    upper_bound = q3 + (
-        multiplier * iqr
-    )
-
-    outliers = []
+    outliers: list[dict[str, Any]] = []
 
     for index, row in enumerate(rows):
         value = row[metric]
 
         if value < lower_bound or value > upper_bound:
-            outlier = {
+            outlier: dict[str, Any] = {
                 "row_index": index,
                 "value": value,
             }
